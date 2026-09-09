@@ -1,0 +1,8 @@
+{
+  "updatedAt": null,
+  "source": "https://rss.applemarketingtools.com/api/v2/jp/music/most-played/100/songs.json",
+  "sourceLabel": "Apple Music Japan Top Songs",
+  "filter": "Pending first GitHub Actions run",
+  "count": 0,
+  "songs": []
+}
