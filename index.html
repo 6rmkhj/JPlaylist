@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="일본 Apple Music 차트에서 자동 수집한 최신 J-POP을 취향에 맞게 추천하는 JPlaylist" />
+    <meta name="theme-color" content="#0a0a0f" />
+    <title>JPlaylist — 오늘 발견할 일본 음악</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="ambient ambient-one"></div>
+    <div class="ambient ambient-two"></div>
+
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="JPlaylist 홈">
+        <span class="brand-mark">J</span>
+        <span>JPlaylist</span>
+      </a>
+      <nav class="header-actions" aria-label="사이트 메뉴">
+        <button class="ghost-button" id="favoritesFilter" type="button" aria-pressed="false">♡ 좋아요</button>
+        <a class="github-link" href="https://github.com/6rmkhj/JPlaylist" target="_blank" rel="noreferrer">GitHub ↗</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="heroTitle">
+        <div class="hero-copy">
+          <p class="eyebrow">AUTOMATIC J-MUSIC DISCOVERY</p>
+          <h1 id="heroTitle">오늘의 일본 음악,<br /><span>한 곡부터.</span></h1>
+          <p class="hero-description">일본 Apple Music 차트를 자동으로 수집하고, 최근 발매일과 내 좋아요를 반영해 지금 들을 곡을 추천해요.</p>
+          <div class="hero-meta">
+            <span class="status-dot" aria-hidden="true"></span>
+            <span id="updatedAt">데이터를 불러오는 중...</span>
+          </div>
+        </div>
+
+        <article class="featured-card loading" id="featuredCard" aria-live="polite">
+          <div class="featured-artwork-wrap">
+            <img id="featuredArtwork" class="featured-artwork" alt="" />
+            <span class="rank-badge" id="featuredRank">#1</span>
+          </div>
+          <div class="featured-content">
+            <p class="featured-label">FOR YOU</p>
+            <h2 id="featuredTitle">추천곡 준비 중</h2>
+            <p id="featuredArtist">잠시만 기다려 주세요</p>
+            <div class="genre-row" id="featuredGenres"></div>
+            <div class="featured-actions">
+              <a class="primary-button disabled" id="featuredListen" href="#" target="_blank" rel="noreferrer" aria-disabled="true">Apple Music에서 듣기 ↗</a>
+              <button class="icon-button" id="featuredLike" type="button" aria-label="추천곡 좋아요">♡</button>
+              <button class="secondary-button" id="recommendAgain" type="button">다른 곡 추천</button>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section class="controls" aria-label="곡 필터">
+        <div>
+          <p class="section-kicker">DISCOVER</p>
+          <h2>지금 뜨는 일본 음악</h2>
+        </div>
+        <div class="filter-row" id="genreFilters" aria-label="장르 필터"></div>
+      </section>
+
+      <section class="song-grid" id="songGrid" aria-live="polite"></section>
+
+      <section class="empty-state hidden" id="emptyState">
+        <div class="empty-icon">♫</div>
+        <h2 id="emptyTitle">아직 표시할 곡이 없어요</h2>
+        <p id="emptyMessage">첫 GitHub Actions 실행이 완료되면 자동으로 최신 차트가 채워집니다.</p>
+        <a class="secondary-button" href="https://github.com/6rmkhj/JPlaylist/actions" target="_blank" rel="noreferrer">Actions 확인 ↗</a>
+      </section>
+    </main>
+
+    <footer>
+      <p>JPlaylist · Data from Apple Music RSS · 개인 취향은 이 브라우저에만 저장됩니다.</p>
+    </footer>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
