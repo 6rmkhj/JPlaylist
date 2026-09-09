@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="일본 Apple Music 차트에서 자동 수집한 최신 J-POP을 취향에 맞게 추천하는 JPlaylist" />
+    <meta name="description" content="일본 음악을 자동 수집해 취향에 맞게 추천하고, 원하는 음악 서비스에서 바로 찾을 수 있는 JPlaylist" />
     <meta name="theme-color" content="#0a0a0f" />
     <title>JPlaylist — 오늘 발견할 일본 음악</title>
     <link rel="stylesheet" href="./styles.css" />
@@ -28,7 +28,7 @@
         <div class="hero-copy">
           <p class="eyebrow">AUTOMATIC J-MUSIC DISCOVERY</p>
           <h1 id="heroTitle">오늘의 일본 음악,<br /><span>한 곡부터.</span></h1>
-          <p class="hero-description">일본 Apple Music 차트를 자동으로 수집하고, 최근 발매일과 내 좋아요를 반영해 지금 들을 곡을 추천해요.</p>
+          <p class="hero-description">일본 음악 데이터를 모아 취향에 맞게 추천하고, 내가 쓰는 음악 서비스에서 바로 찾아 들을 수 있어요.</p>
           <div class="hero-meta">
             <span class="status-dot" aria-hidden="true"></span>
             <span id="updatedAt">데이터를 불러오는 중...</span>
@@ -46,9 +46,13 @@
             <p id="featuredArtist">잠시만 기다려 주세요</p>
             <div class="genre-row" id="featuredGenres"></div>
             <div class="featured-actions">
-              <a class="primary-button disabled" id="featuredListen" href="#" target="_blank" rel="noreferrer" aria-disabled="true">Apple Music에서 듣기 ↗</a>
+              <button class="primary-button disabled" id="featuredListen" type="button" disabled>듣기 플랫폼 선택</button>
               <button class="icon-button" id="featuredLike" type="button" aria-label="추천곡 좋아요">♡</button>
               <button class="secondary-button" id="recommendAgain" type="button">다른 곡 추천</button>
+            </div>
+            <div class="platform-hint-row">
+              <span class="platform-hint" id="platformHint">YouTube Music · Spotify · YouTube · Apple Music 중 선택할 수 있어요.</span>
+              <button class="text-button" id="platformSettings" type="button">플랫폼 선택</button>
             </div>
           </div>
         </article>
@@ -73,8 +77,40 @@
     </main>
 
     <footer>
-      <p>JPlaylist · Data from Apple Music RSS · 개인 취향은 이 브라우저에만 저장됩니다.</p>
+      <p>JPlaylist · 음악 메타데이터: Apple Music RSS · 듣기 플랫폼은 사용자가 선택합니다 · 개인 취향은 이 브라우저에만 저장됩니다.</p>
     </footer>
+
+    <dialog class="platform-dialog" id="platformDialog" aria-labelledby="platformDialogTitle">
+      <div class="platform-dialog-inner">
+        <div class="platform-dialog-head">
+          <div>
+            <p class="section-kicker">LISTEN YOUR WAY</p>
+            <h2 id="platformDialogTitle">어디서 들을까요?</h2>
+          </div>
+          <button class="dialog-close" id="platformDialogClose" type="button" aria-label="닫기">×</button>
+        </div>
+        <p class="platform-dialog-copy" id="platformDialogCopy">원하는 서비스를 고르면 다음부터 기본 듣기 플랫폼으로 기억합니다.</p>
+        <div class="platform-options" id="platformOptions">
+          <button class="platform-option" type="button" data-platform="youtubeMusic">
+            <strong>YouTube Music</strong>
+            <span>곡명과 아티스트로 검색</span>
+          </button>
+          <button class="platform-option" type="button" data-platform="spotify">
+            <strong>Spotify</strong>
+            <span>곡명과 아티스트로 검색</span>
+          </button>
+          <button class="platform-option" type="button" data-platform="youtube">
+            <strong>YouTube</strong>
+            <span>뮤직비디오·음원 검색</span>
+          </button>
+          <button class="platform-option" type="button" data-platform="apple">
+            <strong>Apple Music</strong>
+            <span>직접 링크 우선 사용</span>
+          </button>
+        </div>
+        <p class="platform-dialog-note">선택은 이 브라우저에만 저장되며 ‘플랫폼 변경’에서 언제든 바꿀 수 있어요.</p>
+      </div>
+    </dialog>
 
     <script type="module" src="./app.js"></script>
   </body>

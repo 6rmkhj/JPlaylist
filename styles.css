@@ -81,7 +81,9 @@ footer {
 .ghost-button,
 .github-link,
 .secondary-button,
-.icon-button {
+.icon-button,
+.platform-option,
+.dialog-close {
   border: 1px solid var(--line);
   background: rgba(255, 255, 255, .035);
   border-radius: 999px;
@@ -92,6 +94,11 @@ footer {
 button { cursor: pointer; }
 button:hover,
 .github-link:hover { border-color: rgba(255, 255, 255, .2); background: rgba(255, 255, 255, .07); }
+button:focus-visible,
+a:focus-visible {
+  outline: 2px solid #d4c7ff;
+  outline-offset: 3px;
+}
 
 .hero {
   padding: 70px 0 86px;
@@ -135,7 +142,7 @@ button:hover,
 .featured-card {
   position: relative;
   overflow: hidden;
-  min-height: 540px;
+  min-height: 560px;
   border: 1px solid var(--line);
   border-radius: var(--radius-xl);
   background: linear-gradient(160deg, rgba(255,255,255,.08), rgba(255,255,255,.025));
@@ -147,7 +154,7 @@ button:hover,
   position: absolute;
   inset: 0;
   pointer-events: none;
-  background: linear-gradient(to bottom, transparent 35%, rgba(9,9,13,.98) 82%);
+  background: linear-gradient(to bottom, transparent 30%, rgba(9,9,13,.98) 80%);
 }
 .featured-artwork-wrap { position: absolute; inset: 0; }
 .featured-artwork { width: 100%; height: 100%; object-fit: cover; opacity: .78; transform: scale(1.02); }
@@ -164,7 +171,7 @@ button:hover,
   font-size: 12px;
   font-weight: 700;
 }
-.featured-content { position: absolute; z-index: 3; left: 28px; right: 28px; bottom: 28px; }
+.featured-content { position: absolute; z-index: 3; left: 28px; right: 28px; bottom: 24px; }
 .featured-content h2 { margin: 8px 0 5px; font-size: clamp(28px, 4vw, 42px); line-height: 1.08; letter-spacing: -.045em; }
 .featured-content > p:not(.featured-label) { margin: 0; color: #c7c7d1; }
 .genre-row { display: flex; gap: 7px; flex-wrap: wrap; margin-top: 16px; }
@@ -173,12 +180,41 @@ button:hover,
 .primary-button,
 .secondary-button,
 .icon-button { min-height: 44px; display: inline-flex; align-items: center; justify-content: center; }
-.primary-button { padding: 0 17px; border-radius: 999px; background: #f5f5f7; color: #111116; font-size: 13px; font-weight: 800; }
+.primary-button {
+  padding: 0 17px;
+  border: 0;
+  border-radius: 999px;
+  background: #f5f5f7;
+  color: #111116;
+  font-size: 13px;
+  font-weight: 800;
+  transition: .2s ease;
+}
 .primary-button:hover { transform: translateY(-1px); background: white; }
 .primary-button.disabled { opacity: .45; pointer-events: none; }
 .secondary-button { padding: 0 15px; font-size: 13px; }
 .icon-button { width: 44px; font-size: 22px; }
 .icon-button.liked { background: rgba(255,77,141,.17); color: #ff83af; border-color: rgba(255,77,141,.34); }
+
+.platform-hint-row {
+  margin-top: 13px;
+  display: flex;
+  align-items: center;
+  gap: 8px 12px;
+  flex-wrap: wrap;
+}
+.platform-hint { color: #858594; font-size: 11px; line-height: 1.5; }
+.text-button {
+  padding: 0;
+  border: 0;
+  background: none;
+  color: #d4c7ff;
+  font-size: 11px;
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.text-button:hover { background: none; color: white; }
 
 .controls {
   display: flex;
@@ -225,8 +261,17 @@ button:hover,
 .song-title { margin: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size: 15px; letter-spacing: -.02em; }
 .song-artist { margin: 5px 0 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; color: var(--muted); font-size: 12px; }
 .song-meta { margin-top: 14px; display: flex; align-items: center; justify-content: space-between; gap: 10px; color: #888896; font-size: 10px; }
-.song-meta a { color: #cfcfd7; }
-.song-meta a:hover { color: white; }
+.card-listen {
+  flex: 0 0 auto;
+  padding: 5px 0;
+  border: 0;
+  background: none;
+  color: #cfcfd7;
+  font-size: inherit;
+  font-weight: 700;
+  white-space: nowrap;
+}
+.card-listen:hover { background: none; color: white; }
 
 .empty-state { text-align: center; padding: 70px 20px 110px; }
 .empty-state.hidden { display: none; }
@@ -234,13 +279,53 @@ button:hover,
 .empty-state h2 { margin: 0; }
 .empty-state p { margin: 10px auto 22px; max-width: 520px; color: var(--muted); line-height: 1.65; }
 
+.platform-dialog {
+  width: min(560px, calc(100% - 28px));
+  padding: 0;
+  border: 1px solid rgba(255,255,255,.13);
+  border-radius: 26px;
+  background: #12121a;
+  color: var(--text);
+  box-shadow: 0 30px 120px rgba(0,0,0,.65);
+}
+.platform-dialog::backdrop { background: rgba(4,4,8,.72); backdrop-filter: blur(8px); }
+.platform-dialog-inner { padding: 26px; }
+.platform-dialog-head { display: flex; justify-content: space-between; gap: 20px; align-items: flex-start; }
+.platform-dialog-head h2 { margin: 6px 0 0; font-size: 30px; letter-spacing: -.04em; }
+.dialog-close {
+  flex: 0 0 auto;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  font-size: 24px;
+  line-height: 1;
+}
+.platform-dialog-copy { margin: 16px 0 20px; color: var(--muted); font-size: 14px; line-height: 1.65; word-break: keep-all; }
+.platform-options { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 10px; }
+.platform-option {
+  min-width: 0;
+  min-height: 92px;
+  padding: 16px;
+  border-radius: 18px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 5px;
+}
+.platform-option strong { font-size: 15px; }
+.platform-option span { color: var(--muted); font-size: 11px; line-height: 1.4; }
+.platform-option:hover { transform: translateY(-1px); border-color: rgba(212,199,255,.42); background: rgba(138,92,255,.11); }
+.platform-dialog-note { margin: 16px 2px 0; color: #757582; font-size: 11px; line-height: 1.5; }
+
 footer { padding: 0 0 36px; color: #72727e; font-size: 11px; }
 .loading { animation: pulse 1.4s ease-in-out infinite alternate; }
 @keyframes pulse { from { opacity: .65; } to { opacity: 1; } }
 
 @media (max-width: 960px) {
   .hero { grid-template-columns: 1fr; padding-top: 46px; gap: 42px; }
-  .featured-card { min-height: 520px; }
+  .featured-card { min-height: 540px; }
   .song-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 }
 @media (max-width: 720px) {
@@ -250,15 +335,29 @@ footer { padding: 0 0 36px; color: #72727e; font-size: 11px; }
   .hero { padding: 42px 0 64px; }
   .hero h1 { font-size: clamp(46px, 15vw, 70px); }
   .hero-description { font-size: 15px; }
-  .featured-card { min-height: 460px; border-radius: 24px; }
+  .featured-card { min-height: 500px; border-radius: 24px; }
   .featured-content { left: 20px; right: 20px; bottom: 20px; }
   .controls { align-items: flex-start; flex-direction: column; }
   .filter-row { justify-content: flex-start; }
   .song-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; padding-top: 20px; }
   .song-card { border-radius: 17px; }
   .song-info { padding: 12px; }
+  .song-meta { align-items: flex-end; flex-direction: column; gap: 6px; }
+  .card-listen { align-self: flex-start; }
 }
 @media (max-width: 430px) {
   .featured-actions .secondary-button { width: 100%; }
+  .primary-button { flex: 1 1 auto; }
   .song-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .platform-options { grid-template-columns: 1fr; }
+  .platform-dialog-inner { padding: 22px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .loading { animation: none; }
+  .song-card,
+  .song-artwork,
+  .primary-button,
+  .platform-option { transition: none; }
 }

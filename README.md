@@ -1,20 +1,22 @@
 # JPlaylist
 
-일본 Apple Music 차트를 자동으로 수집하고, 최근 발매일과 사용자의 좋아요 취향을 반영해 일본 음악을 추천하는 정적 웹사이트입니다.
+일본 음악 데이터를 자동으로 수집하고, 최근 발매일과 사용자의 좋아요 취향을 반영해 음악을 추천하는 정적 웹사이트입니다. 데이터 출처와 청취 플랫폼을 분리해 특정 스트리밍 서비스에 종속되지 않도록 설계합니다.
 
 ## Features
 
 - Apple Music Japan Top Songs 공개 RSS를 GitHub Actions에서 6시간마다 수집
 - 일본어 문자/일본 음악 장르 휴리스틱으로 J-Music 우선 필터링
 - 최근 발매일 + 차트 순위 + 좋아요 장르/아티스트 기반 브라우저 내 추천
-- 좋아요 및 개인 취향은 `localStorage`에만 저장
+- YouTube Music / Spotify / YouTube / Apple Music 중 기본 듣기 플랫폼 선택
+- 선택한 듣기 플랫폼과 좋아요는 `localStorage`에 저장
+- YouTube Music / Spotify / YouTube는 `아티스트 + 곡명` 검색으로 연결하고, Apple Music은 수집된 직접 링크를 우선 사용
 - 별도 서버와 API Secret 없이 GitHub Pages에 배포
 - 모바일 반응형 UI
 
 ## Architecture
 
 ```text
-Apple Music RSS
+Apple Music RSS (metadata source)
       ↓
 GitHub Actions (every 6h)
       ↓
@@ -22,10 +24,14 @@ scripts/fetch-songs.mjs
       ↓
 data/songs.json
       ↓
-Static site artifact
+Static JPlaylist UI
       ↓
-GitHub Pages
+User-selected listening platform
 ```
+
+## Listening platform
+
+JPlaylist에서 Apple Music은 현재 음악 메타데이터 수집 소스 중 하나일 뿐, 기본 청취 목적지가 아닙니다. 사용자가 처음 `듣기`를 누르면 원하는 서비스를 선택하고 이후 곡에도 같은 서비스가 적용됩니다. 언제든 UI에서 기본 플랫폼을 변경할 수 있습니다.
 
 ## GitHub Pages setup
 

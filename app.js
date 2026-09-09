@@ -1,13 +1,68 @@
 const DATA_URL = './data/songs.json';
-const STORAGE_KEY = 'jplaylist-likes-v1';
+const LIKES_STORAGE_KEY = 'jplaylist-likes-v1';
+const PLATFORM_STORAGE_KEY = 'jplaylist-listen-platform-v1';
+
+const PLATFORMS = {
+  youtubeMusic: {
+    label: 'YouTube Music',
+    url: (song) => `https://music.youtube.com/search?q=${encodeURIComponent(searchQuery(song))}`,
+  },
+  spotify: {
+    label: 'Spotify',
+    url: (song) => `https://open.spotify.com/search/${encodeURIComponent(searchQuery(song))}`,
+  },
+  youtube: {
+    label: 'YouTube',
+    url: (song) => `https://www.youtube.com/results?search_query=${encodeURIComponent(searchQuery(song))}`,
+  },
+  apple: {
+    label: 'Apple Music',
+    url: (song) => song.url || `https://music.apple.com/kr/search?term=${encodeURIComponent(searchQuery(song))}`,
+  },
+};
+
+function safeReadStorage(key, fallback = null) {
+  try {
+    const value = localStorage.getItem(key);
+    return value === null ? fallback : value;
+  } catch {
+    return fallback;
+  }
+}
+
+function safeWriteStorage(key, value) {
+  try {
+    localStorage.setItem(key, value);
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+function loadLikes() {
+  try {
+    const parsed = JSON.parse(safeReadStorage(LIKES_STORAGE_KEY, '[]'));
+    return new Set(Array.isArray(parsed) ? parsed.map(String) : []);
+  } catch {
+    return new Set();
+  }
+}
+
+function loadPreferredPlatform() {
+  const saved = safeReadStorage(PLATFORM_STORAGE_KEY, null);
+  return saved && PLATFORMS[saved] ? saved : null;
+}
 
 const state = {
   songs: [],
   visibleSongs: [],
-  likes: new Set(JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]')),
+  likes: loadLikes(),
   activeGenre: '전체',
   favoritesOnly: false,
   featuredId: null,
+  preferredPlatform: loadPreferredPlatform(),
+  pendingListenId: null,
+  playAfterPlatformSelection: false,
 };
 
 const els = {
@@ -27,10 +82,28 @@ const els = {
   emptyTitle: document.querySelector('#emptyTitle'),
   emptyMessage: document.querySelector('#emptyMessage'),
   favoritesFilter: document.querySelector('#favoritesFilter'),
+  platformHint: document.querySelector('#platformHint'),
+  platformSettings: document.querySelector('#platformSettings'),
+  platformDialog: document.querySelector('#platformDialog'),
+  platformDialogCopy: document.querySelector('#platformDialogCopy'),
+  platformDialogClose: document.querySelector('#platformDialogClose'),
+  platformOptions: document.querySelector('#platformOptions'),
 };
 
+function searchQuery(song) {
+  return `${song.artist || ''} ${song.title || ''}`.trim();
+}
+
 function saveLikes() {
-  localStorage.setItem(STORAGE_KEY, JSON.stringify([...state.likes]));
+  safeWriteStorage(LIKES_STORAGE_KEY, JSON.stringify([...state.likes]));
+}
+
+function savePreferredPlatform(platform) {
+  if (!PLATFORMS[platform]) return;
+  state.preferredPlatform = platform;
+  safeWriteStorage(PLATFORM_STORAGE_KEY, platform);
+  renderListeningPreference();
+  renderGrid();
 }
 
 function toggleLike(id) {
@@ -110,6 +183,30 @@ function setLikeButton(button, song) {
   button.setAttribute('aria-pressed', String(liked));
 }
 
+function platformLabel() {
+  return state.preferredPlatform ? PLATFORMS[state.preferredPlatform].label : null;
+}
+
+function compactListenLabel() {
+  return platformLabel() ? `${platformLabel()} ↗` : '듣기 선택';
+}
+
+function featuredListenLabel() {
+  return platformLabel() ? `${platformLabel()}에서 듣기 ↗` : '듣기 플랫폼 선택';
+}
+
+function renderListeningPreference() {
+  const label = platformLabel();
+  if (label) {
+    els.platformHint.textContent = `기본 듣기: ${label} · 모든 곡의 듣기 버튼에 적용돼요.`;
+    els.platformSettings.textContent = '플랫폼 변경';
+  } else {
+    els.platformHint.textContent = 'YouTube Music · Spotify · YouTube · Apple Music 중 선택할 수 있어요.';
+    els.platformSettings.textContent = '플랫폼 선택';
+  }
+  els.featuredListen.textContent = featuredListenLabel();
+}
+
 function renderFeatured() {
   const current = state.songs.find((song) => song.id === state.featuredId) || pickRecommendation();
   if (!current) return;
@@ -122,9 +219,9 @@ function renderFeatured() {
   els.featuredTitle.textContent = current.title;
   els.featuredArtist.textContent = current.artist;
   els.featuredGenres.innerHTML = (current.genres || []).slice(0, 3).map((genre) => `<span class="genre-chip">${escapeHtml(normalizeGenre(genre))}</span>`).join('');
-  els.featuredListen.href = current.url;
-  els.featuredListen.classList.toggle('disabled', !current.url);
-  els.featuredListen.setAttribute('aria-disabled', String(!current.url));
+  els.featuredListen.disabled = false;
+  els.featuredListen.classList.remove('disabled');
+  els.featuredListen.textContent = featuredListenLabel();
   setLikeButton(els.featuredLike, current);
 }
 
@@ -164,7 +261,7 @@ function renderGrid() {
           <p class="song-artist" title="${escapeHtml(song.artist)}">${escapeHtml(song.artist)}</p>
           <div class="song-meta">
             <span>${escapeHtml(getPrimaryGenre(song))} · ${escapeHtml(formatDate(song.releaseDate))}</span>
-            <a href="${escapeHtml(song.url)}" target="_blank" rel="noreferrer" aria-label="Apple Music에서 ${escapeHtml(song.title)} 듣기">듣기 ↗</a>
+            <button class="card-listen" type="button" data-listen-id="${escapeHtml(song.id)}" aria-label="${escapeHtml(song.title)} ${escapeHtml(platformLabel() || '음악 서비스')}에서 듣기">${escapeHtml(compactListenLabel())}</button>
           </div>
         </div>
       </article>
@@ -177,10 +274,53 @@ function renderGrid() {
   }
 }
 
+function openExternal(url) {
+  if (!url) return;
+  window.open(url, '_blank', 'noopener,noreferrer');
+}
+
+function openOnPlatform(song, platform) {
+  const config = PLATFORMS[platform];
+  if (!song || !config) return;
+  openExternal(config.url(song));
+}
+
+function openPlatformDialog(song = null, playAfterSelection = false) {
+  state.pendingListenId = song?.id || null;
+  state.playAfterPlatformSelection = playAfterSelection;
+
+  if (song) {
+    els.platformDialogCopy.textContent = `“${song.title}”을 들을 서비스를 골라 주세요. 선택은 다음 곡에도 기본으로 적용됩니다.`;
+  } else {
+    els.platformDialogCopy.textContent = '기본 듣기 서비스를 골라 주세요. 다음 곡부터 같은 서비스로 바로 열립니다.';
+  }
+
+  if (typeof els.platformDialog.showModal === 'function') {
+    els.platformDialog.showModal();
+  } else {
+    els.platformDialog.setAttribute('open', '');
+  }
+}
+
+function closePlatformDialog() {
+  if (typeof els.platformDialog.close === 'function') els.platformDialog.close();
+  else els.platformDialog.removeAttribute('open');
+}
+
+function listenToSong(song) {
+  if (!song) return;
+  if (!state.preferredPlatform) {
+    openPlatformDialog(song, true);
+    return;
+  }
+  openOnPlatform(song, state.preferredPlatform);
+}
+
 function render() {
   renderFilters();
   renderFeatured();
   renderGrid();
+  renderListeningPreference();
   els.favoritesFilter.classList.toggle('active', state.favoritesOnly);
   els.favoritesFilter.setAttribute('aria-pressed', String(state.favoritesOnly));
   els.favoritesFilter.textContent = state.favoritesOnly ? '♥ 좋아요만' : '♡ 좋아요';
@@ -188,6 +328,11 @@ function render() {
 
 function bindEvents() {
   els.featuredLike.addEventListener('click', () => state.featuredId && toggleLike(state.featuredId));
+  els.featuredListen.addEventListener('click', () => {
+    const song = state.songs.find((item) => item.id === state.featuredId);
+    listenToSong(song);
+  });
+  els.platformSettings.addEventListener('click', () => openPlatformDialog());
   els.recommendAgain.addEventListener('click', () => {
     const next = pickRecommendation(state.featuredId);
     if (next) {
@@ -204,19 +349,48 @@ function bindEvents() {
   });
 
   els.songGrid.addEventListener('click', (event) => {
-    const button = event.target.closest('[data-like-id]');
-    if (!button) return;
-    toggleLike(button.dataset.likeId);
+    const listenButton = event.target.closest('[data-listen-id]');
+    if (listenButton) {
+      const song = state.songs.find((item) => item.id === listenButton.dataset.listenId);
+      listenToSong(song);
+      return;
+    }
+
+    const likeButton = event.target.closest('[data-like-id]');
+    if (!likeButton) return;
+    toggleLike(likeButton.dataset.likeId);
   });
 
   els.favoritesFilter.addEventListener('click', () => {
     state.favoritesOnly = !state.favoritesOnly;
     render();
   });
+
+  els.platformOptions.addEventListener('click', (event) => {
+    const button = event.target.closest('[data-platform]');
+    if (!button || !PLATFORMS[button.dataset.platform]) return;
+
+    const platform = button.dataset.platform;
+    const pendingSong = state.songs.find((song) => song.id === state.pendingListenId);
+    const shouldPlay = state.playAfterPlatformSelection && pendingSong;
+
+    savePreferredPlatform(platform);
+    closePlatformDialog();
+    state.pendingListenId = null;
+    state.playAfterPlatformSelection = false;
+
+    if (shouldPlay) openOnPlatform(pendingSong, platform);
+  });
+
+  els.platformDialogClose.addEventListener('click', closePlatformDialog);
+  els.platformDialog.addEventListener('click', (event) => {
+    if (event.target === els.platformDialog) closePlatformDialog();
+  });
 }
 
 async function init() {
   bindEvents();
+  renderListeningPreference();
 
   try {
     const response = await fetch(DATA_URL, { cache: 'no-store' });
