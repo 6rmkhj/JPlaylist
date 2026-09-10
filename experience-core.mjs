@@ -67,7 +67,7 @@ function weightedSignals({ favorites = [], activity = [], catalog = [] } = {}) {
   for (const item of activity.slice(-40)) {
     const song = catalogById.get(String(item?.id));
     if (!song) continue;
-    const weight = item.kind === 'listen' ? 1.45 : item.kind === 'preview' ? 1.2 : 0.85;
+    const weight = item.kind === 'listen' ? 1.45 : item.kind === 'preview' ? 1.2 : item.kind === 'rabbit' ? 1.05 : 0.85;
     result.push({ song, weight });
   }
   return result;
@@ -160,22 +160,47 @@ export function discoveryScore(song, profile) {
   return Math.min(1, unseenArtist * 0.7 + uncommon * 0.3);
 }
 
-function roleScore(role, song, profile, { dayKey, offset = 0, now = new Date() } = {}) {
+const DAILY_WEIGHTS = {
+  steady: {
+    safe: { affinity: 0.68, popularity: 0.18, recency: 0.08, discovery: 0.0 },
+    step: { edge: 0.38, discovery: 0.22, recency: 0.2, popularity: 0.12 },
+    deep: { discovery: 0.35, deep: 0.2, recency: 0.12, affinity: 0.26 },
+  },
+  balanced: {
+    safe: { affinity: 0.58, popularity: 0.2, recency: 0.15, discovery: 0.0 },
+    step: { edge: 0.29, discovery: 0.31, recency: 0.23, popularity: 0.1 },
+    deep: { discovery: 0.47, deep: 0.25, recency: 0.13, affinity: 0.08 },
+  },
+  adventurous: {
+    safe: { affinity: 0.46, popularity: 0.12, recency: 0.2, discovery: 0.15 },
+    step: { edge: 0.2, discovery: 0.42, recency: 0.25, popularity: 0.05 },
+    deep: { discovery: 0.55, deep: 0.28, recency: 0.1, affinity: 0.02 },
+  },
+};
+
+export function dailyRoleScore(role, song, profile, { dayKey = localDateKey(), offset = 0, exploration = 'balanced', now = new Date() } = {}) {
   const affinity = affinityScore(song, profile);
   const popularity = popularityScore(song);
   const recency = recencyScore(song, now);
   const discovery = discoveryScore(song, profile);
-  const jitter = stableUnit(`${dayKey}:${offset}:${role}:${song.id}`) * 0.07;
+  const edge = Math.max(0, 1 - Math.abs(affinity - 0.42) * 1.3);
+  const deep = 1 - popularity;
+  const weights = DAILY_WEIGHTS[exploration] || DAILY_WEIGHTS.balanced;
+  const jitter = stableUnit(`${dayKey}:${offset}:${exploration}:${role}:${song.id}`) * 0.07;
 
-  if (role === 'safe') return affinity * 0.58 + popularity * 0.2 + recency * 0.15 + jitter;
-  if (role === 'step') {
-    const edgeAffinity = 1 - Math.abs(affinity - 0.42) * 1.3;
-    return edgeAffinity * 0.29 + discovery * 0.31 + recency * 0.23 + popularity * 0.1 + jitter;
+  if (role === 'safe') {
+    const w = weights.safe;
+    return affinity * w.affinity + popularity * w.popularity + recency * w.recency + discovery * w.discovery + jitter;
   }
-  return discovery * 0.47 + (1 - popularity) * 0.25 + recency * 0.13 + affinity * 0.08 + jitter;
+  if (role === 'step') {
+    const w = weights.step;
+    return edge * w.edge + discovery * w.discovery + recency * w.recency + popularity * w.popularity + jitter;
+  }
+  const w = weights.deep;
+  return discovery * w.discovery + deep * w.deep + recency * w.recency + affinity * w.affinity + jitter;
 }
 
-function roleReason(role, song, profile, now = new Date()) {
+function roleReason(role, song, profile, exploration = 'balanced', now = new Date()) {
   const matchedGenre = getGenreTags(song).find((genre) => profile.genreCounts.has(genre));
   const familiarArtist = profile.artistCounts.has(normalizedArtist(song));
   const days = releaseAgeDays(song.releaseDate, now);
@@ -183,17 +208,17 @@ function roleReason(role, song, profile, now = new Date()) {
   if (role === 'safe') {
     if (familiarArtist) return '좋아한 아티스트의 다른 결을 이어가요';
     if (matchedGenre) return `좋아한 ${matchedGenre} 안에서 고른 안정적인 발견`;
-    if (song.chartRank && song.chartRank <= 20) return `일본 차트 흐름에서 가장 가까운 안전픽`;
-    return '현재 취향 신호와 가장 가까운 한 곡';
+    if (song.chartRank && song.chartRank <= 20) return '일본 차트 흐름에서 가장 가까운 안전픽';
+    return exploration === 'adventurous' ? '익숙함을 조금 남긴 채 새 방향을 섞은 안전픽' : '현재 취향 신호와 가장 가까운 한 곡';
   }
   if (role === 'step') {
     if (matchedGenre) return `${matchedGenre}의 익숙함은 남기고 새 아티스트로 한 발`;
     if (days <= 30) return '최근 발매의 에너지로 취향 경계를 한 칸 넓혀요';
-    return '익숙함과 낯섦이 반반인 경계선 추천';
+    return exploration === 'steady' ? '익숙한 결을 충분히 남긴 경계선 추천' : '익숙함과 낯섦이 반반인 경계선 추천';
   }
   if (!song.chartRank || song.chartRank > 40) return '차트 중심 탐색에서 놓치기 쉬운 딥컷 후보';
   if (!matchedGenre) return '평소 저장한 장르 밖에서 찾은 오늘의 모험';
-  return `${matchedGenre} 안에서도 덜 뻔한 방향으로 더 깊게`;
+  return exploration === 'adventurous' ? `${matchedGenre}의 연결만 남기고 더 낯선 방향으로 깊게` : `${matchedGenre} 안에서도 덜 뻔한 방향으로 더 깊게`;
 }
 
 function pickBest(candidates, role, profile, used, options) {
@@ -201,26 +226,26 @@ function pickBest(candidates, role, profile, used, options) {
     .filter((song) => !used.ids.has(song.id))
     .filter((song) => !used.artists.has(normalizedArtist(song)))
     .filter((song) => !song.collectionId || !used.releases.has(String(song.collectionId)))
-    .sort((a, b) => roleScore(role, b, profile, options) - roleScore(role, a, profile, options))[0]
+    .sort((a, b) => dailyRoleScore(role, b, profile, options) - dailyRoleScore(role, a, profile, options))[0]
     || candidates
       .filter((song) => !used.ids.has(song.id))
-      .sort((a, b) => roleScore(role, b, profile, options) - roleScore(role, a, profile, options))[0]
+      .sort((a, b) => dailyRoleScore(role, b, profile, options) - dailyRoleScore(role, a, profile, options))[0]
     || null;
 }
 
-export function buildDailyThree({ catalog = [], profile, hiddenIds = [], dayKey = localDateKey(), offset = 0, now = new Date() } = {}) {
+export function buildDailyThree({ catalog = [], profile, hiddenIds = [], dayKey = localDateKey(), offset = 0, exploration = 'balanced', now = new Date() } = {}) {
   const hidden = new Set(hiddenIds.map(String));
   const candidates = dedupeSongs(catalog).filter((song) => !profile.favoriteIds.has(song.id) && !hidden.has(song.id));
   const used = { ids: new Set(), artists: new Set(), releases: new Set() };
   const picks = [];
 
   for (const role of DAILY_ROLES) {
-    const song = pickBest(candidates, role.key, profile, used, { dayKey, offset, now });
+    const song = pickBest(candidates, role.key, profile, used, { dayKey, offset, exploration, now });
     if (!song) continue;
     used.ids.add(song.id);
     used.artists.add(normalizedArtist(song));
     if (song.collectionId) used.releases.add(String(song.collectionId));
-    picks.push({ ...role, song, reason: roleReason(role.key, song, profile, now) });
+    picks.push({ ...role, song, reason: roleReason(role.key, song, profile, exploration, now) });
   }
   return picks;
 }
