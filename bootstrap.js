@@ -147,6 +147,15 @@
     appendLegacyNotice(missing.length);
   }
 
+  function restoreDeepLinkAfterSignatureLayout() {
+    if (window.location.hash !== '#discovery') return;
+    window.requestAnimationFrame(() => {
+      window.requestAnimationFrame(() => {
+        document.querySelector('#discovery')?.scrollIntoView({ behavior: 'auto', block: 'start' });
+      });
+    });
+  }
+
   function bindSignatureVisibility() {
     const signature = document.querySelector('#personalized');
     if (!signature) return false;
@@ -154,6 +163,7 @@
       document.body.classList.toggle('jp-signature-active', Boolean(entry?.isIntersecting));
     }, { root: null, rootMargin: '-4% 0px -4% 0px', threshold: 0 });
     observer.observe(signature);
+    restoreDeepLinkAfterSignatureLayout();
     return true;
   }
 
