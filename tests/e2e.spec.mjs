@@ -110,10 +110,14 @@ async function openReady(page, path = '/') {
   await expect(page.locator('.song-card').first()).toBeVisible();
 }
 
+async function searchAndWait(page, value, expectedCount = 1) {
+  await page.locator('#searchInput').fill(value);
+  await expect(page.locator('.song-card')).toHaveCount(expectedCount);
+}
+
 test('search uses the unified catalog and artist navigation does not collapse to zero', async ({ page }) => {
   await openReady(page);
-  await page.locator('#searchInput').fill('IRIS OUT');
-  await expect(page.locator('.song-card')).toHaveCount(1);
+  await searchAndWait(page, 'IRIS OUT');
   await expect(page.locator('.song-title')).toHaveText('IRIS OUT');
   await expect(page.locator('#featuredTitle')).toHaveText('IRIS OUT');
 
@@ -132,9 +136,9 @@ test('search uses the unified catalog and artist navigation does not collapse to
 
 test('romanized and Korean artist aliases return relevant results', async ({ page }) => {
   await openReady(page);
-  await page.locator('#searchInput').fill('Kenshi Yonezu');
+  await searchAndWait(page, 'Kenshi Yonezu');
   await expect(page.locator('.song-title')).toHaveText('IRIS OUT');
-  await page.locator('#searchInput').fill('요네즈 켄시');
+  await searchAndWait(page, '요네즈 켄시');
   await expect(page.locator('.song-title')).toHaveText('IRIS OUT');
 });
 
@@ -143,7 +147,7 @@ test('favorites filter reset keeps the user inside favorites', async ({ page }) 
   await page.locator('.song-card').first().locator('[data-like-id]').click();
   await page.locator('#favoritesFilter').click();
   await expect(page.locator('#favoritesFilter')).toHaveAttribute('aria-pressed', 'true');
-  await page.locator('#searchInput').fill('no-match');
+  await searchAndWait(page, 'no-match', 0);
   await expect(page.locator('#emptyState')).toBeVisible();
   await page.locator('#emptyResetFilters').click();
   await expect(page.locator('#favoritesFilter')).toHaveAttribute('aria-pressed', 'true');
@@ -174,12 +178,13 @@ test('load more moves keyboard focus to the first newly added card', async ({ pa
   expect(activeIsCard).toBe(true);
 });
 
-test('deep search link starts at discovery and whitespace-only input is treated as empty', async ({ page }) => {
+test('deep search link reveals the result and whitespace-only input is treated as empty', async ({ page }) => {
   await openReady(page, '/?q=IRIS%20OUT');
   await expect(page).toHaveURL(/q=IRIS(?:\+|%20)OUT.*#discovery$/);
   await expect(page.locator('.song-card')).toHaveCount(1);
-  const discoveryTop = await page.locator('#discovery').evaluate((el) => el.getBoundingClientRect().top);
-  expect(Math.abs(discoveryTop)).toBeLessThan(180);
+  await expect(page.locator('.song-card')).toBeInViewport();
+  const scrollY = await page.evaluate(() => window.scrollY);
+  expect(scrollY).toBeGreaterThan(0);
 
   await page.locator('#searchInput').fill('　   ');
   await expect(page.locator('#resultSummary')).not.toContainText('전체 검색');
