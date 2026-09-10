@@ -3,10 +3,12 @@ import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 
 const root = new URL('../', import.meta.url);
-const [html, css, design] = await Promise.all([
+const [html, css, design, icons, typography] = await Promise.all([
   readFile(new URL('index.html', root), 'utf8'),
   readFile(new URL('styles.css', root), 'utf8'),
   readFile(new URL('ui-design.js', root), 'utf8'),
+  readFile(new URL('icons.css', root), 'utf8'),
+  readFile(new URL('typography.css', root), 'utf8'),
 ]);
 
 test('hero typography protects Korean words and uses a bounded desktop scale', () => {
@@ -41,11 +43,21 @@ test('design uses explicit semantic color, spacing and radius tokens', () => {
   }
 });
 
-test('unicode-heavy visual states are normalized by the visual decorator', () => {
+test('unicode-heavy visual states are normalized into a single SVG-mask icon family', () => {
   assert.match(html, /src="\.\/ui-design\.js"/);
+  assert.match(design, /\.\/icons\.css/);
   assert.match(design, /function classifyBadge/);
   assert.match(design, /decorateFavoritesNav/);
   assert.match(design, /replace\(\/\\s\*↗\/g, ''\)/);
+  assert.match(icons, /--icon-heart:/);
+  assert.match(icons, /--icon-headphones:/);
+  assert.match(icons, /mask-image:/);
+});
+
+test('functional microcopy uses a readable body-small scale', () => {
+  assert.match(design, /\.\/typography\.css/);
+  assert.match(typography, /\.featured-reason,[\s\S]*?font-size: 13px/);
+  assert.match(typography, /@media \(max-width: 720px\)[\s\S]*?\.featured-reason[\s\S]*?font-size: 13px/);
 });
 
 test('preview player reserves bottom layout space', () => {
