@@ -147,6 +147,24 @@
     appendLegacyNotice(missing.length);
   }
 
+  function bindSignatureVisibility() {
+    const signature = document.querySelector('#personalized');
+    if (!signature) return false;
+    const observer = new IntersectionObserver(([entry]) => {
+      document.body.classList.toggle('jp-signature-active', Boolean(entry?.isIntersecting));
+    }, { root: null, rootMargin: '-4% 0px -4% 0px', threshold: 0 });
+    observer.observe(signature);
+    return true;
+  }
+
+  if (!bindSignatureVisibility()) {
+    const signatureObserver = new MutationObserver(() => {
+      if (!bindSignatureVisibility()) return;
+      signatureObserver.disconnect();
+    });
+    signatureObserver.observe(document.documentElement, { childList: true, subtree: true });
+  }
+
   const scheduleRecovery = () => window.setTimeout(recoverLegacyFavorites, 350);
   if (window.__JPLAYLIST_READY__) scheduleRecovery();
   else window.addEventListener(READY_EVENT, scheduleRecovery, { once: true });
