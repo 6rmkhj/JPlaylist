@@ -40,29 +40,21 @@ let refreshTimer = null;
 let experience = loadExperience();
 
 function safeStorage() {
-  try {
-    return window.localStorage;
-  } catch {
-    return null;
-  }
+  try { return window.localStorage; } catch { return null; }
 }
 
 function readJson(key, fallback) {
   try {
     const raw = safeStorage()?.getItem(key);
     return raw ? JSON.parse(raw) : fallback;
-  } catch {
-    return fallback;
-  }
+  } catch { return fallback; }
 }
 
 function writeExperience() {
   try {
     safeStorage()?.setItem(EXPERIENCE_STORAGE_KEY, JSON.stringify(experience));
     return true;
-  } catch {
-    return false;
-  }
+  } catch { return false; }
 }
 
 function loadExperience() {
@@ -83,9 +75,7 @@ function loadExperience() {
 }
 
 function escapeHtml(value = '') {
-  return String(value).replace(/[&<>'"]/g, (char) => ({
-    '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;',
-  })[char]);
+  return String(value).replace(/[&<>'"]/g, (char) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;' })[char]);
 }
 
 function langAttr(value) {
@@ -105,20 +95,15 @@ function favoriteSongs() {
 }
 
 function userStorefront() {
-  try {
-    return (new Intl.Locale(navigator.language || 'ko-KR').region || 'KR').toLowerCase();
-  } catch {
-    return 'kr';
-  }
+  try { return (new Intl.Locale(navigator.language || 'ko-KR').region || 'KR').toLowerCase(); }
+  catch { return 'kr'; }
 }
 
 function preferredPlatform() {
   try {
     const value = safeStorage()?.getItem(PLATFORM_STORAGE_KEY);
     return value && PLATFORM_LABELS[value] ? value : null;
-  } catch {
-    return null;
-  }
+  } catch { return null; }
 }
 
 function platformAction(song, platform) {
@@ -132,9 +117,7 @@ function platformAction(song, platform) {
       const url = candidate ? new URL(candidate) : null;
       const storefront = url?.pathname.split('/').filter(Boolean)[0]?.toLowerCase();
       if (url?.hostname === 'music.apple.com' && (!storefront || storefront === userStorefront())) exact = candidate;
-    } catch {
-      exact = null;
-    }
+    } catch { exact = null; }
   }
   if (exact) return { url: exact, exact: true, label: PLATFORM_LABELS[platform] };
   if (platform === 'youtubeMusic') return { url: `https://music.youtube.com/search?q=${encodeURIComponent(query)}`, exact: false, label: PLATFORM_LABELS[platform] };
@@ -181,20 +164,11 @@ function recordActivity(song, kind = 'open') {
 
 function weeklyDiscoveryCount() {
   const cutoff = Date.now() - 7 * 86400000;
-  return new Set(
-    experience.activity
-      .filter((item) => new Date(item.at).getTime() >= cutoff)
-      .map((item) => String(item.id)),
-  ).size;
+  return new Set(experience.activity.filter((item) => new Date(item.at).getTime() >= cutoff).map((item) => String(item.id))).size;
 }
 
-function catalogSong(id) {
-  return catalog.find((song) => song.id === String(id)) || null;
-}
-
-function openExternal(url) {
-  if (url) window.open(url, '_blank', 'noopener,noreferrer');
-}
+function catalogSong(id) { return catalog.find((song) => song.id === String(id)) || null; }
+function openExternal(url) { if (url) window.open(url, '_blank', 'noopener,noreferrer'); }
 
 function openListen(song) {
   if (!song) return;
@@ -213,10 +187,7 @@ function openListen(song) {
 function continuePendingListen() {
   if (!pendingListen) return;
   const platform = preferredPlatform();
-  if (!platform) {
-    pendingListen = null;
-    return;
-  }
+  if (!platform) { pendingListen = null; return; }
   const song = pendingListen;
   pendingListen = null;
   recordActivity(song, 'listen');
@@ -272,10 +243,7 @@ function addHeroSignatureLink() {
   const actions = document.querySelector('.hero-copy-actions');
   if (!actions || actions.querySelector('.jp-signature-link')) return;
   const existing = actions.querySelector('.hero-discover-link');
-  if (existing) {
-    existing.href = '#personalized';
-    existing.textContent = '내 취향 지도 보기';
-  }
+  if (existing) { existing.href = '#personalized'; existing.textContent = '내 취향 지도 보기'; }
   const link = document.createElement('a');
   link.className = 'secondary-button jp-signature-link direction-down';
   link.href = '#discovery';
@@ -308,13 +276,7 @@ function profileTags(profile) {
 
 function signalMarkup(label, value) {
   const percent = Math.max(0, Math.min(100, Math.round(value * 100)));
-  return `
-    <div class="jp-signal-row">
-      <span>${escapeHtml(label)}</span>
-      <div class="jp-signal-track" aria-hidden="true"><div class="jp-signal-fill" style="--signal:${percent}"></div></div>
-      <strong>${percent}%</strong>
-    </div>
-  `;
+  return `<div class="jp-signal-row"><span>${escapeHtml(label)}</span><div class="jp-signal-track" aria-hidden="true"><div class="jp-signal-fill" style="--signal:${percent}"></div></div><strong>${percent}%</strong></div>`;
 }
 
 function tasteMapMarkup(profile) {
@@ -323,47 +285,21 @@ function tasteMapMarkup(profile) {
   return `
     <div class="jp-map-layout">
       <section class="jp-map-panel" aria-labelledby="jpTasteMapTitle">
-        <div class="jp-map-panel-head">
-          <div>
-            <p class="jp-section-kicker">TASTE MAP</p>
-            <h3 id="jpTasteMapTitle">지금 내 취향의 위치</h3>
-          </div>
-          <span class="jp-map-state">${escapeHtml(stage)}</span>
-        </div>
+        <div class="jp-map-panel-head"><div><p class="jp-section-kicker">TASTE MAP</p><h3 id="jpTasteMapTitle">지금 내 취향의 위치</h3></div><span class="jp-map-state">${escapeHtml(stage)}</span></div>
         <div class="jp-map-plane-wrap">
-          <span class="jp-axis jp-axis-top">새 아티스트 탐험</span>
-          <span class="jp-axis jp-axis-left">익숙한 취향</span>
-          <span class="jp-axis jp-axis-bottom-left">차트 중심</span>
-          <span class="jp-axis jp-axis-bottom-right">딥컷</span>
-          <div class="jp-map-plane" role="img" aria-label="차트 밖 성향 ${profile.mapX}%, 새 아티스트 탐험 ${profile.mapY}% 지점">
-            <span class="jp-map-point" style="--taste-x:${profile.mapX};--taste-y:${profile.mapY}" aria-hidden="true"></span>
-          </div>
+          <span class="jp-axis jp-axis-top">새 아티스트 탐험</span><span class="jp-axis jp-axis-left">익숙한 취향</span><span class="jp-axis jp-axis-bottom-left">차트 중심</span><span class="jp-axis jp-axis-bottom-right">딥컷</span>
+          <div class="jp-map-plane" role="img" aria-label="차트 밖 성향 ${profile.mapX}%, 새 아티스트 탐험 ${profile.mapY}% 지점"><span class="jp-map-point" style="--taste-x:${profile.mapX};--taste-y:${profile.mapY}" aria-hidden="true"></span></div>
         </div>
       </section>
       <section class="jp-map-insight" aria-label="취향 해석">
-        <p class="jp-section-kicker">YOUR POSITION</p>
-        <h3>${escapeHtml(profile.mapLabel)}</h3>
-        <p class="jp-map-narrative">${escapeHtml(tasteNarrative(profile))}</p>
-        <div class="jp-taste-tags">
-          ${profileTags(profile).map((tag) => `<span class="jp-taste-tag"${langAttr(tag)}>${escapeHtml(tag)}</span>`).join('')}
-        </div>
-        <div class="jp-signal-list">
-          ${signalMarkup('차트 밖 성향', profile.deepCut)}
-          ${signalMarkup('새 아티스트', profile.exploration)}
-          ${signalMarkup('최근 발매', profile.freshness)}
-          ${signalMarkup('장르 폭', profile.breadth)}
-        </div>
-        <div class="jp-exploration-control">
-          <span>오늘 추천을 얼마나 낯설게 할까요?</span>
-          <div class="jp-exploration-options" role="radiogroup" aria-label="추천의 새로움">
-            ${Object.entries(EXPLORATION_OPTIONS).map(([key, option]) => `
-              <button class="jp-direction" type="button" role="radio" data-jp-exploration="${key}" aria-checked="${experience.exploration === key}" tabindex="${experience.exploration === key ? '0' : '-1'}">${escapeHtml(option.label)}</button>
-            `).join('')}
-          </div>
-        </div>
+        <p class="jp-section-kicker">YOUR POSITION</p><h3>${escapeHtml(profile.mapLabel)}</h3><p class="jp-map-narrative">${escapeHtml(tasteNarrative(profile))}</p>
+        <div class="jp-taste-tags">${profileTags(profile).map((tag) => `<span class="jp-taste-tag"${langAttr(tag)}>${escapeHtml(tag)}</span>`).join('')}</div>
+        <div class="jp-signal-list">${signalMarkup('차트 밖 성향', profile.deepCut)}${signalMarkup('새 아티스트', profile.exploration)}${signalMarkup('최근 발매', profile.freshness)}${signalMarkup('장르 폭', profile.breadth)}</div>
+        <div class="jp-exploration-control"><span>오늘 추천을 얼마나 낯설게 할까요?</span><div class="jp-exploration-options" role="radiogroup" aria-label="추천의 새로움">
+          ${Object.entries(EXPLORATION_OPTIONS).map(([key, option]) => `<button class="jp-direction" type="button" role="radio" data-jp-exploration="${key}" aria-checked="${experience.exploration === key}" tabindex="${experience.exploration === key ? '0' : '-1'}">${escapeHtml(option.label)}</button>`).join('')}
+        </div></div>
       </section>
-    </div>
-  `;
+    </div>`;
 }
 
 function dailyCardMarkup(pick) {
@@ -374,116 +310,45 @@ function dailyCardMarkup(pick) {
   const image = song.artwork ? `<img src="${escapeHtml(artwork(song.artwork, 640))}" alt="" loading="lazy" decoding="async" />` : '';
   return `
     <article class="jp-daily-card" data-role="${pick.key}" data-jp-song="${escapeHtml(song.id)}">
-      <div class="jp-daily-art">
-        ${image}
-        <span class="jp-role-badge">${escapeHtml(pick.label)}</span>
-      </div>
+      <div class="jp-daily-art">${image}<span class="jp-role-badge">${escapeHtml(pick.label)}</span></div>
       <div class="jp-daily-copy">
-        <p class="jp-role-kicker">${escapeHtml(pick.eyebrow)}</p>
-        <h4 class="jp-daily-title"${langAttr(song.title)} title="${escapeHtml(song.title)}">${escapeHtml(song.title)}</h4>
-        <span class="jp-daily-artist"${langAttr(song.artist)}>${escapeHtml(song.artist)}</span>
-        <p class="jp-daily-reason">${escapeHtml(pick.reason)}</p>
-        <div class="jp-daily-meta">${escapeHtml(formatRelease(song))}</div>
-        <div class="jp-daily-actions">
-          <button class="jp-daily-hole" type="button" data-jp-rabbit-start="${escapeHtml(song.id)}">Rabbit Hole 시작</button>
-          <button class="jp-daily-open" type="button" data-jp-open="${escapeHtml(song.id)}">곡 보기</button>
-          <button class="jp-daily-listen" type="button" data-jp-listen="${escapeHtml(song.id)}">${escapeHtml(listenLabel)}</button>
-        </div>
+        <p class="jp-role-kicker">${escapeHtml(pick.eyebrow)}</p><h4 class="jp-daily-title"${langAttr(song.title)} title="${escapeHtml(song.title)}">${escapeHtml(song.title)}</h4><span class="jp-daily-artist"${langAttr(song.artist)}>${escapeHtml(song.artist)}</span>
+        <p class="jp-daily-reason">${escapeHtml(pick.reason)}</p><div class="jp-daily-meta">${escapeHtml(formatRelease(song))}</div>
+        <div class="jp-daily-actions"><button class="jp-daily-hole" type="button" data-jp-rabbit-start="${escapeHtml(song.id)}">Rabbit Hole 시작</button><button class="jp-daily-open" type="button" data-jp-open="${escapeHtml(song.id)}">곡 보기</button><button class="jp-daily-listen" type="button" data-jp-listen="${escapeHtml(song.id)}">${escapeHtml(listenLabel)}</button></div>
         <button class="jp-dismiss" type="button" data-jp-dismiss="${escapeHtml(song.id)}" aria-label="${escapeHtml(`${song.title} 관심 없음`)}">이 추천은 관심 없어요</button>
       </div>
-    </article>
-  `;
+    </article>`;
 }
 
 function recentMarkup() {
   const recent = experience.recent.filter((item) => catalog.some((song) => song.id === String(item.id)));
   if (!recent.length) return '';
-  return `
-    <div class="jp-recent">
-      <div class="jp-recent-head">
-        <h3>내가 만든 발견 기록</h3>
-        <span>최근 7일 ${weeklyDiscoveryCount()}곡</span>
-      </div>
-      <div class="jp-recent-row">
-        ${recent.slice(0, 6).map((item) => `
-          <button class="jp-recent-item" type="button" data-jp-recent="${escapeHtml(item.id)}">
-            <strong${langAttr(item.title)}>${escapeHtml(item.title)}</strong>
-            <span${langAttr(item.artist)}>${escapeHtml(item.artist)}</span>
-          </button>
-        `).join('')}
-      </div>
-    </div>
-  `;
+  return `<div class="jp-recent"><div class="jp-recent-head"><h3>내가 만든 발견 기록</h3><span>최근 7일 ${weeklyDiscoveryCount()}곡</span></div><div class="jp-recent-row">${recent.slice(0, 6).map((item) => `<button class="jp-recent-item" type="button" data-jp-recent="${escapeHtml(item.id)}"><strong${langAttr(item.title)}>${escapeHtml(item.title)}</strong><span${langAttr(item.artist)}>${escapeHtml(item.artist)}</span></button>`).join('')}</div></div>`;
 }
 
 function rabbitPathMarkup(path) {
-  return `
-    <div class="jp-rabbit-path" aria-label="Rabbit Hole 5단계 경로">
-      ${path.map(({ song, reason }, index) => `
-        <article class="jp-path-card" data-jp-path-song="${escapeHtml(song.id)}">
-          <div class="jp-path-step"><span>STEP ${index + 1}</span><span>${index === 0 ? 'START' : 'NEXT'}</span></div>
-          ${song.artwork ? `<img class="jp-path-thumb" src="${escapeHtml(artwork(song.artwork, 360))}" alt="" loading="lazy" decoding="async" />` : '<div class="jp-path-thumb" aria-hidden="true"></div>'}
-          <h4 class="jp-path-title"${langAttr(song.title)}>${escapeHtml(song.title)}</h4>
-          <span class="jp-path-artist"${langAttr(song.artist)}>${escapeHtml(song.artist)}</span>
-          <p class="jp-path-reason">${escapeHtml(reason)}</p>
-          <div class="jp-path-actions">
-            <button class="jp-path-action" type="button" data-jp-listen="${escapeHtml(song.id)}">듣기</button>
-            <button class="jp-path-action" type="button" data-jp-rabbit-start="${escapeHtml(song.id)}">여기서 다시</button>
-          </div>
-        </article>
-      `).join('')}
-    </div>
-  `;
+  return `<div class="jp-rabbit-path" aria-label="Rabbit Hole 5단계 경로">${path.map(({ song, reason }, index) => `
+    <article class="jp-path-card" data-jp-path-song="${escapeHtml(song.id)}"><div class="jp-path-step"><span>STEP ${index + 1}</span><span>${index === 0 ? 'START' : 'NEXT'}</span></div>${song.artwork ? `<img class="jp-path-thumb" src="${escapeHtml(artwork(song.artwork, 360))}" alt="" loading="lazy" decoding="async" />` : '<div class="jp-path-thumb" aria-hidden="true"></div>'}<h4 class="jp-path-title"${langAttr(song.title)}>${escapeHtml(song.title)}</h4><span class="jp-path-artist"${langAttr(song.artist)}>${escapeHtml(song.artist)}</span><p class="jp-path-reason">${escapeHtml(reason)}</p><div class="jp-path-actions"><button class="jp-path-action" type="button" data-jp-listen="${escapeHtml(song.id)}">듣기</button><button class="jp-path-action" type="button" data-jp-rabbit-start="${escapeHtml(song.id)}">여기서 다시</button></div></article>`).join('')}</div>`;
 }
 
-function rabbitMarkup(profile, daily) {
-  let start = catalogSong(experience.rabbitStartId);
-  if (!start && daily[1]?.song) start = null;
+function rabbitMarkup(profile) {
+  const start = catalogSong(experience.rabbitStartId);
   const direction = experience.rabbitDirection;
-  const path = start ? buildRabbitHole({
-    start,
-    catalog,
-    profile,
-    hiddenIds: experience.hiddenIds,
-    direction,
-    dayKey: localDateKey(),
-    offset: experience.rabbitOffset,
-    steps: 5,
-  }) : [];
-
+  const path = start ? buildRabbitHole({ start, catalog, profile, hiddenIds: experience.hiddenIds, direction, dayKey: localDateKey(), offset: experience.rabbitOffset, steps: 5 }) : [];
   return `
     <section class="jp-rabbit-section" id="rabbitHole" aria-labelledby="jpRabbitTitle">
-      <div class="jp-rabbit-heading">
-        <div>
-          <p class="jp-section-kicker">RABBIT HOLE</p>
-          <h3 id="jpRabbitTitle">한 곡에서 다음 취향으로, 5단계</h3>
-          <p>${start ? `${escapeHtml(start.artist)} · ${escapeHtml(start.title)}에서 출발한 경로예요.` : '오늘의 3곡 중 하나를 출발점으로 고르면, 한 번에 다섯 곡만 이어서 보여줍니다.'}</p>
-        </div>
-        <div class="jp-rabbit-controls" role="radiogroup" aria-label="Rabbit Hole 방향">
-          ${Object.entries(RABBIT_DIRECTIONS).map(([key, option]) => `
-            <button class="jp-direction" type="button" role="radio" data-jp-rabbit-direction="${key}" aria-checked="${direction === key}" tabindex="${direction === key ? '0' : '-1'}" title="${escapeHtml(option.description)}">${escapeHtml(option.label)}</button>
-          `).join('')}
-          ${start ? '<button class="jp-quiet-button" type="button" data-jp-rabbit-remix>다른 경로</button>' : ''}
-        </div>
+      <div class="jp-rabbit-heading"><div><p class="jp-section-kicker">RABBIT HOLE</p><h3 id="jpRabbitTitle">한 곡에서 다음 취향으로, 5단계</h3><p>${start ? `${escapeHtml(start.artist)} · ${escapeHtml(start.title)}에서 출발한 경로예요.` : '오늘의 3곡 중 하나를 출발점으로 고르면, 한 번에 다섯 곡만 이어서 보여줍니다.'}</p></div>
+        <div class="jp-rabbit-controls" role="radiogroup" aria-label="Rabbit Hole 방향">${Object.entries(RABBIT_DIRECTIONS).map(([key, option]) => `<button class="jp-direction" type="button" role="radio" data-jp-rabbit-direction="${key}" aria-checked="${direction === key}" tabindex="${direction === key ? '0' : '-1'}" title="${escapeHtml(option.description)}">${escapeHtml(option.label)}</button>`).join('')}${start ? '<button class="jp-quiet-button" type="button" data-jp-rabbit-remix>다른 경로</button>' : ''}</div>
       </div>
-      ${path.length
-        ? rabbitPathMarkup(path)
-        : `<div class="jp-rabbit-empty"><span class="jp-rabbit-empty-mark" aria-hidden="true">↘</span><div><strong>추천 목록이 아니라 탐험 경로입니다.</strong><span>${escapeHtml(DAILY_ROLES[1].description)}부터 시작해 보세요.</span></div></div>`}
-    </section>
-  `;
+      ${path.length ? rabbitPathMarkup(path) : `<div class="jp-rabbit-empty"><span class="jp-rabbit-empty-mark" aria-hidden="true">↘</span><div><strong>추천 목록이 아니라 탐험 경로입니다.</strong><span>${escapeHtml(DAILY_ROLES[1].description)}부터 시작해 보세요.</span></div></div>`}
+    </section>`;
 }
 
 function renderHub({ focusExploration = null, focusRabbitDirection = null, scrollRabbit = false } = {}) {
   if (!hub || !catalog.length) return;
   const favorites = favoriteSongs();
   const profile = buildTasteProfile({ favorites, activity: experience.activity, catalog });
-  const daily = buildDailyThree({
-    catalog,
-    profile,
-    hiddenIds: experience.hiddenIds,
-    dayKey: localDateKey(),
-    offset: experience.mixOffset,
-  });
+  const daily = buildDailyThree({ catalog, profile, hiddenIds: experience.hiddenIds, dayKey: localDateKey(), offset: experience.mixOffset, exploration: experience.exploration });
   const hiddenCount = experience.hiddenIds.length;
   const intro = favorites.length >= 5
     ? '좋아요와 실제 탐색 기록으로 취향 위치를 계산하고, 오늘은 그 위치 안쪽·경계·바깥에서 한 곡씩만 고릅니다.'
@@ -493,45 +358,15 @@ function renderHub({ focusExploration = null, focusRabbitDirection = null, scrol
 
   hub.innerHTML = `
     <div class="jp-signature-shell">
-      <header class="jp-signature-head">
-        <div>
-          <p class="jp-signature-kicker">YOUR J-MUSIC COMPASS</p>
-          <h2 id="jpHubTitle">내 취향을 보고,<br />다음 취향으로 간다.</h2>
-          <p>${escapeHtml(intro)}</p>
-        </div>
-        <div class="jp-signature-actions">
-          ${hiddenCount ? `<button class="jp-quiet-button" type="button" data-jp-reset-hidden>관심 없음 ${hiddenCount}곡 초기화</button>` : ''}
-          <button class="jp-quiet-button" type="button" data-jp-remix>오늘의 3곡 새로 고르기</button>
-        </div>
-      </header>
-
+      <header class="jp-signature-head"><div><p class="jp-signature-kicker">YOUR J-MUSIC COMPASS</p><h2 id="jpHubTitle">내 취향을 보고,<br />다음 취향으로 간다.</h2><p>${escapeHtml(intro)}</p></div><div class="jp-signature-actions">${hiddenCount ? `<button class="jp-quiet-button" type="button" data-jp-reset-hidden>관심 없음 ${hiddenCount}곡 초기화</button>` : ''}<button class="jp-quiet-button" type="button" data-jp-remix>오늘의 3곡 새로 고르기</button></div></header>
       ${tasteMapMarkup(profile)}
-
-      <section class="jp-daily-section" aria-labelledby="jpDailyTitle">
-        <div class="jp-daily-heading">
-          <div>
-            <p class="jp-section-kicker">THREE MOVES A DAY</p>
-            <h3 id="jpDailyTitle">오늘은 딱 세 방향만</h3>
-            <p>안전픽 하나, 취향 경계 하나, 깊게 파볼 곡 하나. 추천을 많이 보여주는 대신 역할을 분명히 합니다.</p>
-          </div>
-          <span class="jp-daily-date">${escapeHtml(localDateKey())}</span>
-        </div>
-        ${daily.length ? `<div class="jp-daily-grid">${daily.map(dailyCardMarkup).join('')}</div>` : '<div class="jp-empty-daily">오늘 추천 후보를 모두 숨겼어요. 관심 없음 목록을 초기화하면 다시 만들 수 있습니다.</div>'}
-      </section>
-
-      ${rabbitMarkup(profile, daily)}
-      ${recentMarkup()}
-    </div>
-  `;
+      <section class="jp-daily-section" aria-labelledby="jpDailyTitle"><div class="jp-daily-heading"><div><p class="jp-section-kicker">THREE MOVES A DAY</p><h3 id="jpDailyTitle">오늘은 딱 세 방향만</h3><p>안전픽 하나, 취향 경계 하나, 깊게 파볼 곡 하나. 추천을 많이 보여주는 대신 역할을 분명히 합니다.</p></div><span class="jp-daily-date">${escapeHtml(localDateKey())}</span></div>${daily.length ? `<div class="jp-daily-grid">${daily.map(dailyCardMarkup).join('')}</div>` : '<div class="jp-empty-daily">오늘 추천 후보를 모두 숨겼어요. 관심 없음 목록을 초기화하면 다시 만들 수 있습니다.</div>'}</section>
+      ${rabbitMarkup(profile)}${recentMarkup()}
+    </div>`;
 
   if (focusExploration) hub.querySelector(`[data-jp-exploration="${focusExploration}"]`)?.focus({ preventScroll: true });
   if (focusRabbitDirection) hub.querySelector(`[data-jp-rabbit-direction="${focusRabbitDirection}"]`)?.focus({ preventScroll: true });
-  if (scrollRabbit) {
-    window.requestAnimationFrame(() => document.querySelector('#rabbitHole')?.scrollIntoView({
-      behavior: window.matchMedia?.('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth',
-      block: 'start',
-    }));
-  }
+  if (scrollRabbit) window.requestAnimationFrame(() => document.querySelector('#rabbitHole')?.scrollIntoView({ behavior: window.matchMedia?.('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'start' }));
 }
 
 function scheduleRefresh() {
@@ -542,7 +377,7 @@ function scheduleRefresh() {
 function setExploration(mode, { focus = false } = {}) {
   if (!EXPLORATION_OPTIONS[mode]) return;
   experience.exploration = mode;
-  experience.mixOffset = mode === 'steady' ? 0 : mode === 'adventurous' ? 2 : 1;
+  experience.mixOffset = 0;
   writeExperience();
   renderHub({ focusExploration: focus ? mode : null });
   announce(`오늘 추천을 ${EXPLORATION_OPTIONS[mode].label}으로 조정했습니다.`);
@@ -550,8 +385,7 @@ function setExploration(mode, { focus = false } = {}) {
 
 function handleRovingKey(event, selector, keys, setter) {
   const button = event.target.closest(selector);
-  if (!button) return false;
-  if (!['ArrowRight', 'ArrowDown', 'ArrowLeft', 'ArrowUp', 'Home', 'End'].includes(event.key)) return false;
+  if (!button || !['ArrowRight', 'ArrowDown', 'ArrowLeft', 'ArrowUp', 'Home', 'End'].includes(event.key)) return false;
   event.preventDefault();
   const current = keys.indexOf(button.dataset[selector.includes('rabbit') ? 'jpRabbitDirection' : 'jpExploration']);
   let next = current;
@@ -574,33 +408,19 @@ function dismissRecommendation(id) {
   experience.hiddenIds.push(String(id));
   experience.hiddenIds = experience.hiddenIds.slice(-MAX_HIDDEN);
   if (experience.rabbitStartId === String(id)) experience.rabbitStartId = null;
-  writeExperience();
-  renderHub();
+  writeExperience(); renderHub();
   announce(`${song.title}은(는) 앞으로 오늘의 추천과 Rabbit Hole 후보에서 제외합니다.`);
 }
 
-function resetHidden() {
-  experience.hiddenIds = [];
-  writeExperience();
-  renderHub();
-  announce('관심 없음으로 숨긴 곡을 다시 추천 후보에 포함했습니다.');
-}
-
-function remixDaily() {
-  experience.mixOffset = (experience.mixOffset + 1) % 10000;
-  writeExperience();
-  renderHub();
-  announce('오늘의 세 방향을 새로 골랐습니다.');
-}
+function resetHidden() { experience.hiddenIds = []; writeExperience(); renderHub(); announce('관심 없음으로 숨긴 곡을 다시 추천 후보에 포함했습니다.'); }
+function remixDaily() { experience.mixOffset = (experience.mixOffset + 1) % 10000; writeExperience(); renderHub(); announce('오늘의 세 방향을 새로 골랐습니다.'); }
 
 function startRabbit(id) {
   const song = catalogSong(id);
   if (!song) return;
   experience.rabbitStartId = song.id;
   experience.rabbitOffset = 0;
-  writeExperience();
-  recordActivity(song, 'rabbit');
-  renderHub({ scrollRabbit: true });
+  writeExperience(); recordActivity(song, 'rabbit'); renderHub({ scrollRabbit: true });
   announce(`${song.title}에서 Rabbit Hole을 시작합니다.`);
 }
 
@@ -608,17 +428,11 @@ function setRabbitDirection(direction, { focus = false } = {}) {
   if (!RABBIT_DIRECTIONS[direction]) return;
   experience.rabbitDirection = direction;
   experience.rabbitOffset = 0;
-  writeExperience();
-  renderHub({ focusRabbitDirection: focus ? direction : null });
+  writeExperience(); renderHub({ focusRabbitDirection: focus ? direction : null });
   announce(`Rabbit Hole 방향을 ${RABBIT_DIRECTIONS[direction].label}로 바꿨습니다.`);
 }
 
-function remixRabbit() {
-  experience.rabbitOffset = (experience.rabbitOffset + 1) % 10000;
-  writeExperience();
-  renderHub();
-  announce('같은 출발점에서 다른 5단계 경로를 만들었습니다.');
-}
+function remixRabbit() { experience.rabbitOffset = (experience.rabbitOffset + 1) % 10000; writeExperience(); renderHub(); announce('같은 출발점에서 다른 5단계 경로를 만들었습니다.'); }
 
 function handleHubClick(event) {
   const exploration = event.target.closest('[data-jp-exploration]');
@@ -660,49 +474,22 @@ function installHub() {
   const hero = document.querySelector('.hero');
   if (!hero) return;
   hub = document.createElement('section');
-  hub.id = 'personalized';
-  hub.className = 'jp-signature';
-  hub.setAttribute('aria-labelledby', 'jpHubTitle');
+  hub.id = 'personalized'; hub.className = 'jp-signature'; hub.setAttribute('aria-labelledby', 'jpHubTitle');
   hero.insertAdjacentElement('afterend', hub);
   hub.addEventListener('click', handleHubClick);
   hub.addEventListener('keydown', handleHubKeydown);
   renderHub();
 }
 
-function bindPlatformContinuation() {
-  document.querySelector('#platformDialog')?.addEventListener('close', () => window.setTimeout(continuePendingListen, 0));
-}
-
-function bindExperienceEvents() {
-  document.addEventListener('click', captureBaseActivity, true);
-  window.addEventListener('focus', scheduleRefresh);
-}
+function bindPlatformContinuation() { document.querySelector('#platformDialog')?.addEventListener('close', () => window.setTimeout(continuePendingListen, 0)); }
+function bindExperienceEvents() { document.addEventListener('click', captureBaseActivity, true); window.addEventListener('focus', scheduleRefresh); }
 
 async function boot() {
-  decorateBaseUi();
-  addServiceCredit();
-  addHeroSignatureLink();
-  recordVisit();
-  bindPlatformContinuation();
-  bindExperienceEvents();
-
-  const observer = new MutationObserver((mutations) => {
-    if (mutations.some((mutation) => !mutation.target.closest?.('#personalized'))) decorateBaseUi();
-  });
-  observer.observe(document.documentElement, {
-    subtree: true,
-    childList: true,
-    characterData: true,
-    attributes: true,
-    attributeFilter: ['class'],
-  });
-
-  try {
-    await loadCatalog();
-    installHub();
-  } catch (error) {
-    console.warn('Signature taste experience unavailable:', error);
-  }
+  decorateBaseUi(); addServiceCredit(); addHeroSignatureLink(); recordVisit(); bindPlatformContinuation(); bindExperienceEvents();
+  const observer = new MutationObserver((mutations) => { if (mutations.some((mutation) => !mutation.target.closest?.('#personalized'))) decorateBaseUi(); });
+  observer.observe(document.documentElement, { subtree: true, childList: true, characterData: true, attributes: true, attributeFilter: ['class'] });
+  try { await loadCatalog(); installHub(); }
+  catch (error) { console.warn('Signature taste experience unavailable:', error); }
 }
 
 boot();
