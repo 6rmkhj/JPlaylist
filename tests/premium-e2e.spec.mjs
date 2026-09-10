@@ -53,8 +53,10 @@ const fixture = {
 async function install(page, { favorite = true } = {}) {
   await page.route('**/data/songs.json', async (route) => route.fulfill({ status: 200, contentType: 'application/json', body: JSON.stringify(fixture) }));
   await page.addInitScript(({ favoriteSong, useFavorite }) => {
+    if (localStorage.getItem('jp-premium-fixture-seeded')) return;
     localStorage.clear();
     if (useFavorite) localStorage.setItem('jplaylist-favorites-v2', JSON.stringify({ version: 3, items: [{ ...favoriteSong, likedAt: '2026-09-10T05:00:00.000Z' }] }));
+    localStorage.setItem('jp-premium-fixture-seeded', '1');
   }, { favoriteSong: songs[0], useFavorite: favorite });
   await page.goto('/');
   await expect(page.locator('#personalized')).toBeVisible();
