@@ -1,0 +1,50 @@
+name: Validate remaining UX fixes
+
+on:
+  push:
+    branches: [fix/all-remaining-issues-20260910]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: validate-remaining-ux
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Static and unit regressions
+        run: |
+          node --check app.js
+          node --check bootstrap.js
+          node --check ui-design.js
+          node --check scripts/fetch-songs.mjs
+          node --test tests/*.test.mjs
+
+      - name: Install browser regression runtime
+        run: |
+          npm install --no-save @playwright/test@1.55.0
+          npx playwright install --with-deps chromium
+
+      - name: Browser UX regressions
+        run: npx playwright test --config=playwright.config.mjs
+
+      - name: Collect live music data
+        run: node scripts/fetch-songs.mjs
+
+      - name: Validate live dataset
+        run: node scripts/validate-data.mjs
+
+      - name: Summarize dataset
+        run: |
+          node -e "const p=require('./data/songs.json'); console.log(JSON.stringify({schemaVersion:p.schemaVersion,status:p.status,counts:p.counts,coverage:p.coverage,sources:p.sources?.discovery?.components},null,2))"
