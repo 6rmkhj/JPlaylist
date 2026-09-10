@@ -26,7 +26,7 @@ test('genre filters expose a named group and use stable taxonomy ordering', () =
 test('platform radiogroup implements roving tabindex and Arrow navigation', () => {
   assert.match(html, /id="platformOptions" role="radiogroup"/);
   assert.match(html, /role="radio" aria-checked="false" data-platform="spotify"/);
-  assert.match(app, /tabindex', selected \? '0' : '-1'/);
+  assert.match(app, /button\.tabIndex = selected \|\| \(!selectedPlatform && index === 0\) \? 0 : -1/);
   assert.match(app, /\['ArrowRight', 'ArrowDown', 'ArrowLeft', 'ArrowUp', 'Home', 'End'\]/);
 });
 
