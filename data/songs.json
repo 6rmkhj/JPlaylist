@@ -1,8 +1,8 @@
 {
-  "schemaVersion": 2,
-  "status": "fresh",
+  "schemaVersion": 3,
+  "status": "stale",
   "updatedAt": "2026-09-10T05:35:09.107Z",
-  "lastCheckedAt": "2026-09-10T05:35:09.107Z",
+  "lastCheckedAt": "2026-09-10T10:41:39.982Z",
   "latestWindowDays": 180,
   "sources": {
     "popular": {
@@ -33,7 +33,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E6%83%85%E7%86%B1/6805860674?i=6805860676&uo=4",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/69/6e/50/696e5006-c0a9-3790-9877-816dc0a564f7/mzaf_1467985167900065570.plus.aac.p.m4a",
-      "chartRank": null
+      "chartRank": null,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "6805860680",
@@ -47,7 +59,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E6%82%B2%E3%81%97%E3%81%84%E8%89%B2%E3%82%84%E3%81%AD/6805860674?i=6805860680&uo=4",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c6/70/4a/c6704a27-89f8-ca53-f0b0-70d9d48ab834/mzaf_4585425141484196580.plus.aac.p.m4a",
-      "chartRank": null
+      "chartRank": null,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "6805860931",
@@ -61,7 +85,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E3%83%AF%E3%82%A4%E3%83%B3%E3%83%AC%E3%83%83%E3%83%89%E3%81%AE%E5%BF%83/6805860674?i=6805860931&uo=4",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e6/d9/82/e6d98214-4967-8d74-6fde-750518583529/mzaf_17200903566364438282.plus.aac.p.m4a",
-      "chartRank": null
+      "chartRank": null,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "6805860932",
@@ -75,7 +111,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E3%82%AE%E3%83%96%E3%82%B9/6805860674?i=6805860932&uo=4",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2e/d7/c5/2ed7c5db-27cc-dfce-57c0-4908ae1f4d51/mzaf_14128638112934327608.plus.aac.p.m4a",
-      "chartRank": null
+      "chartRank": null,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "6805860938",
@@ -89,7 +137,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E5%8C%96%E7%B2%A7/6805860674?i=6805860938&uo=4",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/24/49/bf/2449bf6f-5561-ecf4-5bb8-232dd66d4d2c/mzaf_516408488261631470.plus.aac.p.m4a",
-      "chartRank": null
+      "chartRank": null,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "6805860939",
@@ -103,7 +163,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/if-i-aint-got-you/6805860674?i=6805860939&uo=4",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b1/be/c9/b1bec9a3-d213-6071-1006-48bffb5402b9/mzaf_4017374148812042075.plus.aac.p.m4a",
-      "chartRank": null
+      "chartRank": null,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "6805860941",
@@ -117,7 +189,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E7%AC%91%E3%81%88%E3%82%8C%E3%81%B0/6805860674?i=6805860941&uo=4",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ab/a6/fc/aba6fcae-3d35-8f28-ec61-e12527b45fc6/mzaf_11196269575813957408.plus.aac.p.m4a",
-      "chartRank": null
+      "chartRank": null,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "6805860942",
@@ -131,7 +215,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E3%81%8F%E3%81%9B%E3%81%AE%E3%81%86%E3%81%9F/6805860674?i=6805860942&uo=4",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/bc/7a/0d/bc7a0d3b-2fbf-25b2-047a-efd683b85cce/mzaf_1969440524893075721.plus.aac.p.m4a",
-      "chartRank": null
+      "chartRank": null,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "6805860944",
@@ -145,7 +241,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E3%83%80%E3%83%B3%E3%82%B9%E3%83%9B%E3%83%BC%E3%83%AB/6805860674?i=6805860944&uo=4",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/32/e8/c0/32e8c0a0-9048-36e9-8803-6fbdff09a909/mzaf_2317350851494462058.plus.aac.p.m4a",
-      "chartRank": null
+      "chartRank": null,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "6805852587",
@@ -159,7 +267,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E5%97%9A%E5%91%BC-%E7%B4%A0%E6%99%B4%E3%82%89%E3%81%97%E3%81%8D%E6%97%A5%E5%B8%B8/6805852584?i=6805852587&uo=4",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/9b/7e/3c/9b7e3c27-f453-0603-adc0-1002bce28fe2/mzaf_5191978410703063238.plus.aac.p.m4a",
-      "chartRank": null
+      "chartRank": null,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "6805852588",
@@ -173,7 +293,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E3%81%9F%E3%81%A0%E3%81%84%E3%81%BE/6805852584?i=6805852588&uo=4",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0f/23/4e/0f234e36-ab81-1ef0-f5d2-f69b836b0d4e/mzaf_6568452588562099374.plus.aac.p.m4a",
-      "chartRank": null
+      "chartRank": null,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "6805852589",
@@ -187,7 +319,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E5%97%9A%E5%91%BC-%E7%B4%A0%E6%99%B4%E3%82%89%E3%81%97%E3%81%8D%E6%97%A5%E5%B8%B8-instrumental/6805852584?i=6805852589&uo=4",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/16/58/77/16587721-4313-04b9-8710-78e467d4ccec/mzaf_9787822480127424986.plus.aac.p.m4a",
-      "chartRank": null
+      "chartRank": null,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "6805852590",
@@ -201,7 +345,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E3%81%9F%E3%81%A0%E3%81%84%E3%81%BE-instrumental/6805852584?i=6805852590&uo=4",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3d/2d/21/3d2d21bf-d1fc-f10f-9be1-c913d981e9c1/mzaf_18227469370271265618.plus.aac.p.m4a",
-      "chartRank": null
+      "chartRank": null,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "6805381677",
@@ -215,7 +371,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E8%9E%BA%E6%97%8B-rasen-anime-size/6805381112?i=6805381677&uo=4",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f3/30/ba/f330ba05-d3d0-67aa-b5ae-3eedc7aa8d81/mzaf_5968568394640707209.plus.aac.p.m4a",
-      "chartRank": null
+      "chartRank": null,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "6805381679",
@@ -229,7 +397,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E8%9E%BA%E6%97%8B-rasen-instrumental/6805381112?i=6805381679&uo=4",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/49/72/98/49729802-0b17-b25a-6931-ded48fe09689/mzaf_574656542532898576.plus.aac.p.m4a",
-      "chartRank": null
+      "chartRank": null,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "6803148739",
@@ -245,7 +425,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E3%81%82%E3%82%8A%E3%81%B5%E3%82%8C%E3%81%9F%E4%B8%96%E7%95%8C%E3%81%AE%E6%9E%9C%E3%81%A6%E3%81%AB-feat-awich-chico-carlito-one-ok-rock-paledusk/6803148720?i=6803148739",
       "previewUrl": null,
-      "chartRank": 3
+      "chartRank": 3,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "6797407954",
@@ -260,7 +452,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/so-honey/6797407951?i=6797407954",
       "previewUrl": null,
-      "chartRank": 37
+      "chartRank": 37,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "6805381450",
@@ -274,7 +478,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E8%B6%B3%E8%B7%A1-brave-the-unknown/6805381112?i=6805381450&uo=4",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d9/a0/04/d9a004db-6afe-5ed0-c0eb-7624d510a5cd/mzaf_14260663404301691466.plus.aac.p.m4a",
-      "chartRank": null
+      "chartRank": null,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "6801361853",
@@ -289,7 +505,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E7%81%B0%E8%89%B2/6801361848?i=6801361853",
       "previewUrl": null,
-      "chartRank": 46
+      "chartRank": 46,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "6802879422",
@@ -304,7 +532,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/show-time/6802879262?i=6802879422",
       "previewUrl": null,
-      "chartRank": 88
+      "chartRank": 88,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "6805381672",
@@ -318,7 +558,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E8%9E%BA%E6%97%8B-rasen-acoustic-ver/6805381112?i=6805381672&uo=4",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ca/28/e0/ca28e08c-8311-625c-8ff2-49a72242ecef/mzaf_1582747785693421163.plus.aac.p.m4a",
-      "chartRank": null
+      "chartRank": null,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "6793888335",
@@ -333,7 +585,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E8%A6%8B%E7%9F%A5%E3%82%89%E3%81%AC%E7%B3%B8/6793888333?i=6793888335",
       "previewUrl": null,
-      "chartRank": 10
+      "chartRank": 10,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "6792630529",
@@ -348,7 +612,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E6%81%8B-%E3%81%AF%E3%81%98%E3%82%81%E3%81%BE%E3%81%97%E3%81%9F/6792630528?i=6792630529",
       "previewUrl": null,
-      "chartRank": 7
+      "chartRank": 7,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "6793456212",
@@ -363,7 +639,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E7%BD%AA%E3%81%A8%E7%BD%B0%E3%81%A8%E9%9B%A8%E3%81%A8%E3%82%AD%E3%82%B9-%E4%BD%90%E9%87%8E%E5%8B%87%E6%96%97-%E5%90%89%E7%94%B0%E4%BB%81%E4%BA%BA/6793456209?i=6793456212",
       "previewUrl": null,
-      "chartRank": 54
+      "chartRank": 54,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "6805381440",
@@ -377,7 +665,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E8%9E%BA%E6%97%8B-rasen/6805381112?i=6805381440&uo=4",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/73/4d/0b/734d0bd3-7a18-03c2-2cdc-26a95e2377cc/mzaf_13123445079987661841.plus.aac.p.m4a",
-      "chartRank": null
+      "chartRank": null,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "6792290934",
@@ -391,7 +691,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E3%81%8F%E3%81%A4%E3%81%9A%E3%82%8C/6792290933?i=6792290934&uo=4",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ce/13/17/ce1317d2-7c00-e91c-c67a-0c876bc12cf4/mzaf_8401967235284933190.plus.aac.p.m4a",
-      "chartRank": null
+      "chartRank": null,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "6789046323",
@@ -406,7 +718,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/you-joy-parade/6789046108?i=6789046323",
       "previewUrl": null,
-      "chartRank": 22
+      "chartRank": 22,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "6785367852",
@@ -421,7 +745,24 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E5%A4%9C%E9%B7%B9-yodaka/6785367850?i=6785367852",
       "previewUrl": null,
-      "chartRank": 68
+      "chartRank": 68,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "Kenshi Yonezu",
+        "Yonezu Kenshi",
+        "요네즈 켄시",
+        "요네즈켄시"
+      ],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "6785734870",
@@ -436,7 +777,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E3%83%9E%E3%82%A4%E3%82%AA%E3%83%B3%E3%83%AA%E3%83%BC/6785734869?i=6785734870",
       "previewUrl": null,
-      "chartRank": 8
+      "chartRank": 8,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "6785411720",
@@ -451,7 +804,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E3%82%B0%E3%83%83%E3%82%BF%E3%82%A4%E3%83%A0/6785411719?i=6785411720",
       "previewUrl": null,
-      "chartRank": 84
+      "chartRank": 84,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "6782749979",
@@ -466,7 +831,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/yes-%E6%9D%B1%E4%BA%AC-feat-super-dragon-sakurashimeji-one-n-only-buddiis/6782749976?i=6782749979",
       "previewUrl": null,
-      "chartRank": 1
+      "chartRank": 1,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "6805381667",
@@ -480,7 +857,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/blue-moon/6805381112?i=6805381667&uo=4",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ba/02/76/ba0276c9-625a-bcb7-b723-558d8dae0fcf/mzaf_8000569944347244514.plus.aac.p.m4a",
-      "chartRank": null
+      "chartRank": null,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "6774039202",
@@ -495,7 +884,24 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E7%83%8F-raven/6774039193?i=6774039202",
       "previewUrl": null,
-      "chartRank": 39
+      "chartRank": 39,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "Kenshi Yonezu",
+        "Yonezu Kenshi",
+        "요네즈 켄시",
+        "요네즈켄시"
+      ],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "6762737233",
@@ -510,7 +916,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB%E3%83%91%E3%83%AF%E3%83%BC/1894988524?i=6762737233",
       "previewUrl": null,
-      "chartRank": 16
+      "chartRank": 16,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1892738152",
@@ -526,7 +944,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/bpm-feat-kreva/1892738151?i=1892738152",
       "previewUrl": null,
-      "chartRank": 23
+      "chartRank": 23,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1890060756",
@@ -541,7 +971,21 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E9%A3%9B%E3%81%B6%E6%99%82/1890060754?i=1890060756",
       "previewUrl": null,
-      "chartRank": 98
+      "chartRank": 98,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "바운디"
+      ],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1886375862",
@@ -555,7 +999,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E7%81%AB%E7%A8%AE/1886375861?i=1886375862&uo=4",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4a/35/94/4a359461-7646-4679-84d5-081d63142be0/mzaf_17162912125693911121.plus.aac.p.m4a",
-      "chartRank": null
+      "chartRank": null,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1772865881",
@@ -569,7 +1025,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E3%82%A2%E3%82%A4%E3%83%93%E3%83%BC/1772865879?i=1772865881&uo=4",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/67/e9/71/67e9712d-c9ec-7b80-c473-566e9e7026ca/mzaf_13513832982156126783.plus.aac.p.m4a",
-      "chartRank": null
+      "chartRank": null,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1884257489",
@@ -584,7 +1052,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/bad-girl/1884257488?i=1884257489",
       "previewUrl": null,
-      "chartRank": 66
+      "chartRank": 66,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     }
   ],
   "popularSongs": [
@@ -601,7 +1081,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/yes-%E6%9D%B1%E4%BA%AC-feat-super-dragon-sakurashimeji-one-n-only-buddiis/6782749976?i=6782749979",
       "previewUrl": null,
-      "chartRank": 1
+      "chartRank": 1,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "6803148739",
@@ -617,7 +1109,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E3%81%82%E3%82%8A%E3%81%B5%E3%82%8C%E3%81%9F%E4%B8%96%E7%95%8C%E3%81%AE%E6%9E%9C%E3%81%A6%E3%81%AB-feat-awich-chico-carlito-one-ok-rock-paledusk/6803148720?i=6803148739",
       "previewUrl": null,
-      "chartRank": 3
+      "chartRank": 3,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1739088799",
@@ -632,7 +1136,22 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E3%83%A9%E3%82%A4%E3%83%A9%E3%83%83%E3%82%AF/1739088465?i=1739088799",
       "previewUrl": null,
-      "chartRank": 4
+      "chartRank": 4,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "미세스 그린 애플",
+        "미세스그린애플"
+      ],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1846753946",
@@ -647,7 +1166,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E5%A5%BD%E3%81%8D%E3%81%99%E3%81%8E%E3%81%A6%E6%BB%85/1846753945?i=1846753946",
       "previewUrl": null,
-      "chartRank": 5
+      "chartRank": 5,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "6792630529",
@@ -662,7 +1193,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E6%81%8B-%E3%81%AF%E3%81%98%E3%82%81%E3%81%BE%E3%81%97%E3%81%9F/6792630528?i=6792630529",
       "previewUrl": null,
-      "chartRank": 7
+      "chartRank": 7,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "6785734870",
@@ -677,7 +1220,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E3%83%9E%E3%82%A4%E3%82%AA%E3%83%B3%E3%83%AA%E3%83%BC/6785734869?i=6785734870",
       "previewUrl": null,
-      "chartRank": 8
+      "chartRank": 8,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1837658529",
@@ -692,7 +1247,24 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/iris-out/1837658528?i=1837658529",
       "previewUrl": null,
-      "chartRank": 9
+      "chartRank": 9,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "Kenshi Yonezu",
+        "Yonezu Kenshi",
+        "요네즈 켄시",
+        "요네즈켄시"
+      ],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "6793888335",
@@ -707,7 +1279,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E8%A6%8B%E7%9F%A5%E3%82%89%E3%81%AC%E7%B3%B8/6793888333?i=6793888335",
       "previewUrl": null,
-      "chartRank": 10
+      "chartRank": 10,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1869537742",
@@ -722,7 +1306,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E7%88%86%E8%A3%82%E6%84%9B%E3%81%97%E3%81%A6%E3%82%8B/1869537741?i=1869537742",
       "previewUrl": null,
-      "chartRank": 11
+      "chartRank": 11,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1451570480",
@@ -737,7 +1333,22 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E8%8A%B1%E6%9D%9F/1451570468?i=1451570480",
       "previewUrl": null,
-      "chartRank": 12
+      "chartRank": 12,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "백 넘버",
+        "백넘버"
+      ],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1408505419",
@@ -752,7 +1363,22 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E7%82%B9%E6%8F%8F%E3%81%AE%E5%94%84-feat-%E4%BA%95%E4%B8%8A%E8%8B%91%E5%AD%90/1408505088?i=1408505419",
       "previewUrl": null,
-      "chartRank": 13
+      "chartRank": 13,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "미세스 그린 애플",
+        "미세스그린애플"
+      ],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1451567963",
@@ -767,7 +1393,22 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E9%AB%98%E5%B6%BA%E3%81%AE%E8%8A%B1%E5%AD%90%E3%81%95%E3%82%93/1451567957?i=1451567963",
       "previewUrl": null,
-      "chartRank": 14
+      "chartRank": 14,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "백 넘버",
+        "백넘버"
+      ],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1446781787",
@@ -782,7 +1423,22 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E3%83%9E%E3%83%AA%E3%83%BC%E3%82%B4%E3%83%BC%E3%83%AB%E3%83%89/1446781785?i=1446781787",
       "previewUrl": null,
-      "chartRank": 15
+      "chartRank": 15,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "Aimyon",
+        "아이묭"
+      ],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "6762737233",
@@ -797,7 +1453,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB%E3%83%91%E3%83%AF%E3%83%BC/1894988524?i=6762737233",
       "previewUrl": null,
-      "chartRank": 16
+      "chartRank": 16,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1451567751",
@@ -812,7 +1480,22 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E3%83%8F%E3%83%83%E3%83%94%E3%83%BC%E3%82%A8%E3%83%B3%E3%83%89/1451567750?i=1451567751",
       "previewUrl": null,
-      "chartRank": 17
+      "chartRank": 17,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "백 넘버",
+        "백넘버"
+      ],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1821849522",
@@ -827,7 +1510,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/blue-jeans/1821849174?i=1821849522",
       "previewUrl": null,
-      "chartRank": 18
+      "chartRank": 18,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "6803798494",
@@ -842,7 +1537,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E6%99%82%E7%A9%BA%E8%B6%85%E3%81%88%E3%81%A6%E3%83%A6%E3%83%8B%E3%83%90%E3%83%BC%E3%82%B9/6803798492?i=6803798494",
       "previewUrl": null,
-      "chartRank": 19
+      "chartRank": 19,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1408505264",
@@ -857,7 +1564,22 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E9%9D%92%E3%81%A8%E5%A4%8F/1408505088?i=1408505264",
       "previewUrl": null,
-      "chartRank": 20
+      "chartRank": 20,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "미세스 그린 애플",
+        "미세스그린애플"
+      ],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "6789046323",
@@ -872,7 +1594,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/you-joy-parade/6789046108?i=6789046323",
       "previewUrl": null,
-      "chartRank": 22
+      "chartRank": 22,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1892738152",
@@ -888,7 +1622,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/bpm-feat-kreva/1892738151?i=1892738152",
       "previewUrl": null,
-      "chartRank": 23
+      "chartRank": 23,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1794066813",
@@ -903,7 +1649,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E3%81%A8%E3%81%8F%E3%81%B9%E3%83%81%E3%83%A5-%E3%81%97%E3%81%A6/1794066812?i=1794066813",
       "previewUrl": null,
-      "chartRank": 24
+      "chartRank": 24,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1456063581",
@@ -918,7 +1676,22 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/happy-birthday/1456062834?i=1456063581",
       "previewUrl": null,
-      "chartRank": 25
+      "chartRank": 25,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "백 넘버",
+        "백넘버"
+      ],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "604748203",
@@ -933,7 +1706,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E5%A4%9C%E3%81%AE%E8%B8%8A%E3%82%8A%E5%AD%90/604748196?i=604748203",
       "previewUrl": null,
-      "chartRank": 26
+      "chartRank": 26,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1808852932",
@@ -948,7 +1733,22 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E3%83%96%E3%83%AB%E3%83%BC%E3%82%A2%E3%83%B3%E3%83%90%E3%83%BC/1808852878?i=1808852932",
       "previewUrl": null,
-      "chartRank": 28
+      "chartRank": 28,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "백 넘버",
+        "백넘버"
+      ],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1681600508",
@@ -963,7 +1763,22 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E3%82%B1%E3%82%BB%E3%83%A9%E3%82%BB%E3%83%A9/1681600496?i=1681600508",
       "previewUrl": null,
-      "chartRank": 29
+      "chartRank": 29,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "미세스 그린 애플",
+        "미세스그린애플"
+      ],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1451566361",
@@ -978,7 +1793,22 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E3%83%92%E3%83%AD%E3%82%A4%E3%83%B3/1451566360?i=1451566361",
       "previewUrl": null,
-      "chartRank": 30
+      "chartRank": 30,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "백 넘버",
+        "백넘버"
+      ],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1790599512",
@@ -993,7 +1823,22 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E3%83%80%E3%83%BC%E3%83%AA%E3%83%B3/1790599503?i=1790599512",
       "previewUrl": null,
-      "chartRank": 31
+      "chartRank": 31,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "미세스 그린 애플",
+        "미세스그린애플"
+      ],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1445145789",
@@ -1008,7 +1853,22 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E5%83%95%E3%81%AE%E3%81%93%E3%81%A8/1445145788?i=1445145789",
       "previewUrl": null,
-      "chartRank": 33
+      "chartRank": 33,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "미세스 그린 애플",
+        "미세스그린애플"
+      ],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1579439168",
@@ -1023,7 +1883,22 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E6%B0%B4%E5%B9%B3%E7%B7%9A/1579439167?i=1579439168",
       "previewUrl": null,
-      "chartRank": 34
+      "chartRank": 34,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "백 넘버",
+        "백넘버"
+      ],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1803063210",
@@ -1038,7 +1913,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/rose/1803063207?i=1803063210",
       "previewUrl": null,
-      "chartRank": 35
+      "chartRank": 35,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1394013614",
@@ -1053,7 +1940,24 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/115%E4%B8%87%E3%82%AD%E3%83%AD%E3%81%AE%E3%83%95%E3%82%A3%E3%83%AB%E3%83%A0/1394013451?i=1394013614",
       "previewUrl": null,
-      "chartRank": 36
+      "chartRank": 36,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "Official Hige Dandism",
+        "Higedan",
+        "오피셜히게단디즘",
+        "히게단"
+      ],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "6797407954",
@@ -1068,7 +1972,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/so-honey/6797407951?i=6797407954",
       "previewUrl": null,
-      "chartRank": 37
+      "chartRank": 37,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1459216694",
@@ -1083,7 +1999,24 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/pretender/1459216693?i=1459216694",
       "previewUrl": null,
-      "chartRank": 38
+      "chartRank": 38,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "Official Hige Dandism",
+        "Higedan",
+        "오피셜히게단디즘",
+        "히게단"
+      ],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "6774039202",
@@ -1098,7 +2031,24 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E7%83%8F-raven/6774039193?i=6774039202",
       "previewUrl": null,
-      "chartRank": 39
+      "chartRank": 39,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "Kenshi Yonezu",
+        "Yonezu Kenshi",
+        "요네즈 켄시",
+        "요네즈켄시"
+      ],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1795905600",
@@ -1113,7 +2063,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E6%80%AA%E7%8D%A3/1795905599?i=1795905600",
       "previewUrl": null,
-      "chartRank": 41
+      "chartRank": 41,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1451567084",
@@ -1128,7 +2090,22 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E3%82%8F%E3%81%9F%E3%81%8C%E3%81%97/1451567083?i=1451567084",
       "previewUrl": null,
-      "chartRank": 42
+      "chartRank": 42,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "백 넘버",
+        "백넘버"
+      ],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1627629624",
@@ -1143,7 +2120,22 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E3%83%96%E3%83%AB%E3%83%BC%E3%82%A2%E3%83%B3%E3%83%93%E3%82%A8%E3%83%B3%E3%82%B9-feat-asmi/1627629613?i=1627629624",
       "previewUrl": null,
-      "chartRank": 43
+      "chartRank": 43,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "미세스 그린 애플",
+        "미세스그린애플"
+      ],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1879525016",
@@ -1158,7 +2150,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/five/1879524863?i=1879525016",
       "previewUrl": null,
-      "chartRank": 44
+      "chartRank": 44,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "6801361853",
@@ -1173,7 +2177,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E7%81%B0%E8%89%B2/6801361848?i=6801361853",
       "previewUrl": null,
-      "chartRank": 46
+      "chartRank": 46,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1623304209",
@@ -1188,7 +2204,22 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E3%83%80%E3%83%B3%E3%82%B9%E3%83%9B%E3%83%BC%E3%83%AB/1623304208?i=1623304209",
       "previewUrl": null,
-      "chartRank": 47
+      "chartRank": 47,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "미세스 그린 애플",
+        "미세스그린애플"
+      ],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1706832137",
@@ -1203,7 +2234,21 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E6%80%AA%E7%8D%A3%E3%81%AE%E8%8A%B1%E5%94%84/1706831732?i=1706832137",
       "previewUrl": null,
-      "chartRank": 50
+      "chartRank": 50,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "바운디"
+      ],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1648108988",
@@ -1218,7 +2263,24 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/subtitle/1648108987?i=1648108988",
       "previewUrl": null,
-      "chartRank": 52
+      "chartRank": 52,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "Official Hige Dandism",
+        "Higedan",
+        "오피셜히게단디즘",
+        "히게단"
+      ],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1440763351",
@@ -1233,7 +2295,23 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/automatic-remastered-2014/1440763349?i=1440763351",
       "previewUrl": null,
-      "chartRank": 53
+      "chartRank": 53,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "Hikaru Utada",
+        "Utada Hikaru",
+        "우타다 히카루"
+      ],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "6793456212",
@@ -1248,7 +2326,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E7%BD%AA%E3%81%A8%E7%BD%B0%E3%81%A8%E9%9B%A8%E3%81%A8%E3%82%AD%E3%82%B9-%E4%BD%90%E9%87%8E%E5%8B%87%E6%96%97-%E5%90%89%E7%94%B0%E4%BB%81%E4%BA%BA/6793456209?i=6793456212",
       "previewUrl": null,
-      "chartRank": 54
+      "chartRank": 54,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1534620183",
@@ -1263,7 +2353,23 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E3%83%89%E3%83%A9%E3%82%A4%E3%83%95%E3%83%A9%E3%83%AF%E3%83%BC/1534620182?i=1534620183",
       "previewUrl": null,
-      "chartRank": 55
+      "chartRank": 55,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "Yuuri",
+        "Yuri",
+        "유우리"
+      ],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "316684060",
@@ -1278,7 +2384,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/body-soul/316684058?i=316684060",
       "previewUrl": null,
-      "chartRank": 56
+      "chartRank": 56,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1490256995",
@@ -1293,7 +2411,21 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E5%A4%9C%E3%81%AB%E9%A7%86%E3%81%91%E3%82%8B/1490256978?i=1490256995",
       "previewUrl": null,
-      "chartRank": 57
+      "chartRank": 57,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "요아소비"
+      ],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1440745441",
@@ -1308,7 +2440,22 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/start/1440745429?i=1440745441",
       "previewUrl": null,
-      "chartRank": 58
+      "chartRank": 58,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "미세스 그린 애플",
+        "미세스그린애플"
+      ],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1440747285",
@@ -1323,7 +2470,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E3%83%81%E3%82%A7%E3%83%AA%E3%83%BC/1440746376?i=1440747285",
       "previewUrl": null,
-      "chartRank": 59
+      "chartRank": 59,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1751409888",
@@ -1338,7 +2497,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E7%B5%B6%E5%AF%BE%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB%E8%BE%9E%E3%82%81%E3%81%AA%E3%81%84%E3%81%A7/1751409882?i=1751409888",
       "previewUrl": null,
-      "chartRank": 60
+      "chartRank": 60,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1468137516",
@@ -1353,7 +2524,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/sad-song/1468137281?i=1468137516",
       "previewUrl": null,
-      "chartRank": 61
+      "chartRank": 61,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1273710101",
@@ -1368,7 +2551,22 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E6%84%9B%E3%82%92%E4%BC%9D%E3%81%88%E3%81%9F%E3%81%84%E3%81%A0%E3%81%A8%E3%81%8B/1273709789?i=1273710101",
       "previewUrl": null,
-      "chartRank": 62
+      "chartRank": 62,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "Aimyon",
+        "아이묭"
+      ],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1648411352",
@@ -1383,7 +2581,22 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E3%82%A2%E3%82%A4%E3%83%A9%E3%83%96%E3%83%A6%E3%83%BC/1648411350?i=1648411352",
       "previewUrl": null,
-      "chartRank": 63
+      "chartRank": 63,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "백 넘버",
+        "백넘버"
+      ],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1468137287",
@@ -1398,7 +2611,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/never-grow-up/1468137281?i=1468137287",
       "previewUrl": null,
-      "chartRank": 64
+      "chartRank": 64,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "949250892",
@@ -1413,7 +2638,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/tsunami/949250891?i=949250892",
       "previewUrl": null,
-      "chartRank": 65
+      "chartRank": 65,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1884257489",
@@ -1428,7 +2665,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/bad-girl/1884257488?i=1884257489",
       "previewUrl": null,
-      "chartRank": 66
+      "chartRank": 66,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1538265741",
@@ -1443,7 +2692,24 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/lemon/1538265733?i=1538265741",
       "previewUrl": null,
-      "chartRank": 67
+      "chartRank": 67,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "Kenshi Yonezu",
+        "Yonezu Kenshi",
+        "요네즈 켄시",
+        "요네즈켄시"
+      ],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "6785367852",
@@ -1458,7 +2724,24 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E5%A4%9C%E9%B7%B9-yodaka/6785367850?i=6785367852",
       "previewUrl": null,
-      "chartRank": 68
+      "chartRank": 68,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "Kenshi Yonezu",
+        "Yonezu Kenshi",
+        "요네즈 켄시",
+        "요네즈켄시"
+      ],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1585848051",
@@ -1473,7 +2756,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E3%83%8F%E3%83%AC%E3%83%B3%E3%83%81/1585848047?i=1585848051",
       "previewUrl": null,
-      "chartRank": 69
+      "chartRank": 69,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1273709797",
@@ -1488,7 +2783,22 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E5%90%9B%E3%81%AF%E3%83%AD%E3%83%83%E3%82%AF%E3%82%92%E8%81%B4%E3%81%8B%E3%81%AA%E3%81%84/1273709789?i=1273709797",
       "previewUrl": null,
-      "chartRank": 70
+      "chartRank": 70,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "Aimyon",
+        "아이묭"
+      ],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1438144188",
@@ -1503,7 +2813,22 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E4%BB%8A%E5%A4%9C%E3%81%93%E3%81%AE%E3%81%BE%E3%81%BE/1438144187?i=1438144188",
       "previewUrl": null,
-      "chartRank": 71
+      "chartRank": 71,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "Aimyon",
+        "아이묭"
+      ],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1471459432",
@@ -1518,7 +2843,22 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E3%82%A4%E3%83%B3%E3%83%95%E3%82%A7%E3%83%AB%E3%83%8E/1471459431?i=1471459432",
       "previewUrl": null,
-      "chartRank": 72
+      "chartRank": 72,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "미세스 그린 애플",
+        "미세스그린애플"
+      ],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1821087731",
@@ -1533,7 +2873,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E9%9D%A9%E5%91%BD%E9%81%93%E4%B8%AD-on-the-way/1821087726?i=1821087731",
       "previewUrl": null,
-      "chartRank": 73
+      "chartRank": 73,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "949248404",
@@ -1548,7 +2900,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E7%9C%9F%E5%A4%8F%E3%81%AE%E6%9E%9C%E5%AE%9F/949248376?i=949248404",
       "previewUrl": null,
-      "chartRank": 74
+      "chartRank": 74,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1479397583",
@@ -1563,7 +2927,24 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E3%82%A4%E3%82%A8%E3%82%B9%E3%82%BF%E3%83%87%E3%82%A4/1479397582?i=1479397583",
       "previewUrl": null,
-      "chartRank": 75
+      "chartRank": 75,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "Official Hige Dandism",
+        "Higedan",
+        "오피셜히게단디즘",
+        "히게단"
+      ],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1528119630",
@@ -1578,7 +2959,21 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E7%BE%A4%E9%9D%92/1528119626?i=1528119630",
       "previewUrl": null,
-      "chartRank": 76
+      "chartRank": 76,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "요아소비"
+      ],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1874221480",
@@ -1593,7 +2988,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E5%8A%87%E8%96%AC%E4%B8%AD%E6%AF%92/1874221478?i=1874221480",
       "previewUrl": null,
-      "chartRank": 77
+      "chartRank": 77,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1733130377",
@@ -1608,7 +3015,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E6%BA%80%E3%81%A1%E3%81%A6%E3%82%86%E3%81%8F/1733129984?i=1733130377",
       "previewUrl": null,
-      "chartRank": 78
+      "chartRank": 78,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1564752145",
@@ -1623,7 +3042,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E3%81%8D%E3%82%89%E3%82%8A/1564752132?i=1564752145",
       "previewUrl": null,
-      "chartRank": 79
+      "chartRank": 79,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1840081736",
@@ -1638,7 +3069,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/jane-doe/1840081735?i=1840081736",
       "previewUrl": null,
-      "chartRank": 80
+      "chartRank": 80,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1375007474",
@@ -1654,7 +3097,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/hanabi/1375007287?i=1375007474",
       "previewUrl": null,
-      "chartRank": 81
+      "chartRank": 81,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1804230388",
@@ -1669,7 +3124,22 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E3%82%AF%E3%82%B9%E3%82%B7%E3%82%AD/1804230382?i=1804230388",
       "previewUrl": null,
-      "chartRank": 82
+      "chartRank": 82,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "미세스 그린 애플",
+        "미세스그린애플"
+      ],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1566811795",
@@ -1684,7 +3154,22 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E6%80%AA%E7%9B%97/1566811794?i=1566811795",
       "previewUrl": null,
-      "chartRank": 83
+      "chartRank": 83,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "백 넘버",
+        "백넘버"
+      ],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "6785411720",
@@ -1699,7 +3184,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E3%82%B0%E3%83%83%E3%82%BF%E3%82%A4%E3%83%A0/6785411719?i=6785411720",
       "previewUrl": null,
-      "chartRank": 84
+      "chartRank": 84,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1808822211",
@@ -1714,7 +3211,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/tiger/1808822132?i=1808822211",
       "previewUrl": null,
-      "chartRank": 85
+      "chartRank": 85,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1485857408",
@@ -1729,7 +3238,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/love-so-sweet/1485857244?i=1485857408",
       "previewUrl": null,
-      "chartRank": 86
+      "chartRank": 86,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1807959956",
@@ -1744,7 +3265,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E5%A4%A2%E4%B8%AD/1807959955?i=1807959956",
       "previewUrl": null,
-      "chartRank": 87
+      "chartRank": 87,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "6802879422",
@@ -1759,7 +3292,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/show-time/6802879262?i=6802879422",
       "previewUrl": null,
-      "chartRank": 88
+      "chartRank": 88,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1470899806",
@@ -1774,7 +3319,24 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E5%AE%BF%E5%91%BD/1470899805?i=1470899806",
       "previewUrl": null,
-      "chartRank": 91
+      "chartRank": 91,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "Official Hige Dandism",
+        "Higedan",
+        "오피셜히게단디즘",
+        "히게단"
+      ],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1454643219",
@@ -1789,7 +3351,22 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E3%83%AD%E3%83%9E%E3%83%B3%E3%83%81%E3%82%B7%E3%82%BA%E3%83%A0/1454643208?i=1454643219",
       "previewUrl": null,
-      "chartRank": 92
+      "chartRank": 92,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "미세스 그린 애플",
+        "미세스그린애플"
+      ],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "947748526",
@@ -1804,7 +3381,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E3%81%84%E3%81%A8%E3%81%97%E3%81%AE%E3%82%A8%E3%83%AA%E3%83%BC/947748513?i=947748526",
       "previewUrl": null,
-      "chartRank": 93
+      "chartRank": 93,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1083422439",
@@ -1820,7 +3409,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E6%B3%A2%E4%B9%97%E3%82%8A%E3%82%B8%E3%83%A7%E3%83%8B%E3%83%BC/1083422435?i=1083422439",
       "previewUrl": null,
-      "chartRank": 94
+      "chartRank": 94,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1440763358",
@@ -1835,7 +3436,23 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/first-love-remastered-2014/1440763349?i=1440763358",
       "previewUrl": null,
-      "chartRank": 95
+      "chartRank": 95,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "Hikaru Utada",
+        "Utada Hikaru",
+        "우타다 히카루"
+      ],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1794499543",
@@ -1850,7 +3467,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E3%82%A4%E3%82%A4%E3%81%98%E3%82%83%E3%82%93/1794499542?i=1794499543",
       "previewUrl": null,
-      "chartRank": 96
+      "chartRank": 96,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "273169347",
@@ -1866,7 +3495,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E5%B0%8F%E3%81%95%E3%81%AA%E6%81%8B%E3%81%AE%E3%81%86%E3%81%9F/273169161?i=273169347",
       "previewUrl": null,
-      "chartRank": 97
+      "chartRank": 97,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1890060756",
@@ -1881,7 +3522,21 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E9%A3%9B%E3%81%B6%E6%99%82/1890060754?i=1890060756",
       "previewUrl": null,
-      "chartRank": 98
+      "chartRank": 98,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "바운디"
+      ],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1518845612",
@@ -1896,7 +3551,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E3%82%B9%E3%83%91%E3%83%BC%E3%82%AF%E3%83%AB/1518843994?i=1518845612",
       "previewUrl": null,
-      "chartRank": 99
+      "chartRank": 99,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1854334753",
@@ -1911,7 +3578,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/non-stop/1854334752?i=1854334753",
       "previewUrl": null,
-      "chartRank": 100
+      "chartRank": 100,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     }
   ],
   "songs": [
@@ -1927,7 +3606,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E6%83%85%E7%86%B1/6805860674?i=6805860676&uo=4",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/69/6e/50/696e5006-c0a9-3790-9877-816dc0a564f7/mzaf_1467985167900065570.plus.aac.p.m4a",
-      "chartRank": null
+      "chartRank": null,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "6805860680",
@@ -1941,7 +3632,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E6%82%B2%E3%81%97%E3%81%84%E8%89%B2%E3%82%84%E3%81%AD/6805860674?i=6805860680&uo=4",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c6/70/4a/c6704a27-89f8-ca53-f0b0-70d9d48ab834/mzaf_4585425141484196580.plus.aac.p.m4a",
-      "chartRank": null
+      "chartRank": null,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "6805860931",
@@ -1955,7 +3658,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E3%83%AF%E3%82%A4%E3%83%B3%E3%83%AC%E3%83%83%E3%83%89%E3%81%AE%E5%BF%83/6805860674?i=6805860931&uo=4",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e6/d9/82/e6d98214-4967-8d74-6fde-750518583529/mzaf_17200903566364438282.plus.aac.p.m4a",
-      "chartRank": null
+      "chartRank": null,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "6805860932",
@@ -1969,7 +3684,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E3%82%AE%E3%83%96%E3%82%B9/6805860674?i=6805860932&uo=4",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2e/d7/c5/2ed7c5db-27cc-dfce-57c0-4908ae1f4d51/mzaf_14128638112934327608.plus.aac.p.m4a",
-      "chartRank": null
+      "chartRank": null,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "6805860938",
@@ -1983,7 +3710,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E5%8C%96%E7%B2%A7/6805860674?i=6805860938&uo=4",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/24/49/bf/2449bf6f-5561-ecf4-5bb8-232dd66d4d2c/mzaf_516408488261631470.plus.aac.p.m4a",
-      "chartRank": null
+      "chartRank": null,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "6805860939",
@@ -1997,7 +3736,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/if-i-aint-got-you/6805860674?i=6805860939&uo=4",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b1/be/c9/b1bec9a3-d213-6071-1006-48bffb5402b9/mzaf_4017374148812042075.plus.aac.p.m4a",
-      "chartRank": null
+      "chartRank": null,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "6805860941",
@@ -2011,7 +3762,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E7%AC%91%E3%81%88%E3%82%8C%E3%81%B0/6805860674?i=6805860941&uo=4",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ab/a6/fc/aba6fcae-3d35-8f28-ec61-e12527b45fc6/mzaf_11196269575813957408.plus.aac.p.m4a",
-      "chartRank": null
+      "chartRank": null,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "6805860942",
@@ -2025,7 +3788,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E3%81%8F%E3%81%9B%E3%81%AE%E3%81%86%E3%81%9F/6805860674?i=6805860942&uo=4",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/bc/7a/0d/bc7a0d3b-2fbf-25b2-047a-efd683b85cce/mzaf_1969440524893075721.plus.aac.p.m4a",
-      "chartRank": null
+      "chartRank": null,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "6805860944",
@@ -2039,7 +3814,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E3%83%80%E3%83%B3%E3%82%B9%E3%83%9B%E3%83%BC%E3%83%AB/6805860674?i=6805860944&uo=4",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/32/e8/c0/32e8c0a0-9048-36e9-8803-6fbdff09a909/mzaf_2317350851494462058.plus.aac.p.m4a",
-      "chartRank": null
+      "chartRank": null,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "6805852587",
@@ -2053,7 +3840,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E5%97%9A%E5%91%BC-%E7%B4%A0%E6%99%B4%E3%82%89%E3%81%97%E3%81%8D%E6%97%A5%E5%B8%B8/6805852584?i=6805852587&uo=4",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/9b/7e/3c/9b7e3c27-f453-0603-adc0-1002bce28fe2/mzaf_5191978410703063238.plus.aac.p.m4a",
-      "chartRank": null
+      "chartRank": null,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "6805852588",
@@ -2067,7 +3866,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E3%81%9F%E3%81%A0%E3%81%84%E3%81%BE/6805852584?i=6805852588&uo=4",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0f/23/4e/0f234e36-ab81-1ef0-f5d2-f69b836b0d4e/mzaf_6568452588562099374.plus.aac.p.m4a",
-      "chartRank": null
+      "chartRank": null,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "6805852589",
@@ -2081,7 +3892,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E5%97%9A%E5%91%BC-%E7%B4%A0%E6%99%B4%E3%82%89%E3%81%97%E3%81%8D%E6%97%A5%E5%B8%B8-instrumental/6805852584?i=6805852589&uo=4",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/16/58/77/16587721-4313-04b9-8710-78e467d4ccec/mzaf_9787822480127424986.plus.aac.p.m4a",
-      "chartRank": null
+      "chartRank": null,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "6805852590",
@@ -2095,7 +3918,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E3%81%9F%E3%81%A0%E3%81%84%E3%81%BE-instrumental/6805852584?i=6805852590&uo=4",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3d/2d/21/3d2d21bf-d1fc-f10f-9be1-c913d981e9c1/mzaf_18227469370271265618.plus.aac.p.m4a",
-      "chartRank": null
+      "chartRank": null,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "6805381677",
@@ -2109,7 +3944,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E8%9E%BA%E6%97%8B-rasen-anime-size/6805381112?i=6805381677&uo=4",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f3/30/ba/f330ba05-d3d0-67aa-b5ae-3eedc7aa8d81/mzaf_5968568394640707209.plus.aac.p.m4a",
-      "chartRank": null
+      "chartRank": null,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "6805381679",
@@ -2123,7 +3970,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E8%9E%BA%E6%97%8B-rasen-instrumental/6805381112?i=6805381679&uo=4",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/49/72/98/49729802-0b17-b25a-6931-ded48fe09689/mzaf_574656542532898576.plus.aac.p.m4a",
-      "chartRank": null
+      "chartRank": null,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "6803148739",
@@ -2139,7 +3998,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E3%81%82%E3%82%8A%E3%81%B5%E3%82%8C%E3%81%9F%E4%B8%96%E7%95%8C%E3%81%AE%E6%9E%9C%E3%81%A6%E3%81%AB-feat-awich-chico-carlito-one-ok-rock-paledusk/6803148720?i=6803148739",
       "previewUrl": null,
-      "chartRank": 3
+      "chartRank": 3,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "6797407954",
@@ -2154,7 +4025,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/so-honey/6797407951?i=6797407954",
       "previewUrl": null,
-      "chartRank": 37
+      "chartRank": 37,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "6805381450",
@@ -2168,7 +4051,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E8%B6%B3%E8%B7%A1-brave-the-unknown/6805381112?i=6805381450&uo=4",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d9/a0/04/d9a004db-6afe-5ed0-c0eb-7624d510a5cd/mzaf_14260663404301691466.plus.aac.p.m4a",
-      "chartRank": null
+      "chartRank": null,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "6801361853",
@@ -2183,7 +4078,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E7%81%B0%E8%89%B2/6801361848?i=6801361853",
       "previewUrl": null,
-      "chartRank": 46
+      "chartRank": 46,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "6802879422",
@@ -2198,7 +4105,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/show-time/6802879262?i=6802879422",
       "previewUrl": null,
-      "chartRank": 88
+      "chartRank": 88,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "6805381672",
@@ -2212,7 +4131,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E8%9E%BA%E6%97%8B-rasen-acoustic-ver/6805381112?i=6805381672&uo=4",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ca/28/e0/ca28e08c-8311-625c-8ff2-49a72242ecef/mzaf_1582747785693421163.plus.aac.p.m4a",
-      "chartRank": null
+      "chartRank": null,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "6793888335",
@@ -2227,7 +4158,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E8%A6%8B%E7%9F%A5%E3%82%89%E3%81%AC%E7%B3%B8/6793888333?i=6793888335",
       "previewUrl": null,
-      "chartRank": 10
+      "chartRank": 10,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "6792630529",
@@ -2242,7 +4185,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E6%81%8B-%E3%81%AF%E3%81%98%E3%82%81%E3%81%BE%E3%81%97%E3%81%9F/6792630528?i=6792630529",
       "previewUrl": null,
-      "chartRank": 7
+      "chartRank": 7,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "6793456212",
@@ -2257,7 +4212,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E7%BD%AA%E3%81%A8%E7%BD%B0%E3%81%A8%E9%9B%A8%E3%81%A8%E3%82%AD%E3%82%B9-%E4%BD%90%E9%87%8E%E5%8B%87%E6%96%97-%E5%90%89%E7%94%B0%E4%BB%81%E4%BA%BA/6793456209?i=6793456212",
       "previewUrl": null,
-      "chartRank": 54
+      "chartRank": 54,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "6805381440",
@@ -2271,7 +4238,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E8%9E%BA%E6%97%8B-rasen/6805381112?i=6805381440&uo=4",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/73/4d/0b/734d0bd3-7a18-03c2-2cdc-26a95e2377cc/mzaf_13123445079987661841.plus.aac.p.m4a",
-      "chartRank": null
+      "chartRank": null,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "6792290934",
@@ -2285,7 +4264,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E3%81%8F%E3%81%A4%E3%81%9A%E3%82%8C/6792290933?i=6792290934&uo=4",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ce/13/17/ce1317d2-7c00-e91c-c67a-0c876bc12cf4/mzaf_8401967235284933190.plus.aac.p.m4a",
-      "chartRank": null
+      "chartRank": null,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "6789046323",
@@ -2300,7 +4291,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/you-joy-parade/6789046108?i=6789046323",
       "previewUrl": null,
-      "chartRank": 22
+      "chartRank": 22,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "6785367852",
@@ -2315,7 +4318,24 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E5%A4%9C%E9%B7%B9-yodaka/6785367850?i=6785367852",
       "previewUrl": null,
-      "chartRank": 68
+      "chartRank": 68,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "Kenshi Yonezu",
+        "Yonezu Kenshi",
+        "요네즈 켄시",
+        "요네즈켄시"
+      ],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "6785734870",
@@ -2330,7 +4350,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E3%83%9E%E3%82%A4%E3%82%AA%E3%83%B3%E3%83%AA%E3%83%BC/6785734869?i=6785734870",
       "previewUrl": null,
-      "chartRank": 8
+      "chartRank": 8,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "6785411720",
@@ -2345,7 +4377,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E3%82%B0%E3%83%83%E3%82%BF%E3%82%A4%E3%83%A0/6785411719?i=6785411720",
       "previewUrl": null,
-      "chartRank": 84
+      "chartRank": 84,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "6782749979",
@@ -2360,7 +4404,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/yes-%E6%9D%B1%E4%BA%AC-feat-super-dragon-sakurashimeji-one-n-only-buddiis/6782749976?i=6782749979",
       "previewUrl": null,
-      "chartRank": 1
+      "chartRank": 1,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "6805381667",
@@ -2374,7 +4430,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/blue-moon/6805381112?i=6805381667&uo=4",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ba/02/76/ba0276c9-625a-bcb7-b723-558d8dae0fcf/mzaf_8000569944347244514.plus.aac.p.m4a",
-      "chartRank": null
+      "chartRank": null,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "6774039202",
@@ -2389,7 +4457,24 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E7%83%8F-raven/6774039193?i=6774039202",
       "previewUrl": null,
-      "chartRank": 39
+      "chartRank": 39,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "Kenshi Yonezu",
+        "Yonezu Kenshi",
+        "요네즈 켄시",
+        "요네즈켄시"
+      ],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "6762737233",
@@ -2404,7 +4489,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB%E3%83%91%E3%83%AF%E3%83%BC/1894988524?i=6762737233",
       "previewUrl": null,
-      "chartRank": 16
+      "chartRank": 16,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1892738152",
@@ -2420,7 +4517,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/bpm-feat-kreva/1892738151?i=1892738152",
       "previewUrl": null,
-      "chartRank": 23
+      "chartRank": 23,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1890060756",
@@ -2435,7 +4544,21 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E9%A3%9B%E3%81%B6%E6%99%82/1890060754?i=1890060756",
       "previewUrl": null,
-      "chartRank": 98
+      "chartRank": 98,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "바운디"
+      ],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1886375862",
@@ -2449,7 +4572,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E7%81%AB%E7%A8%AE/1886375861?i=1886375862&uo=4",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4a/35/94/4a359461-7646-4679-84d5-081d63142be0/mzaf_17162912125693911121.plus.aac.p.m4a",
-      "chartRank": null
+      "chartRank": null,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1772865881",
@@ -2463,7 +4598,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E3%82%A2%E3%82%A4%E3%83%93%E3%83%BC/1772865879?i=1772865881&uo=4",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/67/e9/71/67e9712d-c9ec-7b80-c473-566e9e7026ca/mzaf_13513832982156126783.plus.aac.p.m4a",
-      "chartRank": null
+      "chartRank": null,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1884257489",
@@ -2478,7 +4625,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/bad-girl/1884257488?i=1884257489",
       "previewUrl": null,
-      "chartRank": 66
+      "chartRank": 66,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1739088799",
@@ -2493,7 +4652,22 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E3%83%A9%E3%82%A4%E3%83%A9%E3%83%83%E3%82%AF/1739088465?i=1739088799",
       "previewUrl": null,
-      "chartRank": 4
+      "chartRank": 4,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "미세스 그린 애플",
+        "미세스그린애플"
+      ],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1846753946",
@@ -2508,7 +4682,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E5%A5%BD%E3%81%8D%E3%81%99%E3%81%8E%E3%81%A6%E6%BB%85/1846753945?i=1846753946",
       "previewUrl": null,
-      "chartRank": 5
+      "chartRank": 5,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1837658529",
@@ -2523,7 +4709,24 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/iris-out/1837658528?i=1837658529",
       "previewUrl": null,
-      "chartRank": 9
+      "chartRank": 9,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "Kenshi Yonezu",
+        "Yonezu Kenshi",
+        "요네즈 켄시",
+        "요네즈켄시"
+      ],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1869537742",
@@ -2538,7 +4741,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E7%88%86%E8%A3%82%E6%84%9B%E3%81%97%E3%81%A6%E3%82%8B/1869537741?i=1869537742",
       "previewUrl": null,
-      "chartRank": 11
+      "chartRank": 11,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1451570480",
@@ -2553,7 +4768,22 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E8%8A%B1%E6%9D%9F/1451570468?i=1451570480",
       "previewUrl": null,
-      "chartRank": 12
+      "chartRank": 12,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "백 넘버",
+        "백넘버"
+      ],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1408505419",
@@ -2568,7 +4798,22 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E7%82%B9%E6%8F%8F%E3%81%AE%E5%94%84-feat-%E4%BA%95%E4%B8%8A%E8%8B%91%E5%AD%90/1408505088?i=1408505419",
       "previewUrl": null,
-      "chartRank": 13
+      "chartRank": 13,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "미세스 그린 애플",
+        "미세스그린애플"
+      ],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1451567963",
@@ -2583,7 +4828,22 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E9%AB%98%E5%B6%BA%E3%81%AE%E8%8A%B1%E5%AD%90%E3%81%95%E3%82%93/1451567957?i=1451567963",
       "previewUrl": null,
-      "chartRank": 14
+      "chartRank": 14,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "백 넘버",
+        "백넘버"
+      ],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1446781787",
@@ -2598,7 +4858,22 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E3%83%9E%E3%83%AA%E3%83%BC%E3%82%B4%E3%83%BC%E3%83%AB%E3%83%89/1446781785?i=1446781787",
       "previewUrl": null,
-      "chartRank": 15
+      "chartRank": 15,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "Aimyon",
+        "아이묭"
+      ],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1451567751",
@@ -2613,7 +4888,22 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E3%83%8F%E3%83%83%E3%83%94%E3%83%BC%E3%82%A8%E3%83%B3%E3%83%89/1451567750?i=1451567751",
       "previewUrl": null,
-      "chartRank": 17
+      "chartRank": 17,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "백 넘버",
+        "백넘버"
+      ],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1821849522",
@@ -2628,7 +4918,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/blue-jeans/1821849174?i=1821849522",
       "previewUrl": null,
-      "chartRank": 18
+      "chartRank": 18,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "6803798494",
@@ -2643,7 +4945,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E6%99%82%E7%A9%BA%E8%B6%85%E3%81%88%E3%81%A6%E3%83%A6%E3%83%8B%E3%83%90%E3%83%BC%E3%82%B9/6803798492?i=6803798494",
       "previewUrl": null,
-      "chartRank": 19
+      "chartRank": 19,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1408505264",
@@ -2658,7 +4972,22 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E9%9D%92%E3%81%A8%E5%A4%8F/1408505088?i=1408505264",
       "previewUrl": null,
-      "chartRank": 20
+      "chartRank": 20,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "미세스 그린 애플",
+        "미세스그린애플"
+      ],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1794066813",
@@ -2673,7 +5002,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E3%81%A8%E3%81%8F%E3%81%B9%E3%83%81%E3%83%A5-%E3%81%97%E3%81%A6/1794066812?i=1794066813",
       "previewUrl": null,
-      "chartRank": 24
+      "chartRank": 24,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1456063581",
@@ -2688,7 +5029,22 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/happy-birthday/1456062834?i=1456063581",
       "previewUrl": null,
-      "chartRank": 25
+      "chartRank": 25,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "백 넘버",
+        "백넘버"
+      ],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "604748203",
@@ -2703,7 +5059,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E5%A4%9C%E3%81%AE%E8%B8%8A%E3%82%8A%E5%AD%90/604748196?i=604748203",
       "previewUrl": null,
-      "chartRank": 26
+      "chartRank": 26,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1808852932",
@@ -2718,7 +5086,22 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E3%83%96%E3%83%AB%E3%83%BC%E3%82%A2%E3%83%B3%E3%83%90%E3%83%BC/1808852878?i=1808852932",
       "previewUrl": null,
-      "chartRank": 28
+      "chartRank": 28,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "백 넘버",
+        "백넘버"
+      ],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1681600508",
@@ -2733,7 +5116,22 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E3%82%B1%E3%82%BB%E3%83%A9%E3%82%BB%E3%83%A9/1681600496?i=1681600508",
       "previewUrl": null,
-      "chartRank": 29
+      "chartRank": 29,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "미세스 그린 애플",
+        "미세스그린애플"
+      ],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1451566361",
@@ -2748,7 +5146,22 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E3%83%92%E3%83%AD%E3%82%A4%E3%83%B3/1451566360?i=1451566361",
       "previewUrl": null,
-      "chartRank": 30
+      "chartRank": 30,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "백 넘버",
+        "백넘버"
+      ],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1790599512",
@@ -2763,7 +5176,22 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E3%83%80%E3%83%BC%E3%83%AA%E3%83%B3/1790599503?i=1790599512",
       "previewUrl": null,
-      "chartRank": 31
+      "chartRank": 31,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "미세스 그린 애플",
+        "미세스그린애플"
+      ],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1445145789",
@@ -2778,7 +5206,22 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E5%83%95%E3%81%AE%E3%81%93%E3%81%A8/1445145788?i=1445145789",
       "previewUrl": null,
-      "chartRank": 33
+      "chartRank": 33,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "미세스 그린 애플",
+        "미세스그린애플"
+      ],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1579439168",
@@ -2793,7 +5236,22 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E6%B0%B4%E5%B9%B3%E7%B7%9A/1579439167?i=1579439168",
       "previewUrl": null,
-      "chartRank": 34
+      "chartRank": 34,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "백 넘버",
+        "백넘버"
+      ],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1803063210",
@@ -2808,7 +5266,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/rose/1803063207?i=1803063210",
       "previewUrl": null,
-      "chartRank": 35
+      "chartRank": 35,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1394013614",
@@ -2823,7 +5293,24 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/115%E4%B8%87%E3%82%AD%E3%83%AD%E3%81%AE%E3%83%95%E3%82%A3%E3%83%AB%E3%83%A0/1394013451?i=1394013614",
       "previewUrl": null,
-      "chartRank": 36
+      "chartRank": 36,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "Official Hige Dandism",
+        "Higedan",
+        "오피셜히게단디즘",
+        "히게단"
+      ],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1459216694",
@@ -2838,7 +5325,24 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/pretender/1459216693?i=1459216694",
       "previewUrl": null,
-      "chartRank": 38
+      "chartRank": 38,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "Official Hige Dandism",
+        "Higedan",
+        "오피셜히게단디즘",
+        "히게단"
+      ],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1795905600",
@@ -2853,7 +5357,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E6%80%AA%E7%8D%A3/1795905599?i=1795905600",
       "previewUrl": null,
-      "chartRank": 41
+      "chartRank": 41,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1451567084",
@@ -2868,7 +5384,22 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E3%82%8F%E3%81%9F%E3%81%8C%E3%81%97/1451567083?i=1451567084",
       "previewUrl": null,
-      "chartRank": 42
+      "chartRank": 42,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "백 넘버",
+        "백넘버"
+      ],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1627629624",
@@ -2883,7 +5414,22 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E3%83%96%E3%83%AB%E3%83%BC%E3%82%A2%E3%83%B3%E3%83%93%E3%82%A8%E3%83%B3%E3%82%B9-feat-asmi/1627629613?i=1627629624",
       "previewUrl": null,
-      "chartRank": 43
+      "chartRank": 43,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "미세스 그린 애플",
+        "미세스그린애플"
+      ],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1879525016",
@@ -2898,7 +5444,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/five/1879524863?i=1879525016",
       "previewUrl": null,
-      "chartRank": 44
+      "chartRank": 44,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1623304209",
@@ -2913,7 +5471,22 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E3%83%80%E3%83%B3%E3%82%B9%E3%83%9B%E3%83%BC%E3%83%AB/1623304208?i=1623304209",
       "previewUrl": null,
-      "chartRank": 47
+      "chartRank": 47,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "미세스 그린 애플",
+        "미세스그린애플"
+      ],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1706832137",
@@ -2928,7 +5501,21 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E6%80%AA%E7%8D%A3%E3%81%AE%E8%8A%B1%E5%94%84/1706831732?i=1706832137",
       "previewUrl": null,
-      "chartRank": 50
+      "chartRank": 50,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "바운디"
+      ],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1648108988",
@@ -2943,7 +5530,24 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/subtitle/1648108987?i=1648108988",
       "previewUrl": null,
-      "chartRank": 52
+      "chartRank": 52,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "Official Hige Dandism",
+        "Higedan",
+        "오피셜히게단디즘",
+        "히게단"
+      ],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1440763351",
@@ -2958,7 +5562,23 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/automatic-remastered-2014/1440763349?i=1440763351",
       "previewUrl": null,
-      "chartRank": 53
+      "chartRank": 53,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "Hikaru Utada",
+        "Utada Hikaru",
+        "우타다 히카루"
+      ],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1534620183",
@@ -2973,7 +5593,23 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E3%83%89%E3%83%A9%E3%82%A4%E3%83%95%E3%83%A9%E3%83%AF%E3%83%BC/1534620182?i=1534620183",
       "previewUrl": null,
-      "chartRank": 55
+      "chartRank": 55,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "Yuuri",
+        "Yuri",
+        "유우리"
+      ],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "316684060",
@@ -2988,7 +5624,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/body-soul/316684058?i=316684060",
       "previewUrl": null,
-      "chartRank": 56
+      "chartRank": 56,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1490256995",
@@ -3003,7 +5651,21 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E5%A4%9C%E3%81%AB%E9%A7%86%E3%81%91%E3%82%8B/1490256978?i=1490256995",
       "previewUrl": null,
-      "chartRank": 57
+      "chartRank": 57,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "요아소비"
+      ],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1440745441",
@@ -3018,7 +5680,22 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/start/1440745429?i=1440745441",
       "previewUrl": null,
-      "chartRank": 58
+      "chartRank": 58,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "미세스 그린 애플",
+        "미세스그린애플"
+      ],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1440747285",
@@ -3033,7 +5710,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E3%83%81%E3%82%A7%E3%83%AA%E3%83%BC/1440746376?i=1440747285",
       "previewUrl": null,
-      "chartRank": 59
+      "chartRank": 59,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1751409888",
@@ -3048,7 +5737,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E7%B5%B6%E5%AF%BE%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB%E8%BE%9E%E3%82%81%E3%81%AA%E3%81%84%E3%81%A7/1751409882?i=1751409888",
       "previewUrl": null,
-      "chartRank": 60
+      "chartRank": 60,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1468137516",
@@ -3063,7 +5764,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/sad-song/1468137281?i=1468137516",
       "previewUrl": null,
-      "chartRank": 61
+      "chartRank": 61,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1273710101",
@@ -3078,7 +5791,22 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E6%84%9B%E3%82%92%E4%BC%9D%E3%81%88%E3%81%9F%E3%81%84%E3%81%A0%E3%81%A8%E3%81%8B/1273709789?i=1273710101",
       "previewUrl": null,
-      "chartRank": 62
+      "chartRank": 62,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "Aimyon",
+        "아이묭"
+      ],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1648411352",
@@ -3093,7 +5821,22 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E3%82%A2%E3%82%A4%E3%83%A9%E3%83%96%E3%83%A6%E3%83%BC/1648411350?i=1648411352",
       "previewUrl": null,
-      "chartRank": 63
+      "chartRank": 63,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "백 넘버",
+        "백넘버"
+      ],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1468137287",
@@ -3108,7 +5851,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/never-grow-up/1468137281?i=1468137287",
       "previewUrl": null,
-      "chartRank": 64
+      "chartRank": 64,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "949250892",
@@ -3123,7 +5878,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/tsunami/949250891?i=949250892",
       "previewUrl": null,
-      "chartRank": 65
+      "chartRank": 65,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1538265741",
@@ -3138,7 +5905,24 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/lemon/1538265733?i=1538265741",
       "previewUrl": null,
-      "chartRank": 67
+      "chartRank": 67,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "Kenshi Yonezu",
+        "Yonezu Kenshi",
+        "요네즈 켄시",
+        "요네즈켄시"
+      ],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1585848051",
@@ -3153,7 +5937,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E3%83%8F%E3%83%AC%E3%83%B3%E3%83%81/1585848047?i=1585848051",
       "previewUrl": null,
-      "chartRank": 69
+      "chartRank": 69,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1273709797",
@@ -3168,7 +5964,22 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E5%90%9B%E3%81%AF%E3%83%AD%E3%83%83%E3%82%AF%E3%82%92%E8%81%B4%E3%81%8B%E3%81%AA%E3%81%84/1273709789?i=1273709797",
       "previewUrl": null,
-      "chartRank": 70
+      "chartRank": 70,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "Aimyon",
+        "아이묭"
+      ],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1438144188",
@@ -3183,7 +5994,22 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E4%BB%8A%E5%A4%9C%E3%81%93%E3%81%AE%E3%81%BE%E3%81%BE/1438144187?i=1438144188",
       "previewUrl": null,
-      "chartRank": 71
+      "chartRank": 71,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "Aimyon",
+        "아이묭"
+      ],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1471459432",
@@ -3198,7 +6024,22 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E3%82%A4%E3%83%B3%E3%83%95%E3%82%A7%E3%83%AB%E3%83%8E/1471459431?i=1471459432",
       "previewUrl": null,
-      "chartRank": 72
+      "chartRank": 72,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "미세스 그린 애플",
+        "미세스그린애플"
+      ],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1821087731",
@@ -3213,7 +6054,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E9%9D%A9%E5%91%BD%E9%81%93%E4%B8%AD-on-the-way/1821087726?i=1821087731",
       "previewUrl": null,
-      "chartRank": 73
+      "chartRank": 73,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "949248404",
@@ -3228,7 +6081,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E7%9C%9F%E5%A4%8F%E3%81%AE%E6%9E%9C%E5%AE%9F/949248376?i=949248404",
       "previewUrl": null,
-      "chartRank": 74
+      "chartRank": 74,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1479397583",
@@ -3243,7 +6108,24 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E3%82%A4%E3%82%A8%E3%82%B9%E3%82%BF%E3%83%87%E3%82%A4/1479397582?i=1479397583",
       "previewUrl": null,
-      "chartRank": 75
+      "chartRank": 75,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "Official Hige Dandism",
+        "Higedan",
+        "오피셜히게단디즘",
+        "히게단"
+      ],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1528119630",
@@ -3258,7 +6140,21 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E7%BE%A4%E9%9D%92/1528119626?i=1528119630",
       "previewUrl": null,
-      "chartRank": 76
+      "chartRank": 76,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "요아소비"
+      ],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1874221480",
@@ -3273,7 +6169,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E5%8A%87%E8%96%AC%E4%B8%AD%E6%AF%92/1874221478?i=1874221480",
       "previewUrl": null,
-      "chartRank": 77
+      "chartRank": 77,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1733130377",
@@ -3288,7 +6196,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E6%BA%80%E3%81%A1%E3%81%A6%E3%82%86%E3%81%8F/1733129984?i=1733130377",
       "previewUrl": null,
-      "chartRank": 78
+      "chartRank": 78,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1564752145",
@@ -3303,7 +6223,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E3%81%8D%E3%82%89%E3%82%8A/1564752132?i=1564752145",
       "previewUrl": null,
-      "chartRank": 79
+      "chartRank": 79,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1840081736",
@@ -3318,7 +6250,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/jane-doe/1840081735?i=1840081736",
       "previewUrl": null,
-      "chartRank": 80
+      "chartRank": 80,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1375007474",
@@ -3334,7 +6278,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/hanabi/1375007287?i=1375007474",
       "previewUrl": null,
-      "chartRank": 81
+      "chartRank": 81,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1804230388",
@@ -3349,7 +6305,22 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E3%82%AF%E3%82%B9%E3%82%B7%E3%82%AD/1804230382?i=1804230388",
       "previewUrl": null,
-      "chartRank": 82
+      "chartRank": 82,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "미세스 그린 애플",
+        "미세스그린애플"
+      ],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1566811795",
@@ -3364,7 +6335,22 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E6%80%AA%E7%9B%97/1566811794?i=1566811795",
       "previewUrl": null,
-      "chartRank": 83
+      "chartRank": 83,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "백 넘버",
+        "백넘버"
+      ],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1808822211",
@@ -3379,7 +6365,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/tiger/1808822132?i=1808822211",
       "previewUrl": null,
-      "chartRank": 85
+      "chartRank": 85,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1485857408",
@@ -3394,7 +6392,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/love-so-sweet/1485857244?i=1485857408",
       "previewUrl": null,
-      "chartRank": 86
+      "chartRank": 86,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1807959956",
@@ -3409,7 +6419,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E5%A4%A2%E4%B8%AD/1807959955?i=1807959956",
       "previewUrl": null,
-      "chartRank": 87
+      "chartRank": 87,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1470899806",
@@ -3424,7 +6446,24 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E5%AE%BF%E5%91%BD/1470899805?i=1470899806",
       "previewUrl": null,
-      "chartRank": 91
+      "chartRank": 91,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "Official Hige Dandism",
+        "Higedan",
+        "오피셜히게단디즘",
+        "히게단"
+      ],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1454643219",
@@ -3439,7 +6478,22 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E3%83%AD%E3%83%9E%E3%83%B3%E3%83%81%E3%82%B7%E3%82%BA%E3%83%A0/1454643208?i=1454643219",
       "previewUrl": null,
-      "chartRank": 92
+      "chartRank": 92,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "미세스 그린 애플",
+        "미세스그린애플"
+      ],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "947748526",
@@ -3454,7 +6508,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E3%81%84%E3%81%A8%E3%81%97%E3%81%AE%E3%82%A8%E3%83%AA%E3%83%BC/947748513?i=947748526",
       "previewUrl": null,
-      "chartRank": 93
+      "chartRank": 93,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1083422439",
@@ -3470,7 +6536,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E6%B3%A2%E4%B9%97%E3%82%8A%E3%82%B8%E3%83%A7%E3%83%8B%E3%83%BC/1083422435?i=1083422439",
       "previewUrl": null,
-      "chartRank": 94
+      "chartRank": 94,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1440763358",
@@ -3485,7 +6563,23 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/first-love-remastered-2014/1440763349?i=1440763358",
       "previewUrl": null,
-      "chartRank": 95
+      "chartRank": 95,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "Hikaru Utada",
+        "Utada Hikaru",
+        "우타다 히카루"
+      ],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1794499543",
@@ -3500,7 +6594,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E3%82%A4%E3%82%A4%E3%81%98%E3%82%83%E3%82%93/1794499542?i=1794499543",
       "previewUrl": null,
-      "chartRank": 96
+      "chartRank": 96,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "273169347",
@@ -3516,7 +6622,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E5%B0%8F%E3%81%95%E3%81%AA%E6%81%8B%E3%81%AE%E3%81%86%E3%81%9F/273169161?i=273169347",
       "previewUrl": null,
-      "chartRank": 97
+      "chartRank": 97,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1518845612",
@@ -3531,7 +6649,19 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E3%82%B9%E3%83%91%E3%83%BC%E3%82%AF%E3%83%AB/1518843994?i=1518845612",
       "previewUrl": null,
-      "chartRank": 99
+      "chartRank": 99,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     },
     {
       "id": "1854334753",
@@ -3546,7 +6676,20 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/non-stop/1854334752?i=1854334753",
       "previewUrl": null,
-      "chartRank": 100
+      "chartRank": 100,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {},
+      "sourceKinds": [],
+      "likedAt": null
     }
-  ]
+  ],
+  "staleReason": "The operation was aborted due to timeout"
 }
