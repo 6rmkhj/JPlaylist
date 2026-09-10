@@ -23,7 +23,7 @@ jobs:
 
       - name: Assemble and verify app bundle
         run: |
-          cat .tmp2/app.js.gz.b64.* | tr -d '\n' | base64 -d | gzip -d > app.js
+          cat .tmp4/app.gz.a1 .tmp4/app.gz.a2 .tmp3/app.gz.b .tmp2/app.js.gz.b64.2 | tr -d '\n' | base64 -d | gzip -d > app.js
           test "$(git hash-object app.js)" = "b32904491a51b67d23fd19f679b23419bcb36f8b"
           node --check app.js
           node --check core.mjs
@@ -34,6 +34,6 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add app.js
-          git rm -r .tmp .tmp2
+          git rm -r .tmp .tmp2 .tmp3 .tmp4
           git commit -m "feat(ui): resolve all open UX issues [assembled]"
           git push
