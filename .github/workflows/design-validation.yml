@@ -40,8 +40,8 @@ jobs:
           "$BROWSER" --headless --no-sandbox --disable-gpu --hide-scrollbars --window-size=768,1024 --screenshot=design-shots/768x1024.png http://127.0.0.1:4173/
           "$BROWSER" --headless --no-sandbox --disable-gpu --hide-scrollbars --window-size=1024,768 --screenshot=design-shots/1024x768.png http://127.0.0.1:4173/
           "$BROWSER" --headless --no-sandbox --disable-gpu --hide-scrollbars --window-size=1440,900 --screenshot=design-shots/1440x900.png http://127.0.0.1:4173/
-          "$BROWSER" --headless --no-sandbox --disable-gpu --hide-scrollbars --window-size=390,844 --screenshot=design-shots/390-discovery.png http://127.0.0.1:4173/%23discovery
-          "$BROWSER" --headless --no-sandbox --disable-gpu --hide-scrollbars --window-size=1440,900 --screenshot=design-shots/1440-discovery.png http://127.0.0.1:4173/%23discovery
+          "$BROWSER" --headless --no-sandbox --disable-gpu --hide-scrollbars --window-size=390,844 --screenshot=design-shots/390-discovery.png "http://127.0.0.1:4173/#discovery"
+          "$BROWSER" --headless --no-sandbox --disable-gpu --hide-scrollbars --window-size=1440,900 --screenshot=design-shots/1440-discovery.png "http://127.0.0.1:4173/#discovery"
       - uses: actions/upload-artifact@v4
         with:
           name: design-shots
