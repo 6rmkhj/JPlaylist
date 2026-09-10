@@ -1,5 +1,7 @@
 const KANA = /[\u3040-\u30ff]/u;
 const CJK = /[\u3400-\u4dbf\u4e00-\u9fff]/u;
+const HANGUL = /[\uac00-\ud7a3]/u;
+const LATIN = /[A-Za-z]/u;
 
 function text(value = '') {
   return String(value).normalize('NFKC').trim();
@@ -115,4 +117,61 @@ export function parseFavorites(raw) {
 export function serializeFavorites(favorites) {
   const items = favorites instanceof Map ? [...favorites.values()] : [];
   return JSON.stringify({ version: 2, items: items.map(snapshotSong) });
+}
+
+export function languageForText(value = '') {
+  const valueText = text(value);
+  if (!valueText) return null;
+  if (KANA.test(valueText) || CJK.test(valueText)) return 'ja';
+  if (HANGUL.test(valueText)) return 'ko';
+  if (LATIN.test(valueText)) return 'en';
+  return null;
+}
+
+export function diversifyByArtist(songs = []) {
+  const queues = new Map();
+  const order = [];
+  for (const song of songs) {
+    const key = normalizeSearchText(song?.artist || 'unknown');
+    if (!queues.has(key)) {
+      queues.set(key, []);
+      order.push(key);
+    }
+    queues.get(key).push(song);
+  }
+
+  const result = [];
+  let remaining = songs.length;
+  while (remaining > 0) {
+    for (const key of order) {
+      const queue = queues.get(key);
+      if (!queue?.length) continue;
+      result.push(queue.shift());
+      remaining -= 1;
+    }
+  }
+  return result;
+}
+
+export function parseViewParams(search = '') {
+  const params = new URLSearchParams(String(search).replace(/^\?/, ''));
+  const mode = params.get('mode') === 'popular' ? 'popular' : 'latest';
+  return {
+    activeMode: mode,
+    query: params.get('q') || '',
+    activeGenre: params.get('genre') || '전체',
+    artistFilter: params.get('artist') || null,
+    favoritesOnly: params.get('view') === 'favorites',
+  };
+}
+
+export function serializeViewParams(view = {}) {
+  const params = new URLSearchParams();
+  if (view.activeMode === 'popular') params.set('mode', 'popular');
+  if (view.query) params.set('q', text(view.query));
+  if (view.activeGenre && view.activeGenre !== '전체') params.set('genre', text(view.activeGenre));
+  if (view.artistFilter) params.set('artist', text(view.artistFilter));
+  if (view.favoritesOnly) params.set('view', 'favorites');
+  const value = params.toString();
+  return value ? `?${value}` : '';
 }
