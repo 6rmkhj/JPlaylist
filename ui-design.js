@@ -1,3 +1,8 @@
+const iconStylesheet = document.createElement('link');
+iconStylesheet.rel = 'stylesheet';
+iconStylesheet.href = './icons.css';
+document.head.append(iconStylesheet);
+
 const selectors = {
   badges: '.card-rank, #featuredRank',
   listen: '[data-listen-id], #featuredListen',
