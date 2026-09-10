@@ -5,14 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="최근 발매 일본 음악과 인기 차트를 탐색하고, 취향에 맞게 추천받아 원하는 음악 서비스에서 듣는 JPlaylist" />
     <meta name="theme-color" content="#09090f" />
-    <meta name="application-name" content="JPlaylist" />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="JPlaylist" />
     <meta property="og:title" content="JPlaylist — 오늘 발견할 일본 음악" />
-    <meta property="og:description" content="최근 발매 일본 음악과 인기 차트를 탐색하고 취향에 맞는 곡을 발견하세요." />
+    <meta property="og:description" content="최근 발매 일본 음악과 일본 인기 차트를 탐색하고 원하는 음악 서비스에서 들어보세요." />
     <meta property="og:url" content="https://6rmkhj.github.io/JPlaylist/" />
     <meta property="og:image" content="https://6rmkhj.github.io/JPlaylist/og-card.svg" />
     <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="JPlaylist — 오늘 발견할 일본 음악" />
+    <meta name="twitter:description" content="최근 발매 일본 음악과 일본 인기 차트를 탐색하고 원하는 음악 서비스에서 들어보세요." />
+    <meta name="twitter:image" content="https://6rmkhj.github.io/JPlaylist/og-card.svg" />
     <link rel="canonical" href="https://6rmkhj.github.io/JPlaylist/" />
     <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
     <title>JPlaylist — 오늘 발견할 일본 음악</title>
@@ -20,20 +22,19 @@
     <link rel="stylesheet" href="./icons.css" />
     <link rel="stylesheet" href="./typography.css" />
     <link rel="stylesheet" href="./fixes.css" />
-    <script defer src="./bootstrap.js"></script>
   </head>
   <body>
     <noscript>
-      <div class="app-failure noscript-failure">
+      <section class="app-failure noscript-failure">
         <strong>JPlaylist를 실행하려면 JavaScript가 필요합니다.</strong>
-        <span>브라우저에서 JavaScript를 켠 뒤 새로고침해 주세요. 저장된 좋아요 파일은 브라우저 안에서만 처리됩니다.</span>
-      </div>
+        <span>브라우저에서 JavaScript를 허용한 뒤 다시 열어 주세요. 저장된 좋아요 파일은 그대로 유지됩니다.</span>
+      </section>
     </noscript>
-    <div class="app-failure hidden" id="appFailure" role="alert">
-      <strong>JPlaylist 앱을 시작하지 못했습니다.</strong>
-      <span>페이지를 새로고침해 주세요. 문제가 계속되면 최신 브라우저에서 다시 시도해 주세요.</span>
-      <button class="secondary-button compact" id="appFailureReload" type="button">새로고침</button>
-    </div>
+    <section class="app-failure hidden" id="appFailure" role="alert">
+      <strong>앱을 시작하지 못했습니다.</strong>
+      <span>연결 상태를 확인하고 새로고침해 주세요. 문제가 계속되면 최신 브라우저에서 다시 시도해 주세요.</span>
+      <button class="secondary-button" id="appFailureReload" type="button">새로고침</button>
+    </section>
 
     <div class="ambient ambient-one" aria-hidden="true"></div>
     <div class="ambient ambient-two" aria-hidden="true"></div>
@@ -65,7 +66,7 @@
             <span id="updatedAt">데이터를 불러오는 중...</span>
           </div>
           <details class="status-details hidden" id="statusDetails">
-            <summary>상태 상세</summary>
+            <summary>데이터 상태 상세</summary>
             <div id="statusDetailText"></div>
           </details>
           <p class="persistence-notice hidden" id="persistenceNotice" role="status"></p>
@@ -80,7 +81,7 @@
           <div class="featured-content">
             <p class="featured-label" id="featuredLabel">오늘의 추천</p>
             <h2 id="featuredTitle">추천곡 준비 중</h2>
-            <button class="featured-artist artist-action" id="featuredArtist" type="button" disabled>잠시만 기다려 주세요</button>
+            <button class="featured-artist artist-action" id="featuredArtist" type="button" disabled><span id="featuredArtistName">잠시만 기다려 주세요</span><span class="visually-hidden">의 곡 보기</span></button>
             <p class="featured-reason" id="featuredReason">최근 발매와 인기 흐름을 살펴보고 있어요.</p>
             <div class="genre-row" id="featuredGenres"></div>
             <div class="featured-actions">
@@ -108,32 +109,14 @@
           </div>
         </div>
 
-        <p class="mode-description" id="modeDescription">최근 발매된 일본 음악을 다양한 아티스트 순으로 보여드려요.</p>
-        <p class="local-view-notice hidden" id="localViewNotice">좋아요는 이 브라우저에 저장된 개인 컬렉션이며 공유 링크에는 포함되지 않습니다.</p>
-
-        <div class="view-options">
-          <label class="sort-control" id="latestSortWrap" for="latestSort">
-            <span>최근 발매 정렬</span>
-            <select id="latestSort">
-              <option value="diverse">다양하게</option>
-              <option value="newest">최신순</option>
-            </select>
-          </label>
-          <label class="sort-control hidden" id="favoritesSortWrap" for="favoritesSort">
-            <span>좋아요 정렬</span>
-            <select id="favoritesSort">
-              <option value="recent">최근 저장순</option>
-              <option value="artist">아티스트순</option>
-              <option value="release">발매일순</option>
-            </select>
-          </label>
-        </div>
+        <p class="mode-description" id="modeDescription">최근 발매된 일본 음악을 보여드려요.</p>
+        <p class="local-view-notice hidden" id="localViewNotice">좋아요는 이 브라우저에만 저장됩니다. 이 화면 주소를 다른 사람이나 기기에 보내도 같은 좋아요 목록이 공유되지는 않습니다.</p>
 
         <div class="discovery-toolbar" id="discoveryToolbar">
           <div class="search-box">
             <label class="visually-hidden" for="searchInput">곡명 또는 아티스트 검색</label>
             <span class="search-icon" aria-hidden="true"></span>
-            <input id="searchInput" type="search" inputmode="search" autocomplete="off" placeholder="곡명·아티스트·로마자/한글 별칭 검색" />
+            <input id="searchInput" type="search" inputmode="search" autocomplete="off" placeholder="곡명 또는 아티스트 검색" />
             <button class="search-clear hidden" id="searchClear" type="button" aria-label="검색어 지우기"></button>
           </div>
           <button class="secondary-button compact reset-filter-action" id="resetFilters" type="button">필터 초기화</button>
@@ -150,9 +133,26 @@
 
         <span class="visually-hidden" id="genreFilterLabel">장르 필터</span>
         <div class="filter-row" id="genreFilters" role="group" aria-labelledby="genreFilterLabel"></div>
+        <div class="view-options">
+          <label class="sort-control" id="latestSortWrap">
+            <span>최근 발매 정렬</span>
+            <select id="latestSort">
+              <option value="diverse">최신 구간 안에서 다양하게</option>
+              <option value="newest">최신순</option>
+            </select>
+          </label>
+          <label class="sort-control hidden" id="favoritesSortWrap">
+            <span>좋아요 정렬</span>
+            <select id="favoritesSort">
+              <option value="liked-desc">최근 저장순</option>
+              <option value="artist">아티스트순</option>
+              <option value="release-desc">발매일순</option>
+            </select>
+          </label>
+          <span class="preview-coverage-note" id="previewCoverageNote">미리듣기는 제공되는 곡에만 표시됩니다.</span>
+        </div>
         <div class="result-row">
           <span id="resultSummary">곡을 불러오는 중...</span>
-          <span class="preview-coverage-note" id="previewCoverageNote">미리듣기는 제공되는 곡에만 표시됩니다.</span>
           <details class="source-details">
             <summary>데이터 기준</summary>
             <span class="source-note" id="sourceNote">데이터 기준을 확인하는 중...</span>
@@ -174,20 +174,15 @@
           <button class="primary-button hidden" id="retryData" type="button">다시 시도</button>
           <button class="secondary-button hidden" id="emptyResetFilters" type="button">필터 초기화</button>
           <button class="secondary-button hidden" id="diagnosticCopy" type="button">진단 정보 복사</button>
-          <a class="text-link external-link" id="reportIssue" href="https://github.com/6rmkhj/JPlaylist/issues/new" target="_blank" rel="noreferrer">문제 제보</a>
+          <a class="text-link external-link" id="reportIssue" href="https://github.com/6rmkhj/JPlaylist/issues/new" target="_blank" rel="noreferrer">GitHub에 문제 제보</a>
         </div>
       </section>
     </main>
 
     <button class="jump-discovery direction-up hidden" id="jumpToDiscovery" type="button">탐색</button>
 
-    <div class="favorite-undo hidden" id="favoriteUndo" role="status" aria-live="polite">
-      <span id="favoriteUndoText">좋아요에서 삭제했습니다.</span>
-      <button class="text-button" id="favoriteUndoButton" type="button">되돌리기</button>
-    </div>
-
     <footer>
-      <p>JPlaylist · 일본 음악 공개 카탈로그와 일본 인기 차트를 바탕으로 곡을 정리하며, 듣기 플랫폼은 사용자가 선택합니다.</p>
+      <p>JPlaylist · 공개 일본 음악 카탈로그와 일본 인기 차트를 바탕으로 곡을 정리하며, 듣기 플랫폼은 사용자가 선택합니다.</p>
     </footer>
 
     <dialog class="platform-dialog" id="platformDialog" aria-labelledby="platformDialogTitle">
@@ -205,7 +200,7 @@
             <button class="platform-option" type="button" role="radio" aria-checked="false" data-platform="youtubeMusic"><strong>YouTube Music</strong><span>정확한 곡 링크가 있으면 바로 열고, 없으면 검색</span></button>
             <button class="platform-option" type="button" role="radio" aria-checked="false" data-platform="spotify"><strong>Spotify</strong><span>정확한 곡 링크가 있으면 바로 열고, 없으면 검색</span></button>
             <button class="platform-option" type="button" role="radio" aria-checked="false" data-platform="youtube"><strong>YouTube</strong><span>정확한 영상 링크가 있으면 바로 열고, 없으면 검색</span></button>
-            <button class="platform-option" type="button" role="radio" aria-checked="false" data-platform="apple"><strong>Apple Music</strong><span>현재 지역의 직접 링크를 우선하고, 지역이 다르면 검색</span></button>
+            <button class="platform-option" type="button" role="radio" aria-checked="false" data-platform="apple"><strong>Apple Music</strong><span>현재 지역 링크를 우선하고, 필요하면 검색으로 전환</span></button>
           </div>
           <p class="dialog-note" id="platformDialogNote">선택은 이 브라우저에 저장되며 header의 ‘플랫폼 변경’에서 언제든 바꿀 수 있어요.</p>
           <button class="secondary-button dialog-cancel" id="platformDialogCancel" type="button">취소</button>
@@ -223,22 +218,22 @@
           <button class="dialog-close" id="backupDialogClose" type="button" aria-label="닫기"></button>
         </div>
         <div class="dialog-scroll">
-          <p class="dialog-copy">좋아요한 곡과 기본 듣기 플랫폼을 파일로 저장하거나 다른 브라우저에서 가져올 수 있어요. 가져오기 전 변경 내용을 먼저 보여드립니다.</p>
+          <p class="dialog-copy">좋아요한 곡과 기본 듣기 플랫폼을 파일로 저장하거나 다른 브라우저에서 가져올 수 있어요. 가져오기는 적용 전 변경 내용을 먼저 보여드립니다.</p>
           <div class="backup-actions">
             <button class="primary-button" id="exportBackup" type="button">백업 파일 저장</button>
-            <button class="secondary-button file-button" id="importBackupButton" type="button">백업 파일 가져오기</button>
+            <button class="secondary-button file-button" id="importBackupButton" type="button">백업 파일 검토</button>
             <input class="visually-hidden" id="importBackup" type="file" accept="application/json,.json" tabindex="-1" />
           </div>
           <section class="backup-review hidden" id="backupReview" aria-labelledby="backupReviewTitle">
-            <h3 id="backupReviewTitle">가져오기 전 확인</h3>
+            <h3 id="backupReviewTitle">가져오기 미리보기</h3>
             <p id="backupReviewSummary"></p>
             <div class="backup-review-actions">
-              <button class="primary-button" id="backupMerge" type="button">기존 좋아요와 병합</button>
-              <button class="secondary-button" id="backupReplace" type="button">현재 좋아요 교체</button>
-              <button class="text-button" id="backupReviewCancel" type="button">취소</button>
+              <button class="primary-button" id="mergeBackup" type="button">기존 좋아요와 합치기</button>
+              <button class="secondary-button" id="replaceBackup" type="button">현재 좋아요 교체</button>
+              <button class="secondary-button" id="cancelBackupImport" type="button">취소</button>
             </div>
           </section>
-          <button class="text-button hidden" id="undoImport" type="button">마지막 가져오기 되돌리기</button>
+          <button class="text-button hidden" id="undoImport" type="button">방금 가져오기 되돌리기</button>
           <p class="dialog-note" id="backupStatus" aria-live="polite">현재 좋아요 0곡</p>
         </div>
       </div>
@@ -252,7 +247,7 @@
       </div>
       <div class="preview-progress-wrap">
         <progress id="previewProgress" max="100" value="0" aria-label="미리듣기 재생 위치"></progress>
-        <span id="previewTime" aria-hidden="true">0:00 / 0:00</span>
+        <span id="previewTime">0:00 / --:--</span>
       </div>
       <div class="preview-controls">
         <button class="secondary-button" id="previewToggle" type="button">일시정지</button>
@@ -260,7 +255,13 @@
       </div>
     </aside>
 
+    <aside class="favorite-undo hidden" id="favoriteUndo" role="status" aria-live="polite">
+      <span id="favoriteUndoText"></span>
+      <button class="text-button" id="favoriteUndoButton" type="button">되돌리기</button>
+    </aside>
+
     <div class="visually-hidden" id="liveStatus" role="status" aria-live="polite" aria-atomic="true"></div>
+    <script src="./bootstrap.js"></script>
     <script type="module" src="./app.js"></script>
     <script type="module" src="./ui-design.js"></script>
   </body>
