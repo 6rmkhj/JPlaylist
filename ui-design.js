@@ -1,7 +1,9 @@
-const iconStylesheet = document.createElement('link');
-iconStylesheet.rel = 'stylesheet';
-iconStylesheet.href = './icons.css';
-document.head.append(iconStylesheet);
+for (const href of ['./icons.css', './typography.css']) {
+  const stylesheet = document.createElement('link');
+  stylesheet.rel = 'stylesheet';
+  stylesheet.href = href;
+  document.head.append(stylesheet);
+}
 
 const selectors = {
   badges: '.card-rank, #featuredRank',
