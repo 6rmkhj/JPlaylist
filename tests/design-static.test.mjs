@@ -44,9 +44,9 @@ test('design uses explicit semantic color, spacing and radius tokens', () => {
 });
 
 test('unicode-heavy visual states are normalized into a single SVG-mask icon family', () => {
+  assert.match(html, /href="\.\/icons\.css"/);
   assert.match(html, /src="\.\/ui-design\.js"/);
-  assert.match(design, /\.\/icons\.css/);
-  assert.match(design, /function classifyBadge/);
+  assert.match(design, /function decorateBadge/);
   assert.match(design, /decorateFavoritesNav/);
   assert.match(design, /replace\(\/\\s\*↗\/g, ''\)/);
   assert.match(icons, /--icon-heart:/);
@@ -55,7 +55,7 @@ test('unicode-heavy visual states are normalized into a single SVG-mask icon fam
 });
 
 test('functional microcopy uses a readable body-small scale', () => {
-  assert.match(design, /\.\/typography\.css/);
+  assert.match(html, /href="\.\/typography\.css"/);
   assert.match(typography, /\.featured-reason,[\s\S]*?font-size: 13px/);
   assert.match(typography, /@media \(max-width: 720px\)[\s\S]*?\.featured-reason[\s\S]*?font-size: 13px/);
 });
