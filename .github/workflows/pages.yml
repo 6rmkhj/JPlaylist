@@ -53,7 +53,20 @@ jobs:
         run: npx playwright test --config=playwright.config.mjs
 
       - name: Collect Japan music data
-        run: node scripts/fetch-songs.mjs
+        run: |
+          for attempt in 1 2 3; do
+            echo "Music collection attempt ${attempt}/3"
+            node scripts/fetch-songs.mjs
+            status=$(node -p "require('./data/songs.json').status")
+            if [ "$status" != "stale" ]; then
+              echo "Music collection completed with status=$status"
+              break
+            fi
+            if [ "$attempt" -lt 3 ]; then
+              echo "Upstream collection returned stale fallback; retrying after a short delay."
+              sleep $((attempt * 3))
+            fi
+          done
 
       - name: Validate dataset
         run: node scripts/validate-data.mjs
