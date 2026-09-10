@@ -3,14 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="일본 음악을 자동 수집해 취향에 맞게 추천하고, 원하는 음악 서비스에서 바로 찾을 수 있는 JPlaylist" />
+    <meta name="description" content="최근 발매 일본 음악과 인기 차트를 탐색하고, 취향에 맞게 추천받아 원하는 음악 서비스에서 듣는 JPlaylist" />
     <meta name="theme-color" content="#0a0a0f" />
     <title>JPlaylist — 오늘 발견할 일본 음악</title>
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <div class="ambient ambient-one"></div>
-    <div class="ambient ambient-two"></div>
+    <div class="ambient ambient-one" aria-hidden="true"></div>
+    <div class="ambient ambient-two" aria-hidden="true"></div>
 
     <header class="site-header">
       <a class="brand" href="#top" aria-label="JPlaylist 홈">
@@ -19,6 +19,7 @@
       </a>
       <nav class="header-actions" aria-label="사이트 메뉴">
         <button class="ghost-button" id="favoritesFilter" type="button" aria-pressed="false">♡ 좋아요</button>
+        <button class="ghost-button backup-button" id="backupButton" type="button">취향 백업</button>
         <a class="github-link" href="https://github.com/6rmkhj/JPlaylist" target="_blank" rel="noreferrer">GitHub ↗</a>
       </nav>
     </header>
@@ -26,29 +27,30 @@
     <main id="top">
       <section class="hero" aria-labelledby="heroTitle">
         <div class="hero-copy">
-          <p class="eyebrow">AUTOMATIC J-MUSIC DISCOVERY</p>
-          <h1 id="heroTitle">오늘의 일본 음악,<br /><span>한 곡부터.</span></h1>
-          <p class="hero-description">일본 음악 데이터를 모아 취향에 맞게 추천하고, 내가 쓰는 음악 서비스에서 바로 찾아 들을 수 있어요.</p>
-          <div class="hero-meta">
-            <span class="status-dot" aria-hidden="true"></span>
+          <p class="eyebrow">J-MUSIC DISCOVERY, YOUR WAY</p>
+          <h1 id="heroTitle">새로운 일본 음악,<br /><span>내 취향으로.</span></h1>
+          <p class="hero-description">최근 발매곡과 일본 인기 차트를 나눠 보고, 좋아요한 곡을 바탕으로 추천받아 내가 쓰는 음악 서비스에서 들어보세요.</p>
+          <div class="hero-meta" aria-live="polite">
+            <span class="status-dot status-loading" id="statusDot" aria-hidden="true"></span>
             <span id="updatedAt">데이터를 불러오는 중...</span>
           </div>
         </div>
 
-        <article class="featured-card loading" id="featuredCard" aria-live="polite">
+        <article class="featured-card loading" id="featuredCard" aria-labelledby="featuredTitle">
           <div class="featured-artwork-wrap">
             <img id="featuredArtwork" class="featured-artwork" alt="" />
-            <span class="rank-badge" id="featuredRank">#1</span>
+            <span class="rank-badge" id="featuredRank">추천</span>
           </div>
           <div class="featured-content">
-            <p class="featured-label">FOR YOU</p>
+            <p class="featured-label" id="featuredLabel">오늘의 추천</p>
             <h2 id="featuredTitle">추천곡 준비 중</h2>
-            <p id="featuredArtist">잠시만 기다려 주세요</p>
+            <button class="featured-artist artist-action" id="featuredArtist" type="button" disabled>잠시만 기다려 주세요</button>
+            <p class="featured-reason" id="featuredReason">최근 발매와 인기 흐름을 살펴보고 있어요.</p>
             <div class="genre-row" id="featuredGenres"></div>
             <div class="featured-actions">
               <button class="primary-button disabled" id="featuredListen" type="button" disabled>듣기 플랫폼 선택</button>
-              <button class="icon-button" id="featuredLike" type="button" aria-label="추천곡 좋아요">♡</button>
-              <button class="secondary-button" id="recommendAgain" type="button">다른 곡 추천</button>
+              <button class="icon-button" id="featuredLike" type="button" aria-label="추천곡 좋아요" aria-pressed="false" disabled>♡</button>
+              <button class="secondary-button" id="recommendAgain" type="button" disabled>다른 곡 추천</button>
             </div>
             <div class="platform-hint-row">
               <span class="platform-hint" id="platformHint">YouTube Music · Spotify · YouTube · Apple Music 중 선택할 수 있어요.</span>
@@ -58,60 +60,103 @@
         </article>
       </section>
 
-      <section class="controls" aria-label="곡 필터">
-        <div>
-          <p class="section-kicker">DISCOVER</p>
-          <h2>지금 뜨는 일본 음악</h2>
+      <section class="discovery" aria-labelledby="discoverTitle">
+        <div class="discovery-heading">
+          <div>
+            <p class="section-kicker">DISCOVER</p>
+            <h2 id="discoverTitle">일본 음악 탐색</h2>
+          </div>
+          <div class="mode-tabs" id="modeTabs" role="group" aria-label="음악 목록 선택">
+            <button class="mode-tab active" type="button" data-mode="latest" aria-pressed="true">최근 발매</button>
+            <button class="mode-tab" type="button" data-mode="popular" aria-pressed="false">인기 차트</button>
+          </div>
         </div>
+
+        <p class="mode-description" id="modeDescription">최근 발매된 일본 음악을 모아 보여드려요.</p>
+
+        <div class="discovery-toolbar">
+          <label class="search-box" for="searchInput">
+            <span class="search-icon" aria-hidden="true">⌕</span>
+            <input id="searchInput" type="search" inputmode="search" autocomplete="off" placeholder="곡명 또는 아티스트 검색" />
+            <button class="search-clear hidden" id="searchClear" type="button" aria-label="검색어 지우기">×</button>
+          </label>
+          <button class="secondary-button compact" id="resetFilters" type="button">필터 초기화</button>
+        </div>
+
+        <div class="active-filter-row hidden" id="activeArtistFilter">
+          <span>아티스트: <strong id="activeArtistName"></strong></span>
+          <button class="text-button" id="clearArtistFilter" type="button">해제</button>
+        </div>
+
         <div class="filter-row" id="genreFilters" aria-label="장르 필터"></div>
+        <div class="result-row">
+          <span id="resultSummary">곡을 불러오는 중...</span>
+          <span class="source-note" id="sourceNote">데이터 기준을 확인하는 중...</span>
+        </div>
       </section>
 
-      <section class="song-grid" id="songGrid" aria-live="polite"></section>
+      <section class="song-grid" id="songGrid" aria-label="곡 목록"></section>
 
-      <section class="empty-state hidden" id="emptyState">
-        <div class="empty-icon">♫</div>
-        <h2 id="emptyTitle">아직 표시할 곡이 없어요</h2>
-        <p id="emptyMessage">첫 GitHub Actions 실행이 완료되면 자동으로 최신 차트가 채워집니다.</p>
-        <a class="secondary-button" href="https://github.com/6rmkhj/JPlaylist/actions" target="_blank" rel="noreferrer">Actions 확인 ↗</a>
+      <div class="load-more-wrap hidden" id="loadMoreWrap">
+        <button class="secondary-button load-more" id="loadMore" type="button">더 보기</button>
+      </div>
+
+      <section class="empty-state hidden" id="emptyState" aria-live="polite">
+        <div class="empty-icon" aria-hidden="true">♫</div>
+        <h2 id="emptyTitle">표시할 곡이 없어요</h2>
+        <p id="emptyMessage">조건을 바꿔 다시 찾아보세요.</p>
+        <div class="empty-actions">
+          <button class="primary-button hidden" id="retryData" type="button">다시 시도</button>
+          <button class="secondary-button hidden" id="emptyResetFilters" type="button">필터 초기화</button>
+          <a class="text-link" id="reportIssue" href="https://github.com/6rmkhj/JPlaylist/issues/new" target="_blank" rel="noreferrer">문제 제보 ↗</a>
+        </div>
       </section>
     </main>
 
     <footer>
-      <p>JPlaylist · 음악 메타데이터: Apple Music RSS · 듣기 플랫폼은 사용자가 선택합니다 · 개인 취향은 이 브라우저에만 저장됩니다.</p>
+      <p>JPlaylist · 최근 발매 후보: iTunes Search API · 인기 기준: Apple Music Japan 차트 · 듣기 플랫폼은 사용자가 선택합니다.</p>
     </footer>
 
     <dialog class="platform-dialog" id="platformDialog" aria-labelledby="platformDialogTitle">
-      <div class="platform-dialog-inner">
-        <div class="platform-dialog-head">
+      <div class="dialog-inner">
+        <div class="dialog-head">
           <div>
             <p class="section-kicker">LISTEN YOUR WAY</p>
             <h2 id="platformDialogTitle">어디서 들을까요?</h2>
           </div>
           <button class="dialog-close" id="platformDialogClose" type="button" aria-label="닫기">×</button>
         </div>
-        <p class="platform-dialog-copy" id="platformDialogCopy">원하는 서비스를 고르면 다음부터 기본 듣기 플랫폼으로 기억합니다.</p>
+        <p class="dialog-copy" id="platformDialogCopy">원하는 서비스를 고르면 다음부터 기본 듣기 플랫폼으로 기억합니다.</p>
         <div class="platform-options" id="platformOptions">
-          <button class="platform-option" type="button" data-platform="youtubeMusic">
-            <strong>YouTube Music</strong>
-            <span>곡명과 아티스트로 검색</span>
-          </button>
-          <button class="platform-option" type="button" data-platform="spotify">
-            <strong>Spotify</strong>
-            <span>곡명과 아티스트로 검색</span>
-          </button>
-          <button class="platform-option" type="button" data-platform="youtube">
-            <strong>YouTube</strong>
-            <span>뮤직비디오·음원 검색</span>
-          </button>
-          <button class="platform-option" type="button" data-platform="apple">
-            <strong>Apple Music</strong>
-            <span>직접 링크 우선 사용</span>
-          </button>
+          <button class="platform-option" type="button" data-platform="youtubeMusic"><strong>YouTube Music</strong><span>곡명과 아티스트로 검색</span></button>
+          <button class="platform-option" type="button" data-platform="spotify"><strong>Spotify</strong><span>곡명과 아티스트로 검색</span></button>
+          <button class="platform-option" type="button" data-platform="youtube"><strong>YouTube</strong><span>뮤직비디오·음원 검색</span></button>
+          <button class="platform-option" type="button" data-platform="apple"><strong>Apple Music</strong><span>직접 링크 우선 사용</span></button>
         </div>
-        <p class="platform-dialog-note">선택은 이 브라우저에만 저장되며 ‘플랫폼 변경’에서 언제든 바꿀 수 있어요.</p>
+        <p class="dialog-note">선택은 이 브라우저에만 저장되며 ‘플랫폼 변경’에서 언제든 바꿀 수 있어요.</p>
       </div>
     </dialog>
 
+    <dialog class="backup-dialog" id="backupDialog" aria-labelledby="backupDialogTitle">
+      <div class="dialog-inner">
+        <div class="dialog-head">
+          <div>
+            <p class="section-kicker">KEEP YOUR TASTE</p>
+            <h2 id="backupDialogTitle">취향 백업</h2>
+          </div>
+          <button class="dialog-close" id="backupDialogClose" type="button" aria-label="닫기">×</button>
+        </div>
+        <p class="dialog-copy">좋아요한 곡과 기본 듣기 플랫폼을 파일로 저장하거나 다른 브라우저에서 가져올 수 있어요. 로그인은 필요하지 않습니다.</p>
+        <div class="backup-actions">
+          <button class="primary-button" id="exportBackup" type="button">백업 파일 저장</button>
+          <label class="secondary-button file-button" for="importBackup">백업 파일 가져오기</label>
+          <input class="visually-hidden" id="importBackup" type="file" accept="application/json,.json" />
+        </div>
+        <p class="dialog-note" id="backupStatus" aria-live="polite">현재 좋아요 0곡</p>
+      </div>
+    </dialog>
+
+    <div class="visually-hidden" id="liveStatus" role="status" aria-live="polite" aria-atomic="true"></div>
     <script type="module" src="./app.js"></script>
   </body>
 </html>
