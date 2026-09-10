@@ -1,0 +1,38 @@
+name: Product quality checks
+
+on:
+  push:
+    branches-ignore: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Run syntax and unit regressions
+        run: |
+          node --check app.js
+          node --check bootstrap.js
+          node --check ui-design.js
+          node --check scripts/fetch-songs.mjs
+          node --test tests/*.test.mjs
+
+      - name: Install Chromium regression runtime
+        run: |
+          npm install --no-save @playwright/test@1.55.0
+          npx playwright install --with-deps chromium
+
+      - name: Run browser product regressions
+        run: npx playwright test --config=playwright.config.mjs
