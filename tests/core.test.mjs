@@ -1,12 +1,16 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {
+  diversifyByArtist,
   getGenreTags,
   isLikelyJapaneseTrack,
+  languageForText,
   normalizeGenre,
   normalizeSearchText,
   parseFavorites,
+  parseViewParams,
   serializeFavorites,
+  serializeViewParams,
   snapshotSong,
 } from '../core.mjs';
 
@@ -51,4 +55,38 @@ test('favorite snapshots round-trip with metadata', () => {
   const restored = parseFavorites(serializeFavorites(map));
   assert.equal(restored.get('1').title, '晴る');
   assert.equal(restored.get('1').chartRank, 4);
+});
+
+test('language detection marks Japanese music text without changing Korean UI', () => {
+  assert.equal(languageForText('荒谷翔大'), 'ja');
+  assert.equal(languageForText('情熱'), 'ja');
+  assert.equal(languageForText('좋아요'), 'ko');
+  assert.equal(languageForText('IRIS OUT'), 'en');
+});
+
+test('artist diversification prevents one artist from occupying the first page', () => {
+  const songs = [
+    { id: 'a1', artist: 'A' }, { id: 'a2', artist: 'A' }, { id: 'a3', artist: 'A' },
+    { id: 'b1', artist: 'B' }, { id: 'c1', artist: 'C' }, { id: 'd1', artist: 'D' },
+  ];
+  const result = diversifyByArtist(songs);
+  assert.deepEqual(result.slice(0, 4).map((song) => song.artist), ['A', 'B', 'C', 'D']);
+  assert.equal(result.length, songs.length);
+});
+
+test('URL view state round-trips search, genre, artist, mode and favorites', () => {
+  const search = serializeViewParams({
+    activeMode: 'popular',
+    query: 'IRIS OUT',
+    activeGenre: 'J-Rock',
+    artistFilter: '米津玄師',
+    favoritesOnly: true,
+  });
+  assert.deepEqual(parseViewParams(search), {
+    activeMode: 'popular',
+    query: 'IRIS OUT',
+    activeGenre: 'J-Rock',
+    artistFilter: '米津玄師',
+    favoritesOnly: true,
+  });
 });
