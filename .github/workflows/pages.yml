@@ -60,7 +60,7 @@ jobs:
       - name: Build static artifact
         run: |
           mkdir -p _site/data
-          cp index.html styles.css app.js core.mjs ui-design.js _site/
+          cp index.html styles.css icons.css app.js core.mjs ui-design.js _site/
           cp data/songs.json _site/data/songs.json
           touch _site/.nojekyll
 
