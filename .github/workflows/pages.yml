@@ -37,6 +37,7 @@ jobs:
       - name: Run regression tests
         run: |
           node --check app.js
+          node --check ui-design.js
           node --check scripts/fetch-songs.mjs
           node --test tests/*.test.mjs
 
@@ -59,7 +60,7 @@ jobs:
       - name: Build static artifact
         run: |
           mkdir -p _site/data
-          cp index.html styles.css app.js core.mjs _site/
+          cp index.html styles.css app.js core.mjs ui-design.js _site/
           cp data/songs.json _site/data/songs.json
           touch _site/.nojekyll
 
