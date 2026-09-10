@@ -2,6 +2,7 @@
 .jp-source-link { color: var(--subtle); text-decoration: underline; text-underline-offset: 3px; }
 .jp-source-link:hover { color: var(--text); }
 .jp-signature-link { margin-left: 8px; }
+.jp-signature-active #jumpToDiscovery { display: none !important; }
 
 .jp-signature {
   margin: 18px 0 70px;
@@ -258,7 +259,7 @@
 .jp-daily-heading { margin-bottom: 14px; }
 .jp-daily-heading p,
 .jp-rabbit-heading p { margin: 4px 0 0; color: var(--muted); }
-.jp-daily-date { color: var(--subtle); font-size: 12px; font-weight: 750; }
+.jp-daily-date { flex: 0 0 auto; color: var(--subtle); font-size: 12px; font-weight: 750; white-space: nowrap; }
 
 .jp-daily-grid {
   display: grid;
@@ -399,8 +400,8 @@
   .jp-map-layout { grid-template-columns: 1fr; }
   .jp-map-panel { max-width: none; }
   .jp-daily-grid { grid-template-columns: 1fr; }
-  .jp-daily-card { display: grid; grid-template-columns: minmax(180px, .8fr) minmax(0, 1.2fr); }
-  .jp-daily-art { aspect-ratio: auto; min-height: 100%; }
+  .jp-daily-card { display: grid; grid-template-columns: minmax(160px, .72fr) minmax(0, 1.28fr); }
+  .jp-daily-art { aspect-ratio: 1; min-height: 0; align-self: start; margin: 14px 0 14px 14px; border-radius: 15px; }
   .jp-rabbit-path { grid-template-columns: repeat(3, minmax(0,1fr)); }
   .jp-path-card:not(:last-child)::after { display: none; }
 }
@@ -414,9 +415,10 @@
   .jp-map-panel, .jp-map-insight { border-radius: 18px; }
   .jp-map-plane-wrap { padding: 20px 20px 23px 28px; }
   .jp-signal-row { grid-template-columns: 76px minmax(0,1fr) 38px; }
+  .jp-daily-heading { align-items: flex-start; flex-direction: column; gap: 6px; }
   .jp-daily-card { grid-template-columns: 112px minmax(0,1fr); }
+  .jp-daily-art { aspect-ratio: 1; min-height: 0; margin: 12px 0 12px 12px; border-radius: 14px; }
   .jp-daily-copy { padding: 12px; }
-  .jp-daily-art { min-height: 100%; }
   .jp-daily-title { margin-top: 2px; font-size: 15px; }
   .jp-daily-reason { min-height: 0; margin-top: 8px; }
   .jp-daily-actions { grid-template-columns: 1fr; }
@@ -438,6 +440,7 @@
   .jp-signature-shell { padding: 15px; }
   .jp-map-plane-wrap { padding-left: 24px; padding-right: 14px; }
   .jp-daily-card { grid-template-columns: 96px minmax(0,1fr); }
+  .jp-daily-art { margin: 10px 0 10px 10px; border-radius: 12px; }
   .jp-daily-reason { font-size: 11px; }
   .jp-daily-meta { display: none; }
   .jp-path-card { grid-template-columns: 72px minmax(0,1fr); }
