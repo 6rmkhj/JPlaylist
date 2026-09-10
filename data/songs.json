@@ -1,8 +1,8 @@
 {
   "schemaVersion": 3,
-  "status": "fresh",
-  "updatedAt": "2026-09-10T13:38:19.363Z",
-  "lastCheckedAt": "2026-09-10T13:38:19.363Z",
+  "status": "degraded",
+  "updatedAt": "2026-09-10T15:01:35.553Z",
+  "lastCheckedAt": "2026-09-10T15:01:35.553Z",
   "latestWindowDays": 180,
   "sources": {
     "popular": {
@@ -15,7 +15,7 @@
         {
           "label": "MusicBrainz 일본 발매일 인덱스",
           "url": "https://musicbrainz.org/ws/2/recording/",
-          "status": "ok"
+          "status": "failed"
         },
         {
           "label": "iTunes Japan 카탈로그 검색",
@@ -29,7 +29,7 @@
     "canonical": {
       "label": "MusicBrainz recording / ISRC / URL 관계",
       "url": "https://musicbrainz.org/ws/2/recording/",
-      "note": "일부 매칭 확인 실패 4건"
+      "note": "일부 매칭 확인 실패 6건"
     }
   },
   "coverage": {
@@ -37,17 +37,17 @@
       "successful": 5,
       "total": 5
     },
-    "releaseIndex": "ok",
-    "previewAvailable": 22,
-    "canonicalRecording": 48,
-    "isrc": 35,
+    "releaseIndex": "failed",
+    "previewAvailable": 23,
+    "canonicalRecording": 0,
+    "isrc": 0,
     "exactNonAppleLink": 0,
-    "enrichmentFailures": 4
+    "enrichmentFailures": 6
   },
   "counts": {
-    "latest": 87,
+    "latest": 40,
     "popular": 88,
-    "total": 158
+    "total": 110
   },
   "latestSongs": [
     {
@@ -501,6 +501,37 @@
       "likedAt": null
     },
     {
+      "id": "6803798494",
+      "title": "時空超えてユニバース",
+      "artist": "M!LK",
+      "artistId": "1356706755",
+      "releaseDate": "2026-09-07",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d0/c1/3e/d0c13e26-39b8-76b3-8ba5-b4412872260f/VEATP-45880.jpg/100x100bb.jpg",
+      "genres": [
+        "J-Pop",
+        "ミュージック"
+      ],
+      "appleUrl": "https://music.apple.com/jp/album/%E6%99%82%E7%A9%BA%E8%B6%85%E3%81%88%E3%81%A6%E3%83%A6%E3%83%8B%E3%83%90%E3%83%BC%E3%82%B9/6803798492?i=6803798494",
+      "previewUrl": null,
+      "chartRank": 20,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/jp/album/%E6%99%82%E7%A9%BA%E8%B6%85%E3%81%88%E3%81%A6%E3%83%A6%E3%83%8B%E3%83%90%E3%83%BC%E3%82%B9/6803798492?i=6803798494"
+      },
+      "sourceKinds": [
+        "apple-jp-chart"
+      ],
+      "likedAt": null
+    },
+    {
       "id": "6803148739",
       "title": "ありふれた世界の果てに (feat. Awich, CHICO CARLITO, ONE OK ROCK & Paledusk)",
       "artist": "YAO",
@@ -545,7 +576,7 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/so-honey/6797407951?i=6797407954",
       "previewUrl": null,
-      "chartRank": 38,
+      "chartRank": 40,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": 0,
@@ -606,7 +637,7 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E7%81%B0%E8%89%B2/6801361848?i=6801361853",
       "previewUrl": null,
-      "chartRank": 50,
+      "chartRank": 52,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": 0,
@@ -637,7 +668,7 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/show-time/6802879262?i=6802879422",
       "previewUrl": null,
-      "chartRank": 88,
+      "chartRank": 84,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": 0,
@@ -686,32 +717,6 @@
       "likedAt": null
     },
     {
-      "id": "mb:a1e670f8-199c-4c7b-93d8-be1d997f22a2",
-      "title": "コイスルジュモン",
-      "artist": "ちょこ",
-      "artistId": "2bf87813-969d-40ce-9df7-5a4e76e03606",
-      "releaseDate": "2026-08-16",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:a1a9e089-f4e0-4670-b794-d7f696f5d7b9",
-      "collectionName": "Starry Mine",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "a1e670f8-199c-4c7b-93d8-be1d997f22a2",
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
-      ],
-      "likedAt": null
-    },
-    {
       "id": "6793888335",
       "title": "見知らぬ糸",
       "artist": "スピッツ",
@@ -722,23 +727,24 @@
         "ロック",
         "ミュージック"
       ],
-      "appleUrl": "https://music.apple.com/jp/album/%E8%A6%8B%E7%9F%A5%E3%82%89%E3%81%AC%E7%B3%B8/6793888333?i=6793888335",
-      "previewUrl": null,
+      "appleUrl": "https://music.apple.com/jp/album/%E8%A6%8B%E7%9F%A5%E3%82%89%E3%81%AC%E7%B3%B8/6793888333?i=6793888335&uo=4",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/68/60/b9/6860b926-1805-bf5f-32b5-4e494957e410/mzaf_17124243015734375483.plus.aac.p.m4a",
       "chartRank": 10,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
+      "collectionId": "6793888333",
+      "collectionName": "見知らぬ糸 - Single",
+      "trackNumber": 1,
+      "trackCount": 1,
+      "discNumber": 1,
+      "discCount": 1,
       "recordingId": null,
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/jp/album/%E8%A6%8B%E7%9F%A5%E3%82%89%E3%81%AC%E7%B3%B8/6793888333?i=6793888335"
+        "apple": "https://music.apple.com/jp/album/%E8%A6%8B%E7%9F%A5%E3%82%89%E3%81%AC%E7%B3%B8/6793888333?i=6793888335&uo=4"
       },
       "sourceKinds": [
-        "apple-jp-chart"
+        "apple-jp-chart",
+        "itunes-jp-search"
       ],
       "likedAt": null
     },
@@ -786,7 +792,7 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E7%BD%AA%E3%81%A8%E7%BD%B0%E3%81%A8%E9%9B%A8%E3%81%A8%E3%82%AD%E3%82%B9-%E4%BD%90%E9%87%8E%E5%8B%87%E6%96%97-%E5%90%89%E7%94%B0%E4%BB%81%E4%BA%BA/6793456209?i=6793456212",
       "previewUrl": null,
-      "chartRank": 58,
+      "chartRank": 55,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": 0,
@@ -801,58 +807,6 @@
       },
       "sourceKinds": [
         "apple-jp-chart"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "mb:198e5b70-ba06-43cd-a90b-83781079ea8d",
-      "title": "じじいのテーマ ~The Old Man's Theme~",
-      "artist": "Hiro",
-      "artistId": "fc32f53d-8768-404d-91a8-6beb3adb2de4",
-      "releaseDate": "2026-07-30",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:2605605e-102e-4c3d-a93f-ab6d57fee212",
-      "collectionName": "GP Rider - 35th Anniv. Album -",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "198e5b70-ba06-43cd-a90b-83781079ea8d",
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "mb:942d9f35-225f-4615-b9a6-b32e78f866da",
-      "title": "歓喜のメロディー ~Melody of Delight~",
-      "artist": "Hiro",
-      "artistId": "fc32f53d-8768-404d-91a8-6beb3adb2de4",
-      "releaseDate": "2026-07-30",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:2605605e-102e-4c3d-a93f-ab6d57fee212",
-      "collectionName": "GP Rider - 35th Anniv. Album -",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "942d9f35-225f-4615-b9a6-b32e78f866da",
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
       ],
       "likedAt": null
     },
@@ -917,110 +871,6 @@
       "likedAt": null
     },
     {
-      "id": "mb:cabe12d2-33e0-4d39-a370-1b0acfaf2f65",
-      "title": "命の色",
-      "artist": "乃木坂46 6期生",
-      "artistId": "21dfe4c0-4ee4-459a-943e-acf3fbaaa05b",
-      "releaseDate": "2026-07-22",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:88a0d8d1-2eff-44cc-8425-c9e791455337",
-      "collectionName": "是非に及ばず",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "cabe12d2-33e0-4d39-a370-1b0acfaf2f65",
-      "isrc": "JPU902602505",
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "mb:50dd675e-3a44-430b-8384-2f5e152ed515",
-      "title": "フォルテシモ 〜off vocal ver.〜",
-      "artist": "乃木坂46",
-      "artistId": "466f7b0a-a3e6-435d-8326-b4ef825a609d",
-      "releaseDate": "2026-07-22",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:ab12a0a6-5f34-40be-b4fa-a4991a52256b",
-      "collectionName": "是非に及ばず",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "50dd675e-3a44-430b-8384-2f5e152ed515",
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "mb:d9f01f14-6f35-4153-aece-5b8b9e1b67b8",
-      "title": "Kissのタイミング",
-      "artist": "井上和・菅原咲月",
-      "artistId": "95c0c10d-e935-48fb-afac-78dffc65defb",
-      "releaseDate": "2026-07-22",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:0eb5d995-7b44-418b-a201-5ceb7e0a6f4f",
-      "collectionName": "是非に及ばず",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "d9f01f14-6f35-4153-aece-5b8b9e1b67b8",
-      "isrc": "JPU902602499",
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "mb:3e2f904e-d3ec-4419-af2b-926e7e253e96",
-      "title": "ひとつ手前のインターチェンジ",
-      "artist": "川﨑桜・筒井あやめ・冨里奈央・弓木奈於",
-      "artistId": "ff1af199-d7ec-4348-98c1-e92956c44fa6",
-      "releaseDate": "2026-07-22",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:b10bf96b-fc4d-4d6c-893f-29f423d73027",
-      "collectionName": "是非に及ばず",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "3e2f904e-d3ec-4419-af2b-926e7e253e96",
-      "isrc": "JPU902602501",
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
-      ],
-      "likedAt": null
-    },
-    {
       "id": "6789046323",
       "title": "You!Joy!Parade!",
       "artist": "M!LK",
@@ -1064,7 +914,7 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E5%A4%9C%E9%B7%B9-yodaka/6785367850?i=6785367852",
       "previewUrl": null,
-      "chartRank": 70,
+      "chartRank": 72,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": 0,
@@ -1119,32 +969,6 @@
       "likedAt": null
     },
     {
-      "id": "mb:74ccd42c-c0c4-4522-86db-adc334911b8f",
-      "title": "陽だまりの君",
-      "artist": "藍海のん",
-      "artistId": "c9ea1d5e-8b0b-4e36-89b8-64db436bdcc6",
-      "releaseDate": "2026-07-10",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:bd1ebbe9-8466-4990-a26b-d7c4abd1a21a",
-      "collectionName": "indigo",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "74ccd42c-c0c4-4522-86db-adc334911b8f",
-      "isrc": "JPZ532600012",
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
-      ],
-      "likedAt": null
-    },
-    {
       "id": "6785411720",
       "title": "グッタイム",
       "artist": "Snow Man",
@@ -1157,7 +981,7 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E3%82%B0%E3%83%83%E3%82%BF%E3%82%A4%E3%83%A0/6785411719?i=6785411720",
       "previewUrl": null,
-      "chartRank": 82,
+      "chartRank": 79,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": 0,
@@ -1207,84 +1031,6 @@
       "likedAt": null
     },
     {
-      "id": "mb:78842e7a-066a-417a-b366-c8ea972694fb",
-      "title": "エンディング (リマスター)",
-      "artist": "Eric Krause, Florian Wunsch & Amadeus Pakmur",
-      "artistId": "efd42d8f-f988-4e7a-903c-673925a00638",
-      "releaseDate": "2026-07-02",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:de318808-8a04-4f64-8c8a-46829b5fda97",
-      "collectionName": "R-Type Dimensions III オリジナルサウンドトラック",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "78842e7a-066a-417a-b366-c8ea972694fb",
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "mb:d68a9e1e-6883-4434-b179-cd01a3581a96",
-      "title": "ステージ 1 (イントロのみ) (リマスター)",
-      "artist": "Eric Krause, Florian Wunsch & Amadeus Pakmur",
-      "artistId": "efd42d8f-f988-4e7a-903c-673925a00638",
-      "releaseDate": "2026-07-02",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:de318808-8a04-4f64-8c8a-46829b5fda97",
-      "collectionName": "R-Type Dimensions III オリジナルサウンドトラック",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "d68a9e1e-6883-4434-b179-cd01a3581a96",
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "mb:e336122a-9673-486e-8260-f8ead20c2596",
-      "title": "ゲームメニュー (リマスター)",
-      "artist": "Eric Krause, Florian Wunsch & Amadeus Pakmur",
-      "artistId": "efd42d8f-f988-4e7a-903c-673925a00638",
-      "releaseDate": "2026-07-02",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:de318808-8a04-4f64-8c8a-46829b5fda97",
-      "collectionName": "R-Type Dimensions III オリジナルサウンドトラック",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "e336122a-9673-486e-8260-f8ead20c2596",
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
-      ],
-      "likedAt": null
-    },
-    {
       "id": "6805381667",
       "title": "BLUE MOON",
       "artist": "9Lana",
@@ -1327,7 +1073,7 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E7%83%8F-raven/6774039193?i=6774039202",
       "previewUrl": null,
-      "chartRank": 39,
+      "chartRank": 38,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": 0,
@@ -1347,526 +1093,6 @@
       },
       "sourceKinds": [
         "apple-jp-chart"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "mb:8ea97396-fe2f-4cae-9e48-84bfcdc0d771",
-      "title": "しあわせが鳴る",
-      "artist": "末廣健一郎",
-      "artistId": "a7098ecc-5cf8-451a-afb6-d932123626af",
-      "releaseDate": "2026-06-10",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:979a1f32-639c-46e5-9614-0c17436df1cd",
-      "collectionName": "「勇者のクズ」オリジナル・サウンドトラック",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "8ea97396-fe2f-4cae-9e48-84bfcdc0d771",
-      "isrc": "JPS602601214",
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "mb:864ec7ab-d81e-4b3b-9757-744f00419735",
-      "title": "《琥珀の茨》卿",
-      "artist": "末廣健一郎",
-      "artistId": "a7098ecc-5cf8-451a-afb6-d932123626af",
-      "releaseDate": "2026-06-10",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:979a1f32-639c-46e5-9614-0c17436df1cd",
-      "collectionName": "「勇者のクズ」オリジナル・サウンドトラック",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "864ec7ab-d81e-4b3b-9757-744f00419735",
-      "isrc": "JPS602601228",
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "mb:8e019de7-a6cd-4f86-ad42-29e943d40f41",
-      "title": "灰色の残響",
-      "artist": "末廣健一郎",
-      "artistId": "a7098ecc-5cf8-451a-afb6-d932123626af",
-      "releaseDate": "2026-06-10",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:979a1f32-639c-46e5-9614-0c17436df1cd",
-      "collectionName": "「勇者のクズ」オリジナル・サウンドトラック",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "8e019de7-a6cd-4f86-ad42-29e943d40f41",
-      "isrc": "JPS602601232",
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "mb:db2b7a1d-94a5-4af1-84f6-1a4c39ce3081",
-      "title": "勇者失格",
-      "artist": "末廣健一郎",
-      "artistId": "a7098ecc-5cf8-451a-afb6-d932123626af",
-      "releaseDate": "2026-06-10",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:979a1f32-639c-46e5-9614-0c17436df1cd",
-      "collectionName": "「勇者のクズ」オリジナル・サウンドトラック",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "db2b7a1d-94a5-4af1-84f6-1a4c39ce3081",
-      "isrc": "JPS602601207",
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "mb:efed5e3d-e954-461f-95ba-06c055defcda",
-      "title": "日常ブギ",
-      "artist": "末廣健一郎",
-      "artistId": "a7098ecc-5cf8-451a-afb6-d932123626af",
-      "releaseDate": "2026-06-10",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:979a1f32-639c-46e5-9614-0c17436df1cd",
-      "collectionName": "「勇者のクズ」オリジナル・サウンドトラック",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "efed5e3d-e954-461f-95ba-06c055defcda",
-      "isrc": "JPS602601219",
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "mb:ed64f216-e88b-4c65-9416-1586d8140fa5",
-      "title": "チームメイトの井戸端会議",
-      "artist": "末廣健一郎",
-      "artistId": "a7098ecc-5cf8-451a-afb6-d932123626af",
-      "releaseDate": "2026-06-10",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:979a1f32-639c-46e5-9614-0c17436df1cd",
-      "collectionName": "「勇者のクズ」オリジナル・サウンドトラック",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "ed64f216-e88b-4c65-9416-1586d8140fa5",
-      "isrc": "JPS602601255",
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "mb:ead2a626-9c6e-487b-9d0f-359f4cbb1846",
-      "title": "俺が手伝ってやってもいい",
-      "artist": "末廣健一郎",
-      "artistId": "a7098ecc-5cf8-451a-afb6-d932123626af",
-      "releaseDate": "2026-06-10",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:979a1f32-639c-46e5-9614-0c17436df1cd",
-      "collectionName": "「勇者のクズ」オリジナル・サウンドトラック",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "ead2a626-9c6e-487b-9d0f-359f4cbb1846",
-      "isrc": "JPS602601216",
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "mb:12bce1b0-f9cc-4a09-8db3-76d5926c74c8",
-      "title": "淡い黄昏",
-      "artist": "末廣健一郎",
-      "artistId": "a7098ecc-5cf8-451a-afb6-d932123626af",
-      "releaseDate": "2026-06-10",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:979a1f32-639c-46e5-9614-0c17436df1cd",
-      "collectionName": "「勇者のクズ」オリジナル・サウンドトラック",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "12bce1b0-f9cc-4a09-8db3-76d5926c74c8",
-      "isrc": "JPS602601212",
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "mb:f5d3c96b-4d1f-47f0-bc14-9c46efd0bf62",
-      "title": "エーテル焼け",
-      "artist": "末廣健一郎",
-      "artistId": "a7098ecc-5cf8-451a-afb6-d932123626af",
-      "releaseDate": "2026-06-10",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:979a1f32-639c-46e5-9614-0c17436df1cd",
-      "collectionName": "「勇者のクズ」オリジナル・サウンドトラック",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "f5d3c96b-4d1f-47f0-bc14-9c46efd0bf62",
-      "isrc": "JPS602601229",
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "mb:1aca8220-7c36-4f7d-8a9a-0a42831a92d6",
-      "title": "中毒ビート",
-      "artist": "末廣健一郎",
-      "artistId": "a7098ecc-5cf8-451a-afb6-d932123626af",
-      "releaseDate": "2026-06-10",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:979a1f32-639c-46e5-9614-0c17436df1cd",
-      "collectionName": "「勇者のクズ」オリジナル・サウンドトラック",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "1aca8220-7c36-4f7d-8a9a-0a42831a92d6",
-      "isrc": "JPS602601198",
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "mb:8370332a-6422-4f78-946c-301c3e43f709",
-      "title": "私は強くなりたい",
-      "artist": "末廣健一郎",
-      "artistId": "a7098ecc-5cf8-451a-afb6-d932123626af",
-      "releaseDate": "2026-06-10",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:979a1f32-639c-46e5-9614-0c17436df1cd",
-      "collectionName": "「勇者のクズ」オリジナル・サウンドトラック",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "8370332a-6422-4f78-946c-301c3e43f709",
-      "isrc": "JPS602601210",
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "mb:710f35aa-2b79-4603-b909-a1046bfe3725",
-      "title": "尊敬に値する勇者",
-      "artist": "末廣健一郎",
-      "artistId": "a7098ecc-5cf8-451a-afb6-d932123626af",
-      "releaseDate": "2026-06-10",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:979a1f32-639c-46e5-9614-0c17436df1cd",
-      "collectionName": "「勇者のクズ」オリジナル・サウンドトラック",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "710f35aa-2b79-4603-b909-a1046bfe3725",
-      "isrc": "JPS602601194",
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "mb:1b568676-b3f3-46ee-a14c-5010b3d021ea",
-      "title": "死神ヤシロの再会",
-      "artist": "末廣健一郎",
-      "artistId": "a7098ecc-5cf8-451a-afb6-d932123626af",
-      "releaseDate": "2026-06-10",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:979a1f32-639c-46e5-9614-0c17436df1cd",
-      "collectionName": "「勇者のクズ」オリジナル・サウンドトラック",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "1b568676-b3f3-46ee-a14c-5010b3d021ea",
-      "isrc": "JPS602601206",
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "mb:6657705f-cdc6-49cc-8ac7-86f5bbd79ea4",
-      "title": "加速ノイズ",
-      "artist": "末廣健一郎",
-      "artistId": "a7098ecc-5cf8-451a-afb6-d932123626af",
-      "releaseDate": "2026-06-10",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:979a1f32-639c-46e5-9614-0c17436df1cd",
-      "collectionName": "「勇者のクズ」オリジナル・サウンドトラック",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "6657705f-cdc6-49cc-8ac7-86f5bbd79ea4",
-      "isrc": "JPS602601218",
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "mb:c0416b19-f68a-4a55-8564-7494c520eecb",
-      "title": "英雄ヘヴン",
-      "artist": "末廣健一郎",
-      "artistId": "a7098ecc-5cf8-451a-afb6-d932123626af",
-      "releaseDate": "2026-06-10",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:979a1f32-639c-46e5-9614-0c17436df1cd",
-      "collectionName": "「勇者のクズ」オリジナル・サウンドトラック",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "c0416b19-f68a-4a55-8564-7494c520eecb",
-      "isrc": "JPS602601199",
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "mb:a4c49fce-b48a-40d8-9147-65fc19aea2bd",
-      "title": "く、く、黒歴史",
-      "artist": "高尾奏之介",
-      "artistId": "e0a5a647-7f3d-4607-86b0-eba68df57777",
-      "releaseDate": "2026-06-10",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:118d6248-c204-41f2-a695-82726ba598fb",
-      "collectionName": "TVアニメ「灰原くんの強くて青春ニューゲーム」オリジナル・サウンドトラック",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "a4c49fce-b48a-40d8-9147-65fc19aea2bd",
-      "isrc": "JPL802641009",
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "mb:ae3a70fb-871c-49c3-84b9-ff7d425b6ded",
-      "title": "一歩の勇気が答えになる",
-      "artist": "馬瀬みさき",
-      "artistId": "3a57d2ac-98db-40af-b021-ee743d61a119",
-      "releaseDate": "2026-05-27",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:0f24088b-317c-49dd-b228-114f1e1f50c6",
-      "collectionName": "『名探偵プリキュア!』オリジナル・サウンドトラック1 プリキュア・スターディテクティブ・サウンド!!",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "ae3a70fb-871c-49c3-84b9-ff7d425b6ded",
-      "isrc": "JPD602600054",
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "mb:585b425c-7c6b-416d-8ba2-5b921535020a",
-      "title": "次回もキュアット解決!",
-      "artist": "杉山勝彦・佐々木”コジロー”貴之",
-      "artistId": "0d93c590-2615-41f9-b7b9-b575567e8427",
-      "releaseDate": "2026-05-27",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:0f24088b-317c-49dd-b228-114f1e1f50c6",
-      "collectionName": "『名探偵プリキュア!』オリジナル・サウンドトラック1 プリキュア・スターディテクティブ・サウンド!!",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "585b425c-7c6b-416d-8ba2-5b921535020a",
-      "isrc": "JPD602600062",
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "mb:e34b5510-d3a1-4eb4-b6ec-4da14920069f",
-      "title": "キュアットキャッチ!",
-      "artist": "馬瀬みさき",
-      "artistId": "3a57d2ac-98db-40af-b021-ee743d61a119",
-      "releaseDate": "2026-05-27",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:0f24088b-317c-49dd-b228-114f1e1f50c6",
-      "collectionName": "『名探偵プリキュア!』オリジナル・サウンドトラック1 プリキュア・スターディテクティブ・サウンド!!",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "e34b5510-d3a1-4eb4-b6ec-4da14920069f",
-      "isrc": "JPD602600047",
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "mb:9c612f68-b102-4978-a4f3-f3e358b8da2e",
-      "title": "闇の劇場",
-      "artist": "馬瀬みさき",
-      "artistId": "3a57d2ac-98db-40af-b021-ee743d61a119",
-      "releaseDate": "2026-05-27",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:0f24088b-317c-49dd-b228-114f1e1f50c6",
-      "collectionName": "『名探偵プリキュア!』オリジナル・サウンドトラック1 プリキュア・スターディテクティブ・サウンド!!",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "9c612f68-b102-4978-a4f3-f3e358b8da2e",
-      "isrc": "JPD602600058",
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
       ],
       "likedAt": null
     },
@@ -1898,214 +1124,6 @@
       },
       "sourceKinds": [
         "apple-jp-chart"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "mb:97e787a6-0618-4159-a6d5-9f1fefa014f2",
-      "title": "弱くなれ!",
-      "artist": "桃寝ちのい",
-      "artistId": "6da8d840-cf95-4d2c-ac72-3096136bb594",
-      "releaseDate": "2026-04-26",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:0633043b-3a83-4417-8178-6e232554609e",
-      "collectionName": "だめいぬ♡いんだ♡だっこ",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "97e787a6-0618-4159-a6d5-9f1fefa014f2",
-      "isrc": "QT66N2643483",
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "mb:931f68c2-c0b2-44bf-bac8-b24d386ea3bf",
-      "title": "エンゼルフード",
-      "artist": "桃寝ちのい",
-      "artistId": "6da8d840-cf95-4d2c-ac72-3096136bb594",
-      "releaseDate": "2026-04-26",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:0633043b-3a83-4417-8178-6e232554609e",
-      "collectionName": "だめいぬ♡いんだ♡だっこ",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "931f68c2-c0b2-44bf-bac8-b24d386ea3bf",
-      "isrc": "QT66R2645890",
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "mb:83ba63f9-ff26-4627-b605-49dcfbcab803",
-      "title": "あがらふぃーりん",
-      "artist": "RED",
-      "artistId": "75130361-7a2e-474f-9ac0-54e2d8f629a3",
-      "releaseDate": "2026-04-25",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:efd9f227-4c96-475d-84a0-0d225a004bee",
-      "collectionName": "全部俺 PART III",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "83ba63f9-ff26-4627-b605-49dcfbcab803",
-      "isrc": "QT66Q2692274",
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "mb:ca91b9e3-2137-4327-9f4b-be305233de7b",
-      "title": "る=る=るぅ論",
-      "artist": "フロクロ",
-      "artistId": "ceb5f926-a908-41c7-85b6-3764d1458532",
-      "releaseDate": "2026-04-25",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:efd9f227-4c96-475d-84a0-0d225a004bee",
-      "collectionName": "全部俺 PART III",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "ca91b9e3-2137-4327-9f4b-be305233de7b",
-      "isrc": "QT66Q2692173",
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "mb:74b38279-8fed-47fe-8794-5b52795f04d0",
-      "title": "マ・イーカ・サンバ",
-      "artist": "馬車馬カエデ",
-      "artistId": "0452f555-842e-42e1-800b-1d9e8e004d2f",
-      "releaseDate": "2026-04-25",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:efd9f227-4c96-475d-84a0-0d225a004bee",
-      "collectionName": "全部俺 PART III",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "74b38279-8fed-47fe-8794-5b52795f04d0",
-      "isrc": "QT66Q2692258",
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "mb:0ef9c341-25c1-44f1-a743-8ab5063c8d43",
-      "title": "借り物",
-      "artist": "濁茶",
-      "artistId": "3d419d14-9499-4207-8f2d-711753311ca1",
-      "releaseDate": "2026-04-25",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:efd9f227-4c96-475d-84a0-0d225a004bee",
-      "collectionName": "全部俺 PART III",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "0ef9c341-25c1-44f1-a743-8ab5063c8d43",
-      "isrc": "QT66Q2692041",
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "mb:9e0e1f32-d29f-404a-98ff-c3452459bd38",
-      "title": "異化効果",
-      "artist": "読谷あかね",
-      "artistId": "29efd48e-7542-4543-8852-51de57df418d",
-      "releaseDate": "2026-04-25",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:efd9f227-4c96-475d-84a0-0d225a004bee",
-      "collectionName": "全部俺 PART III",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "9e0e1f32-d29f-404a-98ff-c3452459bd38",
-      "isrc": "QT66Q2691944",
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "mb:57ad7735-29c4-4f4a-857f-7b58bf774384",
-      "title": "コムギノフネ",
-      "artist": "いえぬ",
-      "artistId": "7a853f0b-a523-43e1-9967-405eb680ebfb",
-      "releaseDate": "2026-04-25",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:efd9f227-4c96-475d-84a0-0d225a004bee",
-      "collectionName": "全部俺 PART III",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "57ad7735-29c4-4f4a-857f-7b58bf774384",
-      "isrc": "QT66Q2692269",
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
       ],
       "likedAt": null
     },
@@ -2142,28 +1160,37 @@
       "likedAt": null
     },
     {
-      "id": "mb:b06daf91-4b52-476e-a787-f514b5b2b4a9",
-      "title": "恨み節",
-      "artist": "梶芽衣子",
-      "artistId": "fb5280b5-9e0c-439d-b275-2d8b5bffc19a",
-      "releaseDate": "2026-04-18",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
+      "id": "1887793931",
+      "title": "スターダスト",
+      "artist": "Official髭男dism",
+      "artistId": "960568308",
+      "releaseDate": "2026-04-13",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9b/a1/75/9ba175fa-c71e-3bd1-decc-a47254093484/20609.jpg/100x100bb.jpg",
+      "genres": [
+        "J-Pop"
+      ],
+      "appleUrl": "https://music.apple.com/jp/album/%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%80%E3%82%B9%E3%83%88/1887793929?i=1887793931&uo=4",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/7d/b2/cf/7db2cfc6-c3de-1d40-af4b-670ce269de40/mzaf_15341237953562651100.plus.aac.p.m4a",
       "chartRank": null,
-      "collectionId": "mb:eda7e6c6-4043-47c8-b423-21aeea608203",
-      "collectionName": "怨み節/修羅の花",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "b06daf91-4b52-476e-a787-f514b5b2b4a9",
+      "collectionId": "1887793929",
+      "collectionName": "スターダスト - Single",
+      "trackNumber": 1,
+      "trackCount": 1,
+      "discNumber": 1,
+      "discCount": 1,
+      "recordingId": null,
       "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {},
+      "searchAliases": [
+        "Official Hige Dandism",
+        "Higedan",
+        "오피셜히게단디즘",
+        "히게단"
+      ],
+      "platformLinks": {
+        "apple": "https://music.apple.com/jp/album/%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%80%E3%82%B9%E3%83%88/1887793929?i=1887793931&uo=4"
+      },
       "sourceKinds": [
-        "musicbrainz-jp-release-index"
+        "itunes-jp-search"
       ],
       "likedAt": null
     },
@@ -2201,32 +1228,6 @@
       "likedAt": null
     },
     {
-      "id": "mb:a2dbd158-8764-4847-8adc-dca07b66ce61",
-      "title": "極超新星",
-      "artist": "佐々木李子",
-      "artistId": "dcbe8eb6-8ceb-4215-a844-f16c39dd78f2",
-      "releaseDate": "2026-04-11",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:575ddcb7-b9a0-48e0-9feb-196ea659ec07",
-      "collectionName": "RI PATHOS",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "a2dbd158-8764-4847-8adc-dca07b66ce61",
-      "isrc": "JPI102600625",
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
-      ],
-      "likedAt": null
-    },
-    {
       "id": "1886375862",
       "title": "火種",
       "artist": "キタニタツヤ",
@@ -2257,62 +1258,6 @@
       "likedAt": null
     },
     {
-      "id": "mb:b3066760-6c93-4e84-a43b-09f6a56ef0ba",
-      "title": "ぽわぽわぷてぃこんてんしさま",
-      "artist": "桃寝ちのい",
-      "artistId": "6da8d840-cf95-4d2c-ac72-3096136bb594",
-      "releaseDate": "2026-04-03",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:0633043b-3a83-4417-8178-6e232554609e",
-      "collectionName": "だめいぬ♡いんだ♡だっこ",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "b3066760-6c93-4e84-a43b-09f6a56ef0ba",
-      "isrc": "QT66M2613677",
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "1772865881",
-      "title": "アイビー",
-      "artist": "Novelbright",
-      "artistId": "1022677279",
-      "releaseDate": "2026-03-30",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2b/55/4f/2b554f39-24a6-fdd7-eea2-455d4248b7aa/24UMGIM96508.rgb.jpg/100x100bb.jpg",
-      "genres": [
-        "ロック"
-      ],
-      "appleUrl": "https://music.apple.com/jp/album/%E3%82%A2%E3%82%A4%E3%83%93%E3%83%BC/1772865879?i=1772865881&uo=4",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/67/e9/71/67e9712d-c9ec-7b80-c473-566e9e7026ca/mzaf_13513832982156126783.plus.aac.p.m4a",
-      "chartRank": null,
-      "collectionId": "1772865879",
-      "collectionName": "アイビー - Single",
-      "trackNumber": 1,
-      "trackCount": 1,
-      "discNumber": 1,
-      "discCount": 1,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/jp/album/%E3%82%A2%E3%82%A4%E3%83%93%E3%83%BC/1772865879?i=1772865881&uo=4"
-      },
-      "sourceKinds": [
-        "itunes-jp-search"
-      ],
-      "likedAt": null
-    },
-    {
       "id": "1884257489",
       "title": "Bad Girl",
       "artist": "HANA",
@@ -2325,7 +1270,7 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/bad-girl/1884257488?i=1884257489",
       "previewUrl": null,
-      "chartRank": 63,
+      "chartRank": 62,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": 0,
@@ -2340,162 +1285,6 @@
       },
       "sourceKinds": [
         "apple-jp-chart"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "mb:9a5b62d0-1ba4-4a81-ba91-60ccd7a9d65d",
-      "title": "キャンデー",
-      "artist": "r-906 feat. 鏡音リン",
-      "artistId": "3d00a629-1faa-44b2-9d52-eabc45ff8395",
-      "releaseDate": "2026-03-19",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:8f224869-fe06-4b2b-8cb2-904f94555b83",
-      "collectionName": "キャンデー",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "9a5b62d0-1ba4-4a81-ba91-60ccd7a9d65d",
-      "isrc": "QT66L2666201",
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "mb:50328520-5923-4ee3-a38d-c374b5d4402f",
-      "title": "ドキュメント",
-      "artist": "サカナクション",
-      "artistId": "01830cc1-8a04-4dfb-9e4a-d557dfda6a93",
-      "releaseDate": "2026-03-18",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:d34c0f58-d32f-407e-a51f-813afdaf66f5",
-      "collectionName": "SAKANAQUARIUM 2025 “怪獣”",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "50328520-5923-4ee3-a38d-c374b5d4402f",
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "mb:bef26542-e478-40e3-a69a-a88742694b95",
-      "title": "ネイティブダンサー",
-      "artist": "サカナクション",
-      "artistId": "01830cc1-8a04-4dfb-9e4a-d557dfda6a93",
-      "releaseDate": "2026-03-18",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:d34c0f58-d32f-407e-a51f-813afdaf66f5",
-      "collectionName": "SAKANAQUARIUM 2025 “怪獣”",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "bef26542-e478-40e3-a69a-a88742694b95",
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "mb:73981b2f-a33b-4f84-971a-550d376ffba0",
-      "title": "ライトダンス",
-      "artist": "サカナクション",
-      "artistId": "01830cc1-8a04-4dfb-9e4a-d557dfda6a93",
-      "releaseDate": "2026-03-18",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:d34c0f58-d32f-407e-a51f-813afdaf66f5",
-      "collectionName": "SAKANAQUARIUM 2025 “怪獣”",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "73981b2f-a33b-4f84-971a-550d376ffba0",
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "mb:d0093cb2-363f-4107-a37f-e54ce9010dd7",
-      "title": "アイデンティティ",
-      "artist": "サカナクション",
-      "artistId": "01830cc1-8a04-4dfb-9e4a-d557dfda6a93",
-      "releaseDate": "2026-03-18",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:d34c0f58-d32f-407e-a51f-813afdaf66f5",
-      "collectionName": "SAKANAQUARIUM 2025 “怪獣”",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "d0093cb2-363f-4107-a37f-e54ce9010dd7",
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "mb:61fa1ee9-0f00-4075-8a77-a2a865992c68",
-      "title": "ナイトフィッシングイズグッド (Encore)",
-      "artist": "サカナクション",
-      "artistId": "01830cc1-8a04-4dfb-9e4a-d557dfda6a93",
-      "releaseDate": "2026-03-18",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:d34c0f58-d32f-407e-a51f-813afdaf66f5",
-      "collectionName": "SAKANAQUARIUM 2025 “怪獣”",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "61fa1ee9-0f00-4075-8a77-a2a865992c68",
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
       ],
       "likedAt": null
     }
@@ -2728,37 +1517,6 @@
       "likedAt": null
     },
     {
-      "id": "6793888335",
-      "title": "見知らぬ糸",
-      "artist": "スピッツ",
-      "artistId": "74456960",
-      "releaseDate": "2026-08-07",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ab/0d/29/ab0d292f-3675-729e-4a8f-eb79a4c88367/26UMGIM87104.rgb.jpg/100x100bb.jpg",
-      "genres": [
-        "ロック",
-        "ミュージック"
-      ],
-      "appleUrl": "https://music.apple.com/jp/album/%E8%A6%8B%E7%9F%A5%E3%82%89%E3%81%AC%E7%B3%B8/6793888333?i=6793888335",
-      "previewUrl": null,
-      "chartRank": 10,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/jp/album/%E8%A6%8B%E7%9F%A5%E3%82%89%E3%81%AC%E7%B3%B8/6793888333?i=6793888335"
-      },
-      "sourceKinds": [
-        "apple-jp-chart"
-      ],
-      "likedAt": null
-    },
-    {
       "id": "1869537742",
       "title": "爆裂愛してる",
       "artist": "M!LK",
@@ -2771,7 +1529,7 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E7%88%86%E8%A3%82%E6%84%9B%E3%81%97%E3%81%A6%E3%82%8B/1869537741?i=1869537742",
       "previewUrl": null,
-      "chartRank": 11,
+      "chartRank": 10,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": 0,
@@ -2783,6 +1541,37 @@
       "searchAliases": [],
       "platformLinks": {
         "apple": "https://music.apple.com/jp/album/%E7%88%86%E8%A3%82%E6%84%9B%E3%81%97%E3%81%A6%E3%82%8B/1869537741?i=1869537742"
+      },
+      "sourceKinds": [
+        "apple-jp-chart"
+      ],
+      "likedAt": null
+    },
+    {
+      "id": "6793888335",
+      "title": "見知らぬ糸",
+      "artist": "スピッツ",
+      "artistId": "74456960",
+      "releaseDate": "2026-08-07",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ab/0d/29/ab0d292f-3675-729e-4a8f-eb79a4c88367/26UMGIM87104.rgb.jpg/100x100bb.jpg",
+      "genres": [
+        "ロック",
+        "ミュージック"
+      ],
+      "appleUrl": "https://music.apple.com/jp/album/%E8%A6%8B%E7%9F%A5%E3%82%89%E3%81%AC%E7%B3%B8/6793888333?i=6793888335",
+      "previewUrl": null,
+      "chartRank": 11,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/jp/album/%E8%A6%8B%E7%9F%A5%E3%82%89%E3%81%AC%E7%B3%B8/6793888333?i=6793888335"
       },
       "sourceKinds": [
         "apple-jp-chart"
@@ -3060,7 +1849,7 @@
       "title": "時空超えてユニバース",
       "artist": "M!LK",
       "artistId": "1356706755",
-      "releaseDate": null,
+      "releaseDate": "2026-09-07",
       "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d0/c1/3e/d0c13e26-39b8-76b3-8ba5-b4412872260f/VEATP-45880.jpg/100x100bb.jpg",
       "genres": [
         "J-Pop",
@@ -3068,7 +1857,7 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E6%99%82%E7%A9%BA%E8%B6%85%E3%81%88%E3%81%A6%E3%83%A6%E3%83%8B%E3%83%90%E3%83%BC%E3%82%B9/6803798492?i=6803798494",
       "previewUrl": null,
-      "chartRank": 21,
+      "chartRank": 20,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": 0,
@@ -3150,37 +1939,6 @@
       "likedAt": null
     },
     {
-      "id": "1794066813",
-      "title": "とくべチュ、して",
-      "artist": "=LOVE",
-      "artistId": "1273762750",
-      "releaseDate": "2025-02-10",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/64/7f/83/647f8398-9ac9-21f6-49cc-bec4e9723637/4547366732757.jpg/100x100bb.jpg",
-      "genres": [
-        "J-Pop",
-        "ミュージック"
-      ],
-      "appleUrl": "https://music.apple.com/jp/album/%E3%81%A8%E3%81%8F%E3%81%B9%E3%83%81%E3%83%A5-%E3%81%97%E3%81%A6/1794066812?i=1794066813",
-      "previewUrl": null,
-      "chartRank": 24,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/jp/album/%E3%81%A8%E3%81%8F%E3%81%B9%E3%83%81%E3%83%A5-%E3%81%97%E3%81%A6/1794066812?i=1794066813"
-      },
-      "sourceKinds": [
-        "apple-jp-chart"
-      ],
-      "likedAt": null
-    },
-    {
       "id": "604748203",
       "title": "夜の踊り子",
       "artist": "サカナクション",
@@ -3193,7 +1951,7 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E5%A4%9C%E3%81%AE%E8%B8%8A%E3%82%8A%E5%AD%90/604748196?i=604748203",
       "previewUrl": null,
-      "chartRank": 25,
+      "chartRank": 24,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": 0,
@@ -3224,7 +1982,7 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/happy-birthday/1456062834?i=1456063581",
       "previewUrl": null,
-      "chartRank": 26,
+      "chartRank": 25,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": 0,
@@ -3239,6 +1997,37 @@
       ],
       "platformLinks": {
         "apple": "https://music.apple.com/jp/album/happy-birthday/1456062834?i=1456063581"
+      },
+      "sourceKinds": [
+        "apple-jp-chart"
+      ],
+      "likedAt": null
+    },
+    {
+      "id": "1794066813",
+      "title": "とくべチュ、して",
+      "artist": "=LOVE",
+      "artistId": "1273762750",
+      "releaseDate": "2025-02-10",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/64/7f/83/647f8398-9ac9-21f6-49cc-bec4e9723637/4547366732757.jpg/100x100bb.jpg",
+      "genres": [
+        "J-Pop",
+        "ミュージック"
+      ],
+      "appleUrl": "https://music.apple.com/jp/album/%E3%81%A8%E3%81%8F%E3%81%B9%E3%83%81%E3%83%A5-%E3%81%97%E3%81%A6/1794066812?i=1794066813",
+      "previewUrl": null,
+      "chartRank": 26,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/jp/album/%E3%81%A8%E3%81%8F%E3%81%B9%E3%83%81%E3%83%A5-%E3%81%97%E3%81%A6/1794066812?i=1794066813"
       },
       "sourceKinds": [
         "apple-jp-chart"
@@ -3553,37 +2342,6 @@
       "likedAt": null
     },
     {
-      "id": "6797407954",
-      "title": "So Honey",
-      "artist": "King & Prince",
-      "artistId": "1745727874",
-      "releaseDate": "2026-09-01",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ed/b0/52/edb0527d-a559-5a0d-207b-6d7241eeffd5/26UM1IM00708.rgb.jpg/100x100bb.jpg",
-      "genres": [
-        "J-Pop",
-        "ミュージック"
-      ],
-      "appleUrl": "https://music.apple.com/jp/album/so-honey/6797407951?i=6797407954",
-      "previewUrl": null,
-      "chartRank": 38,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/jp/album/so-honey/6797407951?i=6797407954"
-      },
-      "sourceKinds": [
-        "apple-jp-chart"
-      ],
-      "likedAt": null
-    },
-    {
       "id": "6774039202",
       "title": "烏 - Raven",
       "artist": "米津玄師",
@@ -3596,7 +2354,7 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E7%83%8F-raven/6774039193?i=6774039202",
       "previewUrl": null,
-      "chartRank": 39,
+      "chartRank": 38,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": 0,
@@ -3613,6 +2371,37 @@
       ],
       "platformLinks": {
         "apple": "https://music.apple.com/jp/album/%E7%83%8F-raven/6774039193?i=6774039202"
+      },
+      "sourceKinds": [
+        "apple-jp-chart"
+      ],
+      "likedAt": null
+    },
+    {
+      "id": "6797407954",
+      "title": "So Honey",
+      "artist": "King & Prince",
+      "artistId": "1745727874",
+      "releaseDate": "2026-09-01",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ed/b0/52/edb0527d-a559-5a0d-207b-6d7241eeffd5/26UM1IM00708.rgb.jpg/100x100bb.jpg",
+      "genres": [
+        "J-Pop",
+        "ミュージック"
+      ],
+      "appleUrl": "https://music.apple.com/jp/album/so-honey/6797407951?i=6797407954",
+      "previewUrl": null,
+      "chartRank": 40,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/jp/album/so-honey/6797407951?i=6797407954"
       },
       "sourceKinds": [
         "apple-jp-chart"
@@ -3654,17 +2443,17 @@
       "likedAt": null
     },
     {
-      "id": "1879525016",
-      "title": "Five",
-      "artist": "嵐",
-      "artistId": "548185047",
-      "releaseDate": "2026-03-04",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/05/77/28/05772817-1d81-ee8e-8224-a225f74a310b/820200234377.jpg/100x100bb.jpg",
+      "id": "1623304209",
+      "title": "ダンスホール",
+      "artist": "Mrs. GREEN APPLE",
+      "artistId": "962221033",
+      "releaseDate": "2022-05-24",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/b7/20/05/b7200500-e97d-8c79-7cf2-99a6fb1aaf4d/22UMGIM50592.rgb.jpg/100x100bb.jpg",
       "genres": [
-        "J-Pop",
+        "ロック",
         "ミュージック"
       ],
-      "appleUrl": "https://music.apple.com/jp/album/five/1879524863?i=1879525016",
+      "appleUrl": "https://music.apple.com/jp/album/%E3%83%80%E3%83%B3%E3%82%B9%E3%83%9B%E3%83%BC%E3%83%AB/1623304208?i=1623304209",
       "previewUrl": null,
       "chartRank": 42,
       "collectionId": null,
@@ -3675,9 +2464,12 @@
       "discCount": 0,
       "recordingId": null,
       "isrc": null,
-      "searchAliases": [],
+      "searchAliases": [
+        "미세스 그린 애플",
+        "미세스그린애플"
+      ],
       "platformLinks": {
-        "apple": "https://music.apple.com/jp/album/five/1879524863?i=1879525016"
+        "apple": "https://music.apple.com/jp/album/%E3%83%80%E3%83%B3%E3%82%B9%E3%83%9B%E3%83%BC%E3%83%AB/1623304208?i=1623304209"
       },
       "sourceKinds": [
         "apple-jp-chart"
@@ -3716,17 +2508,17 @@
       "likedAt": null
     },
     {
-      "id": "1623304209",
-      "title": "ダンスホール",
-      "artist": "Mrs. GREEN APPLE",
-      "artistId": "962221033",
-      "releaseDate": "2022-05-24",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/b7/20/05/b7200500-e97d-8c79-7cf2-99a6fb1aaf4d/22UMGIM50592.rgb.jpg/100x100bb.jpg",
+      "id": "1879525016",
+      "title": "Five",
+      "artist": "嵐",
+      "artistId": "548185047",
+      "releaseDate": "2026-03-04",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/05/77/28/05772817-1d81-ee8e-8224-a225f74a310b/820200234377.jpg/100x100bb.jpg",
       "genres": [
-        "ロック",
+        "J-Pop",
         "ミュージック"
       ],
-      "appleUrl": "https://music.apple.com/jp/album/%E3%83%80%E3%83%B3%E3%82%B9%E3%83%9B%E3%83%BC%E3%83%AB/1623304208?i=1623304209",
+      "appleUrl": "https://music.apple.com/jp/album/five/1879524863?i=1879525016",
       "previewUrl": null,
       "chartRank": 44,
       "collectionId": null,
@@ -3737,12 +2529,9 @@
       "discCount": 0,
       "recordingId": null,
       "isrc": null,
-      "searchAliases": [
-        "미세스 그린 애플",
-        "미세스그린애플"
-      ],
+      "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/jp/album/%E3%83%80%E3%83%B3%E3%82%B9%E3%83%9B%E3%83%BC%E3%83%AB/1623304208?i=1623304209"
+        "apple": "https://music.apple.com/jp/album/five/1879524863?i=1879525016"
       },
       "sourceKinds": [
         "apple-jp-chart"
@@ -3817,37 +2606,6 @@
       "likedAt": null
     },
     {
-      "id": "6801361853",
-      "title": "灰色",
-      "artist": "大森元貴",
-      "artistId": "1360524149",
-      "releaseDate": "2026-08-26",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7b/58/16/7b581688-53c3-6e18-120e-c855a70c2daf/26UM1IM01960.rgb.jpg/100x100bb.jpg",
-      "genres": [
-        "ロック",
-        "ミュージック"
-      ],
-      "appleUrl": "https://music.apple.com/jp/album/%E7%81%B0%E8%89%B2/6801361848?i=6801361853",
-      "previewUrl": null,
-      "chartRank": 50,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/jp/album/%E7%81%B0%E8%89%B2/6801361848?i=6801361853"
-      },
-      "sourceKinds": [
-        "apple-jp-chart"
-      ],
-      "likedAt": null
-    },
-    {
       "id": "1648108988",
       "title": "Subtitle",
       "artist": "Official髭男dism",
@@ -3860,7 +2618,7 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/subtitle/1648108987?i=1648108988",
       "previewUrl": null,
-      "chartRank": 52,
+      "chartRank": 51,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": 0,
@@ -3877,6 +2635,37 @@
       ],
       "platformLinks": {
         "apple": "https://music.apple.com/jp/album/subtitle/1648108987?i=1648108988"
+      },
+      "sourceKinds": [
+        "apple-jp-chart"
+      ],
+      "likedAt": null
+    },
+    {
+      "id": "6801361853",
+      "title": "灰色",
+      "artist": "大森元貴",
+      "artistId": "1360524149",
+      "releaseDate": "2026-08-26",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7b/58/16/7b581688-53c3-6e18-120e-c855a70c2daf/26UM1IM01960.rgb.jpg/100x100bb.jpg",
+      "genres": [
+        "ロック",
+        "ミュージック"
+      ],
+      "appleUrl": "https://music.apple.com/jp/album/%E7%81%B0%E8%89%B2/6801361848?i=6801361853",
+      "previewUrl": null,
+      "chartRank": 52,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/jp/album/%E7%81%B0%E8%89%B2/6801361848?i=6801361853"
       },
       "sourceKinds": [
         "apple-jp-chart"
@@ -3954,17 +2743,17 @@
       "likedAt": null
     },
     {
-      "id": "316684060",
-      "title": "Body & Soul",
-      "artist": "SPEED",
-      "artistId": "295647185",
-      "releaseDate": "1997-05-21",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/79/e2/0d/79e20d1b-d075-8891-0cef-06b41b5ffd78/mzi.pohobzdm.jpg/100x91bb.jpg",
+      "id": "6793456212",
+      "title": "罪と罰と雨とキス (佐野勇斗&吉田仁人)",
+      "artist": "M!LK",
+      "artistId": "1356706755",
+      "releaseDate": "2026-08-03",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/bd/11/7d/bd117d15-042d-c606-6e45-2bc5a14a96d4/VEATP-45813.jpg/100x100bb.jpg",
       "genres": [
         "J-Pop",
         "ミュージック"
       ],
-      "appleUrl": "https://music.apple.com/jp/album/body-soul/316684058?i=316684060",
+      "appleUrl": "https://music.apple.com/jp/album/%E7%BD%AA%E3%81%A8%E7%BD%B0%E3%81%A8%E9%9B%A8%E3%81%A8%E3%82%AD%E3%82%B9-%E4%BD%90%E9%87%8E%E5%8B%87%E6%96%97-%E5%90%89%E7%94%B0%E4%BB%81%E4%BA%BA/6793456209?i=6793456212",
       "previewUrl": null,
       "chartRank": 55,
       "collectionId": null,
@@ -3977,7 +2766,7 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/jp/album/body-soul/316684058?i=316684060"
+        "apple": "https://music.apple.com/jp/album/%E7%BD%AA%E3%81%A8%E7%BD%B0%E3%81%A8%E9%9B%A8%E3%81%A8%E3%82%AD%E3%82%B9-%E4%BD%90%E9%87%8E%E5%8B%87%E6%96%97-%E5%90%89%E7%94%B0%E4%BB%81%E4%BA%BA/6793456209?i=6793456212"
       },
       "sourceKinds": [
         "apple-jp-chart"
@@ -4018,17 +2807,17 @@
       "likedAt": null
     },
     {
-      "id": "1440747285",
-      "title": "チェリー",
-      "artist": "スピッツ",
-      "artistId": "74456960",
-      "releaseDate": "1996-04-10",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/29/c0/30/29c030c7-ae9c-a201-ef47-bf9a8b2ed31a/00600406212191.rgb.jpg/100x100bb.jpg",
+      "id": "316684060",
+      "title": "Body & Soul",
+      "artist": "SPEED",
+      "artistId": "295647185",
+      "releaseDate": "1997-05-21",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/79/e2/0d/79e20d1b-d075-8891-0cef-06b41b5ffd78/mzi.pohobzdm.jpg/100x91bb.jpg",
       "genres": [
-        "ロック",
+        "J-Pop",
         "ミュージック"
       ],
-      "appleUrl": "https://music.apple.com/jp/album/%E3%83%81%E3%82%A7%E3%83%AA%E3%83%BC/1440746376?i=1440747285",
+      "appleUrl": "https://music.apple.com/jp/album/body-soul/316684058?i=316684060",
       "previewUrl": null,
       "chartRank": 57,
       "collectionId": null,
@@ -4041,38 +2830,7 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/jp/album/%E3%83%81%E3%82%A7%E3%83%AA%E3%83%BC/1440746376?i=1440747285"
-      },
-      "sourceKinds": [
-        "apple-jp-chart"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "6793456212",
-      "title": "罪と罰と雨とキス (佐野勇斗&吉田仁人)",
-      "artist": "M!LK",
-      "artistId": "1356706755",
-      "releaseDate": "2026-08-03",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/bd/11/7d/bd117d15-042d-c606-6e45-2bc5a14a96d4/VEATP-45813.jpg/100x100bb.jpg",
-      "genres": [
-        "J-Pop",
-        "ミュージック"
-      ],
-      "appleUrl": "https://music.apple.com/jp/album/%E7%BD%AA%E3%81%A8%E7%BD%B0%E3%81%A8%E9%9B%A8%E3%81%A8%E3%82%AD%E3%82%B9-%E4%BD%90%E9%87%8E%E5%8B%87%E6%96%97-%E5%90%89%E7%94%B0%E4%BB%81%E4%BA%BA/6793456209?i=6793456212",
-      "previewUrl": null,
-      "chartRank": 58,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/jp/album/%E7%BD%AA%E3%81%A8%E7%BD%B0%E3%81%A8%E9%9B%A8%E3%81%A8%E3%82%AD%E3%82%B9-%E4%BD%90%E9%87%8E%E5%8B%87%E6%96%97-%E5%90%89%E7%94%B0%E4%BB%81%E4%BA%BA/6793456209?i=6793456212"
+        "apple": "https://music.apple.com/jp/album/body-soul/316684058?i=316684060"
       },
       "sourceKinds": [
         "apple-jp-chart"
@@ -4092,7 +2850,7 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/start/1440745429?i=1440745441",
       "previewUrl": null,
-      "chartRank": 59,
+      "chartRank": 58,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": 0,
@@ -4107,6 +2865,37 @@
       ],
       "platformLinks": {
         "apple": "https://music.apple.com/jp/album/start/1440745429?i=1440745441"
+      },
+      "sourceKinds": [
+        "apple-jp-chart"
+      ],
+      "likedAt": null
+    },
+    {
+      "id": "1440747285",
+      "title": "チェリー",
+      "artist": "スピッツ",
+      "artistId": "74456960",
+      "releaseDate": "1996-04-10",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/29/c0/30/29c030c7-ae9c-a201-ef47-bf9a8b2ed31a/00600406212191.rgb.jpg/100x100bb.jpg",
+      "genres": [
+        "ロック",
+        "ミュージック"
+      ],
+      "appleUrl": "https://music.apple.com/jp/album/%E3%83%81%E3%82%A7%E3%83%AA%E3%83%BC/1440746376?i=1440747285",
+      "previewUrl": null,
+      "chartRank": 59,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/jp/album/%E3%83%81%E3%82%A7%E3%83%AA%E3%83%BC/1440746376?i=1440747285"
       },
       "sourceKinds": [
         "apple-jp-chart"
@@ -4145,6 +2934,71 @@
       "likedAt": null
     },
     {
+      "id": "1273710101",
+      "title": "愛を伝えたいだとか",
+      "artist": "あいみょん",
+      "artistId": "1165017710",
+      "releaseDate": "2017-04-14",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/d8/7b/7c/d87b7cfd-c88c-1003-bc5d-883882043e33/190295747138.jpg/100x87bb.jpg",
+      "genres": [
+        "J-Pop",
+        "ミュージック"
+      ],
+      "appleUrl": "https://music.apple.com/jp/album/%E6%84%9B%E3%82%92%E4%BC%9D%E3%81%88%E3%81%9F%E3%81%84%E3%81%A0%E3%81%A8%E3%81%8B/1273709789?i=1273710101",
+      "previewUrl": null,
+      "chartRank": 61,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "Aimyon",
+        "아이묭"
+      ],
+      "platformLinks": {
+        "apple": "https://music.apple.com/jp/album/%E6%84%9B%E3%82%92%E4%BC%9D%E3%81%88%E3%81%9F%E3%81%84%E3%81%A0%E3%81%A8%E3%81%8B/1273709789?i=1273710101"
+      },
+      "sourceKinds": [
+        "apple-jp-chart"
+      ],
+      "likedAt": null
+    },
+    {
+      "id": "1884257489",
+      "title": "Bad Girl",
+      "artist": "HANA",
+      "artistId": "1792783458",
+      "releaseDate": "2026-03-27",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/23/ca/fc/23cafc8b-4576-75c1-0392-9451e07e136f/4547366812664.jpg/100x100bb.jpg",
+      "genres": [
+        "J-Pop",
+        "ミュージック"
+      ],
+      "appleUrl": "https://music.apple.com/jp/album/bad-girl/1884257488?i=1884257489",
+      "previewUrl": null,
+      "chartRank": 62,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/jp/album/bad-girl/1884257488?i=1884257489"
+      },
+      "sourceKinds": [
+        "apple-jp-chart"
+      ],
+      "likedAt": null
+    },
+    {
       "id": "949250892",
       "title": "TSUNAMI",
       "artist": "サザンオールスターズ",
@@ -4157,7 +3011,7 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/tsunami/949250891?i=949250892",
       "previewUrl": null,
-      "chartRank": 61,
+      "chartRank": 63,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": 0,
@@ -4188,7 +3042,7 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/never-grow-up/1468137281?i=1468137287",
       "previewUrl": null,
-      "chartRank": 62,
+      "chartRank": 64,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": 0,
@@ -4200,71 +3054,6 @@
       "searchAliases": [],
       "platformLinks": {
         "apple": "https://music.apple.com/jp/album/never-grow-up/1468137281?i=1468137287"
-      },
-      "sourceKinds": [
-        "apple-jp-chart"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "1884257489",
-      "title": "Bad Girl",
-      "artist": "HANA",
-      "artistId": "1792783458",
-      "releaseDate": "2026-03-27",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/23/ca/fc/23cafc8b-4576-75c1-0392-9451e07e136f/4547366812664.jpg/100x100bb.jpg",
-      "genres": [
-        "J-Pop",
-        "ミュージック"
-      ],
-      "appleUrl": "https://music.apple.com/jp/album/bad-girl/1884257488?i=1884257489",
-      "previewUrl": null,
-      "chartRank": 63,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/jp/album/bad-girl/1884257488?i=1884257489"
-      },
-      "sourceKinds": [
-        "apple-jp-chart"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "1273710101",
-      "title": "愛を伝えたいだとか",
-      "artist": "あいみょん",
-      "artistId": "1165017710",
-      "releaseDate": "2017-04-14",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/d8/7b/7c/d87b7cfd-c88c-1003-bc5d-883882043e33/190295747138.jpg/100x87bb.jpg",
-      "genres": [
-        "J-Pop",
-        "ミュージック"
-      ],
-      "appleUrl": "https://music.apple.com/jp/album/%E6%84%9B%E3%82%92%E4%BC%9D%E3%81%88%E3%81%9F%E3%81%84%E3%81%A0%E3%81%A8%E3%81%8B/1273709789?i=1273710101",
-      "previewUrl": null,
-      "chartRank": 64,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [
-        "Aimyon",
-        "아이묭"
-      ],
-      "platformLinks": {
-        "apple": "https://music.apple.com/jp/album/%E6%84%9B%E3%82%92%E4%BC%9D%E3%81%88%E3%81%9F%E3%81%84%E3%81%A0%E3%81%A8%E3%81%8B/1273709789?i=1273710101"
       },
       "sourceKinds": [
         "apple-jp-chart"
@@ -4308,6 +3097,37 @@
       "likedAt": null
     },
     {
+      "id": "1585848051",
+      "title": "ハレンチ",
+      "artist": "ちゃんみな",
+      "artistId": "1104839687",
+      "releaseDate": "2021-09-24",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/bd/c0/80/bdc08023-823d-b74c-0b58-e161fe8ae68b/190296458705.jpg/100x100bb.jpg",
+      "genres": [
+        "ヒップホップ／ラップ",
+        "ミュージック"
+      ],
+      "appleUrl": "https://music.apple.com/jp/album/%E3%83%8F%E3%83%AC%E3%83%B3%E3%83%81/1585848047?i=1585848051",
+      "previewUrl": null,
+      "chartRank": 66,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/jp/album/%E3%83%8F%E3%83%AC%E3%83%B3%E3%83%81/1585848047?i=1585848051"
+      },
+      "sourceKinds": [
+        "apple-jp-chart"
+      ],
+      "likedAt": null
+    },
+    {
       "id": "1648411352",
       "title": "アイラブユー",
       "artist": "back number",
@@ -4320,7 +3140,7 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E3%82%A2%E3%82%A4%E3%83%A9%E3%83%96%E3%83%A6%E3%83%BC/1648411350?i=1648411352",
       "previewUrl": null,
-      "chartRank": 66,
+      "chartRank": 67,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": 0,
@@ -4342,19 +3162,19 @@
       "likedAt": null
     },
     {
-      "id": "1585848051",
-      "title": "ハレンチ",
-      "artist": "ちゃんみな",
-      "artistId": "1104839687",
-      "releaseDate": "2021-09-24",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/bd/c0/80/bdc08023-823d-b74c-0b58-e161fe8ae68b/190296458705.jpg/100x100bb.jpg",
+      "id": "1273709797",
+      "title": "君はロックを聴かない",
+      "artist": "あいみょん",
+      "artistId": "1165017710",
+      "releaseDate": "2017-07-25",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/d8/7b/7c/d87b7cfd-c88c-1003-bc5d-883882043e33/190295747138.jpg/100x87bb.jpg",
       "genres": [
-        "ヒップホップ／ラップ",
+        "J-Pop",
         "ミュージック"
       ],
-      "appleUrl": "https://music.apple.com/jp/album/%E3%83%8F%E3%83%AC%E3%83%B3%E3%83%81/1585848047?i=1585848051",
+      "appleUrl": "https://music.apple.com/jp/album/%E5%90%9B%E3%81%AF%E3%83%AD%E3%83%83%E3%82%AF%E3%82%92%E8%81%B4%E3%81%8B%E3%81%AA%E3%81%84/1273709789?i=1273709797",
       "previewUrl": null,
-      "chartRank": 67,
+      "chartRank": 68,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": 0,
@@ -4363,9 +3183,12 @@
       "discCount": 0,
       "recordingId": null,
       "isrc": null,
-      "searchAliases": [],
+      "searchAliases": [
+        "Aimyon",
+        "아이묭"
+      ],
       "platformLinks": {
-        "apple": "https://music.apple.com/jp/album/%E3%83%8F%E3%83%AC%E3%83%B3%E3%83%81/1585848047?i=1585848051"
+        "apple": "https://music.apple.com/jp/album/%E5%90%9B%E3%81%AF%E3%83%AD%E3%83%83%E3%82%AF%E3%82%92%E8%81%B4%E3%81%8B%E3%81%AA%E3%81%84/1273709789?i=1273709797"
       },
       "sourceKinds": [
         "apple-jp-chart"
@@ -4385,7 +3208,7 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E7%B5%B6%E5%AF%BE%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB%E8%BE%9E%E3%82%81%E3%81%AA%E3%81%84%E3%81%A7/1751409882?i=1751409888",
       "previewUrl": null,
-      "chartRank": 68,
+      "chartRank": 69,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": 0,
@@ -4416,7 +3239,7 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E4%BB%8A%E5%A4%9C%E3%81%93%E3%81%AE%E3%81%BE%E3%81%BE/1438144187?i=1438144188",
       "previewUrl": null,
-      "chartRank": 69,
+      "chartRank": 70,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": 0,
@@ -4438,6 +3261,40 @@
       "likedAt": null
     },
     {
+      "id": "1471459432",
+      "title": "インフェルノ",
+      "artist": "Mrs. GREEN APPLE",
+      "artistId": "962221033",
+      "releaseDate": "2019-07-18",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/d6/9e/54/d69e54ca-2d82-f291-d745-9a706aa26940/19UMGIM59475.rgb.jpg/100x100bb.jpg",
+      "genres": [
+        "ロック",
+        "ミュージック"
+      ],
+      "appleUrl": "https://music.apple.com/jp/album/%E3%82%A4%E3%83%B3%E3%83%95%E3%82%A7%E3%83%AB%E3%83%8E/1471459431?i=1471459432",
+      "previewUrl": null,
+      "chartRank": 71,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "미세스 그린 애플",
+        "미세스그린애플"
+      ],
+      "platformLinks": {
+        "apple": "https://music.apple.com/jp/album/%E3%82%A4%E3%83%B3%E3%83%95%E3%82%A7%E3%83%AB%E3%83%8E/1471459431?i=1471459432"
+      },
+      "sourceKinds": [
+        "apple-jp-chart"
+      ],
+      "likedAt": null
+    },
+    {
       "id": "6785367852",
       "title": "夜鷹 - Yodaka",
       "artist": "米津玄師",
@@ -4450,7 +3307,7 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E5%A4%9C%E9%B7%B9-yodaka/6785367850?i=6785367852",
       "previewUrl": null,
-      "chartRank": 70,
+      "chartRank": 72,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": 0,
@@ -4467,74 +3324,6 @@
       ],
       "platformLinks": {
         "apple": "https://music.apple.com/jp/album/%E5%A4%9C%E9%B7%B9-yodaka/6785367850?i=6785367852"
-      },
-      "sourceKinds": [
-        "apple-jp-chart"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "1273709797",
-      "title": "君はロックを聴かない",
-      "artist": "あいみょん",
-      "artistId": "1165017710",
-      "releaseDate": "2017-07-25",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/d8/7b/7c/d87b7cfd-c88c-1003-bc5d-883882043e33/190295747138.jpg/100x87bb.jpg",
-      "genres": [
-        "J-Pop",
-        "ミュージック"
-      ],
-      "appleUrl": "https://music.apple.com/jp/album/%E5%90%9B%E3%81%AF%E3%83%AD%E3%83%83%E3%82%AF%E3%82%92%E8%81%B4%E3%81%8B%E3%81%AA%E3%81%84/1273709789?i=1273709797",
-      "previewUrl": null,
-      "chartRank": 71,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [
-        "Aimyon",
-        "아이묭"
-      ],
-      "platformLinks": {
-        "apple": "https://music.apple.com/jp/album/%E5%90%9B%E3%81%AF%E3%83%AD%E3%83%83%E3%82%AF%E3%82%92%E8%81%B4%E3%81%8B%E3%81%AA%E3%81%84/1273709789?i=1273709797"
-      },
-      "sourceKinds": [
-        "apple-jp-chart"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "1471459432",
-      "title": "インフェルノ",
-      "artist": "Mrs. GREEN APPLE",
-      "artistId": "962221033",
-      "releaseDate": "2019-07-18",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/d6/9e/54/d69e54ca-2d82-f291-d745-9a706aa26940/19UMGIM59475.rgb.jpg/100x100bb.jpg",
-      "genres": [
-        "ロック",
-        "ミュージック"
-      ],
-      "appleUrl": "https://music.apple.com/jp/album/%E3%82%A4%E3%83%B3%E3%83%95%E3%82%A7%E3%83%AB%E3%83%8E/1471459431?i=1471459432",
-      "previewUrl": null,
-      "chartRank": 72,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [
-        "미세스 그린 애플",
-        "미세스그린애플"
-      ],
-      "platformLinks": {
-        "apple": "https://music.apple.com/jp/album/%E3%82%A4%E3%83%B3%E3%83%95%E3%82%A7%E3%83%AB%E3%83%8E/1471459431?i=1471459432"
       },
       "sourceKinds": [
         "apple-jp-chart"
@@ -4642,6 +3431,37 @@
       "likedAt": null
     },
     {
+      "id": "1564752145",
+      "title": "きらり",
+      "artist": "藤井 風",
+      "artistId": "1486113150",
+      "releaseDate": "2021-05-21",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/d6/75/4f/d6754fcb-b2e8-db66-b51f-8b142ac75132/21UMGIM23568.rgb.jpg/100x100bb.jpg",
+      "genres": [
+        "J-Pop",
+        "ミュージック"
+      ],
+      "appleUrl": "https://music.apple.com/jp/album/%E3%81%8D%E3%82%89%E3%82%8A/1564752132?i=1564752145",
+      "previewUrl": null,
+      "chartRank": 76,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/jp/album/%E3%81%8D%E3%82%89%E3%82%8A/1564752132?i=1564752145"
+      },
+      "sourceKinds": [
+        "apple-jp-chart"
+      ],
+      "likedAt": null
+    },
+    {
       "id": "949248404",
       "title": "真夏の果実",
       "artist": "サザンオールスターズ",
@@ -4654,7 +3474,7 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E7%9C%9F%E5%A4%8F%E3%81%AE%E6%9E%9C%E5%AE%9F/949248376?i=949248404",
       "previewUrl": null,
-      "chartRank": 76,
+      "chartRank": 77,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": 0,
@@ -4673,19 +3493,19 @@
       "likedAt": null
     },
     {
-      "id": "1564752145",
-      "title": "きらり",
-      "artist": "藤井 風",
-      "artistId": "1486113150",
-      "releaseDate": "2021-05-21",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/d6/75/4f/d6754fcb-b2e8-db66-b51f-8b142ac75132/21UMGIM23568.rgb.jpg/100x100bb.jpg",
+      "id": "1874221480",
+      "title": "劇薬中毒",
+      "artist": "=LOVE",
+      "artistId": "1273762750",
+      "releaseDate": "2026-02-17",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c1/b4/88/c1b4883d-1baa-1954-49f5-0c237b5745e0/4547366803013.jpg/100x100bb.jpg",
       "genres": [
         "J-Pop",
         "ミュージック"
       ],
-      "appleUrl": "https://music.apple.com/jp/album/%E3%81%8D%E3%82%89%E3%82%8A/1564752132?i=1564752145",
+      "appleUrl": "https://music.apple.com/jp/album/%E5%8A%87%E8%96%AC%E4%B8%AD%E6%AF%92/1874221478?i=1874221480",
       "previewUrl": null,
-      "chartRank": 77,
+      "chartRank": 78,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": 0,
@@ -4696,7 +3516,38 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/jp/album/%E3%81%8D%E3%82%89%E3%82%8A/1564752132?i=1564752145"
+        "apple": "https://music.apple.com/jp/album/%E5%8A%87%E8%96%AC%E4%B8%AD%E6%AF%92/1874221478?i=1874221480"
+      },
+      "sourceKinds": [
+        "apple-jp-chart"
+      ],
+      "likedAt": null
+    },
+    {
+      "id": "6785411720",
+      "title": "グッタイム",
+      "artist": "Snow Man",
+      "artistId": "1772019148",
+      "releaseDate": "2026-07-06",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a5/42/4b/a5424b45-7eca-05af-0e20-e93539e193dd/ANTCD-A0000020458.jpg/100x100bb.jpg",
+      "genres": [
+        "J-Pop",
+        "ミュージック"
+      ],
+      "appleUrl": "https://music.apple.com/jp/album/%E3%82%B0%E3%83%83%E3%82%BF%E3%82%A4%E3%83%A0/6785411719?i=6785411720",
+      "previewUrl": null,
+      "chartRank": 79,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/jp/album/%E3%82%B0%E3%83%83%E3%82%BF%E3%82%A4%E3%83%A0/6785411719?i=6785411720"
       },
       "sourceKinds": [
         "apple-jp-chart"
@@ -4716,7 +3567,7 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/jane-doe/1840081735?i=1840081736",
       "previewUrl": null,
-      "chartRank": 78,
+      "chartRank": 80,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": 0,
@@ -4747,7 +3598,7 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E6%BA%80%E3%81%A1%E3%81%A6%E3%82%86%E3%81%8F/1733129984?i=1733130377",
       "previewUrl": null,
-      "chartRank": 79,
+      "chartRank": 81,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": 0,
@@ -4759,37 +3610,6 @@
       "searchAliases": [],
       "platformLinks": {
         "apple": "https://music.apple.com/jp/album/%E6%BA%80%E3%81%A1%E3%81%A6%E3%82%86%E3%81%8F/1733129984?i=1733130377"
-      },
-      "sourceKinds": [
-        "apple-jp-chart"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "1874221480",
-      "title": "劇薬中毒",
-      "artist": "=LOVE",
-      "artistId": "1273762750",
-      "releaseDate": "2026-02-17",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c1/b4/88/c1b4883d-1baa-1954-49f5-0c237b5745e0/4547366803013.jpg/100x100bb.jpg",
-      "genres": [
-        "J-Pop",
-        "ミュージック"
-      ],
-      "appleUrl": "https://music.apple.com/jp/album/%E5%8A%87%E8%96%AC%E4%B8%AD%E6%AF%92/1874221478?i=1874221480",
-      "previewUrl": null,
-      "chartRank": 80,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/jp/album/%E5%8A%87%E8%96%AC%E4%B8%AD%E6%AF%92/1874221478?i=1874221480"
       },
       "sourceKinds": [
         "apple-jp-chart"
@@ -4810,37 +3630,6 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/hanabi/1375007287?i=1375007474",
       "previewUrl": null,
-      "chartRank": 81,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/jp/album/hanabi/1375007287?i=1375007474"
-      },
-      "sourceKinds": [
-        "apple-jp-chart"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "6785411720",
-      "title": "グッタイム",
-      "artist": "Snow Man",
-      "artistId": "1772019148",
-      "releaseDate": "2026-07-06",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a5/42/4b/a5424b45-7eca-05af-0e20-e93539e193dd/ANTCD-A0000020458.jpg/100x100bb.jpg",
-      "genres": [
-        "J-Pop",
-        "ミュージック"
-      ],
-      "appleUrl": "https://music.apple.com/jp/album/%E3%82%B0%E3%83%83%E3%82%BF%E3%82%A4%E3%83%A0/6785411719?i=6785411720",
-      "previewUrl": null,
       "chartRank": 82,
       "collectionId": null,
       "collectionName": null,
@@ -4852,7 +3641,7 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/jp/album/%E3%82%B0%E3%83%83%E3%82%BF%E3%82%A4%E3%83%A0/6785411719?i=6785411720"
+        "apple": "https://music.apple.com/jp/album/hanabi/1375007287?i=1375007474"
       },
       "sourceKinds": [
         "apple-jp-chart"
@@ -4894,19 +3683,19 @@
       "likedAt": null
     },
     {
-      "id": "1485857408",
-      "title": "Love so sweet",
-      "artist": "嵐",
-      "artistId": "548185047",
-      "releaseDate": "2007-02-21",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/8e/10/2a/8e102abd-d981-e370-82db-2ae5c98baac3/194491537920.jpg/100x100bb.jpg",
+      "id": "6802879422",
+      "title": "show time...",
+      "artist": "Snow Man",
+      "artistId": "1772019148",
+      "releaseDate": "2026-08-24",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ab/0a/6e/ab0a6ec4-38a9-d18a-109b-f67758daf7cb/ANTCD-A0000020952.jpg/100x100bb.jpg",
       "genres": [
         "J-Pop",
         "ミュージック"
       ],
-      "appleUrl": "https://music.apple.com/jp/album/love-so-sweet/1485857244?i=1485857408",
+      "appleUrl": "https://music.apple.com/jp/album/show-time/6802879262?i=6802879422",
       "previewUrl": null,
-      "chartRank": 85,
+      "chartRank": 84,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": 0,
@@ -4917,7 +3706,7 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/jp/album/love-so-sweet/1485857244?i=1485857408"
+        "apple": "https://music.apple.com/jp/album/show-time/6802879262?i=6802879422"
       },
       "sourceKinds": [
         "apple-jp-chart"
@@ -4937,7 +3726,7 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/tiger/1808822132?i=1808822211",
       "previewUrl": null,
-      "chartRank": 86,
+      "chartRank": 85,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": 0,
@@ -4968,7 +3757,7 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E6%80%AA%E7%9B%97/1566811794?i=1566811795",
       "previewUrl": null,
-      "chartRank": 87,
+      "chartRank": 86,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": 0,
@@ -4990,17 +3779,17 @@
       "likedAt": null
     },
     {
-      "id": "6802879422",
-      "title": "show time...",
-      "artist": "Snow Man",
-      "artistId": "1772019148",
-      "releaseDate": "2026-08-24",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ab/0a/6e/ab0a6ec4-38a9-d18a-109b-f67758daf7cb/ANTCD-A0000020952.jpg/100x100bb.jpg",
+      "id": "1485857408",
+      "title": "Love so sweet",
+      "artist": "嵐",
+      "artistId": "548185047",
+      "releaseDate": "2007-02-21",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/8e/10/2a/8e102abd-d981-e370-82db-2ae5c98baac3/194491537920.jpg/100x100bb.jpg",
       "genres": [
         "J-Pop",
         "ミュージック"
       ],
-      "appleUrl": "https://music.apple.com/jp/album/show-time/6802879262?i=6802879422",
+      "appleUrl": "https://music.apple.com/jp/album/love-so-sweet/1485857244?i=1485857408",
       "previewUrl": null,
       "chartRank": 88,
       "collectionId": null,
@@ -5013,7 +3802,7 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/jp/album/show-time/6802879262?i=6802879422"
+        "apple": "https://music.apple.com/jp/album/love-so-sweet/1485857244?i=1485857408"
       },
       "sourceKinds": [
         "apple-jp-chart"
@@ -5052,38 +3841,6 @@
       "likedAt": null
     },
     {
-      "id": "1083422439",
-      "title": "波乗りジョニー",
-      "artist": "桑田佳祐",
-      "artistId": "74493979",
-      "releaseDate": "2001-07-04",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music69/v4/1c/80/8e/1c808e39-83f2-d56a-858e-e46c1bb41a59/VEATP-30969.jpg/100x100bb.jpg",
-      "genres": [
-        "J-Pop",
-        "ミュージック",
-        "ロック"
-      ],
-      "appleUrl": "https://music.apple.com/jp/album/%E6%B3%A2%E4%B9%97%E3%82%8A%E3%82%B8%E3%83%A7%E3%83%8B%E3%83%BC/1083422435?i=1083422439",
-      "previewUrl": null,
-      "chartRank": 91,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/jp/album/%E6%B3%A2%E4%B9%97%E3%82%8A%E3%82%B8%E3%83%A7%E3%83%8B%E3%83%BC/1083422435?i=1083422439"
-      },
-      "sourceKinds": [
-        "apple-jp-chart"
-      ],
-      "likedAt": null
-    },
-    {
       "id": "1454643219",
       "title": "ロマンチシズム",
       "artist": "Mrs. GREEN APPLE",
@@ -5096,7 +3853,7 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E3%83%AD%E3%83%9E%E3%83%B3%E3%83%81%E3%82%B7%E3%82%BA%E3%83%A0/1454643208?i=1454643219",
       "previewUrl": null,
-      "chartRank": 92,
+      "chartRank": 90,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": 0,
@@ -5130,7 +3887,7 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E5%AE%BF%E5%91%BD/1470899805?i=1470899806",
       "previewUrl": null,
-      "chartRank": 93,
+      "chartRank": 92,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": 0,
@@ -5154,18 +3911,49 @@
       "likedAt": null
     },
     {
-      "id": "273169347",
-      "title": "小さな恋のうた",
-      "artist": "MONGOL800",
-      "artistId": "202191113",
-      "releaseDate": "2001-09-16",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/62/3b/85/623b858b-d88f-2c04-cb5d-4923e1d64190/mzi.beiflkay.tif/100x100bb.jpg",
+      "id": "1794499543",
+      "title": "イイじゃん",
+      "artist": "M!LK",
+      "artistId": "1356706755",
+      "releaseDate": "2025-02-17",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/54/fd/a4/54fda41c-2ff0-f132-9955-6c6e41a5c882/VEATP-43744.jpg/100x100bb.jpg",
       "genres": [
-        "オルタナティブ",
+        "J-Pop",
+        "ミュージック"
+      ],
+      "appleUrl": "https://music.apple.com/jp/album/%E3%82%A4%E3%82%A4%E3%81%98%E3%82%83%E3%82%93/1794499542?i=1794499543",
+      "previewUrl": null,
+      "chartRank": 93,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/jp/album/%E3%82%A4%E3%82%A4%E3%81%98%E3%82%83%E3%82%93/1794499542?i=1794499543"
+      },
+      "sourceKinds": [
+        "apple-jp-chart"
+      ],
+      "likedAt": null
+    },
+    {
+      "id": "1083422439",
+      "title": "波乗りジョニー",
+      "artist": "桑田佳祐",
+      "artistId": "74493979",
+      "releaseDate": "2001-07-04",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music69/v4/1c/80/8e/1c808e39-83f2-d56a-858e-e46c1bb41a59/VEATP-30969.jpg/100x100bb.jpg",
+      "genres": [
+        "J-Pop",
         "ミュージック",
         "ロック"
       ],
-      "appleUrl": "https://music.apple.com/jp/album/%E5%B0%8F%E3%81%95%E3%81%AA%E6%81%8B%E3%81%AE%E3%81%86%E3%81%9F/273169161?i=273169347",
+      "appleUrl": "https://music.apple.com/jp/album/%E6%B3%A2%E4%B9%97%E3%82%8A%E3%82%B8%E3%83%A7%E3%83%8B%E3%83%BC/1083422435?i=1083422439",
       "previewUrl": null,
       "chartRank": 94,
       "collectionId": null,
@@ -5178,7 +3966,7 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/jp/album/%E5%B0%8F%E3%81%95%E3%81%AA%E6%81%8B%E3%81%AE%E3%81%86%E3%81%9F/273169161?i=273169347"
+        "apple": "https://music.apple.com/jp/album/%E6%B3%A2%E4%B9%97%E3%82%8A%E3%82%B8%E3%83%A7%E3%83%8B%E3%83%BC/1083422435?i=1083422439"
       },
       "sourceKinds": [
         "apple-jp-chart"
@@ -5221,17 +4009,18 @@
       "likedAt": null
     },
     {
-      "id": "947748526",
-      "title": "いとしのエリー",
-      "artist": "サザンオールスターズ",
-      "artistId": "671759255",
-      "releaseDate": "1979-04-05",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/fc/5c/44/fc5c4442-ad6e-3866-0b87-fdc913642341/VEATP-31040.jpg/100x100bb.jpg",
+      "id": "273169347",
+      "title": "小さな恋のうた",
+      "artist": "MONGOL800",
+      "artistId": "202191113",
+      "releaseDate": "2001-09-16",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/62/3b/85/623b858b-d88f-2c04-cb5d-4923e1d64190/mzi.beiflkay.tif/100x100bb.jpg",
       "genres": [
-        "J-Pop",
-        "ミュージック"
+        "オルタナティブ",
+        "ミュージック",
+        "ロック"
       ],
-      "appleUrl": "https://music.apple.com/jp/album/%E3%81%84%E3%81%A8%E3%81%97%E3%81%AE%E3%82%A8%E3%83%AA%E3%83%BC/947748513?i=947748526",
+      "appleUrl": "https://music.apple.com/jp/album/%E5%B0%8F%E3%81%95%E3%81%AA%E6%81%8B%E3%81%AE%E3%81%86%E3%81%9F/273169161?i=273169347",
       "previewUrl": null,
       "chartRank": 96,
       "collectionId": null,
@@ -5244,7 +4033,7 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/jp/album/%E3%81%84%E3%81%A8%E3%81%97%E3%81%AE%E3%82%A8%E3%83%AA%E3%83%BC/947748513?i=947748526"
+        "apple": "https://music.apple.com/jp/album/%E5%B0%8F%E3%81%95%E3%81%AA%E6%81%8B%E3%81%AE%E3%81%86%E3%81%9F/273169161?i=273169347"
       },
       "sourceKinds": [
         "apple-jp-chart"
@@ -5252,17 +4041,17 @@
       "likedAt": null
     },
     {
-      "id": "1794499543",
-      "title": "イイじゃん",
-      "artist": "M!LK",
-      "artistId": "1356706755",
-      "releaseDate": "2025-02-17",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/54/fd/a4/54fda41c-2ff0-f132-9955-6c6e41a5c882/VEATP-43744.jpg/100x100bb.jpg",
+      "id": "947748526",
+      "title": "いとしのエリー",
+      "artist": "サザンオールスターズ",
+      "artistId": "671759255",
+      "releaseDate": "1979-04-05",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/fc/5c/44/fc5c4442-ad6e-3866-0b87-fdc913642341/VEATP-31040.jpg/100x100bb.jpg",
       "genres": [
         "J-Pop",
         "ミュージック"
       ],
-      "appleUrl": "https://music.apple.com/jp/album/%E3%82%A4%E3%82%A4%E3%81%98%E3%82%83%E3%82%93/1794499542?i=1794499543",
+      "appleUrl": "https://music.apple.com/jp/album/%E3%81%84%E3%81%A8%E3%81%97%E3%81%AE%E3%82%A8%E3%83%AA%E3%83%BC/947748513?i=947748526",
       "previewUrl": null,
       "chartRank": 97,
       "collectionId": null,
@@ -5275,7 +4064,7 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/jp/album/%E3%82%A4%E3%82%A4%E3%81%98%E3%82%83%E3%82%93/1794499542?i=1794499543"
+        "apple": "https://music.apple.com/jp/album/%E3%81%84%E3%81%A8%E3%81%97%E3%81%AE%E3%82%A8%E3%83%AA%E3%83%BC/947748513?i=947748526"
       },
       "sourceKinds": [
         "apple-jp-chart"
@@ -5830,6 +4619,37 @@
       "likedAt": null
     },
     {
+      "id": "6803798494",
+      "title": "時空超えてユニバース",
+      "artist": "M!LK",
+      "artistId": "1356706755",
+      "releaseDate": "2026-09-07",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d0/c1/3e/d0c13e26-39b8-76b3-8ba5-b4412872260f/VEATP-45880.jpg/100x100bb.jpg",
+      "genres": [
+        "J-Pop",
+        "ミュージック"
+      ],
+      "appleUrl": "https://music.apple.com/jp/album/%E6%99%82%E7%A9%BA%E8%B6%85%E3%81%88%E3%81%A6%E3%83%A6%E3%83%8B%E3%83%90%E3%83%BC%E3%82%B9/6803798492?i=6803798494",
+      "previewUrl": null,
+      "chartRank": 20,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/jp/album/%E6%99%82%E7%A9%BA%E8%B6%85%E3%81%88%E3%81%A6%E3%83%A6%E3%83%8B%E3%83%90%E3%83%BC%E3%82%B9/6803798492?i=6803798494"
+      },
+      "sourceKinds": [
+        "apple-jp-chart"
+      ],
+      "likedAt": null
+    },
+    {
       "id": "6803148739",
       "title": "ありふれた世界の果てに (feat. Awich, CHICO CARLITO, ONE OK ROCK & Paledusk)",
       "artist": "YAO",
@@ -5874,7 +4694,7 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/so-honey/6797407951?i=6797407954",
       "previewUrl": null,
-      "chartRank": 38,
+      "chartRank": 40,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": 0,
@@ -5935,7 +4755,7 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E7%81%B0%E8%89%B2/6801361848?i=6801361853",
       "previewUrl": null,
-      "chartRank": 50,
+      "chartRank": 52,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": 0,
@@ -5966,7 +4786,7 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/show-time/6802879262?i=6802879422",
       "previewUrl": null,
-      "chartRank": 88,
+      "chartRank": 84,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": 0,
@@ -6015,32 +4835,6 @@
       "likedAt": null
     },
     {
-      "id": "mb:a1e670f8-199c-4c7b-93d8-be1d997f22a2",
-      "title": "コイスルジュモン",
-      "artist": "ちょこ",
-      "artistId": "2bf87813-969d-40ce-9df7-5a4e76e03606",
-      "releaseDate": "2026-08-16",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:a1a9e089-f4e0-4670-b794-d7f696f5d7b9",
-      "collectionName": "Starry Mine",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "a1e670f8-199c-4c7b-93d8-be1d997f22a2",
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
-      ],
-      "likedAt": null
-    },
-    {
       "id": "6793888335",
       "title": "見知らぬ糸",
       "artist": "スピッツ",
@@ -6052,14 +4846,14 @@
         "ミュージック"
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E8%A6%8B%E7%9F%A5%E3%82%89%E3%81%AC%E7%B3%B8/6793888333?i=6793888335",
-      "previewUrl": null,
-      "chartRank": 10,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/68/60/b9/6860b926-1805-bf5f-32b5-4e494957e410/mzaf_17124243015734375483.plus.aac.p.m4a",
+      "chartRank": 11,
+      "collectionId": "6793888333",
+      "collectionName": "見知らぬ糸 - Single",
+      "trackNumber": 1,
+      "trackCount": 1,
+      "discNumber": 1,
+      "discCount": 1,
       "recordingId": null,
       "isrc": null,
       "searchAliases": [],
@@ -6067,7 +4861,8 @@
         "apple": "https://music.apple.com/jp/album/%E8%A6%8B%E7%9F%A5%E3%82%89%E3%81%AC%E7%B3%B8/6793888333?i=6793888335"
       },
       "sourceKinds": [
-        "apple-jp-chart"
+        "apple-jp-chart",
+        "itunes-jp-search"
       ],
       "likedAt": null
     },
@@ -6115,7 +4910,7 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E7%BD%AA%E3%81%A8%E7%BD%B0%E3%81%A8%E9%9B%A8%E3%81%A8%E3%82%AD%E3%82%B9-%E4%BD%90%E9%87%8E%E5%8B%87%E6%96%97-%E5%90%89%E7%94%B0%E4%BB%81%E4%BA%BA/6793456209?i=6793456212",
       "previewUrl": null,
-      "chartRank": 58,
+      "chartRank": 55,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": 0,
@@ -6130,58 +4925,6 @@
       },
       "sourceKinds": [
         "apple-jp-chart"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "mb:198e5b70-ba06-43cd-a90b-83781079ea8d",
-      "title": "じじいのテーマ ~The Old Man's Theme~",
-      "artist": "Hiro",
-      "artistId": "fc32f53d-8768-404d-91a8-6beb3adb2de4",
-      "releaseDate": "2026-07-30",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:2605605e-102e-4c3d-a93f-ab6d57fee212",
-      "collectionName": "GP Rider - 35th Anniv. Album -",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "198e5b70-ba06-43cd-a90b-83781079ea8d",
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "mb:942d9f35-225f-4615-b9a6-b32e78f866da",
-      "title": "歓喜のメロディー ~Melody of Delight~",
-      "artist": "Hiro",
-      "artistId": "fc32f53d-8768-404d-91a8-6beb3adb2de4",
-      "releaseDate": "2026-07-30",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:2605605e-102e-4c3d-a93f-ab6d57fee212",
-      "collectionName": "GP Rider - 35th Anniv. Album -",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "942d9f35-225f-4615-b9a6-b32e78f866da",
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
       ],
       "likedAt": null
     },
@@ -6246,110 +4989,6 @@
       "likedAt": null
     },
     {
-      "id": "mb:cabe12d2-33e0-4d39-a370-1b0acfaf2f65",
-      "title": "命の色",
-      "artist": "乃木坂46 6期生",
-      "artistId": "21dfe4c0-4ee4-459a-943e-acf3fbaaa05b",
-      "releaseDate": "2026-07-22",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:88a0d8d1-2eff-44cc-8425-c9e791455337",
-      "collectionName": "是非に及ばず",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "cabe12d2-33e0-4d39-a370-1b0acfaf2f65",
-      "isrc": "JPU902602505",
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "mb:50dd675e-3a44-430b-8384-2f5e152ed515",
-      "title": "フォルテシモ 〜off vocal ver.〜",
-      "artist": "乃木坂46",
-      "artistId": "466f7b0a-a3e6-435d-8326-b4ef825a609d",
-      "releaseDate": "2026-07-22",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:ab12a0a6-5f34-40be-b4fa-a4991a52256b",
-      "collectionName": "是非に及ばず",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "50dd675e-3a44-430b-8384-2f5e152ed515",
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "mb:d9f01f14-6f35-4153-aece-5b8b9e1b67b8",
-      "title": "Kissのタイミング",
-      "artist": "井上和・菅原咲月",
-      "artistId": "95c0c10d-e935-48fb-afac-78dffc65defb",
-      "releaseDate": "2026-07-22",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:0eb5d995-7b44-418b-a201-5ceb7e0a6f4f",
-      "collectionName": "是非に及ばず",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "d9f01f14-6f35-4153-aece-5b8b9e1b67b8",
-      "isrc": "JPU902602499",
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "mb:3e2f904e-d3ec-4419-af2b-926e7e253e96",
-      "title": "ひとつ手前のインターチェンジ",
-      "artist": "川﨑桜・筒井あやめ・冨里奈央・弓木奈於",
-      "artistId": "ff1af199-d7ec-4348-98c1-e92956c44fa6",
-      "releaseDate": "2026-07-22",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:b10bf96b-fc4d-4d6c-893f-29f423d73027",
-      "collectionName": "是非に及ばず",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "3e2f904e-d3ec-4419-af2b-926e7e253e96",
-      "isrc": "JPU902602501",
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
-      ],
-      "likedAt": null
-    },
-    {
       "id": "6789046323",
       "title": "You!Joy!Parade!",
       "artist": "M!LK",
@@ -6393,7 +5032,7 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E5%A4%9C%E9%B7%B9-yodaka/6785367850?i=6785367852",
       "previewUrl": null,
-      "chartRank": 70,
+      "chartRank": 72,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": 0,
@@ -6448,32 +5087,6 @@
       "likedAt": null
     },
     {
-      "id": "mb:74ccd42c-c0c4-4522-86db-adc334911b8f",
-      "title": "陽だまりの君",
-      "artist": "藍海のん",
-      "artistId": "c9ea1d5e-8b0b-4e36-89b8-64db436bdcc6",
-      "releaseDate": "2026-07-10",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:bd1ebbe9-8466-4990-a26b-d7c4abd1a21a",
-      "collectionName": "indigo",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "74ccd42c-c0c4-4522-86db-adc334911b8f",
-      "isrc": "JPZ532600012",
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
-      ],
-      "likedAt": null
-    },
-    {
       "id": "6785411720",
       "title": "グッタイム",
       "artist": "Snow Man",
@@ -6486,7 +5099,7 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E3%82%B0%E3%83%83%E3%82%BF%E3%82%A4%E3%83%A0/6785411719?i=6785411720",
       "previewUrl": null,
-      "chartRank": 82,
+      "chartRank": 79,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": 0,
@@ -6536,84 +5149,6 @@
       "likedAt": null
     },
     {
-      "id": "mb:78842e7a-066a-417a-b366-c8ea972694fb",
-      "title": "エンディング (リマスター)",
-      "artist": "Eric Krause, Florian Wunsch & Amadeus Pakmur",
-      "artistId": "efd42d8f-f988-4e7a-903c-673925a00638",
-      "releaseDate": "2026-07-02",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:de318808-8a04-4f64-8c8a-46829b5fda97",
-      "collectionName": "R-Type Dimensions III オリジナルサウンドトラック",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "78842e7a-066a-417a-b366-c8ea972694fb",
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "mb:d68a9e1e-6883-4434-b179-cd01a3581a96",
-      "title": "ステージ 1 (イントロのみ) (リマスター)",
-      "artist": "Eric Krause, Florian Wunsch & Amadeus Pakmur",
-      "artistId": "efd42d8f-f988-4e7a-903c-673925a00638",
-      "releaseDate": "2026-07-02",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:de318808-8a04-4f64-8c8a-46829b5fda97",
-      "collectionName": "R-Type Dimensions III オリジナルサウンドトラック",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "d68a9e1e-6883-4434-b179-cd01a3581a96",
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "mb:e336122a-9673-486e-8260-f8ead20c2596",
-      "title": "ゲームメニュー (リマスター)",
-      "artist": "Eric Krause, Florian Wunsch & Amadeus Pakmur",
-      "artistId": "efd42d8f-f988-4e7a-903c-673925a00638",
-      "releaseDate": "2026-07-02",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:de318808-8a04-4f64-8c8a-46829b5fda97",
-      "collectionName": "R-Type Dimensions III オリジナルサウンドトラック",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "e336122a-9673-486e-8260-f8ead20c2596",
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
-      ],
-      "likedAt": null
-    },
-    {
       "id": "6805381667",
       "title": "BLUE MOON",
       "artist": "9Lana",
@@ -6656,7 +5191,7 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E7%83%8F-raven/6774039193?i=6774039202",
       "previewUrl": null,
-      "chartRank": 39,
+      "chartRank": 38,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": 0,
@@ -6676,526 +5211,6 @@
       },
       "sourceKinds": [
         "apple-jp-chart"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "mb:8ea97396-fe2f-4cae-9e48-84bfcdc0d771",
-      "title": "しあわせが鳴る",
-      "artist": "末廣健一郎",
-      "artistId": "a7098ecc-5cf8-451a-afb6-d932123626af",
-      "releaseDate": "2026-06-10",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:979a1f32-639c-46e5-9614-0c17436df1cd",
-      "collectionName": "「勇者のクズ」オリジナル・サウンドトラック",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "8ea97396-fe2f-4cae-9e48-84bfcdc0d771",
-      "isrc": "JPS602601214",
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "mb:864ec7ab-d81e-4b3b-9757-744f00419735",
-      "title": "《琥珀の茨》卿",
-      "artist": "末廣健一郎",
-      "artistId": "a7098ecc-5cf8-451a-afb6-d932123626af",
-      "releaseDate": "2026-06-10",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:979a1f32-639c-46e5-9614-0c17436df1cd",
-      "collectionName": "「勇者のクズ」オリジナル・サウンドトラック",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "864ec7ab-d81e-4b3b-9757-744f00419735",
-      "isrc": "JPS602601228",
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "mb:8e019de7-a6cd-4f86-ad42-29e943d40f41",
-      "title": "灰色の残響",
-      "artist": "末廣健一郎",
-      "artistId": "a7098ecc-5cf8-451a-afb6-d932123626af",
-      "releaseDate": "2026-06-10",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:979a1f32-639c-46e5-9614-0c17436df1cd",
-      "collectionName": "「勇者のクズ」オリジナル・サウンドトラック",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "8e019de7-a6cd-4f86-ad42-29e943d40f41",
-      "isrc": "JPS602601232",
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "mb:db2b7a1d-94a5-4af1-84f6-1a4c39ce3081",
-      "title": "勇者失格",
-      "artist": "末廣健一郎",
-      "artistId": "a7098ecc-5cf8-451a-afb6-d932123626af",
-      "releaseDate": "2026-06-10",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:979a1f32-639c-46e5-9614-0c17436df1cd",
-      "collectionName": "「勇者のクズ」オリジナル・サウンドトラック",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "db2b7a1d-94a5-4af1-84f6-1a4c39ce3081",
-      "isrc": "JPS602601207",
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "mb:efed5e3d-e954-461f-95ba-06c055defcda",
-      "title": "日常ブギ",
-      "artist": "末廣健一郎",
-      "artistId": "a7098ecc-5cf8-451a-afb6-d932123626af",
-      "releaseDate": "2026-06-10",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:979a1f32-639c-46e5-9614-0c17436df1cd",
-      "collectionName": "「勇者のクズ」オリジナル・サウンドトラック",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "efed5e3d-e954-461f-95ba-06c055defcda",
-      "isrc": "JPS602601219",
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "mb:ed64f216-e88b-4c65-9416-1586d8140fa5",
-      "title": "チームメイトの井戸端会議",
-      "artist": "末廣健一郎",
-      "artistId": "a7098ecc-5cf8-451a-afb6-d932123626af",
-      "releaseDate": "2026-06-10",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:979a1f32-639c-46e5-9614-0c17436df1cd",
-      "collectionName": "「勇者のクズ」オリジナル・サウンドトラック",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "ed64f216-e88b-4c65-9416-1586d8140fa5",
-      "isrc": "JPS602601255",
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "mb:ead2a626-9c6e-487b-9d0f-359f4cbb1846",
-      "title": "俺が手伝ってやってもいい",
-      "artist": "末廣健一郎",
-      "artistId": "a7098ecc-5cf8-451a-afb6-d932123626af",
-      "releaseDate": "2026-06-10",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:979a1f32-639c-46e5-9614-0c17436df1cd",
-      "collectionName": "「勇者のクズ」オリジナル・サウンドトラック",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "ead2a626-9c6e-487b-9d0f-359f4cbb1846",
-      "isrc": "JPS602601216",
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "mb:12bce1b0-f9cc-4a09-8db3-76d5926c74c8",
-      "title": "淡い黄昏",
-      "artist": "末廣健一郎",
-      "artistId": "a7098ecc-5cf8-451a-afb6-d932123626af",
-      "releaseDate": "2026-06-10",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:979a1f32-639c-46e5-9614-0c17436df1cd",
-      "collectionName": "「勇者のクズ」オリジナル・サウンドトラック",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "12bce1b0-f9cc-4a09-8db3-76d5926c74c8",
-      "isrc": "JPS602601212",
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "mb:f5d3c96b-4d1f-47f0-bc14-9c46efd0bf62",
-      "title": "エーテル焼け",
-      "artist": "末廣健一郎",
-      "artistId": "a7098ecc-5cf8-451a-afb6-d932123626af",
-      "releaseDate": "2026-06-10",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:979a1f32-639c-46e5-9614-0c17436df1cd",
-      "collectionName": "「勇者のクズ」オリジナル・サウンドトラック",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "f5d3c96b-4d1f-47f0-bc14-9c46efd0bf62",
-      "isrc": "JPS602601229",
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "mb:1aca8220-7c36-4f7d-8a9a-0a42831a92d6",
-      "title": "中毒ビート",
-      "artist": "末廣健一郎",
-      "artistId": "a7098ecc-5cf8-451a-afb6-d932123626af",
-      "releaseDate": "2026-06-10",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:979a1f32-639c-46e5-9614-0c17436df1cd",
-      "collectionName": "「勇者のクズ」オリジナル・サウンドトラック",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "1aca8220-7c36-4f7d-8a9a-0a42831a92d6",
-      "isrc": "JPS602601198",
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "mb:8370332a-6422-4f78-946c-301c3e43f709",
-      "title": "私は強くなりたい",
-      "artist": "末廣健一郎",
-      "artistId": "a7098ecc-5cf8-451a-afb6-d932123626af",
-      "releaseDate": "2026-06-10",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:979a1f32-639c-46e5-9614-0c17436df1cd",
-      "collectionName": "「勇者のクズ」オリジナル・サウンドトラック",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "8370332a-6422-4f78-946c-301c3e43f709",
-      "isrc": "JPS602601210",
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "mb:710f35aa-2b79-4603-b909-a1046bfe3725",
-      "title": "尊敬に値する勇者",
-      "artist": "末廣健一郎",
-      "artistId": "a7098ecc-5cf8-451a-afb6-d932123626af",
-      "releaseDate": "2026-06-10",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:979a1f32-639c-46e5-9614-0c17436df1cd",
-      "collectionName": "「勇者のクズ」オリジナル・サウンドトラック",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "710f35aa-2b79-4603-b909-a1046bfe3725",
-      "isrc": "JPS602601194",
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "mb:1b568676-b3f3-46ee-a14c-5010b3d021ea",
-      "title": "死神ヤシロの再会",
-      "artist": "末廣健一郎",
-      "artistId": "a7098ecc-5cf8-451a-afb6-d932123626af",
-      "releaseDate": "2026-06-10",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:979a1f32-639c-46e5-9614-0c17436df1cd",
-      "collectionName": "「勇者のクズ」オリジナル・サウンドトラック",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "1b568676-b3f3-46ee-a14c-5010b3d021ea",
-      "isrc": "JPS602601206",
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "mb:6657705f-cdc6-49cc-8ac7-86f5bbd79ea4",
-      "title": "加速ノイズ",
-      "artist": "末廣健一郎",
-      "artistId": "a7098ecc-5cf8-451a-afb6-d932123626af",
-      "releaseDate": "2026-06-10",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:979a1f32-639c-46e5-9614-0c17436df1cd",
-      "collectionName": "「勇者のクズ」オリジナル・サウンドトラック",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "6657705f-cdc6-49cc-8ac7-86f5bbd79ea4",
-      "isrc": "JPS602601218",
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "mb:c0416b19-f68a-4a55-8564-7494c520eecb",
-      "title": "英雄ヘヴン",
-      "artist": "末廣健一郎",
-      "artistId": "a7098ecc-5cf8-451a-afb6-d932123626af",
-      "releaseDate": "2026-06-10",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:979a1f32-639c-46e5-9614-0c17436df1cd",
-      "collectionName": "「勇者のクズ」オリジナル・サウンドトラック",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "c0416b19-f68a-4a55-8564-7494c520eecb",
-      "isrc": "JPS602601199",
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "mb:a4c49fce-b48a-40d8-9147-65fc19aea2bd",
-      "title": "く、く、黒歴史",
-      "artist": "高尾奏之介",
-      "artistId": "e0a5a647-7f3d-4607-86b0-eba68df57777",
-      "releaseDate": "2026-06-10",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:118d6248-c204-41f2-a695-82726ba598fb",
-      "collectionName": "TVアニメ「灰原くんの強くて青春ニューゲーム」オリジナル・サウンドトラック",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "a4c49fce-b48a-40d8-9147-65fc19aea2bd",
-      "isrc": "JPL802641009",
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "mb:ae3a70fb-871c-49c3-84b9-ff7d425b6ded",
-      "title": "一歩の勇気が答えになる",
-      "artist": "馬瀬みさき",
-      "artistId": "3a57d2ac-98db-40af-b021-ee743d61a119",
-      "releaseDate": "2026-05-27",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:0f24088b-317c-49dd-b228-114f1e1f50c6",
-      "collectionName": "『名探偵プリキュア!』オリジナル・サウンドトラック1 プリキュア・スターディテクティブ・サウンド!!",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "ae3a70fb-871c-49c3-84b9-ff7d425b6ded",
-      "isrc": "JPD602600054",
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "mb:585b425c-7c6b-416d-8ba2-5b921535020a",
-      "title": "次回もキュアット解決!",
-      "artist": "杉山勝彦・佐々木”コジロー”貴之",
-      "artistId": "0d93c590-2615-41f9-b7b9-b575567e8427",
-      "releaseDate": "2026-05-27",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:0f24088b-317c-49dd-b228-114f1e1f50c6",
-      "collectionName": "『名探偵プリキュア!』オリジナル・サウンドトラック1 プリキュア・スターディテクティブ・サウンド!!",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "585b425c-7c6b-416d-8ba2-5b921535020a",
-      "isrc": "JPD602600062",
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "mb:e34b5510-d3a1-4eb4-b6ec-4da14920069f",
-      "title": "キュアットキャッチ!",
-      "artist": "馬瀬みさき",
-      "artistId": "3a57d2ac-98db-40af-b021-ee743d61a119",
-      "releaseDate": "2026-05-27",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:0f24088b-317c-49dd-b228-114f1e1f50c6",
-      "collectionName": "『名探偵プリキュア!』オリジナル・サウンドトラック1 プリキュア・スターディテクティブ・サウンド!!",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "e34b5510-d3a1-4eb4-b6ec-4da14920069f",
-      "isrc": "JPD602600047",
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "mb:9c612f68-b102-4978-a4f3-f3e358b8da2e",
-      "title": "闇の劇場",
-      "artist": "馬瀬みさき",
-      "artistId": "3a57d2ac-98db-40af-b021-ee743d61a119",
-      "releaseDate": "2026-05-27",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:0f24088b-317c-49dd-b228-114f1e1f50c6",
-      "collectionName": "『名探偵プリキュア!』オリジナル・サウンドトラック1 プリキュア・スターディテクティブ・サウンド!!",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "9c612f68-b102-4978-a4f3-f3e358b8da2e",
-      "isrc": "JPD602600058",
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
       ],
       "likedAt": null
     },
@@ -7227,214 +5242,6 @@
       },
       "sourceKinds": [
         "apple-jp-chart"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "mb:97e787a6-0618-4159-a6d5-9f1fefa014f2",
-      "title": "弱くなれ!",
-      "artist": "桃寝ちのい",
-      "artistId": "6da8d840-cf95-4d2c-ac72-3096136bb594",
-      "releaseDate": "2026-04-26",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:0633043b-3a83-4417-8178-6e232554609e",
-      "collectionName": "だめいぬ♡いんだ♡だっこ",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "97e787a6-0618-4159-a6d5-9f1fefa014f2",
-      "isrc": "QT66N2643483",
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "mb:931f68c2-c0b2-44bf-bac8-b24d386ea3bf",
-      "title": "エンゼルフード",
-      "artist": "桃寝ちのい",
-      "artistId": "6da8d840-cf95-4d2c-ac72-3096136bb594",
-      "releaseDate": "2026-04-26",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:0633043b-3a83-4417-8178-6e232554609e",
-      "collectionName": "だめいぬ♡いんだ♡だっこ",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "931f68c2-c0b2-44bf-bac8-b24d386ea3bf",
-      "isrc": "QT66R2645890",
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "mb:83ba63f9-ff26-4627-b605-49dcfbcab803",
-      "title": "あがらふぃーりん",
-      "artist": "RED",
-      "artistId": "75130361-7a2e-474f-9ac0-54e2d8f629a3",
-      "releaseDate": "2026-04-25",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:efd9f227-4c96-475d-84a0-0d225a004bee",
-      "collectionName": "全部俺 PART III",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "83ba63f9-ff26-4627-b605-49dcfbcab803",
-      "isrc": "QT66Q2692274",
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "mb:ca91b9e3-2137-4327-9f4b-be305233de7b",
-      "title": "る=る=るぅ論",
-      "artist": "フロクロ",
-      "artistId": "ceb5f926-a908-41c7-85b6-3764d1458532",
-      "releaseDate": "2026-04-25",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:efd9f227-4c96-475d-84a0-0d225a004bee",
-      "collectionName": "全部俺 PART III",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "ca91b9e3-2137-4327-9f4b-be305233de7b",
-      "isrc": "QT66Q2692173",
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "mb:74b38279-8fed-47fe-8794-5b52795f04d0",
-      "title": "マ・イーカ・サンバ",
-      "artist": "馬車馬カエデ",
-      "artistId": "0452f555-842e-42e1-800b-1d9e8e004d2f",
-      "releaseDate": "2026-04-25",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:efd9f227-4c96-475d-84a0-0d225a004bee",
-      "collectionName": "全部俺 PART III",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "74b38279-8fed-47fe-8794-5b52795f04d0",
-      "isrc": "QT66Q2692258",
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "mb:0ef9c341-25c1-44f1-a743-8ab5063c8d43",
-      "title": "借り物",
-      "artist": "濁茶",
-      "artistId": "3d419d14-9499-4207-8f2d-711753311ca1",
-      "releaseDate": "2026-04-25",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:efd9f227-4c96-475d-84a0-0d225a004bee",
-      "collectionName": "全部俺 PART III",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "0ef9c341-25c1-44f1-a743-8ab5063c8d43",
-      "isrc": "QT66Q2692041",
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "mb:9e0e1f32-d29f-404a-98ff-c3452459bd38",
-      "title": "異化効果",
-      "artist": "読谷あかね",
-      "artistId": "29efd48e-7542-4543-8852-51de57df418d",
-      "releaseDate": "2026-04-25",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:efd9f227-4c96-475d-84a0-0d225a004bee",
-      "collectionName": "全部俺 PART III",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "9e0e1f32-d29f-404a-98ff-c3452459bd38",
-      "isrc": "QT66Q2691944",
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "mb:57ad7735-29c4-4f4a-857f-7b58bf774384",
-      "title": "コムギノフネ",
-      "artist": "いえぬ",
-      "artistId": "7a853f0b-a523-43e1-9967-405eb680ebfb",
-      "releaseDate": "2026-04-25",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:efd9f227-4c96-475d-84a0-0d225a004bee",
-      "collectionName": "全部俺 PART III",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "57ad7735-29c4-4f4a-857f-7b58bf774384",
-      "isrc": "QT66Q2692269",
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
       ],
       "likedAt": null
     },
@@ -7471,28 +5278,37 @@
       "likedAt": null
     },
     {
-      "id": "mb:b06daf91-4b52-476e-a787-f514b5b2b4a9",
-      "title": "恨み節",
-      "artist": "梶芽衣子",
-      "artistId": "fb5280b5-9e0c-439d-b275-2d8b5bffc19a",
-      "releaseDate": "2026-04-18",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
+      "id": "1887793931",
+      "title": "スターダスト",
+      "artist": "Official髭男dism",
+      "artistId": "960568308",
+      "releaseDate": "2026-04-13",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9b/a1/75/9ba175fa-c71e-3bd1-decc-a47254093484/20609.jpg/100x100bb.jpg",
+      "genres": [
+        "J-Pop"
+      ],
+      "appleUrl": "https://music.apple.com/jp/album/%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%80%E3%82%B9%E3%83%88/1887793929?i=1887793931&uo=4",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/7d/b2/cf/7db2cfc6-c3de-1d40-af4b-670ce269de40/mzaf_15341237953562651100.plus.aac.p.m4a",
       "chartRank": null,
-      "collectionId": "mb:eda7e6c6-4043-47c8-b423-21aeea608203",
-      "collectionName": "怨み節/修羅の花",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "b06daf91-4b52-476e-a787-f514b5b2b4a9",
+      "collectionId": "1887793929",
+      "collectionName": "スターダスト - Single",
+      "trackNumber": 1,
+      "trackCount": 1,
+      "discNumber": 1,
+      "discCount": 1,
+      "recordingId": null,
       "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {},
+      "searchAliases": [
+        "Official Hige Dandism",
+        "Higedan",
+        "오피셜히게단디즘",
+        "히게단"
+      ],
+      "platformLinks": {
+        "apple": "https://music.apple.com/jp/album/%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%80%E3%82%B9%E3%83%88/1887793929?i=1887793931&uo=4"
+      },
       "sourceKinds": [
-        "musicbrainz-jp-release-index"
+        "itunes-jp-search"
       ],
       "likedAt": null
     },
@@ -7530,32 +5346,6 @@
       "likedAt": null
     },
     {
-      "id": "mb:a2dbd158-8764-4847-8adc-dca07b66ce61",
-      "title": "極超新星",
-      "artist": "佐々木李子",
-      "artistId": "dcbe8eb6-8ceb-4215-a844-f16c39dd78f2",
-      "releaseDate": "2026-04-11",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:575ddcb7-b9a0-48e0-9feb-196ea659ec07",
-      "collectionName": "RI PATHOS",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "a2dbd158-8764-4847-8adc-dca07b66ce61",
-      "isrc": "JPI102600625",
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
-      ],
-      "likedAt": null
-    },
-    {
       "id": "1886375862",
       "title": "火種",
       "artist": "キタニタツヤ",
@@ -7586,62 +5376,6 @@
       "likedAt": null
     },
     {
-      "id": "mb:b3066760-6c93-4e84-a43b-09f6a56ef0ba",
-      "title": "ぽわぽわぷてぃこんてんしさま",
-      "artist": "桃寝ちのい",
-      "artistId": "6da8d840-cf95-4d2c-ac72-3096136bb594",
-      "releaseDate": "2026-04-03",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:0633043b-3a83-4417-8178-6e232554609e",
-      "collectionName": "だめいぬ♡いんだ♡だっこ",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "b3066760-6c93-4e84-a43b-09f6a56ef0ba",
-      "isrc": "QT66M2613677",
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "1772865881",
-      "title": "アイビー",
-      "artist": "Novelbright",
-      "artistId": "1022677279",
-      "releaseDate": "2026-03-30",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2b/55/4f/2b554f39-24a6-fdd7-eea2-455d4248b7aa/24UMGIM96508.rgb.jpg/100x100bb.jpg",
-      "genres": [
-        "ロック"
-      ],
-      "appleUrl": "https://music.apple.com/jp/album/%E3%82%A2%E3%82%A4%E3%83%93%E3%83%BC/1772865879?i=1772865881&uo=4",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/67/e9/71/67e9712d-c9ec-7b80-c473-566e9e7026ca/mzaf_13513832982156126783.plus.aac.p.m4a",
-      "chartRank": null,
-      "collectionId": "1772865879",
-      "collectionName": "アイビー - Single",
-      "trackNumber": 1,
-      "trackCount": 1,
-      "discNumber": 1,
-      "discCount": 1,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/jp/album/%E3%82%A2%E3%82%A4%E3%83%93%E3%83%BC/1772865879?i=1772865881&uo=4"
-      },
-      "sourceKinds": [
-        "itunes-jp-search"
-      ],
-      "likedAt": null
-    },
-    {
       "id": "1884257489",
       "title": "Bad Girl",
       "artist": "HANA",
@@ -7654,7 +5388,7 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/bad-girl/1884257488?i=1884257489",
       "previewUrl": null,
-      "chartRank": 63,
+      "chartRank": 62,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": 0,
@@ -7669,162 +5403,6 @@
       },
       "sourceKinds": [
         "apple-jp-chart"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "mb:9a5b62d0-1ba4-4a81-ba91-60ccd7a9d65d",
-      "title": "キャンデー",
-      "artist": "r-906 feat. 鏡音リン",
-      "artistId": "3d00a629-1faa-44b2-9d52-eabc45ff8395",
-      "releaseDate": "2026-03-19",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:8f224869-fe06-4b2b-8cb2-904f94555b83",
-      "collectionName": "キャンデー",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "9a5b62d0-1ba4-4a81-ba91-60ccd7a9d65d",
-      "isrc": "QT66L2666201",
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "mb:50328520-5923-4ee3-a38d-c374b5d4402f",
-      "title": "ドキュメント",
-      "artist": "サカナクション",
-      "artistId": "01830cc1-8a04-4dfb-9e4a-d557dfda6a93",
-      "releaseDate": "2026-03-18",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:d34c0f58-d32f-407e-a51f-813afdaf66f5",
-      "collectionName": "SAKANAQUARIUM 2025 “怪獣”",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "50328520-5923-4ee3-a38d-c374b5d4402f",
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "mb:bef26542-e478-40e3-a69a-a88742694b95",
-      "title": "ネイティブダンサー",
-      "artist": "サカナクション",
-      "artistId": "01830cc1-8a04-4dfb-9e4a-d557dfda6a93",
-      "releaseDate": "2026-03-18",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:d34c0f58-d32f-407e-a51f-813afdaf66f5",
-      "collectionName": "SAKANAQUARIUM 2025 “怪獣”",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "bef26542-e478-40e3-a69a-a88742694b95",
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "mb:73981b2f-a33b-4f84-971a-550d376ffba0",
-      "title": "ライトダンス",
-      "artist": "サカナクション",
-      "artistId": "01830cc1-8a04-4dfb-9e4a-d557dfda6a93",
-      "releaseDate": "2026-03-18",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:d34c0f58-d32f-407e-a51f-813afdaf66f5",
-      "collectionName": "SAKANAQUARIUM 2025 “怪獣”",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "73981b2f-a33b-4f84-971a-550d376ffba0",
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "mb:d0093cb2-363f-4107-a37f-e54ce9010dd7",
-      "title": "アイデンティティ",
-      "artist": "サカナクション",
-      "artistId": "01830cc1-8a04-4dfb-9e4a-d557dfda6a93",
-      "releaseDate": "2026-03-18",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:d34c0f58-d32f-407e-a51f-813afdaf66f5",
-      "collectionName": "SAKANAQUARIUM 2025 “怪獣”",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "d0093cb2-363f-4107-a37f-e54ce9010dd7",
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "mb:61fa1ee9-0f00-4075-8a77-a2a865992c68",
-      "title": "ナイトフィッシングイズグッド (Encore)",
-      "artist": "サカナクション",
-      "artistId": "01830cc1-8a04-4dfb-9e4a-d557dfda6a93",
-      "releaseDate": "2026-03-18",
-      "artwork": null,
-      "genres": [],
-      "appleUrl": null,
-      "previewUrl": null,
-      "chartRank": null,
-      "collectionId": "mb:d34c0f58-d32f-407e-a51f-813afdaf66f5",
-      "collectionName": "SAKANAQUARIUM 2025 “怪獣”",
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": "61fa1ee9-0f00-4075-8a77-a2a865992c68",
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {},
-      "sourceKinds": [
-        "musicbrainz-jp-release-index"
       ],
       "likedAt": null
     },
@@ -7942,7 +5520,7 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E7%88%86%E8%A3%82%E6%84%9B%E3%81%97%E3%81%A6%E3%82%8B/1869537741?i=1869537742",
       "previewUrl": null,
-      "chartRank": 11,
+      "chartRank": 10,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": 0,
@@ -8196,68 +5774,6 @@
       "likedAt": null
     },
     {
-      "id": "6803798494",
-      "title": "時空超えてユニバース",
-      "artist": "M!LK",
-      "artistId": "1356706755",
-      "releaseDate": null,
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d0/c1/3e/d0c13e26-39b8-76b3-8ba5-b4412872260f/VEATP-45880.jpg/100x100bb.jpg",
-      "genres": [
-        "J-Pop",
-        "ミュージック"
-      ],
-      "appleUrl": "https://music.apple.com/jp/album/%E6%99%82%E7%A9%BA%E8%B6%85%E3%81%88%E3%81%A6%E3%83%A6%E3%83%8B%E3%83%90%E3%83%BC%E3%82%B9/6803798492?i=6803798494",
-      "previewUrl": null,
-      "chartRank": 21,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/jp/album/%E6%99%82%E7%A9%BA%E8%B6%85%E3%81%88%E3%81%A6%E3%83%A6%E3%83%8B%E3%83%90%E3%83%BC%E3%82%B9/6803798492?i=6803798494"
-      },
-      "sourceKinds": [
-        "apple-jp-chart"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "1794066813",
-      "title": "とくべチュ、して",
-      "artist": "=LOVE",
-      "artistId": "1273762750",
-      "releaseDate": "2025-02-10",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/64/7f/83/647f8398-9ac9-21f6-49cc-bec4e9723637/4547366732757.jpg/100x100bb.jpg",
-      "genres": [
-        "J-Pop",
-        "ミュージック"
-      ],
-      "appleUrl": "https://music.apple.com/jp/album/%E3%81%A8%E3%81%8F%E3%81%B9%E3%83%81%E3%83%A5-%E3%81%97%E3%81%A6/1794066812?i=1794066813",
-      "previewUrl": null,
-      "chartRank": 24,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/jp/album/%E3%81%A8%E3%81%8F%E3%81%B9%E3%83%81%E3%83%A5-%E3%81%97%E3%81%A6/1794066812?i=1794066813"
-      },
-      "sourceKinds": [
-        "apple-jp-chart"
-      ],
-      "likedAt": null
-    },
-    {
       "id": "604748203",
       "title": "夜の踊り子",
       "artist": "サカナクション",
@@ -8270,7 +5786,7 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E5%A4%9C%E3%81%AE%E8%B8%8A%E3%82%8A%E5%AD%90/604748196?i=604748203",
       "previewUrl": null,
-      "chartRank": 25,
+      "chartRank": 24,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": 0,
@@ -8301,7 +5817,7 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/happy-birthday/1456062834?i=1456063581",
       "previewUrl": null,
-      "chartRank": 26,
+      "chartRank": 25,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": 0,
@@ -8316,6 +5832,37 @@
       ],
       "platformLinks": {
         "apple": "https://music.apple.com/jp/album/happy-birthday/1456062834?i=1456063581"
+      },
+      "sourceKinds": [
+        "apple-jp-chart"
+      ],
+      "likedAt": null
+    },
+    {
+      "id": "1794066813",
+      "title": "とくべチュ、して",
+      "artist": "=LOVE",
+      "artistId": "1273762750",
+      "releaseDate": "2025-02-10",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/64/7f/83/647f8398-9ac9-21f6-49cc-bec4e9723637/4547366732757.jpg/100x100bb.jpg",
+      "genres": [
+        "J-Pop",
+        "ミュージック"
+      ],
+      "appleUrl": "https://music.apple.com/jp/album/%E3%81%A8%E3%81%8F%E3%81%B9%E3%83%81%E3%83%A5-%E3%81%97%E3%81%A6/1794066812?i=1794066813",
+      "previewUrl": null,
+      "chartRank": 26,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/jp/album/%E3%81%A8%E3%81%8F%E3%81%B9%E3%83%81%E3%83%A5-%E3%81%97%E3%81%A6/1794066812?i=1794066813"
       },
       "sourceKinds": [
         "apple-jp-chart"
@@ -8664,17 +6211,17 @@
       "likedAt": null
     },
     {
-      "id": "1879525016",
-      "title": "Five",
-      "artist": "嵐",
-      "artistId": "548185047",
-      "releaseDate": "2026-03-04",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/05/77/28/05772817-1d81-ee8e-8224-a225f74a310b/820200234377.jpg/100x100bb.jpg",
+      "id": "1623304209",
+      "title": "ダンスホール",
+      "artist": "Mrs. GREEN APPLE",
+      "artistId": "962221033",
+      "releaseDate": "2022-05-24",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/b7/20/05/b7200500-e97d-8c79-7cf2-99a6fb1aaf4d/22UMGIM50592.rgb.jpg/100x100bb.jpg",
       "genres": [
-        "J-Pop",
+        "ロック",
         "ミュージック"
       ],
-      "appleUrl": "https://music.apple.com/jp/album/five/1879524863?i=1879525016",
+      "appleUrl": "https://music.apple.com/jp/album/%E3%83%80%E3%83%B3%E3%82%B9%E3%83%9B%E3%83%BC%E3%83%AB/1623304208?i=1623304209",
       "previewUrl": null,
       "chartRank": 42,
       "collectionId": null,
@@ -8685,9 +6232,12 @@
       "discCount": 0,
       "recordingId": null,
       "isrc": null,
-      "searchAliases": [],
+      "searchAliases": [
+        "미세스 그린 애플",
+        "미세스그린애플"
+      ],
       "platformLinks": {
-        "apple": "https://music.apple.com/jp/album/five/1879524863?i=1879525016"
+        "apple": "https://music.apple.com/jp/album/%E3%83%80%E3%83%B3%E3%82%B9%E3%83%9B%E3%83%BC%E3%83%AB/1623304208?i=1623304209"
       },
       "sourceKinds": [
         "apple-jp-chart"
@@ -8726,17 +6276,17 @@
       "likedAt": null
     },
     {
-      "id": "1623304209",
-      "title": "ダンスホール",
-      "artist": "Mrs. GREEN APPLE",
-      "artistId": "962221033",
-      "releaseDate": "2022-05-24",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/b7/20/05/b7200500-e97d-8c79-7cf2-99a6fb1aaf4d/22UMGIM50592.rgb.jpg/100x100bb.jpg",
+      "id": "1879525016",
+      "title": "Five",
+      "artist": "嵐",
+      "artistId": "548185047",
+      "releaseDate": "2026-03-04",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/05/77/28/05772817-1d81-ee8e-8224-a225f74a310b/820200234377.jpg/100x100bb.jpg",
       "genres": [
-        "ロック",
+        "J-Pop",
         "ミュージック"
       ],
-      "appleUrl": "https://music.apple.com/jp/album/%E3%83%80%E3%83%B3%E3%82%B9%E3%83%9B%E3%83%BC%E3%83%AB/1623304208?i=1623304209",
+      "appleUrl": "https://music.apple.com/jp/album/five/1879524863?i=1879525016",
       "previewUrl": null,
       "chartRank": 44,
       "collectionId": null,
@@ -8747,12 +6297,9 @@
       "discCount": 0,
       "recordingId": null,
       "isrc": null,
-      "searchAliases": [
-        "미세스 그린 애플",
-        "미세스그린애플"
-      ],
+      "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/jp/album/%E3%83%80%E3%83%B3%E3%82%B9%E3%83%9B%E3%83%BC%E3%83%AB/1623304208?i=1623304209"
+        "apple": "https://music.apple.com/jp/album/five/1879524863?i=1879525016"
       },
       "sourceKinds": [
         "apple-jp-chart"
@@ -8839,7 +6386,7 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/subtitle/1648108987?i=1648108988",
       "previewUrl": null,
-      "chartRank": 52,
+      "chartRank": 51,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": 0,
@@ -8933,37 +6480,6 @@
       "likedAt": null
     },
     {
-      "id": "316684060",
-      "title": "Body & Soul",
-      "artist": "SPEED",
-      "artistId": "295647185",
-      "releaseDate": "1997-05-21",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/79/e2/0d/79e20d1b-d075-8891-0cef-06b41b5ffd78/mzi.pohobzdm.jpg/100x91bb.jpg",
-      "genres": [
-        "J-Pop",
-        "ミュージック"
-      ],
-      "appleUrl": "https://music.apple.com/jp/album/body-soul/316684058?i=316684060",
-      "previewUrl": null,
-      "chartRank": 55,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/jp/album/body-soul/316684058?i=316684060"
-      },
-      "sourceKinds": [
-        "apple-jp-chart"
-      ],
-      "likedAt": null
-    },
-    {
       "id": "1490256995",
       "title": "夜に駆ける",
       "artist": "YOASOBI",
@@ -8997,17 +6513,17 @@
       "likedAt": null
     },
     {
-      "id": "1440747285",
-      "title": "チェリー",
-      "artist": "スピッツ",
-      "artistId": "74456960",
-      "releaseDate": "1996-04-10",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/29/c0/30/29c030c7-ae9c-a201-ef47-bf9a8b2ed31a/00600406212191.rgb.jpg/100x100bb.jpg",
+      "id": "316684060",
+      "title": "Body & Soul",
+      "artist": "SPEED",
+      "artistId": "295647185",
+      "releaseDate": "1997-05-21",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/79/e2/0d/79e20d1b-d075-8891-0cef-06b41b5ffd78/mzi.pohobzdm.jpg/100x91bb.jpg",
       "genres": [
-        "ロック",
+        "J-Pop",
         "ミュージック"
       ],
-      "appleUrl": "https://music.apple.com/jp/album/%E3%83%81%E3%82%A7%E3%83%AA%E3%83%BC/1440746376?i=1440747285",
+      "appleUrl": "https://music.apple.com/jp/album/body-soul/316684058?i=316684060",
       "previewUrl": null,
       "chartRank": 57,
       "collectionId": null,
@@ -9020,7 +6536,7 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/jp/album/%E3%83%81%E3%82%A7%E3%83%AA%E3%83%BC/1440746376?i=1440747285"
+        "apple": "https://music.apple.com/jp/album/body-soul/316684058?i=316684060"
       },
       "sourceKinds": [
         "apple-jp-chart"
@@ -9040,7 +6556,7 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/start/1440745429?i=1440745441",
       "previewUrl": null,
-      "chartRank": 59,
+      "chartRank": 58,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": 0,
@@ -9055,6 +6571,37 @@
       ],
       "platformLinks": {
         "apple": "https://music.apple.com/jp/album/start/1440745429?i=1440745441"
+      },
+      "sourceKinds": [
+        "apple-jp-chart"
+      ],
+      "likedAt": null
+    },
+    {
+      "id": "1440747285",
+      "title": "チェリー",
+      "artist": "スピッツ",
+      "artistId": "74456960",
+      "releaseDate": "1996-04-10",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/29/c0/30/29c030c7-ae9c-a201-ef47-bf9a8b2ed31a/00600406212191.rgb.jpg/100x100bb.jpg",
+      "genres": [
+        "ロック",
+        "ミュージック"
+      ],
+      "appleUrl": "https://music.apple.com/jp/album/%E3%83%81%E3%82%A7%E3%83%AA%E3%83%BC/1440746376?i=1440747285",
+      "previewUrl": null,
+      "chartRank": 59,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/jp/album/%E3%83%81%E3%82%A7%E3%83%AA%E3%83%BC/1440746376?i=1440747285"
       },
       "sourceKinds": [
         "apple-jp-chart"
@@ -9093,6 +6640,40 @@
       "likedAt": null
     },
     {
+      "id": "1273710101",
+      "title": "愛を伝えたいだとか",
+      "artist": "あいみょん",
+      "artistId": "1165017710",
+      "releaseDate": "2017-04-14",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/d8/7b/7c/d87b7cfd-c88c-1003-bc5d-883882043e33/190295747138.jpg/100x87bb.jpg",
+      "genres": [
+        "J-Pop",
+        "ミュージック"
+      ],
+      "appleUrl": "https://music.apple.com/jp/album/%E6%84%9B%E3%82%92%E4%BC%9D%E3%81%88%E3%81%9F%E3%81%84%E3%81%A0%E3%81%A8%E3%81%8B/1273709789?i=1273710101",
+      "previewUrl": null,
+      "chartRank": 61,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "Aimyon",
+        "아이묭"
+      ],
+      "platformLinks": {
+        "apple": "https://music.apple.com/jp/album/%E6%84%9B%E3%82%92%E4%BC%9D%E3%81%88%E3%81%9F%E3%81%84%E3%81%A0%E3%81%A8%E3%81%8B/1273709789?i=1273710101"
+      },
+      "sourceKinds": [
+        "apple-jp-chart"
+      ],
+      "likedAt": null
+    },
+    {
       "id": "949250892",
       "title": "TSUNAMI",
       "artist": "サザンオールスターズ",
@@ -9105,7 +6686,7 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/tsunami/949250891?i=949250892",
       "previewUrl": null,
-      "chartRank": 61,
+      "chartRank": 63,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": 0,
@@ -9136,7 +6717,7 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/never-grow-up/1468137281?i=1468137287",
       "previewUrl": null,
-      "chartRank": 62,
+      "chartRank": 64,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": 0,
@@ -9148,40 +6729,6 @@
       "searchAliases": [],
       "platformLinks": {
         "apple": "https://music.apple.com/jp/album/never-grow-up/1468137281?i=1468137287"
-      },
-      "sourceKinds": [
-        "apple-jp-chart"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "1273710101",
-      "title": "愛を伝えたいだとか",
-      "artist": "あいみょん",
-      "artistId": "1165017710",
-      "releaseDate": "2017-04-14",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/d8/7b/7c/d87b7cfd-c88c-1003-bc5d-883882043e33/190295747138.jpg/100x87bb.jpg",
-      "genres": [
-        "J-Pop",
-        "ミュージック"
-      ],
-      "appleUrl": "https://music.apple.com/jp/album/%E6%84%9B%E3%82%92%E4%BC%9D%E3%81%88%E3%81%9F%E3%81%84%E3%81%A0%E3%81%A8%E3%81%8B/1273709789?i=1273710101",
-      "previewUrl": null,
-      "chartRank": 64,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [
-        "Aimyon",
-        "아이묭"
-      ],
-      "platformLinks": {
-        "apple": "https://music.apple.com/jp/album/%E6%84%9B%E3%82%92%E4%BC%9D%E3%81%88%E3%81%9F%E3%81%84%E3%81%A0%E3%81%A8%E3%81%8B/1273709789?i=1273710101"
       },
       "sourceKinds": [
         "apple-jp-chart"
@@ -9225,6 +6772,37 @@
       "likedAt": null
     },
     {
+      "id": "1585848051",
+      "title": "ハレンチ",
+      "artist": "ちゃんみな",
+      "artistId": "1104839687",
+      "releaseDate": "2021-09-24",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/bd/c0/80/bdc08023-823d-b74c-0b58-e161fe8ae68b/190296458705.jpg/100x100bb.jpg",
+      "genres": [
+        "ヒップホップ／ラップ",
+        "ミュージック"
+      ],
+      "appleUrl": "https://music.apple.com/jp/album/%E3%83%8F%E3%83%AC%E3%83%B3%E3%83%81/1585848047?i=1585848051",
+      "previewUrl": null,
+      "chartRank": 66,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/jp/album/%E3%83%8F%E3%83%AC%E3%83%B3%E3%83%81/1585848047?i=1585848051"
+      },
+      "sourceKinds": [
+        "apple-jp-chart"
+      ],
+      "likedAt": null
+    },
+    {
       "id": "1648411352",
       "title": "アイラブユー",
       "artist": "back number",
@@ -9237,7 +6815,7 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E3%82%A2%E3%82%A4%E3%83%A9%E3%83%96%E3%83%A6%E3%83%BC/1648411350?i=1648411352",
       "previewUrl": null,
-      "chartRank": 66,
+      "chartRank": 67,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": 0,
@@ -9259,19 +6837,19 @@
       "likedAt": null
     },
     {
-      "id": "1585848051",
-      "title": "ハレンチ",
-      "artist": "ちゃんみな",
-      "artistId": "1104839687",
-      "releaseDate": "2021-09-24",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/bd/c0/80/bdc08023-823d-b74c-0b58-e161fe8ae68b/190296458705.jpg/100x100bb.jpg",
+      "id": "1273709797",
+      "title": "君はロックを聴かない",
+      "artist": "あいみょん",
+      "artistId": "1165017710",
+      "releaseDate": "2017-07-25",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/d8/7b/7c/d87b7cfd-c88c-1003-bc5d-883882043e33/190295747138.jpg/100x87bb.jpg",
       "genres": [
-        "ヒップホップ／ラップ",
+        "J-Pop",
         "ミュージック"
       ],
-      "appleUrl": "https://music.apple.com/jp/album/%E3%83%8F%E3%83%AC%E3%83%B3%E3%83%81/1585848047?i=1585848051",
+      "appleUrl": "https://music.apple.com/jp/album/%E5%90%9B%E3%81%AF%E3%83%AD%E3%83%83%E3%82%AF%E3%82%92%E8%81%B4%E3%81%8B%E3%81%AA%E3%81%84/1273709789?i=1273709797",
       "previewUrl": null,
-      "chartRank": 67,
+      "chartRank": 68,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": 0,
@@ -9280,9 +6858,12 @@
       "discCount": 0,
       "recordingId": null,
       "isrc": null,
-      "searchAliases": [],
+      "searchAliases": [
+        "Aimyon",
+        "아이묭"
+      ],
       "platformLinks": {
-        "apple": "https://music.apple.com/jp/album/%E3%83%8F%E3%83%AC%E3%83%B3%E3%83%81/1585848047?i=1585848051"
+        "apple": "https://music.apple.com/jp/album/%E5%90%9B%E3%81%AF%E3%83%AD%E3%83%83%E3%82%AF%E3%82%92%E8%81%B4%E3%81%8B%E3%81%AA%E3%81%84/1273709789?i=1273709797"
       },
       "sourceKinds": [
         "apple-jp-chart"
@@ -9302,7 +6883,7 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E7%B5%B6%E5%AF%BE%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB%E8%BE%9E%E3%82%81%E3%81%AA%E3%81%84%E3%81%A7/1751409882?i=1751409888",
       "previewUrl": null,
-      "chartRank": 68,
+      "chartRank": 69,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": 0,
@@ -9333,7 +6914,7 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E4%BB%8A%E5%A4%9C%E3%81%93%E3%81%AE%E3%81%BE%E3%81%BE/1438144187?i=1438144188",
       "previewUrl": null,
-      "chartRank": 69,
+      "chartRank": 70,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": 0,
@@ -9355,40 +6936,6 @@
       "likedAt": null
     },
     {
-      "id": "1273709797",
-      "title": "君はロックを聴かない",
-      "artist": "あいみょん",
-      "artistId": "1165017710",
-      "releaseDate": "2017-07-25",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/d8/7b/7c/d87b7cfd-c88c-1003-bc5d-883882043e33/190295747138.jpg/100x87bb.jpg",
-      "genres": [
-        "J-Pop",
-        "ミュージック"
-      ],
-      "appleUrl": "https://music.apple.com/jp/album/%E5%90%9B%E3%81%AF%E3%83%AD%E3%83%83%E3%82%AF%E3%82%92%E8%81%B4%E3%81%8B%E3%81%AA%E3%81%84/1273709789?i=1273709797",
-      "previewUrl": null,
-      "chartRank": 71,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [
-        "Aimyon",
-        "아이묭"
-      ],
-      "platformLinks": {
-        "apple": "https://music.apple.com/jp/album/%E5%90%9B%E3%81%AF%E3%83%AD%E3%83%83%E3%82%AF%E3%82%92%E8%81%B4%E3%81%8B%E3%81%AA%E3%81%84/1273709789?i=1273709797"
-      },
-      "sourceKinds": [
-        "apple-jp-chart"
-      ],
-      "likedAt": null
-    },
-    {
       "id": "1471459432",
       "title": "インフェルノ",
       "artist": "Mrs. GREEN APPLE",
@@ -9401,7 +6948,7 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E3%82%A4%E3%83%B3%E3%83%95%E3%82%A7%E3%83%AB%E3%83%8E/1471459431?i=1471459432",
       "previewUrl": null,
-      "chartRank": 72,
+      "chartRank": 71,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": 0,
@@ -9523,6 +7070,37 @@
       "likedAt": null
     },
     {
+      "id": "1564752145",
+      "title": "きらり",
+      "artist": "藤井 風",
+      "artistId": "1486113150",
+      "releaseDate": "2021-05-21",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/d6/75/4f/d6754fcb-b2e8-db66-b51f-8b142ac75132/21UMGIM23568.rgb.jpg/100x100bb.jpg",
+      "genres": [
+        "J-Pop",
+        "ミュージック"
+      ],
+      "appleUrl": "https://music.apple.com/jp/album/%E3%81%8D%E3%82%89%E3%82%8A/1564752132?i=1564752145",
+      "previewUrl": null,
+      "chartRank": 76,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/jp/album/%E3%81%8D%E3%82%89%E3%82%8A/1564752132?i=1564752145"
+      },
+      "sourceKinds": [
+        "apple-jp-chart"
+      ],
+      "likedAt": null
+    },
+    {
       "id": "949248404",
       "title": "真夏の果実",
       "artist": "サザンオールスターズ",
@@ -9535,7 +7113,7 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E7%9C%9F%E5%A4%8F%E3%81%AE%E6%9E%9C%E5%AE%9F/949248376?i=949248404",
       "previewUrl": null,
-      "chartRank": 76,
+      "chartRank": 77,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": 0,
@@ -9554,19 +7132,19 @@
       "likedAt": null
     },
     {
-      "id": "1564752145",
-      "title": "きらり",
-      "artist": "藤井 風",
-      "artistId": "1486113150",
-      "releaseDate": "2021-05-21",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/d6/75/4f/d6754fcb-b2e8-db66-b51f-8b142ac75132/21UMGIM23568.rgb.jpg/100x100bb.jpg",
+      "id": "1874221480",
+      "title": "劇薬中毒",
+      "artist": "=LOVE",
+      "artistId": "1273762750",
+      "releaseDate": "2026-02-17",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c1/b4/88/c1b4883d-1baa-1954-49f5-0c237b5745e0/4547366803013.jpg/100x100bb.jpg",
       "genres": [
         "J-Pop",
         "ミュージック"
       ],
-      "appleUrl": "https://music.apple.com/jp/album/%E3%81%8D%E3%82%89%E3%82%8A/1564752132?i=1564752145",
+      "appleUrl": "https://music.apple.com/jp/album/%E5%8A%87%E8%96%AC%E4%B8%AD%E6%AF%92/1874221478?i=1874221480",
       "previewUrl": null,
-      "chartRank": 77,
+      "chartRank": 78,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": 0,
@@ -9577,7 +7155,7 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/jp/album/%E3%81%8D%E3%82%89%E3%82%8A/1564752132?i=1564752145"
+        "apple": "https://music.apple.com/jp/album/%E5%8A%87%E8%96%AC%E4%B8%AD%E6%AF%92/1874221478?i=1874221480"
       },
       "sourceKinds": [
         "apple-jp-chart"
@@ -9597,7 +7175,7 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/jane-doe/1840081735?i=1840081736",
       "previewUrl": null,
-      "chartRank": 78,
+      "chartRank": 80,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": 0,
@@ -9628,7 +7206,7 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E6%BA%80%E3%81%A1%E3%81%A6%E3%82%86%E3%81%8F/1733129984?i=1733130377",
       "previewUrl": null,
-      "chartRank": 79,
+      "chartRank": 81,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": 0,
@@ -9640,37 +7218,6 @@
       "searchAliases": [],
       "platformLinks": {
         "apple": "https://music.apple.com/jp/album/%E6%BA%80%E3%81%A1%E3%81%A6%E3%82%86%E3%81%8F/1733129984?i=1733130377"
-      },
-      "sourceKinds": [
-        "apple-jp-chart"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "1874221480",
-      "title": "劇薬中毒",
-      "artist": "=LOVE",
-      "artistId": "1273762750",
-      "releaseDate": "2026-02-17",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c1/b4/88/c1b4883d-1baa-1954-49f5-0c237b5745e0/4547366803013.jpg/100x100bb.jpg",
-      "genres": [
-        "J-Pop",
-        "ミュージック"
-      ],
-      "appleUrl": "https://music.apple.com/jp/album/%E5%8A%87%E8%96%AC%E4%B8%AD%E6%AF%92/1874221478?i=1874221480",
-      "previewUrl": null,
-      "chartRank": 80,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/jp/album/%E5%8A%87%E8%96%AC%E4%B8%AD%E6%AF%92/1874221478?i=1874221480"
       },
       "sourceKinds": [
         "apple-jp-chart"
@@ -9691,7 +7238,7 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/hanabi/1375007287?i=1375007474",
       "previewUrl": null,
-      "chartRank": 81,
+      "chartRank": 82,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": 0,
@@ -9744,37 +7291,6 @@
       "likedAt": null
     },
     {
-      "id": "1485857408",
-      "title": "Love so sweet",
-      "artist": "嵐",
-      "artistId": "548185047",
-      "releaseDate": "2007-02-21",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/8e/10/2a/8e102abd-d981-e370-82db-2ae5c98baac3/194491537920.jpg/100x100bb.jpg",
-      "genres": [
-        "J-Pop",
-        "ミュージック"
-      ],
-      "appleUrl": "https://music.apple.com/jp/album/love-so-sweet/1485857244?i=1485857408",
-      "previewUrl": null,
-      "chartRank": 85,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/jp/album/love-so-sweet/1485857244?i=1485857408"
-      },
-      "sourceKinds": [
-        "apple-jp-chart"
-      ],
-      "likedAt": null
-    },
-    {
       "id": "1808822211",
       "title": "Tiger",
       "artist": "HANA",
@@ -9787,7 +7303,7 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/tiger/1808822132?i=1808822211",
       "previewUrl": null,
-      "chartRank": 86,
+      "chartRank": 85,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": 0,
@@ -9818,7 +7334,7 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E6%80%AA%E7%9B%97/1566811794?i=1566811795",
       "previewUrl": null,
-      "chartRank": 87,
+      "chartRank": 86,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": 0,
@@ -9833,6 +7349,37 @@
       ],
       "platformLinks": {
         "apple": "https://music.apple.com/jp/album/%E6%80%AA%E7%9B%97/1566811794?i=1566811795"
+      },
+      "sourceKinds": [
+        "apple-jp-chart"
+      ],
+      "likedAt": null
+    },
+    {
+      "id": "1485857408",
+      "title": "Love so sweet",
+      "artist": "嵐",
+      "artistId": "548185047",
+      "releaseDate": "2007-02-21",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/8e/10/2a/8e102abd-d981-e370-82db-2ae5c98baac3/194491537920.jpg/100x100bb.jpg",
+      "genres": [
+        "J-Pop",
+        "ミュージック"
+      ],
+      "appleUrl": "https://music.apple.com/jp/album/love-so-sweet/1485857244?i=1485857408",
+      "previewUrl": null,
+      "chartRank": 88,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/jp/album/love-so-sweet/1485857244?i=1485857408"
       },
       "sourceKinds": [
         "apple-jp-chart"
@@ -9871,38 +7418,6 @@
       "likedAt": null
     },
     {
-      "id": "1083422439",
-      "title": "波乗りジョニー",
-      "artist": "桑田佳祐",
-      "artistId": "74493979",
-      "releaseDate": "2001-07-04",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music69/v4/1c/80/8e/1c808e39-83f2-d56a-858e-e46c1bb41a59/VEATP-30969.jpg/100x100bb.jpg",
-      "genres": [
-        "J-Pop",
-        "ミュージック",
-        "ロック"
-      ],
-      "appleUrl": "https://music.apple.com/jp/album/%E6%B3%A2%E4%B9%97%E3%82%8A%E3%82%B8%E3%83%A7%E3%83%8B%E3%83%BC/1083422435?i=1083422439",
-      "previewUrl": null,
-      "chartRank": 91,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": 0,
-      "trackCount": 0,
-      "discNumber": 0,
-      "discCount": 0,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/jp/album/%E6%B3%A2%E4%B9%97%E3%82%8A%E3%82%B8%E3%83%A7%E3%83%8B%E3%83%BC/1083422435?i=1083422439"
-      },
-      "sourceKinds": [
-        "apple-jp-chart"
-      ],
-      "likedAt": null
-    },
-    {
       "id": "1454643219",
       "title": "ロマンチシズム",
       "artist": "Mrs. GREEN APPLE",
@@ -9915,7 +7430,7 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E3%83%AD%E3%83%9E%E3%83%B3%E3%83%81%E3%82%B7%E3%82%BA%E3%83%A0/1454643208?i=1454643219",
       "previewUrl": null,
-      "chartRank": 92,
+      "chartRank": 90,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": 0,
@@ -9949,7 +7464,7 @@
       ],
       "appleUrl": "https://music.apple.com/jp/album/%E5%AE%BF%E5%91%BD/1470899805?i=1470899806",
       "previewUrl": null,
-      "chartRank": 93,
+      "chartRank": 92,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": 0,
@@ -9973,18 +7488,49 @@
       "likedAt": null
     },
     {
-      "id": "273169347",
-      "title": "小さな恋のうた",
-      "artist": "MONGOL800",
-      "artistId": "202191113",
-      "releaseDate": "2001-09-16",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/62/3b/85/623b858b-d88f-2c04-cb5d-4923e1d64190/mzi.beiflkay.tif/100x100bb.jpg",
+      "id": "1794499543",
+      "title": "イイじゃん",
+      "artist": "M!LK",
+      "artistId": "1356706755",
+      "releaseDate": "2025-02-17",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/54/fd/a4/54fda41c-2ff0-f132-9955-6c6e41a5c882/VEATP-43744.jpg/100x100bb.jpg",
       "genres": [
-        "オルタナティブ",
+        "J-Pop",
+        "ミュージック"
+      ],
+      "appleUrl": "https://music.apple.com/jp/album/%E3%82%A4%E3%82%A4%E3%81%98%E3%82%83%E3%82%93/1794499542?i=1794499543",
+      "previewUrl": null,
+      "chartRank": 93,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": 0,
+      "trackCount": 0,
+      "discNumber": 0,
+      "discCount": 0,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/jp/album/%E3%82%A4%E3%82%A4%E3%81%98%E3%82%83%E3%82%93/1794499542?i=1794499543"
+      },
+      "sourceKinds": [
+        "apple-jp-chart"
+      ],
+      "likedAt": null
+    },
+    {
+      "id": "1083422439",
+      "title": "波乗りジョニー",
+      "artist": "桑田佳祐",
+      "artistId": "74493979",
+      "releaseDate": "2001-07-04",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music69/v4/1c/80/8e/1c808e39-83f2-d56a-858e-e46c1bb41a59/VEATP-30969.jpg/100x100bb.jpg",
+      "genres": [
+        "J-Pop",
         "ミュージック",
         "ロック"
       ],
-      "appleUrl": "https://music.apple.com/jp/album/%E5%B0%8F%E3%81%95%E3%81%AA%E6%81%8B%E3%81%AE%E3%81%86%E3%81%9F/273169161?i=273169347",
+      "appleUrl": "https://music.apple.com/jp/album/%E6%B3%A2%E4%B9%97%E3%82%8A%E3%82%B8%E3%83%A7%E3%83%8B%E3%83%BC/1083422435?i=1083422439",
       "previewUrl": null,
       "chartRank": 94,
       "collectionId": null,
@@ -9997,7 +7543,7 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/jp/album/%E5%B0%8F%E3%81%95%E3%81%AA%E6%81%8B%E3%81%AE%E3%81%86%E3%81%9F/273169161?i=273169347"
+        "apple": "https://music.apple.com/jp/album/%E6%B3%A2%E4%B9%97%E3%82%8A%E3%82%B8%E3%83%A7%E3%83%8B%E3%83%BC/1083422435?i=1083422439"
       },
       "sourceKinds": [
         "apple-jp-chart"
@@ -10040,17 +7586,18 @@
       "likedAt": null
     },
     {
-      "id": "947748526",
-      "title": "いとしのエリー",
-      "artist": "サザンオールスターズ",
-      "artistId": "671759255",
-      "releaseDate": "1979-04-05",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/fc/5c/44/fc5c4442-ad6e-3866-0b87-fdc913642341/VEATP-31040.jpg/100x100bb.jpg",
+      "id": "273169347",
+      "title": "小さな恋のうた",
+      "artist": "MONGOL800",
+      "artistId": "202191113",
+      "releaseDate": "2001-09-16",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/62/3b/85/623b858b-d88f-2c04-cb5d-4923e1d64190/mzi.beiflkay.tif/100x100bb.jpg",
       "genres": [
-        "J-Pop",
-        "ミュージック"
+        "オルタナティブ",
+        "ミュージック",
+        "ロック"
       ],
-      "appleUrl": "https://music.apple.com/jp/album/%E3%81%84%E3%81%A8%E3%81%97%E3%81%AE%E3%82%A8%E3%83%AA%E3%83%BC/947748513?i=947748526",
+      "appleUrl": "https://music.apple.com/jp/album/%E5%B0%8F%E3%81%95%E3%81%AA%E6%81%8B%E3%81%AE%E3%81%86%E3%81%9F/273169161?i=273169347",
       "previewUrl": null,
       "chartRank": 96,
       "collectionId": null,
@@ -10063,7 +7610,7 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/jp/album/%E3%81%84%E3%81%A8%E3%81%97%E3%81%AE%E3%82%A8%E3%83%AA%E3%83%BC/947748513?i=947748526"
+        "apple": "https://music.apple.com/jp/album/%E5%B0%8F%E3%81%95%E3%81%AA%E6%81%8B%E3%81%AE%E3%81%86%E3%81%9F/273169161?i=273169347"
       },
       "sourceKinds": [
         "apple-jp-chart"
@@ -10071,17 +7618,17 @@
       "likedAt": null
     },
     {
-      "id": "1794499543",
-      "title": "イイじゃん",
-      "artist": "M!LK",
-      "artistId": "1356706755",
-      "releaseDate": "2025-02-17",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/54/fd/a4/54fda41c-2ff0-f132-9955-6c6e41a5c882/VEATP-43744.jpg/100x100bb.jpg",
+      "id": "947748526",
+      "title": "いとしのエリー",
+      "artist": "サザンオールスターズ",
+      "artistId": "671759255",
+      "releaseDate": "1979-04-05",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/fc/5c/44/fc5c4442-ad6e-3866-0b87-fdc913642341/VEATP-31040.jpg/100x100bb.jpg",
       "genres": [
         "J-Pop",
         "ミュージック"
       ],
-      "appleUrl": "https://music.apple.com/jp/album/%E3%82%A4%E3%82%A4%E3%81%98%E3%82%83%E3%82%93/1794499542?i=1794499543",
+      "appleUrl": "https://music.apple.com/jp/album/%E3%81%84%E3%81%A8%E3%81%97%E3%81%AE%E3%82%A8%E3%83%AA%E3%83%BC/947748513?i=947748526",
       "previewUrl": null,
       "chartRank": 97,
       "collectionId": null,
@@ -10094,7 +7641,7 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/jp/album/%E3%82%A4%E3%82%A4%E3%81%98%E3%82%83%E3%82%93/1794499542?i=1794499543"
+        "apple": "https://music.apple.com/jp/album/%E3%81%84%E3%81%A8%E3%81%97%E3%81%AE%E3%82%A8%E3%83%AA%E3%83%BC/947748513?i=947748526"
       },
       "sourceKinds": [
         "apple-jp-chart"
