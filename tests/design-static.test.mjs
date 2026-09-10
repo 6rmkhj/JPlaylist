@@ -46,9 +46,10 @@ test('design uses explicit semantic color, spacing and radius tokens', () => {
 test('unicode-heavy visual states are normalized into a single SVG-mask icon family', () => {
   assert.match(html, /href="\.\/icons\.css"/);
   assert.match(html, /src="\.\/ui-design\.js"/);
-  assert.match(design, /function decorateBadge/);
-  assert.match(design, /decorateFavoritesNav/);
+  assert.match(design, /dataset\.badgeKind/);
+  assert.match(design, /dataset\.icon = favorites\.classList\.contains\('active'\) \? 'heart-filled' : 'heart'/);
   assert.match(design, /replace\(\/\\s\*↗\/g, ''\)/);
+  assert.match(design, /classList\.add\('external-action'\)/);
   assert.match(icons, /--icon-heart:/);
   assert.match(icons, /--icon-headphones:/);
   assert.match(icons, /mask-image:/);

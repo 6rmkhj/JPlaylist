@@ -26,6 +26,7 @@ jobs:
           node --check app.js
           node --check bootstrap.js
           node --check ui-design.js
+          node --check experience-core.mjs
           node --check scripts/fetch-songs.mjs
           node --test tests/*.test.mjs
 

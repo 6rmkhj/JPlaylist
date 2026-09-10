@@ -39,6 +39,7 @@ jobs:
           node --check app.js
           node --check bootstrap.js
           node --check ui-design.js
+          node --check experience-core.mjs
           node --check scripts/fetch-songs.mjs
           node --test tests/*.test.mjs
 
@@ -84,7 +85,7 @@ jobs:
       - name: Build static artifact
         run: |
           mkdir -p _site/data
-          cp index.html styles.css icons.css typography.css fixes.css app.js core.mjs ui-design.js bootstrap.js favicon.svg og-card.svg _site/
+          cp index.html styles.css icons.css typography.css fixes.css experience.css app.js core.mjs experience-core.mjs ui-design.js bootstrap.js favicon.svg og-card.svg _site/
           cp data/songs.json _site/data/songs.json
           touch _site/.nojekyll
 

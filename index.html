@@ -3,23 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="최근 발매 일본 음악과 인기 차트를 탐색하고, 취향에 맞게 추천받아 원하는 음악 서비스에서 듣는 JPlaylist" />
+    <meta name="description" content="내 일본 음악 취향의 위치를 보고, 매일 세 곡과 5단계 Rabbit Hole로 다음 취향을 발견하는 JPlaylist" />
     <meta name="theme-color" content="#09090f" />
     <meta name="application-name" content="JPlaylist" />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="JPlaylist" />
-    <meta property="og:title" content="JPlaylist — 오늘 발견할 일본 음악" />
-    <meta property="og:description" content="최근 발매 일본 음악과 인기 차트를 탐색하고 취향에 맞는 곡을 발견하세요." />
+    <meta property="og:title" content="JPlaylist — 내 일본 음악 취향의 다음 좌표" />
+    <meta property="og:description" content="취향 지도를 보고, 오늘의 세 방향과 Rabbit Hole로 다음 일본 음악을 발견하세요." />
     <meta property="og:url" content="https://6rmkhj.github.io/JPlaylist/" />
     <meta property="og:image" content="https://6rmkhj.github.io/JPlaylist/og-card.svg" />
     <meta name="twitter:card" content="summary_large_image" />
     <link rel="canonical" href="https://6rmkhj.github.io/JPlaylist/" />
     <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
-    <title>JPlaylist — 오늘 발견할 일본 음악</title>
+    <title>JPlaylist — 내 일본 음악 취향의 다음 좌표</title>
     <link rel="stylesheet" href="./styles.css" />
     <link rel="stylesheet" href="./icons.css" />
     <link rel="stylesheet" href="./typography.css" />
     <link rel="stylesheet" href="./fixes.css" />
+    <link rel="stylesheet" href="./experience.css" />
     <script defer src="./bootstrap.js"></script>
   </head>
   <body>
@@ -54,11 +55,11 @@
     <main id="top">
       <section class="hero" aria-labelledby="heroTitle">
         <div class="hero-copy">
-          <p class="eyebrow">J-MUSIC DISCOVERY, YOUR WAY</p>
-          <h1 id="heroTitle">새로운 일본 음악,<br /><span>내 취향으로.</span></h1>
-          <p class="hero-description">최근 발매곡과 일본 인기 차트를 나눠 보고, 좋아요한 곡을 바탕으로 추천받아 내가 쓰는 음악 서비스에서 들어보세요.</p>
+          <p class="eyebrow">J-MUSIC TASTE COMPASS</p>
+          <h1 id="heroTitle">내 일본 음악 취향을,<br /><span>다음 취향으로.</span></h1>
+          <p class="hero-description">좋아요와 실제 탐색 기록으로 취향의 위치를 보여주고, 매일 세 곡과 5단계 Rabbit Hole로 평소 검색하지 않았을 음악까지 이어갑니다.</p>
           <div class="hero-copy-actions">
-            <a class="primary-button hero-discover-link direction-down" href="#discovery">곡 둘러보기</a>
+            <a class="primary-button hero-discover-link direction-down" href="#personalized">내 취향 지도 보기</a>
           </div>
           <div class="hero-meta" aria-live="polite">
             <span class="status-dot status-loading" id="statusDot" aria-hidden="true"></span>
@@ -78,10 +79,10 @@
             <span class="rank-badge" id="featuredRank">추천</span>
           </div>
           <div class="featured-content">
-            <p class="featured-label" id="featuredLabel">오늘의 추천</p>
+            <p class="featured-label" id="featuredLabel">오늘의 워밍업</p>
             <h2 id="featuredTitle">추천곡 준비 중</h2>
             <button class="featured-artist artist-action" id="featuredArtist" type="button" disabled>잠시만 기다려 주세요</button>
-            <p class="featured-reason" id="featuredReason">최근 발매와 인기 흐름을 살펴보고 있어요.</p>
+            <p class="featured-reason" id="featuredReason">취향 지도로 들어가기 전, 지금 흐름에서 한 곡을 먼저 고르고 있어요.</p>
             <div class="genre-row" id="featuredGenres"></div>
             <div class="featured-actions">
               <button class="primary-button disabled" id="featuredListen" type="button" disabled>듣기 플랫폼 선택</button>
@@ -99,8 +100,8 @@
       <section class="discovery" id="discovery" aria-labelledby="discoverTitle">
         <div class="discovery-heading">
           <div>
-            <p class="section-kicker">DISCOVER</p>
-            <h2 id="discoverTitle">일본 음악 탐색</h2>
+            <p class="section-kicker">EXPLORE THE CATALOG</p>
+            <h2 id="discoverTitle">전체 일본 음악 탐색</h2>
           </div>
           <div class="mode-tabs" id="modeTabs" role="group" aria-label="음악 목록 선택">
             <button class="mode-tab active" type="button" data-mode="latest" aria-pressed="true">최근 발매</button>
