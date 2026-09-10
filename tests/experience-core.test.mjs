@@ -4,6 +4,7 @@ import {
   buildDailyThree,
   buildRabbitHole,
   buildTasteProfile,
+  dailyRoleScore,
   tasteNarrative,
 } from '../experience-core.mjs';
 
@@ -71,6 +72,21 @@ test('daily three is deterministic for the same day and offset', () => {
   const a = buildDailyThree({ catalog, profile, dayKey: '2026-09-10', offset: 4, now });
   const b = buildDailyThree({ catalog, profile, dayKey: '2026-09-10', offset: 4, now });
   assert.deepEqual(a.map((pick) => pick.song.id), b.map((pick) => pick.song.id));
+});
+
+test('novelty preference materially changes recommendation weights instead of only changing a random seed', () => {
+  const profile = buildTasteProfile({ favorites, activity, catalog, now });
+  const familiar = catalog[1];
+  const novel = catalog[6];
+  const steadyGap = dailyRoleScore('safe', familiar, profile, { dayKey: '2026-09-10', exploration: 'steady', now })
+    - dailyRoleScore('safe', novel, profile, { dayKey: '2026-09-10', exploration: 'steady', now });
+  const adventurousGap = dailyRoleScore('safe', familiar, profile, { dayKey: '2026-09-10', exploration: 'adventurous', now })
+    - dailyRoleScore('safe', novel, profile, { dayKey: '2026-09-10', exploration: 'adventurous', now });
+  assert.ok(steadyGap > adventurousGap, 'steady mode should favor the familiar candidate more strongly');
+  assert.notEqual(
+    dailyRoleScore('deep', novel, profile, { dayKey: '2026-09-10', exploration: 'steady', now }),
+    dailyRoleScore('deep', novel, profile, { dayKey: '2026-09-10', exploration: 'adventurous', now }),
+  );
 });
 
 test('rabbit hole builds a five-step unique path and respects hidden/favorite exclusions after the start', () => {
