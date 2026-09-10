@@ -37,9 +37,20 @@ jobs:
       - name: Run regression tests
         run: |
           node --check app.js
+          node --check bootstrap.js
           node --check ui-design.js
           node --check scripts/fetch-songs.mjs
           node --test tests/*.test.mjs
+
+      - name: Install browser regression runtime
+        if: github.event_name != 'schedule'
+        run: |
+          npm install --no-save @playwright/test@1.55.0
+          npx playwright install --with-deps chromium
+
+      - name: Run browser UX regressions
+        if: github.event_name != 'schedule'
+        run: npx playwright test --config=playwright.config.mjs
 
       - name: Collect Japan music data
         run: node scripts/fetch-songs.mjs
@@ -60,7 +71,7 @@ jobs:
       - name: Build static artifact
         run: |
           mkdir -p _site/data
-          cp index.html styles.css icons.css typography.css app.js core.mjs ui-design.js _site/
+          cp index.html styles.css icons.css typography.css fixes.css app.js core.mjs ui-design.js bootstrap.js favicon.svg og-card.svg _site/
           cp data/songs.json _site/data/songs.json
           touch _site/.nojekyll
 
