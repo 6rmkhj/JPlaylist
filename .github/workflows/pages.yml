@@ -5,6 +5,8 @@ on:
     branches: [main]
     paths-ignore:
       - 'data/songs.json'
+      - 'data/songs-kpop.json'
+      - 'data/songs-pop.json'
   workflow_dispatch:
   schedule:
     - cron: '17 */6 * * *'
@@ -41,6 +43,8 @@ jobs:
           node --check ui-design.js
           node --check experience-core.mjs
           node --check scripts/fetch-songs.mjs
+          node --check scripts/fetch-scene.mjs
+          node --check scripts/validate-scene-data.mjs
           node --test tests/*.test.mjs
 
       - name: Install browser regression runtime
@@ -53,40 +57,61 @@ jobs:
         if: github.event_name != 'schedule'
         run: npx playwright test --config=playwright.config.mjs
 
-      - name: Collect Japan music data
+      - name: Collect J-Pop music data
         run: |
           for attempt in 1 2 3; do
-            echo "Music collection attempt ${attempt}/3"
+            echo "J-Pop collection attempt ${attempt}/3"
             node scripts/fetch-songs.mjs
             status=$(node -p "require('./data/songs.json').status")
             if [ "$status" != "stale" ]; then
-              echo "Music collection completed with status=$status"
+              echo "J-Pop collection completed with status=$status"
               break
             fi
             if [ "$attempt" -lt 3 ]; then
-              echo "Upstream collection returned stale fallback; retrying after a short delay."
+              echo "J-Pop upstream returned stale fallback; retrying after a short delay."
               sleep $((attempt * 3))
             fi
           done
 
-      - name: Validate dataset
-        run: node scripts/validate-data.mjs
+      - name: Collect K-Pop and Pop music data
+        run: |
+          for scene in kpop pop; do
+            file="data/songs-${scene}.json"
+            for attempt in 1 2 3; do
+              echo "${scene} collection attempt ${attempt}/3"
+              node scripts/fetch-scene.mjs "$scene"
+              status=$(node -p "require('./${file}').status")
+              if [ "$status" != "stale" ]; then
+                echo "${scene} collection completed with status=$status"
+                break
+              fi
+              if [ "$attempt" -lt 3 ]; then
+                echo "${scene} upstream returned stale fallback; retrying after a short delay."
+                sleep $((attempt * 3))
+              fi
+            done
+          done
 
-      - name: Persist last-success snapshot
+      - name: Validate datasets
+        run: |
+          node scripts/validate-data.mjs
+          node scripts/validate-scene-data.mjs
+
+      - name: Persist last-success snapshots
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/songs.json
+          git add data/songs.json data/songs-kpop.json data/songs-pop.json
           if ! git diff --cached --quiet; then
-            git commit -m "chore(data): refresh songs [skip ci]"
+            git commit -m "chore(data): refresh music scenes [skip ci]"
             git push
           fi
 
       - name: Build static artifact
         run: |
           mkdir -p _site/data
-          cp index.html styles.css icons.css typography.css fixes.css experience.css app.js core.mjs experience-core.mjs ui-design.js bootstrap.js favicon.svg og-card.svg _site/
-          cp data/songs.json _site/data/songs.json
+          cp index.html styles.css icons.css typography.css fixes.css experience.css scene.css app.js core.mjs experience-core.mjs ui-design.js bootstrap.js favicon.svg og-card.svg _site/
+          cp data/songs*.json _site/data/
           touch _site/.nojekyll
 
       - name: Configure Pages
