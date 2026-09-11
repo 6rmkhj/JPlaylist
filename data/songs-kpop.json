@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 3,
+  "scene": { "id": "kpop", "label": "K-POP", "storefront": "kr", "chartCode": "KR" },
+  "status": "stale",
+  "updatedAt": "2026-09-11T00:00:00.000Z",
+  "lastCheckedAt": "2026-09-11T00:00:00.000Z",
+  "latestWindowDays": 365,
+  "sources": {
+    "popular": { "label": "K-POP bundled fallback", "url": null, "status": "fallback" },
+    "discovery": { "label": "K-POP bundled fallback", "components": [{ "label": "Bundled fallback", "url": null, "status": "fallback", "successful": 0, "total": 0 }] }
+  },
+  "coverage": { "keywordSearch": { "successful": 0, "total": 0 }, "releaseIndex": "fallback", "previewAvailable": 0, "canonicalRecording": 0, "isrc": 0, "exactNonAppleLink": 0, "enrichmentFailures": 0 },
+  "counts": { "latest": 10, "popular": 10, "total": 10 },
+  "latestSongs": [
+    { "id": "kpop-seed-01", "title": "APT.", "artist": "ROSÉ & Bruno Mars", "releaseDate": "2024-10-18", "genres": ["K-Pop"], "chartRank": 1 },
+    { "id": "kpop-seed-02", "title": "JUMP", "artist": "BLACKPINK", "releaseDate": "2025-07-11", "genres": ["K-Pop"], "chartRank": 2 },
+    { "id": "kpop-seed-03", "title": "Whiplash", "artist": "aespa", "releaseDate": "2024-10-21", "genres": ["K-Pop"], "chartRank": 3 },
+    { "id": "kpop-seed-04", "title": "REBEL HEART", "artist": "IVE", "releaseDate": "2025-01-13", "genres": ["K-Pop"], "chartRank": 4 },
+    { "id": "kpop-seed-05", "title": "CRAZY", "artist": "LE SSERAFIM", "releaseDate": "2024-08-30", "genres": ["K-Pop"], "chartRank": 5 },
+    { "id": "kpop-seed-06", "title": "Chk Chk Boom", "artist": "Stray Kids", "releaseDate": "2024-07-19", "genres": ["K-Pop"], "chartRank": 6 },
+    { "id": "kpop-seed-07", "title": "LOVE, MONEY, FAME", "artist": "SEVENTEEN", "releaseDate": "2024-10-14", "genres": ["K-Pop"], "chartRank": 7 },
+    { "id": "kpop-seed-08", "title": "Strategy", "artist": "TWICE", "releaseDate": "2024-12-06", "genres": ["K-Pop"], "chartRank": 8 },
+    { "id": "kpop-seed-09", "title": "DRIP", "artist": "BABYMONSTER", "releaseDate": "2024-11-01", "genres": ["K-Pop"], "chartRank": 9 },
+    { "id": "kpop-seed-10", "title": "HAPPY", "artist": "DAY6", "releaseDate": "2024-03-18", "genres": ["K-Pop"], "chartRank": 10 }
+  ],
+  "popularSongs": [
+    { "id": "kpop-seed-01", "title": "APT.", "artist": "ROSÉ & Bruno Mars", "releaseDate": "2024-10-18", "genres": ["K-Pop"], "chartRank": 1 },
+    { "id": "kpop-seed-02", "title": "JUMP", "artist": "BLACKPINK", "releaseDate": "2025-07-11", "genres": ["K-Pop"], "chartRank": 2 },
+    { "id": "kpop-seed-03", "title": "Whiplash", "artist": "aespa", "releaseDate": "2024-10-21", "genres": ["K-Pop"], "chartRank": 3 },
+    { "id": "kpop-seed-04", "title": "REBEL HEART", "artist": "IVE", "releaseDate": "2025-01-13", "genres": ["K-Pop"], "chartRank": 4 },
+    { "id": "kpop-seed-05", "title": "CRAZY", "artist": "LE SSERAFIM", "releaseDate": "2024-08-30", "genres": ["K-Pop"], "chartRank": 5 },
+    { "id": "kpop-seed-06", "title": "Chk Chk Boom", "artist": "Stray Kids", "releaseDate": "2024-07-19", "genres": ["K-Pop"], "chartRank": 6 },
+    { "id": "kpop-seed-07", "title": "LOVE, MONEY, FAME", "artist": "SEVENTEEN", "releaseDate": "2024-10-14", "genres": ["K-Pop"], "chartRank": 7 },
+    { "id": "kpop-seed-08", "title": "Strategy", "artist": "TWICE", "releaseDate": "2024-12-06", "genres": ["K-Pop"], "chartRank": 8 },
+    { "id": "kpop-seed-09", "title": "DRIP", "artist": "BABYMONSTER", "releaseDate": "2024-11-01", "genres": ["K-Pop"], "chartRank": 9 },
+    { "id": "kpop-seed-10", "title": "HAPPY", "artist": "DAY6", "releaseDate": "2024-03-18", "genres": ["K-Pop"], "chartRank": 10 }
+  ],
+  "songs": [
+    { "id": "kpop-seed-01", "title": "APT.", "artist": "ROSÉ & Bruno Mars", "releaseDate": "2024-10-18", "genres": ["K-Pop"], "chartRank": 1 },
+    { "id": "kpop-seed-02", "title": "JUMP", "artist": "BLACKPINK", "releaseDate": "2025-07-11", "genres": ["K-Pop"], "chartRank": 2 },
+    { "id": "kpop-seed-03", "title": "Whiplash", "artist": "aespa", "releaseDate": "2024-10-21", "genres": ["K-Pop"], "chartRank": 3 },
+    { "id": "kpop-seed-04", "title": "REBEL HEART", "artist": "IVE", "releaseDate": "2025-01-13", "genres": ["K-Pop"], "chartRank": 4 },
+    { "id": "kpop-seed-05", "title": "CRAZY", "artist": "LE SSERAFIM", "releaseDate": "2024-08-30", "genres": ["K-Pop"], "chartRank": 5 },
+    { "id": "kpop-seed-06", "title": "Chk Chk Boom", "artist": "Stray Kids", "releaseDate": "2024-07-19", "genres": ["K-Pop"], "chartRank": 6 },
+    { "id": "kpop-seed-07", "title": "LOVE, MONEY, FAME", "artist": "SEVENTEEN", "releaseDate": "2024-10-14", "genres": ["K-Pop"], "chartRank": 7 },
+    { "id": "kpop-seed-08", "title": "Strategy", "artist": "TWICE", "releaseDate": "2024-12-06", "genres": ["K-Pop"], "chartRank": 8 },
+    { "id": "kpop-seed-09", "title": "DRIP", "artist": "BABYMONSTER", "releaseDate": "2024-11-01", "genres": ["K-Pop"], "chartRank": 9 },
+    { "id": "kpop-seed-10", "title": "HAPPY", "artist": "DAY6", "releaseDate": "2024-03-18", "genres": ["K-Pop"], "chartRank": 10 }
+  ],
+  "staleReason": "라이브 카탈로그를 아직 갱신하지 못해 내장된 시작 목록을 표시합니다."
+}
