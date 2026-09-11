@@ -1,4 +1,4 @@
-name: Scene data audit
+name: Scene data and visual audit
 
 on:
   push:
@@ -8,7 +8,7 @@ permissions:
   contents: read
 
 jobs:
-  collect:
+  audit:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -23,11 +23,61 @@ jobs:
           node scripts/fetch-scene.mjs pop
       - name: Validate scene data
         run: node scripts/validate-scene-data.mjs
-      - name: Upload collected scene payloads
+      - name: Install Chromium
+        run: |
+          npm install --no-save @playwright/test@1.55.0
+          npx playwright install --with-deps chromium
+      - name: Capture live scene views
+        run: |
+          mkdir -p visual-artifacts
+          python3 -m http.server 4173 --bind 127.0.0.1 > /tmp/jplaylist-scene-http.log 2>&1 &
+          SERVER_PID=$!
+          trap 'kill $SERVER_PID || true' EXIT
+          node --input-type=module <<'NODE'
+          import { chromium } from '@playwright/test';
+          import { writeFile } from 'node:fs/promises';
+
+          const browser = await chromium.launch({ headless: true });
+          const audit = [];
+          for (const scene of ['kpop', 'pop']) {
+            for (const viewport of [
+              { name: 'mobile', width: 390, height: 844 },
+              { name: 'desktop', width: 1440, height: 900 },
+            ]) {
+              const context = await browser.newContext({ viewport });
+              const page = await context.newPage();
+              await page.goto(`http://127.0.0.1:4173/?scene=${scene}`, { waitUntil: 'networkidle' });
+              await page.locator('#personalized').waitFor({ state: 'visible' });
+              await page.locator('.song-card').first().waitFor({ state: 'visible' });
+              const metrics = await page.evaluate(() => ({
+                width: document.documentElement.clientWidth,
+                scrollWidth: document.documentElement.scrollWidth,
+                switchRect: document.querySelector('.scene-switch')?.getBoundingClientRect().toJSON(),
+                headerRect: document.querySelector('.site-header')?.getBoundingClientRect().toJSON(),
+                dailyCount: document.querySelectorAll('.jp-daily-card').length,
+                cardCount: document.querySelectorAll('.song-card').length,
+                heroText: document.querySelector('#heroTitle')?.innerText,
+              }));
+              if (metrics.scrollWidth > metrics.width + 1) throw new Error(`${scene}/${viewport.name}: horizontal overflow ${metrics.scrollWidth} > ${metrics.width}`);
+              if (metrics.dailyCount !== 3) throw new Error(`${scene}/${viewport.name}: expected 3 daily cards`);
+              audit.push({ scene, viewport: viewport.name, ...metrics });
+              await page.screenshot({ path: `visual-artifacts/${scene}-${viewport.name}-page.png`, fullPage: true });
+              await page.locator('#personalized').screenshot({ path: `visual-artifacts/${scene}-${viewport.name}-taste.png` });
+              await page.locator('.jp-daily-card').nth(1).locator('[data-jp-rabbit-start]').click();
+              await page.locator('.jp-path-card').nth(4).waitFor({ state: 'visible' });
+              await page.locator('#rabbitHole').screenshot({ path: `visual-artifacts/${scene}-${viewport.name}-rabbit.png` });
+              await context.close();
+            }
+          }
+          await browser.close();
+          await writeFile('visual-artifacts/audit.json', JSON.stringify(audit, null, 2));
+          NODE
+      - name: Upload audit artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: scene-data-audit
+          name: scene-audit
           path: |
+            visual-artifacts
             data/songs-kpop.json
             data/songs-pop.json
           retention-days: 1
