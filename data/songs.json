@@ -1,8 +1,8 @@
 {
   "schemaVersion": 3,
   "status": "fresh",
-  "updatedAt": "2026-09-11T02:55:49.869Z",
-  "lastCheckedAt": "2026-09-11T02:55:49.869Z",
+  "updatedAt": "2026-09-11T03:30:12.147Z",
+  "lastCheckedAt": "2026-09-11T03:30:12.147Z",
   "latestWindowDays": 180,
   "sources": {
     "popular": {
@@ -29,7 +29,7 @@
     "canonical": {
       "label": "MusicBrainz recording / ISRC / URL 관계",
       "url": "https://musicbrainz.org/ws/2/recording/",
-      "note": "일부 매칭 확인 실패 8건"
+      "note": "일부 매칭 확인 실패 7건"
     }
   },
   "coverage": {
@@ -42,7 +42,7 @@
     "canonicalRecording": 58,
     "isrc": 43,
     "exactNonAppleLink": 0,
-    "enrichmentFailures": 8
+    "enrichmentFailures": 7
   },
   "counts": {
     "latest": 98,
@@ -727,7 +727,7 @@
         "ロック",
         "ミュージック"
       ],
-      "appleUrl": "https://music.apple.com/jp/album/%E8%A6%8B%E7%9F%A5%E3%82%89%E3%81%AC%E7%B3%B8/6793888333?i=6793888335",
+      "appleUrl": "https://music.apple.com/jp/album/%E8%A6%8B%E7%9F%A5%E3%82%89%E3%81%AC%E7%B3%B8/6793888333?i=6793888335&uo=4",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/68/60/b9/6860b926-1805-bf5f-32b5-4e494957e410/mzaf_17124243015734375483.plus.aac.p.m4a",
       "chartRank": 12,
       "collectionId": "6793888333",
@@ -740,7 +740,7 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/jp/album/%E8%A6%8B%E7%9F%A5%E3%82%89%E3%81%AC%E7%B3%B8/6793888333?i=6793888335"
+        "apple": "https://music.apple.com/jp/album/%E8%A6%8B%E7%9F%A5%E3%82%89%E3%81%AC%E7%B3%B8/6793888333?i=6793888335&uo=4"
       },
       "sourceKinds": [
         "apple-jp-chart",
@@ -2070,6 +2070,41 @@
       "likedAt": null
     },
     {
+      "id": "1887793931",
+      "title": "スターダスト",
+      "artist": "Official髭男dism",
+      "artistId": "960568308",
+      "releaseDate": "2026-04-13",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9b/a1/75/9ba175fa-c71e-3bd1-decc-a47254093484/20609.jpg/100x100bb.jpg",
+      "genres": [
+        "J-Pop"
+      ],
+      "appleUrl": "https://music.apple.com/jp/album/%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%80%E3%82%B9%E3%83%88/1887793929?i=1887793931&uo=4",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/7d/b2/cf/7db2cfc6-c3de-1d40-af4b-670ce269de40/mzaf_15341237953562651100.plus.aac.p.m4a",
+      "chartRank": null,
+      "collectionId": "1887793929",
+      "collectionName": "スターダスト - Single",
+      "trackNumber": 1,
+      "trackCount": 1,
+      "discNumber": 1,
+      "discCount": 1,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "Official Hige Dandism",
+        "Higedan",
+        "오피셜히게단디즘",
+        "히게단"
+      ],
+      "platformLinks": {
+        "apple": "https://music.apple.com/jp/album/%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%80%E3%82%B9%E3%83%88/1887793929?i=1887793931&uo=4"
+      },
+      "sourceKinds": [
+        "itunes-jp-search"
+      ],
+      "likedAt": null
+    },
+    {
       "id": "1890060756",
       "title": "飛ぶ時",
       "artist": "Vaundy",
@@ -2703,36 +2738,6 @@
       "platformLinks": {},
       "sourceKinds": [
         "musicbrainz-jp-release-index"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "1772865881",
-      "title": "アイビー",
-      "artist": "Novelbright",
-      "artistId": "1022677279",
-      "releaseDate": "2026-03-30",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2b/55/4f/2b554f39-24a6-fdd7-eea2-455d4248b7aa/24UMGIM96508.rgb.jpg/100x100bb.jpg",
-      "genres": [
-        "ロック"
-      ],
-      "appleUrl": "https://music.apple.com/jp/album/%E3%82%A2%E3%82%A4%E3%83%93%E3%83%BC/1772865879?i=1772865881&uo=4",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/67/e9/71/67e9712d-c9ec-7b80-c473-566e9e7026ca/mzaf_13513832982156126783.plus.aac.p.m4a",
-      "chartRank": null,
-      "collectionId": "1772865879",
-      "collectionName": "アイビー - Single",
-      "trackNumber": 1,
-      "trackCount": 1,
-      "discNumber": 1,
-      "discCount": 1,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/jp/album/%E3%82%A2%E3%82%A4%E3%83%93%E3%83%BC/1772865879?i=1772865881&uo=4"
-      },
-      "sourceKinds": [
-        "itunes-jp-search"
       ],
       "likedAt": null
     },
@@ -7694,6 +7699,41 @@
       "likedAt": null
     },
     {
+      "id": "1887793931",
+      "title": "スターダスト",
+      "artist": "Official髭男dism",
+      "artistId": "960568308",
+      "releaseDate": "2026-04-13",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9b/a1/75/9ba175fa-c71e-3bd1-decc-a47254093484/20609.jpg/100x100bb.jpg",
+      "genres": [
+        "J-Pop"
+      ],
+      "appleUrl": "https://music.apple.com/jp/album/%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%80%E3%82%B9%E3%83%88/1887793929?i=1887793931&uo=4",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/7d/b2/cf/7db2cfc6-c3de-1d40-af4b-670ce269de40/mzaf_15341237953562651100.plus.aac.p.m4a",
+      "chartRank": null,
+      "collectionId": "1887793929",
+      "collectionName": "スターダスト - Single",
+      "trackNumber": 1,
+      "trackCount": 1,
+      "discNumber": 1,
+      "discCount": 1,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "Official Hige Dandism",
+        "Higedan",
+        "오피셜히게단디즘",
+        "히게단"
+      ],
+      "platformLinks": {
+        "apple": "https://music.apple.com/jp/album/%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%80%E3%82%B9%E3%83%88/1887793929?i=1887793931&uo=4"
+      },
+      "sourceKinds": [
+        "itunes-jp-search"
+      ],
+      "likedAt": null
+    },
+    {
       "id": "1890060756",
       "title": "飛ぶ時",
       "artist": "Vaundy",
@@ -8327,36 +8367,6 @@
       "platformLinks": {},
       "sourceKinds": [
         "musicbrainz-jp-release-index"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "1772865881",
-      "title": "アイビー",
-      "artist": "Novelbright",
-      "artistId": "1022677279",
-      "releaseDate": "2026-03-30",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2b/55/4f/2b554f39-24a6-fdd7-eea2-455d4248b7aa/24UMGIM96508.rgb.jpg/100x100bb.jpg",
-      "genres": [
-        "ロック"
-      ],
-      "appleUrl": "https://music.apple.com/jp/album/%E3%82%A2%E3%82%A4%E3%83%93%E3%83%BC/1772865879?i=1772865881&uo=4",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/67/e9/71/67e9712d-c9ec-7b80-c473-566e9e7026ca/mzaf_13513832982156126783.plus.aac.p.m4a",
-      "chartRank": null,
-      "collectionId": "1772865879",
-      "collectionName": "アイビー - Single",
-      "trackNumber": 1,
-      "trackCount": 1,
-      "discNumber": 1,
-      "discCount": 1,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/jp/album/%E3%82%A2%E3%82%A4%E3%83%93%E3%83%BC/1772865879?i=1772865881&uo=4"
-      },
-      "sourceKinds": [
-        "itunes-jp-search"
       ],
       "likedAt": null
     },
