@@ -28,6 +28,8 @@ jobs:
           node --check ui-design.js
           node --check experience-core.mjs
           node --check scripts/fetch-songs.mjs
+          node --check scripts/fetch-scene.mjs
+          node --check scripts/validate-scene-data.mjs
           node --test tests/*.test.mjs
 
       - name: Install Chromium regression runtime
