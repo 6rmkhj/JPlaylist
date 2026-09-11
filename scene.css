@@ -7,6 +7,7 @@
   border-radius: 999px;
   background: rgba(17,17,26,.82);
   box-shadow: 0 12px 36px rgba(0,0,0,.18);
+  backdrop-filter: blur(18px);
 }
 .scene-option {
   min-width: 68px;
@@ -39,9 +40,337 @@
   left: 50%;
   transform: translateX(-50%);
 }
-html[data-music-scene="jpop"] { --scene-accent: #ff72aa; }
-html[data-music-scene="kpop"] { --scene-accent: #67d8ff; }
-html[data-music-scene="pop"] { --scene-accent: #ffc369; }
+
+/* ===== Scene palette system ===== */
+html[data-music-scene] {
+  --scene-shell-glow-1: rgba(255,255,255,.08);
+  --scene-shell-glow-2: rgba(255,255,255,.04);
+  --scene-body-top: rgba(255,255,255,.05);
+  --scene-body-orb: rgba(255,255,255,.08);
+  --scene-grid-line: rgba(255,255,255,.025);
+  --scene-hero-highlight-a: #ffffff;
+  --scene-hero-highlight-b: #ffffff;
+  --scene-hero-highlight-c: #ffffff;
+  --scene-brand-start: var(--accent);
+  --scene-brand-end: var(--accent-violet);
+  --scene-brand-shadow: color-mix(in srgb, var(--accent) 22%, transparent);
+  --scene-card-start: color-mix(in srgb, var(--surface-2) 92%, var(--accent) 8%);
+  --scene-card-end: color-mix(in srgb, var(--surface-1) 88%, black 12%);
+  --scene-card-rail: linear-gradient(var(--accent), var(--accent-violet));
+  --scene-panel-bg: color-mix(in srgb, var(--surface-1) 82%, transparent);
+  --scene-panel-border: color-mix(in srgb, var(--line-strong) 70%, transparent);
+  --scene-map-bg:
+    linear-gradient(to right, transparent 49.6%, rgba(255,255,255,.08) 49.8%, rgba(255,255,255,.08) 50.2%, transparent 50.4%),
+    linear-gradient(to bottom, transparent 49.6%, rgba(255,255,255,.08) 49.8%, rgba(255,255,255,.08) 50.2%, transparent 50.4%),
+    radial-gradient(circle at 22% 78%, rgba(255,255,255,.03), transparent 33%),
+    radial-gradient(circle at 78% 22%, rgba(255,255,255,.04), transparent 33%),
+    var(--surface-2);
+  --scene-pill-bg: color-mix(in srgb, var(--surface-2) 85%, transparent);
+  --scene-pill-border: color-mix(in srgb, var(--line) 85%, transparent);
+}
+
+html[data-music-scene="jpop"] {
+  --scene-accent: #ff72aa;
+  --bg: #09090f;
+  --surface-1: #111119;
+  --surface-2: #171722;
+  --surface-3: #1d1d2a;
+  --surface-selected: #28233d;
+  --line: #383848;
+  --line-strong: #5c5c72;
+  --text: #f7f7fb;
+  --muted: #c2c2cc;
+  --subtle: #a7a7b5;
+  --accent: #ff5d9e;
+  --accent-violet: #9b7cff;
+  --selected: #ad95ff;
+  --favorite: #ff72aa;
+  --focus: #d1c5ff;
+  --action-primary-bg: #f5f3ff;
+  --action-primary-text: #14131a;
+  --scene-body-top: rgba(155,124,255,.055);
+  --scene-body-orb: rgba(255,93,158,.07);
+  --scene-grid-line: rgba(255,255,255,.025);
+  --scene-hero-highlight-a: #fff;
+  --scene-hero-highlight-b: #ff8cba;
+  --scene-hero-highlight-c: #ab92ff;
+  --scene-brand-shadow: rgba(255,93,158,.16);
+  --scene-card-start: #181824;
+  --scene-card-end: #111119;
+  --scene-panel-bg: rgba(8,8,13,.5);
+  --scene-panel-border: rgba(255,255,255,.09);
+}
+
+html[data-music-scene="kpop"] {
+  --scene-accent: #5ff0ff;
+  --bg: #060817;
+  --surface-1: #0d1222;
+  --surface-2: #121a31;
+  --surface-3: #192441;
+  --surface-selected: #1d2b50;
+  --line: #2d3d6b;
+  --line-strong: #4764a5;
+  --text: #f4fbff;
+  --muted: #bdd2f4;
+  --subtle: #8ea5cc;
+  --accent: #53e8ff;
+  --accent-violet: #6d78ff;
+  --selected: #8c95ff;
+  --favorite: #76edff;
+  --focus: #b9ebff;
+  --action-primary-bg: #ecfbff;
+  --action-primary-text: #081322;
+  --scene-body-top: rgba(60,113,255,.12);
+  --scene-body-orb: rgba(76,236,255,.16);
+  --scene-grid-line: rgba(131,201,255,.05);
+  --scene-hero-highlight-a: #ecfeff;
+  --scene-hero-highlight-b: #7af1ff;
+  --scene-hero-highlight-c: #93a0ff;
+  --scene-brand-start: #59efff;
+  --scene-brand-end: #6d78ff;
+  --scene-brand-shadow: rgba(83,232,255,.24);
+  --scene-card-start: #111b35;
+  --scene-card-end: #0b1020;
+  --scene-card-rail: linear-gradient(180deg, #59efff, #6d78ff);
+  --scene-panel-bg: rgba(7, 14, 29, .76);
+  --scene-panel-border: rgba(125, 182, 255, .16);
+  --scene-map-bg:
+    linear-gradient(to right, transparent 49.6%, rgba(133,216,255,.15) 49.8%, rgba(133,216,255,.15) 50.2%, transparent 50.4%),
+    linear-gradient(to bottom, transparent 49.6%, rgba(133,216,255,.15) 49.8%, rgba(133,216,255,.15) 50.2%, transparent 50.4%),
+    radial-gradient(circle at 18% 80%, rgba(94,229,255,.10), transparent 35%),
+    radial-gradient(circle at 82% 18%, rgba(110,120,255,.12), transparent 33%),
+    linear-gradient(145deg, #121b33, #0c1327);
+  --scene-pill-bg: rgba(18,26,49,.86);
+  --scene-pill-border: rgba(93,160,255,.38);
+}
+
+html[data-music-scene="pop"] {
+  --scene-accent: #ffbf5f;
+  --bg: #130b08;
+  --surface-1: #1d1110;
+  --surface-2: #291816;
+  --surface-3: #34201c;
+  --surface-selected: #4a2a21;
+  --line: #5c3f31;
+  --line-strong: #8b6652;
+  --text: #fff7f2;
+  --muted: #ebd0c0;
+  --subtle: #c6a794;
+  --accent: #ffb347;
+  --accent-violet: #ff7f67;
+  --selected: #ffd08a;
+  --favorite: #ffc369;
+  --focus: #ffe0b2;
+  --action-primary-bg: #fff6ec;
+  --action-primary-text: #211411;
+  --scene-body-top: rgba(255,147,71,.12);
+  --scene-body-orb: rgba(255,111,120,.16);
+  --scene-grid-line: rgba(255,224,197,.04);
+  --scene-hero-highlight-a: #fff7ec;
+  --scene-hero-highlight-b: #ffc16b;
+  --scene-hero-highlight-c: #ff8b75;
+  --scene-brand-start: #ffbc58;
+  --scene-brand-end: #ff7f67;
+  --scene-brand-shadow: rgba(255,179,71,.26);
+  --scene-card-start: #2a1816;
+  --scene-card-end: #16100f;
+  --scene-card-rail: linear-gradient(180deg, #ffbc58, #ff7f67);
+  --scene-panel-bg: rgba(23, 14, 12, .76);
+  --scene-panel-border: rgba(255, 198, 126, .17);
+  --scene-map-bg:
+    linear-gradient(to right, transparent 49.6%, rgba(255,199,125,.13) 49.8%, rgba(255,199,125,.13) 50.2%, transparent 50.4%),
+    linear-gradient(to bottom, transparent 49.6%, rgba(255,199,125,.13) 49.8%, rgba(255,199,125,.13) 50.2%, transparent 50.4%),
+    radial-gradient(circle at 20% 78%, rgba(255,145,79,.11), transparent 35%),
+    radial-gradient(circle at 78% 18%, rgba(255,105,97,.12), transparent 33%),
+    linear-gradient(145deg, #2a1816, #1a110f);
+  --scene-pill-bg: rgba(41,24,22,.86);
+  --scene-pill-border: rgba(255,185,110,.33);
+}
+
+body {
+  background:
+    linear-gradient(180deg, var(--scene-body-top, rgba(155,124,255,.055)), transparent 28rem),
+    radial-gradient(circle at 92% 12%, var(--scene-body-orb, rgba(255,93,158,.07)), transparent 24rem),
+    var(--bg);
+  transition: background .4s ease, color .25s ease;
+}
+
+body::before {
+  background-image: linear-gradient(var(--scene-grid-line, rgba(255,255,255,.025)) 1px, transparent 1px);
+}
+
+.ambient-one {
+  color: var(--accent);
+  opacity: .08;
+  filter: blur(1px);
+}
+
+.ambient-two {
+  color: var(--accent-violet);
+  opacity: .07;
+  filter: blur(1px);
+}
+
+.brand-mark {
+  background: linear-gradient(135deg, var(--scene-brand-start) 0 48%, var(--scene-brand-end) 48% 100%);
+  box-shadow: 0 10px 30px var(--scene-brand-shadow);
+}
+
+.eyebrow,
+.section-kicker,
+.featured-label,
+.preview-kicker,
+.jp-signature-kicker,
+.jp-section-kicker,
+.jp-role-kicker {
+  color: color-mix(in srgb, var(--selected) 78%, white 22%);
+}
+
+.hero h1 span {
+  background: linear-gradient(100deg, var(--scene-hero-highlight-a) 0%, var(--scene-hero-highlight-b) 42%, var(--scene-hero-highlight-c) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.featured-card {
+  background: linear-gradient(145deg, var(--scene-card-start), var(--scene-card-end) 72%);
+  border-color: color-mix(in srgb, var(--line-strong) 85%, var(--scene-accent) 15%);
+}
+
+.featured-card::before {
+  background: var(--scene-card-rail);
+}
+
+.genre-chip,
+.jp-taste-tag,
+.jp-map-state,
+.jp-direction,
+.jp-quiet-button,
+.jp-recent-item,
+.jp-path-action {
+  background: var(--scene-pill-bg);
+  border-color: var(--scene-pill-border);
+}
+
+.jp-signature-shell {
+  background:
+    radial-gradient(circle at 82% 4%, color-mix(in srgb, var(--accent) 18%, transparent), transparent 28%),
+    radial-gradient(circle at 8% 72%, color-mix(in srgb, var(--accent-violet) 18%, transparent), transparent 34%),
+    var(--surface-1);
+  border-color: color-mix(in srgb, var(--line) 84%, var(--scene-accent) 16%);
+}
+
+.jp-map-panel,
+.jp-map-insight {
+  border-color: var(--scene-panel-border);
+  background: var(--scene-panel-bg);
+}
+
+.jp-map-plane {
+  background: var(--scene-map-bg);
+}
+
+.jp-map-point {
+  background: var(--selected);
+  box-shadow: 0 0 0 9px color-mix(in srgb, var(--selected) 22%, transparent), 0 10px 34px rgba(0,0,0,.45);
+}
+
+.jp-signal-fill {
+  background: linear-gradient(90deg, var(--selected), var(--favorite, var(--scene-accent)));
+}
+
+/* ===== Distinct spatial grammar ===== */
+.scene-switch {
+  border-color: color-mix(in srgb, var(--scene-accent) 22%, var(--line));
+  background: color-mix(in srgb, var(--surface-1) 88%, transparent);
+}
+
+html[data-music-scene="jpop"] body::before {
+  opacity: .16;
+  background-image:
+    radial-gradient(circle at 18% 18%, rgba(255,114,170,.09) 0 2px, transparent 3px),
+    radial-gradient(circle at 72% 62%, rgba(173,149,255,.07) 0 1.5px, transparent 2.5px),
+    linear-gradient(rgba(255,255,255,.022) 1px, transparent 1px);
+  background-size: 88px 88px, 116px 116px, 100% 64px;
+}
+html[data-music-scene="jpop"] .jp-signature-shell { border-radius: 32px; }
+html[data-music-scene="jpop"] .featured-card { border-radius: 28px; }
+html[data-music-scene="jpop"] .jp-daily-card { border-radius: 24px; box-shadow: 0 20px 50px rgba(0,0,0,.2); }
+html[data-music-scene="jpop"] .jp-daily-art,
+html[data-music-scene="jpop"] .jp-path-thumb { border-radius: 18px; }
+html[data-music-scene="jpop"] .jp-path-card { border-radius: 20px; }
+html[data-music-scene="jpop"] .jp-role-badge { box-shadow: 0 8px 22px rgba(255,93,158,.12); }
+
+html[data-music-scene="kpop"] body::before {
+  opacity: .33;
+  background-image:
+    linear-gradient(118deg, transparent 0 46%, rgba(83,232,255,.07) 46.2% 46.5%, transparent 46.8% 100%),
+    linear-gradient(62deg, transparent 0 62%, rgba(109,120,255,.055) 62.2% 62.5%, transparent 62.8% 100%),
+    linear-gradient(rgba(120,190,255,.045) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(120,190,255,.035) 1px, transparent 1px);
+  background-size: 100% 100%, 100% 100%, 72px 72px, 72px 72px;
+  mask-image: linear-gradient(to bottom, black, rgba(0,0,0,.76) 66%, transparent 96%);
+}
+html[data-music-scene="kpop"] .site-header { border-bottom: 1px solid rgba(83,232,255,.08); }
+html[data-music-scene="kpop"] .scene-switch { border-radius: 12px; box-shadow: 0 14px 42px rgba(34,97,255,.16); }
+html[data-music-scene="kpop"] .scene-option { border-radius: 8px; letter-spacing: .07em; }
+html[data-music-scene="kpop"] .brand-mark { border-radius: 8px; transform: rotate(-2deg); }
+html[data-music-scene="kpop"] .featured-card,
+html[data-music-scene="kpop"] .jp-signature-shell,
+html[data-music-scene="kpop"] .jp-map-panel,
+html[data-music-scene="kpop"] .jp-map-insight,
+html[data-music-scene="kpop"] .jp-daily-card,
+html[data-music-scene="kpop"] .jp-path-card { border-radius: 12px; }
+html[data-music-scene="kpop"] .featured-card { box-shadow: 0 22px 70px rgba(4,12,37,.52), inset 0 1px 0 rgba(117,238,255,.08); }
+html[data-music-scene="kpop"] .jp-signature-shell { box-shadow: 0 28px 80px rgba(3,10,31,.46), inset 0 1px 0 rgba(117,238,255,.08); }
+html[data-music-scene="kpop"] .jp-daily-card { box-shadow: inset 0 1px 0 rgba(111,234,255,.08), 0 16px 44px rgba(1,8,26,.28); }
+html[data-music-scene="kpop"] .jp-daily-art,
+html[data-music-scene="kpop"] .jp-path-thumb { border-radius: 7px; }
+html[data-music-scene="kpop"] .jp-role-badge,
+html[data-music-scene="kpop"] .jp-map-state,
+html[data-music-scene="kpop"] .jp-direction { border-radius: 6px; text-transform: uppercase; letter-spacing: .07em; }
+html[data-music-scene="kpop"] .jp-map-plane { border-radius: 8px; }
+html[data-music-scene="kpop"] .jp-map-plane::before,
+html[data-music-scene="kpop"] .jp-map-plane::after { border-radius: 3px; border-style: solid; }
+html[data-music-scene="kpop"] .primary-button,
+html[data-music-scene="kpop"] .secondary-button { border-radius: 8px; }
+html[data-music-scene="kpop"] .jp-daily-hole { border-color: rgba(83,232,255,.45); background: rgba(83,232,255,.08); }
+
+html[data-music-scene="pop"] body::before {
+  opacity: .24;
+  background-image:
+    radial-gradient(circle at 88% 14%, transparent 0 72px, rgba(255,191,95,.07) 73px 75px, transparent 76px 108px, rgba(255,127,103,.045) 109px 111px, transparent 112px),
+    linear-gradient(160deg, transparent 0 67%, rgba(255,201,130,.045) 67% 68%, transparent 68% 100%),
+    linear-gradient(rgba(255,236,216,.025) 1px, transparent 1px);
+  background-size: 100% 100%, 100% 100%, 100% 80px;
+  mask-image: linear-gradient(to bottom, black, rgba(0,0,0,.82) 72%, transparent 100%);
+}
+html[data-music-scene="pop"] .scene-switch { border-radius: 18px; box-shadow: 0 16px 44px rgba(105,44,16,.24); }
+html[data-music-scene="pop"] .scene-option { border-radius: 14px; }
+html[data-music-scene="pop"] .brand-mark { border-radius: 18px 10px 18px 10px; transform: rotate(2deg); }
+html[data-music-scene="pop"] .featured-card { border-radius: 32px 18px 32px 18px; box-shadow: 0 24px 64px rgba(63,26,14,.34); }
+html[data-music-scene="pop"] .jp-signature-shell { border-radius: 36px 22px 36px 22px; box-shadow: 0 28px 70px rgba(60,26,13,.28); }
+html[data-music-scene="pop"] .jp-map-panel,
+html[data-music-scene="pop"] .jp-map-insight { border-radius: 26px 16px 26px 16px; }
+html[data-music-scene="pop"] .jp-daily-card { border-radius: 28px 16px 28px 16px; box-shadow: 0 18px 48px rgba(60,26,13,.22); }
+html[data-music-scene="pop"] .jp-daily-art { border-radius: 22px 10px 22px 10px; }
+html[data-music-scene="pop"] .jp-path-card { border-radius: 22px 12px 22px 12px; }
+html[data-music-scene="pop"] .jp-path-thumb { border-radius: 18px 8px 18px 8px; }
+html[data-music-scene="pop"] .jp-role-badge { border-radius: 999px; color: #fff0db; background: rgba(42,24,22,.9); }
+html[data-music-scene="pop"] .jp-map-point { border-color: #fff3e3; }
+html[data-music-scene="pop"] .jp-daily-hole { border-color: rgba(255,188,88,.48); background: rgba(255,179,71,.1); }
+html[data-music-scene="pop"] .primary-button { border-radius: 999px; padding-inline: 20px; }
+html[data-music-scene="pop"] .secondary-button { border-radius: 999px; }
+
+@media (max-width: 700px) {
+  html[data-music-scene="jpop"] .jp-signature-shell { border-radius: 26px; }
+  html[data-music-scene="kpop"] .jp-signature-shell,
+  html[data-music-scene="kpop"] .jp-map-panel,
+  html[data-music-scene="kpop"] .jp-map-insight { border-radius: 10px; }
+  html[data-music-scene="pop"] .jp-signature-shell { border-radius: 28px 16px 28px 16px; }
+}
+
 .scene-context-pill {
   display: inline-flex;
   align-items: center;
@@ -57,6 +386,7 @@ html[data-music-scene="pop"] { --scene-accent: #ffc369; }
   letter-spacing: .04em;
   vertical-align: middle;
 }
+
 @media (max-width: 800px) {
   .site-header.scene-header {
     flex-wrap: wrap;
@@ -76,5 +406,6 @@ html[data-music-scene="pop"] { --scene-accent: #ffc369; }
   .scene-option { padding-inline: 10px; font-size: 11px; }
 }
 @media (prefers-reduced-motion: reduce) {
-  .scene-option { transition: none; }
+  .scene-option,
+  body { transition: none; }
 }
