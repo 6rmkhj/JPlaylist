@@ -9,6 +9,8 @@ test('K-POP is a full Taste Map scene, not a catalog-only filter', async ({ page
   await expect(page.locator('.jp-daily-card')).toHaveCount(3);
   await expect(page.locator('.song-card').first()).toBeVisible();
   await expect(page.locator('.card-rank').first()).not.toContainText('Apple JP');
+  await expect(page.locator('#featuredReason')).not.toContainText('일본');
+  await expect(page.locator('#personalized')).not.toContainText('일본 차트 흐름');
 });
 
 test('POP keeps the same three moves and five-step Rabbit Hole experience', async ({ page }) => {
@@ -16,6 +18,8 @@ test('POP keeps the same three moves and five-step Rabbit Hole experience', asyn
   await expect(page.locator('[data-scene-switch="pop"]')).toHaveAttribute('aria-current', 'page');
   await expect(page.locator('#heroTitle')).toContainText('내 팝 취향을');
   await expect(page.locator('.jp-daily-card')).toHaveCount(3);
+  await expect(page.locator('#featuredReason')).not.toContainText('일본');
+  await expect(page.locator('#personalized')).not.toContainText('일본 차트 흐름');
   await page.locator('.jp-daily-card').nth(1).locator('[data-jp-rabbit-start]').click();
   await expect(page.locator('.jp-path-card')).toHaveCount(5);
 });
