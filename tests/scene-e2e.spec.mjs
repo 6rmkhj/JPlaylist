@@ -57,3 +57,37 @@ test('favorites are isolated by music scene while listening platform remains glo
   await page.locator('#favoritesFilter').click();
   await expect(page.locator('.song-card')).toHaveCount(1);
 });
+
+test('each music scene has a visibly distinct palette and shape language', async ({ page }) => {
+  const snapshots = {};
+  for (const [scene, url] of [
+    ['jpop', '/'],
+    ['kpop', '/?scene=kpop'],
+    ['pop', '/?scene=pop'],
+  ]) {
+    await page.goto(url);
+    await expect(page.locator('.featured-card')).toBeVisible();
+    snapshots[scene] = await page.evaluate(() => {
+      const root = getComputedStyle(document.documentElement);
+      const featured = getComputedStyle(document.querySelector('.featured-card'));
+      const switcher = getComputedStyle(document.querySelector('.scene-switch'));
+      return {
+        background: root.getPropertyValue('--bg').trim(),
+        accent: root.getPropertyValue('--accent').trim(),
+        selected: root.getPropertyValue('--selected').trim(),
+        featuredRadius: featured.borderTopLeftRadius,
+        switchRadius: switcher.borderTopLeftRadius,
+      };
+    });
+  }
+
+  expect(new Set(Object.values(snapshots).map((item) => item.background)).size).toBe(3);
+  expect(new Set(Object.values(snapshots).map((item) => item.accent)).size).toBe(3);
+  expect(new Set(Object.values(snapshots).map((item) => item.featuredRadius)).size).toBe(3);
+  expect(snapshots.jpop.background).toBe('#09090f');
+  expect(snapshots.kpop.background).toBe('#060817');
+  expect(snapshots.pop.background).toBe('#130b08');
+  expect(snapshots.jpop.featuredRadius).toBe('28px');
+  expect(snapshots.kpop.featuredRadius).toBe('12px');
+  expect(snapshots.pop.featuredRadius).toBe('32px');
+});
