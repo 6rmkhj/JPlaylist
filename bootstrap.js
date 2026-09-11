@@ -9,18 +9,18 @@
       popularDescription: 'Apple Music Japan 전체 인기 차트에서 일본 음악으로 분류한 곡을 보여드려요.',
       latestSource: '최근 발매: 공개 발매일 인덱스 + 일본 카탈로그 검색 + 인기 차트 보완',
       popularSource: '순위: Apple Music Japan 전체 차트 기준',
-      bootstrapFlow: '일본 차트 흐름',
+      bootstrapFlow: '일본 차트 흐름', popularFlow: '일본 인기 차트 흐름', popularFlowShort: '일본 인기 흐름',
     },
     kpop: {
       id: 'kpop', label: 'K-POP', dataUrl: './data/songs-kpop.json', country: 'KR', chartBadge: 'Apple KR',
-      eyebrow: 'K-POP TASTE COMPASS', heroSubject: 'K-POP', titleNoun: 'K-POP', fallbackGenre: 'K-POP',
+      eyebrow: 'K-POP TASTE COMPASS', heroSubject: 'K-POP', titleNoun: 'K-POP', fallbackGenre: 'K-Pop',
       heroDescription: '좋아요와 실제 탐색 기록으로 K-POP 취향의 위치를 보여주고, 매일 세 곡과 5단계 Rabbit Hole로 익숙한 팀 밖의 다음 취향까지 이어갑니다.',
       catalogTitle: '전체 K-POP 탐색',
       latestDescription: '최근 발매된 K-POP을 다양한 아티스트 순으로 보여드려요.',
       popularDescription: 'Apple Music Korea 인기 차트에서 K-POP 흐름을 골라 보여드려요.',
       latestSource: '최근 발매: 한국 스토어 카탈로그 검색 + Korea 인기 차트 보완',
       popularSource: '순위: Apple Music Korea 전체 차트 기준',
-      bootstrapFlow: '한국 차트 흐름',
+      bootstrapFlow: '한국 차트 흐름', popularFlow: '한국 인기 차트 흐름', popularFlowShort: '한국 인기 흐름',
     },
     pop: {
       id: 'pop', label: 'POP', dataUrl: './data/songs-pop.json', country: 'US', chartBadge: 'Apple US',
@@ -31,7 +31,7 @@
       popularDescription: 'Apple Music US 인기 차트에서 K-POP·J-POP을 제외한 글로벌 팝 흐름을 보여드려요.',
       latestSource: '최근 발매: US 스토어 카탈로그 검색 + US 인기 차트 보완',
       popularSource: '순위: Apple Music US 전체 차트 기준',
-      bootstrapFlow: '글로벌 팝 차트 흐름',
+      bootstrapFlow: '글로벌 팝 차트 흐름', popularFlow: '글로벌 팝 차트 흐름', popularFlowShort: '글로벌 팝 인기 흐름',
     },
   };
 
@@ -184,25 +184,33 @@
     if (node && node.innerHTML.replace(/\s+/g, '') !== value.replace(/\s+/g, '')) node.innerHTML = value;
   }
 
-  function replaceText(node, from, to) {
-    if (!node || !node.textContent?.includes(from)) return;
-    const next = node.textContent.replaceAll(from, to);
-    if (next !== node.textContent) node.textContent = next;
+  function scenePhrase(value) {
+    if (scene.id === 'jpop') return String(value || '');
+    let next = String(value || '');
+    next = next.replaceAll('일본 인기 차트 흐름', scene.popularFlow);
+    next = next.replaceAll('일본 인기 흐름', scene.popularFlowShort);
+    next = next.replaceAll('일본 차트 흐름', scene.bootstrapFlow);
+    next = next.replaceAll('일본 음악', scene.titleNoun);
+    next = next.replaceAll('Apple JP #', `${scene.chartBadge} #`);
+    if (scene.id === 'kpop') next = next.replaceAll('Korean Pop', 'K-Pop');
+    else next = next.replaceAll('J-Rock', 'Rock');
+    return next;
   }
 
-  function replaceDirectText(node, from, to) {
-    if (!node) return;
-    for (const child of node.childNodes) {
-      if (child.nodeType !== Node.TEXT_NODE || !child.textContent?.includes(from)) continue;
-      const next = child.textContent.replaceAll(from, to);
-      if (next !== child.textContent) child.textContent = next;
+  function localizeDynamicCopy(root = document.body) {
+    if (scene.id === 'jpop' || !root) return;
+    const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+    let node = walker.nextNode();
+    while (node) {
+      const next = scenePhrase(node.textContent);
+      if (next !== node.textContent) node.textContent = next;
+      node = walker.nextNode();
     }
   }
 
   function sceneTitleFrom(current) {
     if (scene.id === 'jpop') return current;
-    return String(current)
-      .replaceAll('일본 음악', scene.titleNoun)
+    return scenePhrase(String(current))
       .replace('내 일본 음악 취향의 다음 좌표', `내 ${scene.heroSubject} 취향의 다음 좌표`);
   }
 
@@ -220,38 +228,20 @@
     setText(document.querySelector('#backupDialog .dialog-copy'), `현재 ${scene.label}에서 좋아요한 곡과 기본 듣기 플랫폼을 파일로 저장하거나 다른 브라우저에서 가져올 수 있어요. 카테고리별 좋아요는 서로 분리되며, 가져오기 전 변경 내용을 먼저 보여드립니다.`);
     setText(document.querySelector('.jp-signature-kicker'), `YOUR ${scene.label} COMPASS`);
 
-    const signatureIntro = document.querySelector('.jp-signature-head > div > p:last-child');
-    if (signatureIntro && scene.id !== 'jpop') replaceText(signatureIntro, '일본 차트 흐름', scene.bootstrapFlow);
-
-    document.querySelectorAll('#featuredRank, .card-rank, .jp-daily-meta').forEach((node) => {
-      const current = node.textContent || '';
-      if (/^Apple (JP|KR|US) #/.test(current)) setText(node, current.replace(/^Apple (JP|KR|US) #/, `${scene.chartBadge} #`));
-      if (scene.id !== 'jpop' && current === '일본 음악') setText(node, scene.fallbackGenre);
-    });
-
-    if (scene.id !== 'jpop') {
-      document.querySelectorAll('.filter-chip, .jp-taste-tag, .song-context > span:first-child').forEach((node) => replaceText(node, 'J-Rock', 'Rock'));
-      replaceText(document.querySelector('#featuredReason'), '일본 음악', scene.titleNoun);
-      replaceText(document.querySelector('#emptyMessage'), '일본 음악', scene.titleNoun);
-    }
-    if (scene.id === 'kpop') {
-      document.querySelectorAll('.genre-chip, .jp-taste-tag, .song-context > span:first-child').forEach((node) => replaceText(node, 'Korean Pop', 'K-Pop'));
-      document.querySelectorAll('.filter-button').forEach((node) => replaceDirectText(node, 'Korean Pop', 'K-Pop'));
-    }
-
     const footer = document.querySelector('footer p');
     if (footer?.firstChild?.nodeType === Node.TEXT_NODE) {
       const copy = 'JPlaylist · J-POP, K-POP, POP 공개 카탈로그와 지역별 인기 차트를 바탕으로 취향을 탐색하며, 듣기 플랫폼은 사용자가 선택합니다.';
       if (footer.firstChild.textContent !== copy) footer.firstChild.textContent = copy;
     }
 
+    localizeDynamicCopy();
+
     const nextTitle = sceneTitleFrom(document.title);
     if (document.title !== nextTitle) document.title = nextTitle;
     if (scene.id !== 'jpop') {
       document.querySelectorAll('meta[name="description"], meta[property="og:title"], meta[property="og:description"]').forEach((meta) => {
         const current = meta.getAttribute('content') || '';
-        const next = current
-          .replaceAll('일본 음악', scene.titleNoun)
+        const next = scenePhrase(current)
           .replaceAll('일본', scene.label)
           .replace('내 K-POP 음악 취향', '내 K-POP 취향')
           .replace('내 POP 음악 취향', '내 팝 취향');
