@@ -2,7 +2,7 @@ name: Scene data and visual audit
 
 on:
   push:
-    branches: [feat/scene-spaces-20260911]
+    branches: [feat/music-scenes-jkpop-20260911]
 
 permissions:
   contents: read
@@ -27,7 +27,7 @@ jobs:
         run: |
           npm install --no-save @playwright/test@1.55.0
           npx playwright install --with-deps chromium
-      - name: Capture all three theme spaces
+      - name: Capture live scene views
         run: |
           mkdir -p visual-artifacts
           python3 -m http.server 4173 --bind 127.0.0.1 > /tmp/jplaylist-scene-http.log 2>&1 &
@@ -39,36 +39,34 @@ jobs:
 
           const browser = await chromium.launch({ headless: true });
           const audit = [];
-          for (const scene of ['jpop', 'kpop', 'pop']) {
+          for (const scene of ['kpop', 'pop']) {
             for (const viewport of [
               { name: 'mobile', width: 390, height: 844 },
               { name: 'desktop', width: 1440, height: 900 },
             ]) {
               const context = await browser.newContext({ viewport });
               const page = await context.newPage();
-              const query = scene === 'jpop' ? '' : `?scene=${scene}`;
-              await page.goto(`http://127.0.0.1:4173/${query}`, { waitUntil: 'networkidle' });
+              await page.goto(`http://127.0.0.1:4173/?scene=${scene}`, { waitUntil: 'networkidle' });
               await page.locator('#personalized').waitFor({ state: 'visible' });
               await page.locator('.song-card').first().waitFor({ state: 'visible' });
-              const metrics = await page.evaluate(() => {
-                const root = getComputedStyle(document.documentElement);
-                const featured = getComputedStyle(document.querySelector('.featured-card'));
-                return {
-                  width: document.documentElement.clientWidth,
-                  scrollWidth: document.documentElement.scrollWidth,
-                  background: root.getPropertyValue('--bg').trim(),
-                  accent: root.getPropertyValue('--accent').trim(),
-                  selected: root.getPropertyValue('--selected').trim(),
-                  featuredRadius: featured.borderTopLeftRadius,
-                  switchRect: document.querySelector('.scene-switch')?.getBoundingClientRect().toJSON(),
-                  dailyCount: document.querySelectorAll('.jp-daily-card').length,
-                  cardCount: document.querySelectorAll('.song-card').length,
-                };
-              });
+              const metrics = await page.evaluate(() => ({
+                width: document.documentElement.clientWidth,
+                scrollWidth: document.documentElement.scrollWidth,
+                switchRect: document.querySelector('.scene-switch')?.getBoundingClientRect().toJSON(),
+                headerRect: document.querySelector('.site-header')?.getBoundingClientRect().toJSON(),
+                personalizedRect: document.querySelector('#personalized')?.getBoundingClientRect().toJSON(),
+                dailyCount: document.querySelectorAll('.jp-daily-card').length,
+                cardCount: document.querySelectorAll('.song-card').length,
+                heroText: document.querySelector('#heroTitle')?.innerText,
+              }));
               if (metrics.scrollWidth > metrics.width + 1) throw new Error(`${scene}/${viewport.name}: horizontal overflow ${metrics.scrollWidth} > ${metrics.width}`);
               if (metrics.dailyCount !== 3) throw new Error(`${scene}/${viewport.name}: expected 3 daily cards`);
               audit.push({ scene, viewport: viewport.name, ...metrics });
-              await page.screenshot({ path: `visual-artifacts/${scene}-${viewport.name}.png`, fullPage: true });
+              await page.screenshot({ path: `visual-artifacts/${scene}-${viewport.name}-before-rabbit.png`, fullPage: true });
+              await page.locator('.jp-daily-card').nth(1).locator('[data-jp-rabbit-start]').click();
+              await page.locator('.jp-path-card').nth(4).waitFor({ state: 'visible' });
+              if (await page.locator('.jp-path-card').count() !== 5) throw new Error(`${scene}/${viewport.name}: expected 5 rabbit steps`);
+              await page.screenshot({ path: `visual-artifacts/${scene}-${viewport.name}-after-rabbit.png`, fullPage: true });
               await context.close();
             }
           }
@@ -78,7 +76,7 @@ jobs:
       - name: Upload audit artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: scene-space-audit
+          name: scene-audit
           path: |
             visual-artifacts
             data/songs-kpop.json
