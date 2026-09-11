@@ -73,7 +73,7 @@
       Object.defineProperty(storageProto, '__jplaylistSceneScoped', { value: true, configurable: false });
     }
   } catch {
-    // Storage is optional. The app already degrades gracefully when persistence is unavailable.
+    // Persistence is optional; the app already degrades gracefully when storage is unavailable.
   }
 
   function adaptKpopPayloadForLegacyCatalog(payload) {
@@ -176,54 +176,57 @@
     header.querySelector('.brand')?.insertAdjacentElement('afterend', nav);
   }
 
+  function setText(node, value) {
+    if (node && node.textContent !== value) node.textContent = value;
+  }
+
+  function setHtml(node, value) {
+    if (node && node.innerHTML.replace(/\s+/g, '') !== value.replace(/\s+/g, '')) node.innerHTML = value;
+  }
+
   function replaceText(node, from, to) {
     if (!node || !node.textContent?.includes(from)) return;
-    node.textContent = node.textContent.replaceAll(from, to);
+    const next = node.textContent.replaceAll(from, to);
+    if (next !== node.textContent) node.textContent = next;
   }
 
   function replaceDirectText(node, from, to) {
     if (!node) return;
     for (const child of node.childNodes) {
-      if (child.nodeType === Node.TEXT_NODE && child.textContent?.includes(from)) {
-        child.textContent = child.textContent.replaceAll(from, to);
-      }
+      if (child.nodeType !== Node.TEXT_NODE || !child.textContent?.includes(from)) continue;
+      const next = child.textContent.replaceAll(from, to);
+      if (next !== child.textContent) child.textContent = next;
     }
   }
 
+  function sceneTitleFrom(current) {
+    if (scene.id === 'jpop') return current;
+    return String(current)
+      .replaceAll('일본 음악', scene.titleNoun)
+      .replace('내 일본 음악 취향의 다음 좌표', `내 ${scene.heroSubject} 취향의 다음 좌표`);
+  }
+
   function applySceneCopy() {
-    const heroEyebrow = document.querySelector('.hero .eyebrow');
-    if (heroEyebrow && heroEyebrow.textContent !== scene.eyebrow) heroEyebrow.textContent = scene.eyebrow;
-    const heroTitle = document.querySelector('#heroTitle');
-    const desiredTitle = `내 ${scene.heroSubject} 취향을,<br><span>다음 취향으로.</span>`;
-    if (heroTitle && heroTitle.innerHTML.replace(/\s+/g, '') !== desiredTitle.replace(/\s+/g, '')) heroTitle.innerHTML = desiredTitle;
-    const heroDescription = document.querySelector('.hero-description');
-    if (heroDescription && heroDescription.textContent !== scene.heroDescription) heroDescription.textContent = scene.heroDescription;
+    setText(document.querySelector('.hero .eyebrow'), scene.eyebrow);
+    setHtml(document.querySelector('#heroTitle'), `내 ${scene.heroSubject} 취향을,<br><span>다음 취향으로.</span>`);
+    setText(document.querySelector('.hero-description'), scene.heroDescription);
+    setText(document.querySelector('#discoverTitle'), scene.catalogTitle);
 
-    const discoverTitle = document.querySelector('#discoverTitle');
-    if (discoverTitle && discoverTitle.textContent !== scene.catalogTitle) discoverTitle.textContent = scene.catalogTitle;
     const popularActive = document.querySelector('[data-mode="popular"]')?.classList.contains('active');
-    const modeDescription = document.querySelector('#modeDescription');
-    const desiredModeDescription = popularActive ? scene.popularDescription : scene.latestDescription;
-    if (modeDescription && modeDescription.textContent !== desiredModeDescription) modeDescription.textContent = desiredModeDescription;
-    const sourceNote = document.querySelector('#sourceNote');
-    const desiredSource = popularActive ? scene.popularSource : scene.latestSource;
-    if (sourceNote && sourceNote.textContent !== desiredSource) sourceNote.textContent = desiredSource;
+    setText(document.querySelector('#modeDescription'), popularActive ? scene.popularDescription : scene.latestDescription);
+    setText(document.querySelector('#sourceNote'), popularActive ? scene.popularSource : scene.latestSource);
+    setText(document.querySelector('#localViewNotice'), `${scene.label} 좋아요는 이 브라우저에 저장된 개인 컬렉션이며 다른 카테고리나 공유 링크에는 섞이지 않습니다.`);
+    setText(document.querySelector('#backupDialogTitle'), `${scene.label} 취향 백업`);
+    setText(document.querySelector('#backupDialog .dialog-copy'), `현재 ${scene.label}에서 좋아요한 곡과 기본 듣기 플랫폼을 파일로 저장하거나 다른 브라우저에서 가져올 수 있어요. 카테고리별 좋아요는 서로 분리되며, 가져오기 전 변경 내용을 먼저 보여드립니다.`);
+    setText(document.querySelector('.jp-signature-kicker'), `YOUR ${scene.label} COMPASS`);
 
-    const localViewNotice = document.querySelector('#localViewNotice');
-    if (localViewNotice) localViewNotice.textContent = `${scene.label} 좋아요는 이 브라우저에 저장된 개인 컬렉션이며 다른 카테고리나 공유 링크에는 섞이지 않습니다.`;
-    const backupTitle = document.querySelector('#backupDialogTitle');
-    if (backupTitle) backupTitle.textContent = `${scene.label} 취향 백업`;
-    const backupCopy = document.querySelector('#backupDialog .dialog-copy');
-    if (backupCopy) backupCopy.textContent = `현재 ${scene.label}에서 좋아요한 곡과 기본 듣기 플랫폼을 파일로 저장하거나 다른 브라우저에서 가져올 수 있어요. 카테고리별 좋아요는 서로 분리되며, 가져오기 전 변경 내용을 먼저 보여드립니다.`;
-
-    const signatureKicker = document.querySelector('.jp-signature-kicker');
-    if (signatureKicker) signatureKicker.textContent = `YOUR ${scene.label} COMPASS`;
     const signatureIntro = document.querySelector('.jp-signature-head > div > p:last-child');
     if (signatureIntro && scene.id !== 'jpop') replaceText(signatureIntro, '일본 차트 흐름', scene.bootstrapFlow);
 
     document.querySelectorAll('#featuredRank, .card-rank, .jp-daily-meta').forEach((node) => {
-      if (/^Apple (JP|KR|US) #/.test(node.textContent || '')) node.textContent = node.textContent.replace(/^Apple (JP|KR|US) #/, `${scene.chartBadge} #`);
-      if (scene.id !== 'jpop' && node.textContent === '일본 음악') node.textContent = scene.fallbackGenre;
+      const current = node.textContent || '';
+      if (/^Apple (JP|KR|US) #/.test(current)) setText(node, current.replace(/^Apple (JP|KR|US) #/, `${scene.chartBadge} #`));
+      if (scene.id !== 'jpop' && current === '일본 음악') setText(node, scene.fallbackGenre);
     });
 
     if (scene.id !== 'jpop') {
@@ -237,19 +240,14 @@
     }
 
     const footer = document.querySelector('footer p');
-    if (footer) {
-      const sourceLink = footer.querySelector('.jp-source-link');
-      footer.firstChild.textContent = 'JPlaylist · J-POP, K-POP, POP 공개 카탈로그와 지역별 인기 차트를 바탕으로 취향을 탐색하며, 듣기 플랫폼은 사용자가 선택합니다.';
-      if (!sourceLink && footer.textContent && !footer.textContent.includes('오픈소스')) {
-        // ui-design.js will append the source link after boot.
-      }
+    if (footer?.firstChild?.nodeType === Node.TEXT_NODE) {
+      const copy = 'JPlaylist · J-POP, K-POP, POP 공개 카탈로그와 지역별 인기 차트를 바탕으로 취향을 탐색하며, 듣기 플랫폼은 사용자가 선택합니다.';
+      if (footer.firstChild.textContent !== copy) footer.firstChild.textContent = copy;
     }
 
+    const nextTitle = sceneTitleFrom(document.title);
+    if (document.title !== nextTitle) document.title = nextTitle;
     if (scene.id !== 'jpop') {
-      const title = document.title
-        .replaceAll('일본 음악', scene.titleNoun)
-        .replace('내 일본 음악 취향의 다음 좌표', `내 ${scene.heroSubject} 취향의 다음 좌표`);
-      if (document.title !== title) document.title = title;
       document.querySelectorAll('meta[name="description"], meta[property="og:title"], meta[property="og:description"]').forEach((meta) => {
         const current = meta.getAttribute('content') || '';
         const next = current
@@ -265,16 +263,21 @@
   installSceneStyles();
   installSceneSwitch();
   applySceneCopy();
+
   let sceneCopyFrame = 0;
+  let copyObserver = null;
+  const observerOptions = { subtree: true, childList: true, characterData: true, attributes: true, attributeFilter: ['class', 'content'] };
   const scheduleSceneCopy = () => {
     if (sceneCopyFrame) return;
     sceneCopyFrame = window.requestAnimationFrame(() => {
       sceneCopyFrame = 0;
+      copyObserver?.disconnect();
       applySceneCopy();
+      copyObserver?.observe(document.documentElement, observerOptions);
     });
   };
-  const copyObserver = new MutationObserver(scheduleSceneCopy);
-  copyObserver.observe(document.documentElement, { subtree: true, childList: true, characterData: true, attributes: true, attributeFilter: ['class', 'content'] });
+  copyObserver = new MutationObserver(scheduleSceneCopy);
+  copyObserver.observe(document.documentElement, observerOptions);
 
   const READY_EVENT = 'jplaylist:ready';
   const LEGACY_KEY = 'jplaylist-likes-v1';
@@ -376,7 +379,7 @@
     const notice = document.querySelector('#persistenceNotice');
     if (!notice) return;
     const message = `예전 버전 좋아요 ${unresolvedCount}곡의 정보를 현재 공개 카탈로그에서 아직 복구하지 못했습니다. ID는 보존되어 다음 방문에도 다시 복구를 시도합니다.`;
-    notice.textContent = notice.textContent ? `${notice.textContent} ${message}` : message;
+    if (!notice.textContent?.includes(message)) notice.textContent = notice.textContent ? `${notice.textContent} ${message}` : message;
     notice.classList.remove('hidden');
   }
 
