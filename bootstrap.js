@@ -76,6 +76,23 @@
     // Storage is optional. The app already degrades gracefully when persistence is unavailable.
   }
 
+  function adaptKpopPayloadForLegacyCatalog(payload) {
+    if (scene.id !== 'kpop' || !payload || typeof payload !== 'object') return payload;
+    const adaptSong = (song) => {
+      if (!song || typeof song !== 'object') return song;
+      const genres = Array.isArray(song.genres)
+        ? song.genres.map((genre) => /^k[- ]?pop$/i.test(String(genre).trim()) ? 'Korean Pop' : genre)
+        : song.genres;
+      return { ...song, genres };
+    };
+    return {
+      ...payload,
+      latestSongs: Array.isArray(payload.latestSongs) ? payload.latestSongs.map(adaptSong) : payload.latestSongs,
+      popularSongs: Array.isArray(payload.popularSongs) ? payload.popularSongs.map(adaptSong) : payload.popularSongs,
+      songs: Array.isArray(payload.songs) ? payload.songs.map(adaptSong) : payload.songs,
+    };
+  }
+
   try {
     const defaultDataUrl = new URL('./data/songs.json', window.location.href).href;
     const sceneDataUrl = new URL(scene.dataUrl, window.location.href).href;
@@ -87,7 +104,19 @@
       else if (input instanceof Request) candidate = input.url;
       try {
         if (candidate && new URL(candidate, window.location.href).href === defaultDataUrl && sceneDataUrl !== defaultDataUrl) {
-          return nativeFetch(sceneDataUrl, init);
+          const routed = nativeFetch(sceneDataUrl, init);
+          if (scene.id === 'kpop' && init?.signal) {
+            return routed.then(async (response) => {
+              if (!response.ok) return response;
+              const payload = adaptKpopPayloadForLegacyCatalog(await response.clone().json());
+              return new Response(JSON.stringify(payload), {
+                status: response.status,
+                statusText: response.statusText,
+                headers: response.headers,
+              });
+            });
+          }
+          return routed;
         }
       } catch {
         // Fall through to the original request.
@@ -152,6 +181,15 @@
     node.textContent = node.textContent.replaceAll(from, to);
   }
 
+  function replaceDirectText(node, from, to) {
+    if (!node) return;
+    for (const child of node.childNodes) {
+      if (child.nodeType === Node.TEXT_NODE && child.textContent?.includes(from)) {
+        child.textContent = child.textContent.replaceAll(from, to);
+      }
+    }
+  }
+
   function applySceneCopy() {
     const heroEyebrow = document.querySelector('.hero .eyebrow');
     if (heroEyebrow && heroEyebrow.textContent !== scene.eyebrow) heroEyebrow.textContent = scene.eyebrow;
@@ -192,6 +230,10 @@
       document.querySelectorAll('.filter-chip, .jp-taste-tag, .song-context > span:first-child').forEach((node) => replaceText(node, 'J-Rock', 'Rock'));
       replaceText(document.querySelector('#featuredReason'), '일본 음악', scene.titleNoun);
       replaceText(document.querySelector('#emptyMessage'), '일본 음악', scene.titleNoun);
+    }
+    if (scene.id === 'kpop') {
+      document.querySelectorAll('.genre-chip, .jp-taste-tag, .song-context > span:first-child').forEach((node) => replaceText(node, 'Korean Pop', 'K-Pop'));
+      document.querySelectorAll('.filter-button').forEach((node) => replaceDirectText(node, 'Korean Pop', 'K-Pop'));
     }
 
     const footer = document.querySelector('footer p');
