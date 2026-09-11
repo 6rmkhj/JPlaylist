@@ -1,0 +1,80 @@
+.scene-switch {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px;
+  border: 1px solid rgba(255,255,255,.11);
+  border-radius: 999px;
+  background: rgba(17,17,26,.82);
+  box-shadow: 0 12px 36px rgba(0,0,0,.18);
+}
+.scene-option {
+  min-width: 68px;
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 14px;
+  border-radius: 999px;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 820;
+  letter-spacing: .035em;
+  white-space: nowrap;
+  transition: background-color .18s ease, color .18s ease, box-shadow .18s ease, transform .18s ease;
+}
+.scene-option:hover {
+  color: var(--text);
+  background: rgba(255,255,255,.06);
+}
+.scene-option[aria-current="page"] {
+  color: #09090f;
+  background: var(--scene-accent, #ff72aa);
+  box-shadow: 0 8px 24px color-mix(in srgb, var(--scene-accent, #ff72aa) 28%, transparent);
+}
+.scene-option:active { transform: translateY(1px); }
+.site-header.scene-header { position: relative; }
+.site-header.scene-header > .scene-switch {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+html[data-music-scene="jpop"] { --scene-accent: #ff72aa; }
+html[data-music-scene="kpop"] { --scene-accent: #67d8ff; }
+html[data-music-scene="pop"] { --scene-accent: #ffc369; }
+.scene-context-pill {
+  display: inline-flex;
+  align-items: center;
+  min-height: 30px;
+  padding: 0 10px;
+  margin-left: 8px;
+  border: 1px solid color-mix(in srgb, var(--scene-accent, #ff72aa) 35%, rgba(255,255,255,.1));
+  border-radius: 999px;
+  color: var(--scene-accent, #ff72aa);
+  background: color-mix(in srgb, var(--scene-accent, #ff72aa) 8%, transparent);
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: .04em;
+  vertical-align: middle;
+}
+@media (max-width: 800px) {
+  .site-header.scene-header {
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+  }
+  .site-header.scene-header > .scene-switch {
+    position: static;
+    order: 3;
+    width: 100%;
+    transform: none;
+    justify-content: center;
+  }
+  .scene-option { flex: 1 1 0; min-width: 0; max-width: 118px; }
+}
+@media (max-width: 390px) {
+  .scene-switch { gap: 2px; padding: 3px; }
+  .scene-option { padding-inline: 10px; font-size: 11px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .scene-option { transition: none; }
+}
