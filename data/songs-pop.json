@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 3,
+  "scene": { "id": "pop", "label": "POP", "storefront": "us", "chartCode": "US" },
+  "status": "stale",
+  "updatedAt": "2026-09-11T00:00:00.000Z",
+  "lastCheckedAt": "2026-09-11T00:00:00.000Z",
+  "latestWindowDays": 365,
+  "sources": {
+    "popular": { "label": "POP bundled fallback", "url": null, "status": "fallback" },
+    "discovery": { "label": "POP bundled fallback", "components": [{ "label": "Bundled fallback", "url": null, "status": "fallback", "successful": 0, "total": 0 }] }
+  },
+  "coverage": { "keywordSearch": { "successful": 0, "total": 0 }, "releaseIndex": "fallback", "previewAvailable": 0, "canonicalRecording": 0, "isrc": 0, "exactNonAppleLink": 0, "enrichmentFailures": 0 },
+  "counts": { "latest": 10, "popular": 10, "total": 10 },
+  "latestSongs": [
+    { "id": "pop-seed-01", "title": "Espresso", "artist": "Sabrina Carpenter", "releaseDate": "2024-04-11", "genres": ["Pop"], "chartRank": 1 },
+    { "id": "pop-seed-02", "title": "BIRDS OF A FEATHER", "artist": "Billie Eilish", "releaseDate": "2024-05-17", "genres": ["Pop"], "chartRank": 2 },
+    { "id": "pop-seed-03", "title": "Good Luck, Babe!", "artist": "Chappell Roan", "releaseDate": "2024-04-05", "genres": ["Pop"], "chartRank": 3 },
+    { "id": "pop-seed-04", "title": "Die With A Smile", "artist": "Lady Gaga & Bruno Mars", "releaseDate": "2024-08-16", "genres": ["Pop"], "chartRank": 4 },
+    { "id": "pop-seed-05", "title": "Beautiful Things", "artist": "Benson Boone", "releaseDate": "2024-01-18", "genres": ["Pop"], "chartRank": 5 },
+    { "id": "pop-seed-06", "title": "Too Sweet", "artist": "Hozier", "releaseDate": "2024-03-22", "genres": ["Alternative"], "chartRank": 6 },
+    { "id": "pop-seed-07", "title": "Fortnight", "artist": "Taylor Swift feat. Post Malone", "releaseDate": "2024-04-19", "genres": ["Pop"], "chartRank": 7 },
+    { "id": "pop-seed-08", "title": "we can't be friends (wait for your love)", "artist": "Ariana Grande", "releaseDate": "2024-03-08", "genres": ["Pop"], "chartRank": 8 },
+    { "id": "pop-seed-09", "title": "360", "artist": "Charli xcx", "releaseDate": "2024-05-10", "genres": ["Pop"], "chartRank": 9 },
+    { "id": "pop-seed-10", "title": "That's So True", "artist": "Gracie Abrams", "releaseDate": "2024-10-18", "genres": ["Pop"], "chartRank": 10 }
+  ],
+  "popularSongs": [
+    { "id": "pop-seed-01", "title": "Espresso", "artist": "Sabrina Carpenter", "releaseDate": "2024-04-11", "genres": ["Pop"], "chartRank": 1 },
+    { "id": "pop-seed-02", "title": "BIRDS OF A FEATHER", "artist": "Billie Eilish", "releaseDate": "2024-05-17", "genres": ["Pop"], "chartRank": 2 },
+    { "id": "pop-seed-03", "title": "Good Luck, Babe!", "artist": "Chappell Roan", "releaseDate": "2024-04-05", "genres": ["Pop"], "chartRank": 3 },
+    { "id": "pop-seed-04", "title": "Die With A Smile", "artist": "Lady Gaga & Bruno Mars", "releaseDate": "2024-08-16", "genres": ["Pop"], "chartRank": 4 },
+    { "id": "pop-seed-05", "title": "Beautiful Things", "artist": "Benson Boone", "releaseDate": "2024-01-18", "genres": ["Pop"], "chartRank": 5 },
+    { "id": "pop-seed-06", "title": "Too Sweet", "artist": "Hozier", "releaseDate": "2024-03-22", "genres": ["Alternative"], "chartRank": 6 },
+    { "id": "pop-seed-07", "title": "Fortnight", "artist": "Taylor Swift feat. Post Malone", "releaseDate": "2024-04-19", "genres": ["Pop"], "chartRank": 7 },
+    { "id": "pop-seed-08", "title": "we can't be friends (wait for your love)", "artist": "Ariana Grande", "releaseDate": "2024-03-08", "genres": ["Pop"], "chartRank": 8 },
+    { "id": "pop-seed-09", "title": "360", "artist": "Charli xcx", "releaseDate": "2024-05-10", "genres": ["Pop"], "chartRank": 9 },
+    { "id": "pop-seed-10", "title": "That's So True", "artist": "Gracie Abrams", "releaseDate": "2024-10-18", "genres": ["Pop"], "chartRank": 10 }
+  ],
+  "songs": [
+    { "id": "pop-seed-01", "title": "Espresso", "artist": "Sabrina Carpenter", "releaseDate": "2024-04-11", "genres": ["Pop"], "chartRank": 1 },
+    { "id": "pop-seed-02", "title": "BIRDS OF A FEATHER", "artist": "Billie Eilish", "releaseDate": "2024-05-17", "genres": ["Pop"], "chartRank": 2 },
+    { "id": "pop-seed-03", "title": "Good Luck, Babe!", "artist": "Chappell Roan", "releaseDate": "2024-04-05", "genres": ["Pop"], "chartRank": 3 },
+    { "id": "pop-seed-04", "title": "Die With A Smile", "artist": "Lady Gaga & Bruno Mars", "releaseDate": "2024-08-16", "genres": ["Pop"], "chartRank": 4 },
+    { "id": "pop-seed-05", "title": "Beautiful Things", "artist": "Benson Boone", "releaseDate": "2024-01-18", "genres": ["Pop"], "chartRank": 5 },
+    { "id": "pop-seed-06", "title": "Too Sweet", "artist": "Hozier", "releaseDate": "2024-03-22", "genres": ["Alternative"], "chartRank": 6 },
+    { "id": "pop-seed-07", "title": "Fortnight", "artist": "Taylor Swift feat. Post Malone", "releaseDate": "2024-04-19", "genres": ["Pop"], "chartRank": 7 },
+    { "id": "pop-seed-08", "title": "we can't be friends (wait for your love)", "artist": "Ariana Grande", "releaseDate": "2024-03-08", "genres": ["Pop"], "chartRank": 8 },
+    { "id": "pop-seed-09", "title": "360", "artist": "Charli xcx", "releaseDate": "2024-05-10", "genres": ["Pop"], "chartRank": 9 },
+    { "id": "pop-seed-10", "title": "That's So True", "artist": "Gracie Abrams", "releaseDate": "2024-10-18", "genres": ["Pop"], "chartRank": 10 }
+  ],
+  "staleReason": "라이브 카탈로그를 아직 갱신하지 못해 내장된 시작 목록을 표시합니다."
+}
