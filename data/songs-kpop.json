@@ -7,8 +7,8 @@
     "chartCode": "KR"
   },
   "status": "fresh",
-  "updatedAt": "2026-09-25T05:03:52.706Z",
-  "lastCheckedAt": "2026-09-25T05:03:52.706Z",
+  "updatedAt": "2026-09-25T11:57:45.045Z",
+  "lastCheckedAt": "2026-09-25T11:57:45.045Z",
   "latestWindowDays": 180,
   "sources": {
     "popular": {
@@ -43,8 +43,8 @@
   },
   "counts": {
     "latest": 30,
-    "popular": 92,
-    "total": 92
+    "popular": 93,
+    "total": 93
   },
   "latestSongs": [
     {
@@ -62,7 +62,7 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/dear-my-crazy-soulmate/6808583617?i=6808583619",
       "previewUrl": null,
-      "chartRank": 12,
+      "chartRank": 14,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -93,7 +93,7 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/new-trick/6812241735?i=6812241736",
       "previewUrl": null,
-      "chartRank": 15,
+      "chartRank": 16,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -124,7 +124,7 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/moonride/6807315056?i=6807315057",
       "previewUrl": null,
-      "chartRank": 69,
+      "chartRank": 71,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -156,7 +156,7 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/guitarist/6807359386?i=6807359390",
       "previewUrl": null,
-      "chartRank": 43,
+      "chartRank": 45,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -251,7 +251,7 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/skibidi/6803731727?i=6803731729",
       "previewUrl": null,
-      "chartRank": 56,
+      "chartRank": 53,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -376,7 +376,7 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/biiig/6801365249?i=6801365250",
       "previewUrl": null,
-      "chartRank": 79,
+      "chartRank": 78,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -406,7 +406,7 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/%EC%97%86%EC%96%B4/6799878516?i=6799878518",
       "previewUrl": null,
-      "chartRank": 36,
+      "chartRank": 40,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -499,7 +499,7 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/pretty-girl/6786111944?i=6786111946",
       "previewUrl": null,
-      "chartRank": 16,
+      "chartRank": 15,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -530,7 +530,7 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/%EB%A7%8C%EC%B0%AC%EA%B0%80/6783734895?i=6783734896",
       "previewUrl": null,
-      "chartRank": 85,
+      "chartRank": 82,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -561,7 +561,7 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/bad/6770401924?i=6770401926",
       "previewUrl": null,
-      "chartRank": 14,
+      "chartRank": 12,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -624,7 +624,7 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/lemonade/1893599771?i=1893599773",
       "previewUrl": null,
-      "chartRank": 11,
+      "chartRank": 10,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -655,7 +655,7 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/%EA%B0%91%EC%9E%90%EA%B8%B0/6769328211?i=6769328214",
       "previewUrl": null,
-      "chartRank": 96,
+      "chartRank": 89,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -686,7 +686,7 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/heavy-serenade/1892954835?i=1892954841",
       "previewUrl": null,
-      "chartRank": 70,
+      "chartRank": 64,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -717,7 +717,7 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/acai/1887671065?i=1887671068",
       "previewUrl": null,
-      "chartRank": 83,
+      "chartRank": 85,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -780,7 +780,7 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/%EC%9D%B4-%EB%B3%84%EB%A1%9C%EB%B6%80%ED%84%B0/6808583617?i=6808583618",
       "previewUrl": null,
-      "chartRank": 52,
+      "chartRank": 55,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -811,7 +811,7 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/lemon-tang/6779521284?i=6779521286",
       "previewUrl": null,
-      "chartRank": 10,
+      "chartRank": 8,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -843,7 +843,7 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/less-than-a-lover/6792226269?i=6792226270",
       "previewUrl": null,
-      "chartRank": 26,
+      "chartRank": 25,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -874,7 +874,7 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/grls/6795782851?i=6795782863",
       "previewUrl": null,
-      "chartRank": 8,
+      "chartRank": 11,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -905,7 +905,7 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/candy-pink-magic-hole-flip-phone/6797773845?i=6797774242",
       "previewUrl": null,
-      "chartRank": 71,
+      "chartRank": 76,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -936,7 +936,7 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/runaway/1889474645?i=1889474652",
       "previewUrl": null,
-      "chartRank": 45,
+      "chartRank": 43,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -1206,18 +1206,18 @@
       ]
     },
     {
-      "id": "6795782863",
-      "title": "GRLS",
-      "artist": "튜이드",
-      "artistId": "6795782852",
-      "releaseDate": "2026-08-24",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f2/a0/02/f2a00270-a846-b0aa-65b3-91bc94442e10/823375310600_Cover.jpg/100x100bb.jpg",
+      "id": "6779521286",
+      "title": "Lemon Tang",
+      "artist": "Hearts2Hearts",
+      "artistId": "1793698498",
+      "releaseDate": "2026-06-22",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/00/a4/c1/00a4c1fb-c2c9-83c9-af2e-44cb5da80bc4/888735956140.png/100x100bb.jpg",
       "genres": [
         "K-Pop",
         "음악",
         "팝"
       ],
-      "appleUrl": "https://music.apple.com/kr/album/grls/6795782851?i=6795782863",
+      "appleUrl": "https://music.apple.com/kr/album/lemon-tang/6779521284?i=6779521286",
       "previewUrl": null,
       "chartRank": 8,
       "collectionId": null,
@@ -1230,7 +1230,7 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/kr/album/grls/6795782851?i=6795782863"
+        "apple": "https://music.apple.com/kr/album/lemon-tang/6779521284?i=6779521286"
       },
       "sourceKinds": [
         "apple-kr-chart"
@@ -1269,37 +1269,6 @@
       ]
     },
     {
-      "id": "6779521286",
-      "title": "Lemon Tang",
-      "artist": "Hearts2Hearts",
-      "artistId": "1793698498",
-      "releaseDate": "2026-06-22",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/00/a4/c1/00a4c1fb-c2c9-83c9-af2e-44cb5da80bc4/888735956140.png/100x100bb.jpg",
-      "genres": [
-        "K-Pop",
-        "음악",
-        "팝"
-      ],
-      "appleUrl": "https://music.apple.com/kr/album/lemon-tang/6779521284?i=6779521286",
-      "previewUrl": null,
-      "chartRank": 10,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": null,
-      "trackCount": null,
-      "discNumber": null,
-      "discCount": null,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/kr/album/lemon-tang/6779521284?i=6779521286"
-      },
-      "sourceKinds": [
-        "apple-kr-chart"
-      ]
-    },
-    {
       "id": "1893599773",
       "title": "LEMONADE",
       "artist": "aespa",
@@ -1313,7 +1282,7 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/lemonade/1893599771?i=1893599773",
       "previewUrl": null,
-      "chartRank": 11,
+      "chartRank": 10,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -1331,19 +1300,49 @@
       ]
     },
     {
-      "id": "6808583619",
-      "title": "Dear my crazy soulmate",
-      "artist": "아이유",
-      "artistId": "409076743",
-      "releaseDate": "2026-09-10",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0f/42/d4/0f42d4ec-e05e-afa2-225a-fa27bb65127b/cover_KM0025182_1.jpg/100x100bb.jpg",
+      "id": "6795782863",
+      "title": "GRLS",
+      "artist": "튜이드",
+      "artistId": "6795782852",
+      "releaseDate": "2026-08-24",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f2/a0/02/f2a00270-a846-b0aa-65b3-91bc94442e10/823375310600_Cover.jpg/100x100bb.jpg",
       "genres": [
         "K-Pop",
         "음악",
-        "팝",
-        "R&B/소울"
+        "팝"
       ],
-      "appleUrl": "https://music.apple.com/kr/album/dear-my-crazy-soulmate/6808583617?i=6808583619",
+      "appleUrl": "https://music.apple.com/kr/album/grls/6795782851?i=6795782863",
+      "previewUrl": null,
+      "chartRank": 11,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/kr/album/grls/6795782851?i=6795782863"
+      },
+      "sourceKinds": [
+        "apple-kr-chart"
+      ]
+    },
+    {
+      "id": "6770401926",
+      "title": "BAD",
+      "artist": "에이티즈",
+      "artistId": "1439301205",
+      "releaseDate": "2026-06-26",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/15/5e/a0/155ea070-3f0d-84ae-7883-128ecd9ed5bf/196874257944.jpg/100x100bb.jpg",
+      "genres": [
+        "K-Pop",
+        "음악",
+        "팝"
+      ],
+      "appleUrl": "https://music.apple.com/kr/album/bad/6770401924?i=6770401926",
       "previewUrl": null,
       "chartRank": 12,
       "collectionId": null,
@@ -1356,7 +1355,7 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/kr/album/dear-my-crazy-soulmate/6808583617?i=6808583619"
+        "apple": "https://music.apple.com/kr/album/bad/6770401924?i=6770401926"
       },
       "sourceKinds": [
         "apple-kr-chart"
@@ -1394,18 +1393,19 @@
       ]
     },
     {
-      "id": "6770401926",
-      "title": "BAD",
-      "artist": "에이티즈",
-      "artistId": "1439301205",
-      "releaseDate": "2026-06-26",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/15/5e/a0/155ea070-3f0d-84ae-7883-128ecd9ed5bf/196874257944.jpg/100x100bb.jpg",
+      "id": "6808583619",
+      "title": "Dear my crazy soulmate",
+      "artist": "아이유",
+      "artistId": "409076743",
+      "releaseDate": "2026-09-10",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0f/42/d4/0f42d4ec-e05e-afa2-225a-fa27bb65127b/cover_KM0025182_1.jpg/100x100bb.jpg",
       "genres": [
         "K-Pop",
         "음악",
-        "팝"
+        "팝",
+        "R&B/소울"
       ],
-      "appleUrl": "https://music.apple.com/kr/album/bad/6770401924?i=6770401926",
+      "appleUrl": "https://music.apple.com/kr/album/dear-my-crazy-soulmate/6808583617?i=6808583619",
       "previewUrl": null,
       "chartRank": 14,
       "collectionId": null,
@@ -1418,38 +1418,7 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/kr/album/bad/6770401924?i=6770401926"
-      },
-      "sourceKinds": [
-        "apple-kr-chart"
-      ]
-    },
-    {
-      "id": "6812241736",
-      "title": "new trick",
-      "artist": "로제",
-      "artistId": "1406242696",
-      "releaseDate": "2026-09-09",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/27/28/6c/27286c0f-ab25-7a89-8b79-fa74a8f4814f/075679559142_cover.jpg/100x100bb.jpg",
-      "genres": [
-        "음악",
-        "록",
-        "팝"
-      ],
-      "appleUrl": "https://music.apple.com/kr/album/new-trick/6812241735?i=6812241736",
-      "previewUrl": null,
-      "chartRank": 15,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": null,
-      "trackCount": null,
-      "discNumber": null,
-      "discCount": null,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/kr/album/new-trick/6812241735?i=6812241736"
+        "apple": "https://music.apple.com/kr/album/dear-my-crazy-soulmate/6808583617?i=6808583619"
       },
       "sourceKinds": [
         "apple-kr-chart"
@@ -1469,7 +1438,7 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/pretty-girl/6786111944?i=6786111946",
       "previewUrl": null,
-      "chartRank": 16,
+      "chartRank": 15,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -1487,19 +1456,20 @@
       ]
     },
     {
-      "id": "1733432325",
-      "title": "영원은 그렇듯",
-      "artist": "리도어",
-      "artistId": "1547913995",
-      "releaseDate": "2021-01-09",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/a1/4d/ec/a14dec1c-aacc-3c49-fa83-300f25f2cab0/8809764938435_Cover.jpg/100x100bb.jpg",
+      "id": "6812241736",
+      "title": "new trick",
+      "artist": "로제",
+      "artistId": "1406242696",
+      "releaseDate": "2026-09-09",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/27/28/6c/27286c0f-ab25-7a89-8b79-fa74a8f4814f/075679559142_cover.jpg/100x100bb.jpg",
       "genres": [
         "음악",
+        "록",
         "팝"
       ],
-      "appleUrl": "https://music.apple.com/kr/album/%EC%98%81%EC%9B%90%EC%9D%80-%EA%B7%B8%EB%A0%87%EB%93%AF/1733432313?i=1733432325",
+      "appleUrl": "https://music.apple.com/kr/album/new-trick/6812241735?i=6812241736",
       "previewUrl": null,
-      "chartRank": 17,
+      "chartRank": 16,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -1510,7 +1480,7 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/kr/album/%EC%98%81%EC%9B%90%EC%9D%80-%EA%B7%B8%EB%A0%87%EB%93%AF/1733432313?i=1733432325"
+        "apple": "https://music.apple.com/kr/album/new-trick/6812241735?i=6812241736"
       },
       "sourceKinds": [
         "apple-kr-chart"
@@ -1530,7 +1500,7 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/pinball/1764485168?i=1764485172",
       "previewUrl": null,
-      "chartRank": 18,
+      "chartRank": 17,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -1542,6 +1512,36 @@
       "searchAliases": [],
       "platformLinks": {
         "apple": "https://music.apple.com/kr/album/pinball/1764485168?i=1764485172"
+      },
+      "sourceKinds": [
+        "apple-kr-chart"
+      ]
+    },
+    {
+      "id": "1733432325",
+      "title": "영원은 그렇듯",
+      "artist": "리도어",
+      "artistId": "1547913995",
+      "releaseDate": "2021-01-09",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/a1/4d/ec/a14dec1c-aacc-3c49-fa83-300f25f2cab0/8809764938435_Cover.jpg/100x100bb.jpg",
+      "genres": [
+        "음악",
+        "팝"
+      ],
+      "appleUrl": "https://music.apple.com/kr/album/%EC%98%81%EC%9B%90%EC%9D%80-%EA%B7%B8%EB%A0%87%EB%93%AF/1733432313?i=1733432325",
+      "previewUrl": null,
+      "chartRank": 18,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/kr/album/%EC%98%81%EC%9B%90%EC%9D%80-%EA%B7%B8%EB%A0%87%EB%93%AF/1733432313?i=1733432325"
       },
       "sourceKinds": [
         "apple-kr-chart"
@@ -1706,38 +1706,6 @@
       ]
     },
     {
-      "id": "1242155573",
-      "title": "한시 오분 (1:05)",
-      "artist": "검정치마",
-      "artistId": "365442996",
-      "releaseDate": "2017-05-30",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/be/ce/5c/bece5cff-2caf-6d8a-9c21-3035537d2a4d/Album_cover_1400X1400.jpg/100x100bb.jpg",
-      "genres": [
-        "음악",
-        "얼터너티브",
-        "팝",
-        "K-Pop"
-      ],
-      "appleUrl": "https://music.apple.com/kr/album/%ED%95%9C%EC%8B%9C-%EC%98%A4%EB%B6%84-1-05/1242154383?i=1242155573",
-      "previewUrl": null,
-      "chartRank": 25,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": null,
-      "trackCount": null,
-      "discNumber": null,
-      "discCount": null,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/kr/album/%ED%95%9C%EC%8B%9C-%EC%98%A4%EB%B6%84-1-05/1242154383?i=1242155573"
-      },
-      "sourceKinds": [
-        "apple-kr-chart"
-      ]
-    },
-    {
       "id": "6792226270",
       "title": "Less than a Lover",
       "artist": "제니",
@@ -1752,7 +1720,7 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/less-than-a-lover/6792226269?i=6792226270",
       "previewUrl": null,
-      "chartRank": 26,
+      "chartRank": 25,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -1764,6 +1732,38 @@
       "searchAliases": [],
       "platformLinks": {
         "apple": "https://music.apple.com/kr/album/less-than-a-lover/6792226269?i=6792226270"
+      },
+      "sourceKinds": [
+        "apple-kr-chart"
+      ]
+    },
+    {
+      "id": "1242155573",
+      "title": "한시 오분 (1:05)",
+      "artist": "검정치마",
+      "artistId": "365442996",
+      "releaseDate": "2017-05-30",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/be/ce/5c/bece5cff-2caf-6d8a-9c21-3035537d2a4d/Album_cover_1400X1400.jpg/100x100bb.jpg",
+      "genres": [
+        "음악",
+        "얼터너티브",
+        "팝",
+        "K-Pop"
+      ],
+      "appleUrl": "https://music.apple.com/kr/album/%ED%95%9C%EC%8B%9C-%EC%98%A4%EB%B6%84-1-05/1242154383?i=1242155573",
+      "previewUrl": null,
+      "chartRank": 26,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/kr/album/%ED%95%9C%EC%8B%9C-%EC%98%A4%EB%B6%84-1-05/1242154383?i=1242155573"
       },
       "sourceKinds": [
         "apple-kr-chart"
@@ -1816,7 +1816,7 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/%EC%82%AC%EB%9E%91%ED%95%98%EA%B2%8C-%EB%90%A0-%EA%B1%B0%EC%95%BC/1703196819?i=1703196825",
       "previewUrl": null,
-      "chartRank": 29,
+      "chartRank": 28,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -1847,7 +1847,7 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/404-new-era/1868617345?i=1868617347",
       "previewUrl": null,
-      "chartRank": 30,
+      "chartRank": 29,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -1859,37 +1859,6 @@
       "searchAliases": [],
       "platformLinks": {
         "apple": "https://music.apple.com/kr/album/404-new-era/1868617345?i=1868617347"
-      },
-      "sourceKinds": [
-        "apple-kr-chart"
-      ]
-    },
-    {
-      "id": "1569920439",
-      "title": "And July (feat. DEAN & dj friz)",
-      "artist": "헤이즈",
-      "artistId": "805276942",
-      "releaseDate": "2016-07-18",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/a6/9e/ba/a69ebae6-e47c-ec13-c670-4f8a1ffa6584/8809484116656_Cover.jpg/100x100bb.jpg",
-      "genres": [
-        "K-Pop",
-        "음악",
-        "팝"
-      ],
-      "appleUrl": "https://music.apple.com/kr/album/and-july-feat-dean-dj-friz/1569920323?i=1569920439",
-      "previewUrl": null,
-      "chartRank": 31,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": null,
-      "trackCount": null,
-      "discNumber": null,
-      "discCount": null,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/kr/album/and-july-feat-dean-dj-friz/1569920323?i=1569920439"
       },
       "sourceKinds": [
         "apple-kr-chart"
@@ -1909,7 +1878,7 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/focus/1841828519?i=1841828520",
       "previewUrl": null,
-      "chartRank": 32,
+      "chartRank": 31,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -1921,6 +1890,37 @@
       "searchAliases": [],
       "platformLinks": {
         "apple": "https://music.apple.com/kr/album/focus/1841828519?i=1841828520"
+      },
+      "sourceKinds": [
+        "apple-kr-chart"
+      ]
+    },
+    {
+      "id": "1569920439",
+      "title": "And July (feat. DEAN & dj friz)",
+      "artist": "헤이즈",
+      "artistId": "805276942",
+      "releaseDate": "2016-07-18",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/a6/9e/ba/a69ebae6-e47c-ec13-c670-4f8a1ffa6584/8809484116656_Cover.jpg/100x100bb.jpg",
+      "genres": [
+        "K-Pop",
+        "음악",
+        "팝"
+      ],
+      "appleUrl": "https://music.apple.com/kr/album/and-july-feat-dean-dj-friz/1569920323?i=1569920439",
+      "previewUrl": null,
+      "chartRank": 32,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/kr/album/and-july-feat-dean-dj-friz/1569920323?i=1569920439"
       },
       "sourceKinds": [
         "apple-kr-chart"
@@ -2023,36 +2023,6 @@
       ]
     },
     {
-      "id": "6799878518",
-      "title": "없어",
-      "artist": "Shane",
-      "artistId": "1572242646",
-      "releaseDate": "2026-08-18",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d8/06/bc/d806bc48-0b66-a4d4-80e1-5ee29d652c71/8800388636516_cover.jpg/100x100bb.jpg",
-      "genres": [
-        "R&B/소울",
-        "음악"
-      ],
-      "appleUrl": "https://music.apple.com/kr/album/%EC%97%86%EC%96%B4/6799878516?i=6799878518",
-      "previewUrl": null,
-      "chartRank": 36,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": null,
-      "trackCount": null,
-      "discNumber": null,
-      "discCount": null,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/kr/album/%EC%97%86%EC%96%B4/6799878516?i=6799878518"
-      },
-      "sourceKinds": [
-        "apple-kr-chart"
-      ]
-    },
-    {
       "id": "1744448416",
       "title": "How Sweet",
       "artist": "뉴진스",
@@ -2066,7 +2036,7 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/how-sweet/1744448415?i=1744448416",
       "previewUrl": null,
-      "chartRank": 37,
+      "chartRank": 36,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -2078,6 +2048,68 @@
       "searchAliases": [],
       "platformLinks": {
         "apple": "https://music.apple.com/kr/album/how-sweet/1744448415?i=1744448416"
+      },
+      "sourceKinds": [
+        "apple-kr-chart"
+      ]
+    },
+    {
+      "id": "1783280225",
+      "title": "toxic till the end",
+      "artist": "로제",
+      "artistId": "1406242696",
+      "releaseDate": "2024-11-27",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4d/cb/54/4dcb5453-7493-cd68-81f8-fc7ae28101ce/8800287299416_cover.jpg/100x100bb.jpg",
+      "genres": [
+        "음악",
+        "록",
+        "컨트리"
+      ],
+      "appleUrl": "https://music.apple.com/kr/album/toxic-till-the-end/1783280221?i=1783280225",
+      "previewUrl": null,
+      "chartRank": 37,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/kr/album/toxic-till-the-end/1783280221?i=1783280225"
+      },
+      "sourceKinds": [
+        "apple-kr-chart"
+      ]
+    },
+    {
+      "id": "1543850904",
+      "title": "거리에서",
+      "artist": "성시경",
+      "artistId": "48218076",
+      "releaseDate": "2006-10-10",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/21/7c/88/217c88ed-80bf-adfa-7cdf-a5c219daf9f7/8809784722939.jpg/100x100bb.jpg",
+      "genres": [
+        "K-Pop",
+        "음악",
+        "팝"
+      ],
+      "appleUrl": "https://music.apple.com/kr/album/%EA%B1%B0%EB%A6%AC%EC%97%90%EC%84%9C/1543850903?i=1543850904",
+      "previewUrl": null,
+      "chartRank": 38,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/kr/album/%EA%B1%B0%EB%A6%AC%EC%97%90%EC%84%9C/1543850903?i=1543850904"
       },
       "sourceKinds": [
         "apple-kr-chart"
@@ -2098,7 +2130,7 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/flying-high-with-u/1577892511?i=1577892512",
       "previewUrl": null,
-      "chartRank": 38,
+      "chartRank": 39,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -2116,20 +2148,19 @@
       ]
     },
     {
-      "id": "1783280225",
-      "title": "toxic till the end",
-      "artist": "로제",
-      "artistId": "1406242696",
-      "releaseDate": "2024-11-27",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4d/cb/54/4dcb5453-7493-cd68-81f8-fc7ae28101ce/8800287299416_cover.jpg/100x100bb.jpg",
+      "id": "6799878518",
+      "title": "없어",
+      "artist": "Shane",
+      "artistId": "1572242646",
+      "releaseDate": "2026-08-18",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d8/06/bc/d806bc48-0b66-a4d4-80e1-5ee29d652c71/8800388636516_cover.jpg/100x100bb.jpg",
       "genres": [
-        "음악",
-        "록",
-        "컨트리"
+        "R&B/소울",
+        "음악"
       ],
-      "appleUrl": "https://music.apple.com/kr/album/toxic-till-the-end/1783280221?i=1783280225",
+      "appleUrl": "https://music.apple.com/kr/album/%EC%97%86%EC%96%B4/6799878516?i=6799878518",
       "previewUrl": null,
-      "chartRank": 39,
+      "chartRank": 40,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -2140,7 +2171,7 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/kr/album/toxic-till-the-end/1783280221?i=1783280225"
+        "apple": "https://music.apple.com/kr/album/%EC%97%86%EC%96%B4/6799878516?i=6799878518"
       },
       "sourceKinds": [
         "apple-kr-chart"
@@ -2159,7 +2190,7 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/kiss-kiss-kiss-prod-by-hukky-shibaseki-feat-sunwoo/1886030533?i=1886030615",
       "previewUrl": null,
-      "chartRank": 40,
+      "chartRank": 41,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -2190,7 +2221,7 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/whiplash/1772644600?i=1772644601",
       "previewUrl": null,
-      "chartRank": 41,
+      "chartRank": 42,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -2202,6 +2233,37 @@
       "searchAliases": [],
       "platformLinks": {
         "apple": "https://music.apple.com/kr/album/whiplash/1772644600?i=1772644601"
+      },
+      "sourceKinds": [
+        "apple-kr-chart"
+      ]
+    },
+    {
+      "id": "1889474652",
+      "title": "Runaway",
+      "artist": "리센느",
+      "artistId": "1732658659",
+      "releaseDate": "2026-04-08",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/6c/94/62/6c946232-183b-9e28-01c8-d630b41ca3a8/888272179019_Cover.jpg/100x100bb.jpg",
+      "genres": [
+        "K-Pop",
+        "음악",
+        "팝"
+      ],
+      "appleUrl": "https://music.apple.com/kr/album/runaway/1889474645?i=1889474652",
+      "previewUrl": null,
+      "chartRank": 43,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/kr/album/runaway/1889474645?i=1889474652"
       },
       "sourceKinds": [
         "apple-kr-chart"
@@ -2222,7 +2284,7 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/vancouver/1622167330?i=1622167332",
       "previewUrl": null,
-      "chartRank": 42,
+      "chartRank": 44,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -2254,7 +2316,7 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/guitarist/6807359386?i=6807359390",
       "previewUrl": null,
-      "chartRank": 43,
+      "chartRank": 45,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -2272,20 +2334,20 @@
       ]
     },
     {
-      "id": "1543850904",
-      "title": "거리에서",
-      "artist": "성시경",
-      "artistId": "48218076",
-      "releaseDate": "2006-10-10",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/21/7c/88/217c88ed-80bf-adfa-7cdf-a5c219daf9f7/8809784722939.jpg/100x100bb.jpg",
+      "id": "1610108181",
+      "title": "Love Love Love (feat. 융진)",
+      "artist": "에픽하이",
+      "artistId": "139334133",
+      "releaseDate": "2006-02-13",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/c3/56/b2/c356b23d-6844-46a8-bbfc-1206dbfcde52/08809114102691_Cover.jpg/100x100bb.jpg",
       "genres": [
         "K-Pop",
         "음악",
         "팝"
       ],
-      "appleUrl": "https://music.apple.com/kr/album/%EA%B1%B0%EB%A6%AC%EC%97%90%EC%84%9C/1543850903?i=1543850904",
+      "appleUrl": "https://music.apple.com/kr/album/love-love-love-feat-%EC%9C%B5%EC%A7%84/1610106934?i=1610108181",
       "previewUrl": null,
-      "chartRank": 44,
+      "chartRank": 47,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -2296,27 +2358,27 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/kr/album/%EA%B1%B0%EB%A6%AC%EC%97%90%EC%84%9C/1543850903?i=1543850904"
+        "apple": "https://music.apple.com/kr/album/love-love-love-feat-%EC%9C%B5%EC%A7%84/1610106934?i=1610108181"
       },
       "sourceKinds": [
         "apple-kr-chart"
       ]
     },
     {
-      "id": "1889474652",
-      "title": "Runaway",
-      "artist": "리센느",
-      "artistId": "1732658659",
-      "releaseDate": "2026-04-08",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/6c/94/62/6c946232-183b-9e28-01c8-d630b41ca3a8/888272179019_Cover.jpg/100x100bb.jpg",
+      "id": "1635469851",
+      "title": "Hype Boy",
+      "artist": "뉴진스",
+      "artistId": "1635469693",
+      "releaseDate": "2022-08-01",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/4e/64/34/4e64344b-3ac6-c503-2c41-257a15401416/192641873096_Cover.jpg/100x100bb.jpg",
       "genres": [
         "K-Pop",
         "음악",
         "팝"
       ],
-      "appleUrl": "https://music.apple.com/kr/album/runaway/1889474645?i=1889474652",
+      "appleUrl": "https://music.apple.com/kr/album/hype-boy/1635469682?i=1635469851",
       "previewUrl": null,
-      "chartRank": 45,
+      "chartRank": 48,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -2327,7 +2389,38 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/kr/album/runaway/1889474645?i=1889474652"
+        "apple": "https://music.apple.com/kr/album/hype-boy/1635469682?i=1635469851"
+      },
+      "sourceKinds": [
+        "apple-kr-chart"
+      ]
+    },
+    {
+      "id": "1734500896",
+      "title": "Magnetic",
+      "artist": "아일릿",
+      "artistId": "1734551937",
+      "releaseDate": "2024-03-25",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/3e/49/1e/3e491e43-4961-21ab-2abe-37fb1c0feb40/196922879227_Cover.jpg/100x100bb.jpg",
+      "genres": [
+        "K-Pop",
+        "음악",
+        "팝"
+      ],
+      "appleUrl": "https://music.apple.com/kr/album/magnetic/1734500886?i=1734500896",
+      "previewUrl": null,
+      "chartRank": 49,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/kr/album/magnetic/1734500886?i=1734500896"
       },
       "sourceKinds": [
         "apple-kr-chart"
@@ -2346,7 +2439,7 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/%EC%82%AC%EB%9E%91%EC%9C%BC%EB%A1%9C/1770274106?i=1770274550",
       "previewUrl": null,
-      "chartRank": 47,
+      "chartRank": 50,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -2378,7 +2471,7 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/its-you-feat-no-el/1692738272?i=1692738275",
       "previewUrl": null,
-      "chartRank": 48,
+      "chartRank": 51,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -2390,37 +2483,6 @@
       "searchAliases": [],
       "platformLinks": {
         "apple": "https://music.apple.com/kr/album/its-you-feat-no-el/1692738272?i=1692738275"
-      },
-      "sourceKinds": [
-        "apple-kr-chart"
-      ]
-    },
-    {
-      "id": "1635469851",
-      "title": "Hype Boy",
-      "artist": "뉴진스",
-      "artistId": "1635469693",
-      "releaseDate": "2022-08-01",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/4e/64/34/4e64344b-3ac6-c503-2c41-257a15401416/192641873096_Cover.jpg/100x100bb.jpg",
-      "genres": [
-        "K-Pop",
-        "음악",
-        "팝"
-      ],
-      "appleUrl": "https://music.apple.com/kr/album/hype-boy/1635469682?i=1635469851",
-      "previewUrl": null,
-      "chartRank": 49,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": null,
-      "trackCount": null,
-      "discNumber": null,
-      "discCount": null,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/kr/album/hype-boy/1635469682?i=1635469851"
       },
       "sourceKinds": [
         "apple-kr-chart"
@@ -2439,7 +2501,7 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/yours/1806264605?i=1806264606",
       "previewUrl": null,
-      "chartRank": 50,
+      "chartRank": 52,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -2457,20 +2519,20 @@
       ]
     },
     {
-      "id": "1734500896",
-      "title": "Magnetic",
-      "artist": "아일릿",
-      "artistId": "1734551937",
-      "releaseDate": "2024-03-25",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/3e/49/1e/3e491e43-4961-21ab-2abe-37fb1c0feb40/196922879227_Cover.jpg/100x100bb.jpg",
+      "id": "6803731729",
+      "title": "Skibidi",
+      "artist": "소녀시대-효리수",
+      "artistId": "6803731728",
+      "releaseDate": "2026-08-31",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2a/a8/2b/2aa82b6e-1378-a90f-5281-90c4d642c33b/Untitled.jpg/100x100bb.jpg",
       "genres": [
         "K-Pop",
         "음악",
         "팝"
       ],
-      "appleUrl": "https://music.apple.com/kr/album/magnetic/1734500886?i=1734500896",
+      "appleUrl": "https://music.apple.com/kr/album/skibidi/6803731727?i=6803731729",
       "previewUrl": null,
-      "chartRank": 51,
+      "chartRank": 53,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -2481,7 +2543,38 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/kr/album/magnetic/1734500886?i=1734500896"
+        "apple": "https://music.apple.com/kr/album/skibidi/6803731727?i=6803731729"
+      },
+      "sourceKinds": [
+        "apple-kr-chart"
+      ]
+    },
+    {
+      "id": "1819694546",
+      "title": "STYLE",
+      "artist": "Hearts2Hearts",
+      "artistId": "1793698498",
+      "releaseDate": "2025-06-18",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/05/f3/0b/05f30b30-22fb-3c21-c497-8fd8829f2004/888735952135.png/100x100bb.jpg",
+      "genres": [
+        "K-Pop",
+        "음악",
+        "팝"
+      ],
+      "appleUrl": "https://music.apple.com/kr/album/style/1819694545?i=1819694546",
+      "previewUrl": null,
+      "chartRank": 54,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/kr/album/style/1819694545?i=1819694546"
       },
       "sourceKinds": [
         "apple-kr-chart"
@@ -2502,7 +2595,7 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/%EC%9D%B4-%EB%B3%84%EB%A1%9C%EB%B6%80%ED%84%B0/6808583617?i=6808583618",
       "previewUrl": null,
-      "chartRank": 52,
+      "chartRank": 55,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -2520,21 +2613,19 @@
       ]
     },
     {
-      "id": "1573192803",
-      "title": "사계",
-      "artist": "양홍원",
-      "artistId": "1265125493",
-      "releaseDate": "2021-06-19",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/1d/91/d0/1d91d04e-e509-2d85-72f7-dcffe5359d13/cover-_0601.jpg/100x100bb.jpg",
+      "id": "1608880079",
+      "title": "Trip (feat. Hannah)",
+      "artist": "릴러말즈",
+      "artistId": "1107586891",
+      "releaseDate": "2018-09-10",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/d2/6f/40/d26f4042-607f-3cef-b70c-8426e9d13e6f/8809603548191_Cover.jpg/100x100bb.jpg",
       "genres": [
-        "K-Pop",
         "음악",
-        "팝",
         "힙합/랩"
       ],
-      "appleUrl": "https://music.apple.com/kr/album/%EC%82%AC%EA%B3%84/1573192793?i=1573192803",
+      "appleUrl": "https://music.apple.com/kr/album/trip-feat-hannah/1608880065?i=1608880079",
       "previewUrl": null,
-      "chartRank": 53,
+      "chartRank": 56,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -2545,38 +2636,7 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/kr/album/%EC%82%AC%EA%B3%84/1573192793?i=1573192803"
-      },
-      "sourceKinds": [
-        "apple-kr-chart"
-      ]
-    },
-    {
-      "id": "1610108181",
-      "title": "Love Love Love (feat. 융진)",
-      "artist": "에픽하이",
-      "artistId": "139334133",
-      "releaseDate": "2006-02-13",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/c3/56/b2/c356b23d-6844-46a8-bbfc-1206dbfcde52/08809114102691_Cover.jpg/100x100bb.jpg",
-      "genres": [
-        "K-Pop",
-        "음악",
-        "팝"
-      ],
-      "appleUrl": "https://music.apple.com/kr/album/love-love-love-feat-%EC%9C%B5%EC%A7%84/1610106934?i=1610108181",
-      "previewUrl": null,
-      "chartRank": 54,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": null,
-      "trackCount": null,
-      "discNumber": null,
-      "discCount": null,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/kr/album/love-love-love-feat-%EC%9C%B5%EC%A7%84/1610106934?i=1610108181"
+        "apple": "https://music.apple.com/kr/album/trip-feat-hannah/1608880065?i=1608880079"
       },
       "sourceKinds": [
         "apple-kr-chart"
@@ -2597,68 +2657,6 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/antifreeze/1316404325?i=1316404636",
       "previewUrl": null,
-      "chartRank": 55,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": null,
-      "trackCount": null,
-      "discNumber": null,
-      "discCount": null,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/kr/album/antifreeze/1316404325?i=1316404636"
-      },
-      "sourceKinds": [
-        "apple-kr-chart"
-      ]
-    },
-    {
-      "id": "6803731729",
-      "title": "Skibidi",
-      "artist": "소녀시대-효리수",
-      "artistId": "6803731728",
-      "releaseDate": "2026-08-31",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2a/a8/2b/2aa82b6e-1378-a90f-5281-90c4d642c33b/Untitled.jpg/100x100bb.jpg",
-      "genres": [
-        "K-Pop",
-        "음악",
-        "팝"
-      ],
-      "appleUrl": "https://music.apple.com/kr/album/skibidi/6803731727?i=6803731729",
-      "previewUrl": null,
-      "chartRank": 56,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": null,
-      "trackCount": null,
-      "discNumber": null,
-      "discCount": null,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/kr/album/skibidi/6803731727?i=6803731729"
-      },
-      "sourceKinds": [
-        "apple-kr-chart"
-      ]
-    },
-    {
-      "id": "1635469694",
-      "title": "Attention",
-      "artist": "뉴진스",
-      "artistId": "1635469693",
-      "releaseDate": "2022-08-01",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/4e/64/34/4e64344b-3ac6-c503-2c41-257a15401416/192641873096_Cover.jpg/100x100bb.jpg",
-      "genres": [
-        "K-Pop",
-        "음악",
-        "팝"
-      ],
-      "appleUrl": "https://music.apple.com/kr/album/attention/1635469682?i=1635469694",
-      "previewUrl": null,
       "chartRank": 57,
       "collectionId": null,
       "collectionName": null,
@@ -2670,68 +2668,7 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/kr/album/attention/1635469682?i=1635469694"
-      },
-      "sourceKinds": [
-        "apple-kr-chart"
-      ]
-    },
-    {
-      "id": "1608880079",
-      "title": "Trip (feat. Hannah)",
-      "artist": "릴러말즈",
-      "artistId": "1107586891",
-      "releaseDate": "2018-09-10",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/d2/6f/40/d26f4042-607f-3cef-b70c-8426e9d13e6f/8809603548191_Cover.jpg/100x100bb.jpg",
-      "genres": [
-        "음악",
-        "힙합/랩"
-      ],
-      "appleUrl": "https://music.apple.com/kr/album/trip-feat-hannah/1608880065?i=1608880079",
-      "previewUrl": null,
-      "chartRank": 58,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": null,
-      "trackCount": null,
-      "discNumber": null,
-      "discCount": null,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/kr/album/trip-feat-hannah/1608880065?i=1608880079"
-      },
-      "sourceKinds": [
-        "apple-kr-chart"
-      ]
-    },
-    {
-      "id": "1819694546",
-      "title": "STYLE",
-      "artist": "Hearts2Hearts",
-      "artistId": "1793698498",
-      "releaseDate": "2025-06-18",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/05/f3/0b/05f30b30-22fb-3c21-c497-8fd8829f2004/888735952135.png/100x100bb.jpg",
-      "genres": [
-        "K-Pop",
-        "음악",
-        "팝"
-      ],
-      "appleUrl": "https://music.apple.com/kr/album/style/1819694545?i=1819694546",
-      "previewUrl": null,
-      "chartRank": 59,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": null,
-      "trackCount": null,
-      "discNumber": null,
-      "discCount": null,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/kr/album/style/1819694545?i=1819694546"
+        "apple": "https://music.apple.com/kr/album/antifreeze/1316404325?i=1316404636"
       },
       "sourceKinds": [
         "apple-kr-chart"
@@ -2752,7 +2689,7 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/antifreeze/1747314944?i=1747314948",
       "previewUrl": null,
-      "chartRank": 60,
+      "chartRank": 58,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -2764,6 +2701,69 @@
       "searchAliases": [],
       "platformLinks": {
         "apple": "https://music.apple.com/kr/album/antifreeze/1747314944?i=1747314948"
+      },
+      "sourceKinds": [
+        "apple-kr-chart"
+      ]
+    },
+    {
+      "id": "1635469694",
+      "title": "Attention",
+      "artist": "뉴진스",
+      "artistId": "1635469693",
+      "releaseDate": "2022-08-01",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/4e/64/34/4e64344b-3ac6-c503-2c41-257a15401416/192641873096_Cover.jpg/100x100bb.jpg",
+      "genres": [
+        "K-Pop",
+        "음악",
+        "팝"
+      ],
+      "appleUrl": "https://music.apple.com/kr/album/attention/1635469682?i=1635469694",
+      "previewUrl": null,
+      "chartRank": 59,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/kr/album/attention/1635469682?i=1635469694"
+      },
+      "sourceKinds": [
+        "apple-kr-chart"
+      ]
+    },
+    {
+      "id": "1573192803",
+      "title": "사계",
+      "artist": "양홍원",
+      "artistId": "1265125493",
+      "releaseDate": "2021-06-19",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/1d/91/d0/1d91d04e-e509-2d85-72f7-dcffe5359d13/cover-_0601.jpg/100x100bb.jpg",
+      "genres": [
+        "K-Pop",
+        "음악",
+        "팝",
+        "힙합/랩"
+      ],
+      "appleUrl": "https://music.apple.com/kr/album/%EC%82%AC%EA%B3%84/1573192793?i=1573192803",
+      "previewUrl": null,
+      "chartRank": 60,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/kr/album/%EC%82%AC%EA%B3%84/1573192793?i=1573192803"
       },
       "sourceKinds": [
         "apple-kr-chart"
@@ -2864,18 +2864,18 @@
       ]
     },
     {
-      "id": "1780254692",
-      "title": "Skrr (feat. 지젤)",
-      "artist": "김하온",
-      "artistId": "1368665614",
-      "releaseDate": "2024-11-20",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/ca/44/b9ca4462-4197-6ece-c43f-a9a229203e69/5034644289472.jpg/100x100bb.jpg",
+      "id": "1892954841",
+      "title": "Heavy Serenade",
+      "artist": "NMIXX",
+      "artistId": "1600411676",
+      "releaseDate": "2026-05-11",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fe/cd/64/fecd6408-3ace-12b5-7ad7-c5d2ac891168/8809928958262.jpg/100x100bb.jpg",
       "genres": [
         "K-Pop",
         "음악",
         "팝"
       ],
-      "appleUrl": "https://music.apple.com/kr/album/skrr-feat-%EC%A7%80%EC%A0%A4/1780254494?i=1780254692",
+      "appleUrl": "https://music.apple.com/kr/album/heavy-serenade/1892954835?i=1892954841",
       "previewUrl": null,
       "chartRank": 64,
       "collectionId": null,
@@ -2888,70 +2888,7 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/kr/album/skrr-feat-%EC%A7%80%EC%A0%A4/1780254494?i=1780254692"
-      },
-      "sourceKinds": [
-        "apple-kr-chart"
-      ]
-    },
-    {
-      "id": "1738889871",
-      "title": "좋은 밤 좋은 꿈",
-      "artist": "Nerd Connection",
-      "artistId": "1459227743",
-      "releaseDate": "2020-03-23",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7a/f9/77/7af977be-cf12-73f4-7534-a54359205405/cover_KM0019696_1.jpg/100x100bb.jpg",
-      "genres": [
-        "K-Pop",
-        "음악",
-        "팝",
-        "록"
-      ],
-      "appleUrl": "https://music.apple.com/kr/album/%EC%A2%8B%EC%9D%80-%EB%B0%A4-%EC%A2%8B%EC%9D%80-%EA%BF%88/1738889870?i=1738889871",
-      "previewUrl": null,
-      "chartRank": 65,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": null,
-      "trackCount": null,
-      "discNumber": null,
-      "discCount": null,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/kr/album/%EC%A2%8B%EC%9D%80-%EB%B0%A4-%EC%A2%8B%EC%9D%80-%EA%BF%88/1738889870?i=1738889871"
-      },
-      "sourceKinds": [
-        "apple-kr-chart"
-      ]
-    },
-    {
-      "id": "1702792482",
-      "title": "그대만 있다면 (영화 '여름날 우리')",
-      "artist": "Nerd Connection",
-      "artistId": "1459227743",
-      "releaseDate": "2023-08-15",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/66/39/f0/6639f07c-9350-c249-6558-72e4c88ce7fe/cover_KM0018050_1.jpg/100x100bb.jpg",
-      "genres": [
-        "K-Pop",
-        "음악",
-        "팝"
-      ],
-      "appleUrl": "https://music.apple.com/kr/album/%EA%B7%B8%EB%8C%80%EB%A7%8C-%EC%9E%88%EB%8B%A4%EB%A9%B4-%EC%98%81%ED%99%94-%EC%97%AC%EB%A6%84%EB%82%A0-%EC%9A%B0%EB%A6%AC/1702792481?i=1702792482",
-      "previewUrl": null,
-      "chartRank": 66,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": null,
-      "trackCount": null,
-      "discNumber": null,
-      "discCount": null,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/kr/album/%EA%B7%B8%EB%8C%80%EB%A7%8C-%EC%9E%88%EB%8B%A4%EB%A9%B4-%EC%98%81%ED%99%94-%EC%97%AC%EB%A6%84%EB%82%A0-%EC%9A%B0%EB%A6%AC/1702792481?i=1702792482"
+        "apple": "https://music.apple.com/kr/album/heavy-serenade/1892954835?i=1892954841"
       },
       "sourceKinds": [
         "apple-kr-chart"
@@ -2971,7 +2908,7 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/%ED%96%89%EB%B3%B5%ED%95%98%EC%A7%80-%EB%A7%90%EC%95%84%EC%9A%94/1567879670?i=1567879852",
       "previewUrl": null,
-      "chartRank": 67,
+      "chartRank": 65,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -2983,6 +2920,68 @@
       "searchAliases": [],
       "platformLinks": {
         "apple": "https://music.apple.com/kr/album/%ED%96%89%EB%B3%B5%ED%95%98%EC%A7%80-%EB%A7%90%EC%95%84%EC%9A%94/1567879670?i=1567879852"
+      },
+      "sourceKinds": [
+        "apple-kr-chart"
+      ]
+    },
+    {
+      "id": "1780254692",
+      "title": "Skrr (feat. 지젤)",
+      "artist": "김하온",
+      "artistId": "1368665614",
+      "releaseDate": "2024-11-20",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/ca/44/b9ca4462-4197-6ece-c43f-a9a229203e69/5034644289472.jpg/100x100bb.jpg",
+      "genres": [
+        "K-Pop",
+        "음악",
+        "팝"
+      ],
+      "appleUrl": "https://music.apple.com/kr/album/skrr-feat-%EC%A7%80%EC%A0%A4/1780254494?i=1780254692",
+      "previewUrl": null,
+      "chartRank": 66,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/kr/album/skrr-feat-%EC%A7%80%EC%A0%A4/1780254494?i=1780254692"
+      },
+      "sourceKinds": [
+        "apple-kr-chart"
+      ]
+    },
+    {
+      "id": "1702792482",
+      "title": "그대만 있다면 (영화 '여름날 우리')",
+      "artist": "Nerd Connection",
+      "artistId": "1459227743",
+      "releaseDate": "2023-08-15",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/66/39/f0/6639f07c-9350-c249-6558-72e4c88ce7fe/cover_KM0018050_1.jpg/100x100bb.jpg",
+      "genres": [
+        "K-Pop",
+        "음악",
+        "팝"
+      ],
+      "appleUrl": "https://music.apple.com/kr/album/%EA%B7%B8%EB%8C%80%EB%A7%8C-%EC%9E%88%EB%8B%A4%EB%A9%B4-%EC%98%81%ED%99%94-%EC%97%AC%EB%A6%84%EB%82%A0-%EC%9A%B0%EB%A6%AC/1702792481?i=1702792482",
+      "previewUrl": null,
+      "chartRank": 67,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/kr/album/%EA%B7%B8%EB%8C%80%EB%A7%8C-%EC%9E%88%EB%8B%A4%EB%A9%B4-%EC%98%81%ED%99%94-%EC%97%AC%EB%A6%84%EB%82%A0-%EC%9A%B0%EB%A6%AC/1702792481?i=1702792482"
       },
       "sourceKinds": [
         "apple-kr-chart"
@@ -3020,6 +3019,38 @@
       ]
     },
     {
+      "id": "1738889871",
+      "title": "좋은 밤 좋은 꿈",
+      "artist": "Nerd Connection",
+      "artistId": "1459227743",
+      "releaseDate": "2020-03-23",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7a/f9/77/7af977be-cf12-73f4-7534-a54359205405/cover_KM0019696_1.jpg/100x100bb.jpg",
+      "genres": [
+        "K-Pop",
+        "음악",
+        "팝",
+        "록"
+      ],
+      "appleUrl": "https://music.apple.com/kr/album/%EC%A2%8B%EC%9D%80-%EB%B0%A4-%EC%A2%8B%EC%9D%80-%EA%BF%88/1738889870?i=1738889871",
+      "previewUrl": null,
+      "chartRank": 69,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/kr/album/%EC%A2%8B%EC%9D%80-%EB%B0%A4-%EC%A2%8B%EC%9D%80-%EA%BF%88/1738889870?i=1738889871"
+      },
+      "sourceKinds": [
+        "apple-kr-chart"
+      ]
+    },
+    {
       "id": "6807315057",
       "title": "Moonride",
       "artist": "Hearts2Hearts",
@@ -3033,7 +3064,7 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/moonride/6807315056?i=6807315057",
       "previewUrl": null,
-      "chartRank": 69,
+      "chartRank": 71,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -3051,20 +3082,21 @@
       ]
     },
     {
-      "id": "1892954841",
-      "title": "Heavy Serenade",
-      "artist": "NMIXX",
-      "artistId": "1600411676",
-      "releaseDate": "2026-05-11",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fe/cd/64/fecd6408-3ace-12b5-7ad7-c5d2ac891168/8809928958262.jpg/100x100bb.jpg",
+      "id": "1683448656",
+      "title": "Drowning",
+      "artist": "WOODZ",
+      "artistId": "1414840245",
+      "releaseDate": "2023-04-26",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/07/91/0d/07910df6-5ab5-0867-3be5-900cf9d11018/cover_KM0016894_1.jpg/100x100bb.jpg",
       "genres": [
         "K-Pop",
         "음악",
-        "팝"
+        "팝",
+        "록"
       ],
-      "appleUrl": "https://music.apple.com/kr/album/heavy-serenade/1892954835?i=1892954841",
+      "appleUrl": "https://music.apple.com/kr/album/drowning/1683448653?i=1683448656",
       "previewUrl": null,
-      "chartRank": 70,
+      "chartRank": 72,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -3075,55 +3107,25 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/kr/album/heavy-serenade/1892954835?i=1892954841"
+        "apple": "https://music.apple.com/kr/album/drowning/1683448653?i=1683448656"
       },
       "sourceKinds": [
         "apple-kr-chart"
       ]
     },
     {
-      "id": "6797774242",
-      "title": "Candy Pink Magic Hole Flip Phone",
-      "artist": "키키",
-      "artistId": "1795471746",
-      "releaseDate": "2026-08-10",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/78/84/f3/7884f392-c186-f234-fc2a-7a7b5edeb9ba/cover_KM0025032_1.jpg/100x100bb.jpg",
+      "id": "1661608702",
+      "title": "그대 작은 나의 세상이 되어",
+      "artist": "카더가든",
+      "artistId": "1020577647",
+      "releaseDate": "2021-01-28",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/a1/f1/d9/a1f1d9ed-4367-b40e-42ac-27992280a208/Car_the_garden.jpg/100x100bb.jpg",
       "genres": [
         "K-Pop",
         "음악",
         "팝"
       ],
-      "appleUrl": "https://music.apple.com/kr/album/candy-pink-magic-hole-flip-phone/6797773845?i=6797774242",
-      "previewUrl": null,
-      "chartRank": 71,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": null,
-      "trackCount": null,
-      "discNumber": null,
-      "discCount": null,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/kr/album/candy-pink-magic-hole-flip-phone/6797773845?i=6797774242"
-      },
-      "sourceKinds": [
-        "apple-kr-chart"
-      ]
-    },
-    {
-      "id": "1813426209",
-      "title": "너",
-      "artist": "SYSTEM SEOUL & ycs",
-      "artistId": "1812849650",
-      "releaseDate": "2025-05-16",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c6/9e/26/c69e2670-32a7-6133-c9ab-e5034132ff9c/artwork.jpg/100x100bb.jpg",
-      "genres": [
-        "힙합/랩",
-        "음악"
-      ],
-      "appleUrl": "https://music.apple.com/kr/album/%EB%84%88/1813426203?i=1813426209",
+      "appleUrl": "https://music.apple.com/kr/album/%EA%B7%B8%EB%8C%80-%EC%9E%91%EC%9D%80-%EB%82%98%EC%9D%98-%EC%84%B8%EC%83%81%EC%9D%B4-%EB%90%98%EC%96%B4/1661608701?i=1661608702",
       "previewUrl": null,
       "chartRank": 73,
       "collectionId": null,
@@ -3136,7 +3138,7 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/kr/album/%EB%84%88/1813426203?i=1813426209"
+        "apple": "https://music.apple.com/kr/album/%EA%B7%B8%EB%8C%80-%EC%9E%91%EC%9D%80-%EB%82%98%EC%9D%98-%EC%84%B8%EC%83%81%EC%9D%B4-%EB%90%98%EC%96%B4/1661608701?i=1661608702"
       },
       "sourceKinds": [
         "apple-kr-chart"
@@ -3174,18 +3176,19 @@
       ]
     },
     {
-      "id": "1661608702",
-      "title": "그대 작은 나의 세상이 되어",
-      "artist": "카더가든",
-      "artistId": "1020577647",
-      "releaseDate": "2021-01-28",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/a1/f1/d9/a1f1d9ed-4367-b40e-42ac-27992280a208/Car_the_garden.jpg/100x100bb.jpg",
+      "id": "345400888",
+      "title": "사랑은 봄비처럼...이별은 겨울비처럼",
+      "artist": "임현정",
+      "artistId": "1468829603",
+      "releaseDate": "2003-03-25",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music/00/2f/94/mzi.crijpvtm.jpg/100x89bb.jpg",
       "genres": [
         "K-Pop",
         "음악",
-        "팝"
+        "팝",
+        "록"
       ],
-      "appleUrl": "https://music.apple.com/kr/album/%EA%B7%B8%EB%8C%80-%EC%9E%91%EC%9D%80-%EB%82%98%EC%9D%98-%EC%84%B8%EC%83%81%EC%9D%B4-%EB%90%98%EC%96%B4/1661608701?i=1661608702",
+      "appleUrl": "https://music.apple.com/kr/album/%EC%82%AC%EB%9E%91%EC%9D%80-%EB%B4%84%EB%B9%84%EC%B2%98%EB%9F%BC-%EC%9D%B4%EB%B3%84%EC%9D%80-%EA%B2%A8%EC%9A%B8%EB%B9%84%EC%B2%98%EB%9F%BC/345400869?i=345400888",
       "previewUrl": null,
       "chartRank": 75,
       "collectionId": null,
@@ -3198,7 +3201,38 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/kr/album/%EA%B7%B8%EB%8C%80-%EC%9E%91%EC%9D%80-%EB%82%98%EC%9D%98-%EC%84%B8%EC%83%81%EC%9D%B4-%EB%90%98%EC%96%B4/1661608701?i=1661608702"
+        "apple": "https://music.apple.com/kr/album/%EC%82%AC%EB%9E%91%EC%9D%80-%EB%B4%84%EB%B9%84%EC%B2%98%EB%9F%BC-%EC%9D%B4%EB%B3%84%EC%9D%80-%EA%B2%A8%EC%9A%B8%EB%B9%84%EC%B2%98%EB%9F%BC/345400869?i=345400888"
+      },
+      "sourceKinds": [
+        "apple-kr-chart"
+      ]
+    },
+    {
+      "id": "6797774242",
+      "title": "Candy Pink Magic Hole Flip Phone",
+      "artist": "키키",
+      "artistId": "1795471746",
+      "releaseDate": "2026-08-10",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/78/84/f3/7884f392-c186-f234-fc2a-7a7b5edeb9ba/cover_KM0025032_1.jpg/100x100bb.jpg",
+      "genres": [
+        "K-Pop",
+        "음악",
+        "팝"
+      ],
+      "appleUrl": "https://music.apple.com/kr/album/candy-pink-magic-hole-flip-phone/6797773845?i=6797774242",
+      "previewUrl": null,
+      "chartRank": 76,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/kr/album/candy-pink-magic-hole-flip-phone/6797773845?i=6797774242"
       },
       "sourceKinds": [
         "apple-kr-chart"
@@ -3219,7 +3253,7 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/bye-bye-my-blue/1125890995?i=1125891115",
       "previewUrl": null,
-      "chartRank": 76,
+      "chartRank": 77,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -3231,38 +3265,6 @@
       "searchAliases": [],
       "platformLinks": {
         "apple": "https://music.apple.com/kr/album/bye-bye-my-blue/1125890995?i=1125891115"
-      },
-      "sourceKinds": [
-        "apple-kr-chart"
-      ]
-    },
-    {
-      "id": "1683448656",
-      "title": "Drowning",
-      "artist": "WOODZ",
-      "artistId": "1414840245",
-      "releaseDate": "2023-04-26",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/07/91/0d/07910df6-5ab5-0867-3be5-900cf9d11018/cover_KM0016894_1.jpg/100x100bb.jpg",
-      "genres": [
-        "K-Pop",
-        "음악",
-        "팝",
-        "록"
-      ],
-      "appleUrl": "https://music.apple.com/kr/album/drowning/1683448653?i=1683448656",
-      "previewUrl": null,
-      "chartRank": 78,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": null,
-      "trackCount": null,
-      "discNumber": null,
-      "discCount": null,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/kr/album/drowning/1683448653?i=1683448656"
       },
       "sourceKinds": [
         "apple-kr-chart"
@@ -3282,7 +3284,7 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/biiig/6801365249?i=6801365250",
       "previewUrl": null,
-      "chartRank": 79,
+      "chartRank": 78,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -3314,7 +3316,7 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/%EC%96%B4%EB%96%BB%EA%B2%8C-%EC%9D%B4%EB%B3%84%EA%B9%8C%EC%A7%80-%EC%82%AC%EB%9E%91%ED%95%98%EA%B2%A0%EC%96%B4-%EB%84%90-%EC%82%AC%EB%9E%91%ED%95%98%EB%8A%94-%EA%B1%B0%EC%A7%80/1480802547?i=1480802550",
       "previewUrl": null,
-      "chartRank": 80,
+      "chartRank": 79,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -3332,21 +3334,19 @@
       ]
     },
     {
-      "id": "345400888",
-      "title": "사랑은 봄비처럼...이별은 겨울비처럼",
-      "artist": "임현정",
-      "artistId": "1468829603",
-      "releaseDate": "2003-03-25",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music/00/2f/94/mzi.crijpvtm.jpg/100x89bb.jpg",
+      "id": "1813426209",
+      "title": "너",
+      "artist": "SYSTEM SEOUL & ycs",
+      "artistId": "1812849650",
+      "releaseDate": "2025-05-16",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c6/9e/26/c69e2670-32a7-6133-c9ab-e5034132ff9c/artwork.jpg/100x100bb.jpg",
       "genres": [
-        "K-Pop",
-        "음악",
-        "팝",
-        "록"
+        "힙합/랩",
+        "음악"
       ],
-      "appleUrl": "https://music.apple.com/kr/album/%EC%82%AC%EB%9E%91%EC%9D%80-%EB%B4%84%EB%B9%84%EC%B2%98%EB%9F%BC-%EC%9D%B4%EB%B3%84%EC%9D%80-%EA%B2%A8%EC%9A%B8%EB%B9%84%EC%B2%98%EB%9F%BC/345400869?i=345400888",
+      "appleUrl": "https://music.apple.com/kr/album/%EB%84%88/1813426203?i=1813426209",
       "previewUrl": null,
-      "chartRank": 81,
+      "chartRank": 80,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -3357,38 +3357,7 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/kr/album/%EC%82%AC%EB%9E%91%EC%9D%80-%EB%B4%84%EB%B9%84%EC%B2%98%EB%9F%BC-%EC%9D%B4%EB%B3%84%EC%9D%80-%EA%B2%A8%EC%9A%B8%EB%B9%84%EC%B2%98%EB%9F%BC/345400869?i=345400888"
-      },
-      "sourceKinds": [
-        "apple-kr-chart"
-      ]
-    },
-    {
-      "id": "1887671068",
-      "title": "ACAI",
-      "artist": "코르티스",
-      "artistId": "1831651635",
-      "releaseDate": "2026-05-04",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9b/5f/47/9b5f4711-dc78-2dea-6721-d06709ea5121/198704992810_Cover.jpg/100x100bb.jpg",
-      "genres": [
-        "K-Pop",
-        "음악",
-        "팝"
-      ],
-      "appleUrl": "https://music.apple.com/kr/album/acai/1887671065?i=1887671068",
-      "previewUrl": null,
-      "chartRank": 83,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": null,
-      "trackCount": null,
-      "discNumber": null,
-      "discCount": null,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/kr/album/acai/1887671065?i=1887671068"
+        "apple": "https://music.apple.com/kr/album/%EB%84%88/1813426203?i=1813426209"
       },
       "sourceKinds": [
         "apple-kr-chart"
@@ -3408,7 +3377,7 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/%EB%B9%8C%EB%A0%A4%EC%98%A8-%EA%B3%A0%EC%96%91%EC%9D%B4-do-the-dance/1817427556?i=1817427565",
       "previewUrl": null,
-      "chartRank": 84,
+      "chartRank": 81,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -3439,7 +3408,7 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/%EB%A7%8C%EC%B0%AC%EA%B0%80/6783734895?i=6783734896",
       "previewUrl": null,
-      "chartRank": 85,
+      "chartRank": 82,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -3451,6 +3420,97 @@
       "searchAliases": [],
       "platformLinks": {
         "apple": "https://music.apple.com/kr/album/%EB%A7%8C%EC%B0%AC%EA%B0%80/6783734895?i=6783734896"
+      },
+      "sourceKinds": [
+        "apple-kr-chart"
+      ]
+    },
+    {
+      "id": "1887671068",
+      "title": "ACAI",
+      "artist": "코르티스",
+      "artistId": "1831651635",
+      "releaseDate": "2026-05-04",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9b/5f/47/9b5f4711-dc78-2dea-6721-d06709ea5121/198704992810_Cover.jpg/100x100bb.jpg",
+      "genres": [
+        "K-Pop",
+        "음악",
+        "팝"
+      ],
+      "appleUrl": "https://music.apple.com/kr/album/acai/1887671065?i=1887671068",
+      "previewUrl": null,
+      "chartRank": 85,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/kr/album/acai/1887671065?i=1887671068"
+      },
+      "sourceKinds": [
+        "apple-kr-chart"
+      ]
+    },
+    {
+      "id": "1451566361",
+      "title": "Heroine",
+      "artist": "백 넘버",
+      "artistId": "302361237",
+      "releaseDate": "2015-01-21",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5d/d1/f0/5dd1f0aa-4b50-e6b1-73b1-fb740989afba/00602577303906.rgb.jpg/100x100bb.jpg",
+      "genres": [
+        "음악"
+      ],
+      "appleUrl": "https://music.apple.com/kr/album/heroine/1451566360?i=1451566361",
+      "previewUrl": null,
+      "chartRank": 86,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/kr/album/heroine/1451566360?i=1451566361"
+      },
+      "sourceKinds": [
+        "apple-kr-chart"
+      ]
+    },
+    {
+      "id": "1882581639",
+      "title": "캐치 캐치",
+      "artist": "최예나",
+      "artistId": "1605086668",
+      "releaseDate": "2026-03-11",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2d/1f/99/2d1f997c-6d8b-c312-2156-c2a1ae969c03/888272177749_Cover.jpg/100x100bb.jpg",
+      "genres": [
+        "K-Pop",
+        "음악",
+        "팝"
+      ],
+      "appleUrl": "https://music.apple.com/kr/album/%EC%BA%90%EC%B9%98-%EC%BA%90%EC%B9%98/1882581635?i=1882581639",
+      "previewUrl": null,
+      "chartRank": 87,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/kr/album/%EC%BA%90%EC%B9%98-%EC%BA%90%EC%B9%98/1882581635?i=1882581639"
       },
       "sourceKinds": [
         "apple-kr-chart"
@@ -3471,7 +3531,7 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/alone-feat-leehi/1631806808?i=1631806809",
       "previewUrl": null,
-      "chartRank": 86,
+      "chartRank": 88,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -3489,18 +3549,20 @@
       ]
     },
     {
-      "id": "1451566361",
-      "title": "Heroine",
-      "artist": "백 넘버",
-      "artistId": "302361237",
-      "releaseDate": "2015-01-21",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5d/d1/f0/5dd1f0aa-4b50-e6b1-73b1-fb740989afba/00602577303906.rgb.jpg/100x100bb.jpg",
+      "id": "6769328214",
+      "title": "갑자기",
+      "artist": "아이오아이",
+      "artistId": "1110816583",
+      "releaseDate": "2026-05-19",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4e/f0/d9/4ef0d927-e14f-49c7-b273-e92ed3ce354b/888272181623_Cover.jpg/100x100bb.jpg",
       "genres": [
-        "음악"
+        "K-Pop",
+        "음악",
+        "팝"
       ],
-      "appleUrl": "https://music.apple.com/kr/album/heroine/1451566360?i=1451566361",
+      "appleUrl": "https://music.apple.com/kr/album/%EA%B0%91%EC%9E%90%EA%B8%B0/6769328211?i=6769328214",
       "previewUrl": null,
-      "chartRank": 87,
+      "chartRank": 89,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -3511,7 +3573,69 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/kr/album/heroine/1451566360?i=1451566361"
+        "apple": "https://music.apple.com/kr/album/%EA%B0%91%EC%9E%90%EA%B8%B0/6769328211?i=6769328214"
+      },
+      "sourceKinds": [
+        "apple-kr-chart"
+      ]
+    },
+    {
+      "id": "1832031345",
+      "title": "FaSHioN",
+      "artist": "코르티스",
+      "artistId": "1831651635",
+      "releaseDate": "2025-09-08",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/07/b1/d0/07b1d01f-eada-50a5-bdf5-f3f86b1de566/198704622366_Cover.jpg/100x100bb.jpg",
+      "genres": [
+        "K-Pop",
+        "음악",
+        "팝"
+      ],
+      "appleUrl": "https://music.apple.com/kr/album/fashion/1832031331?i=1832031345",
+      "previewUrl": null,
+      "chartRank": 91,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/kr/album/fashion/1832031331?i=1832031345"
+      },
+      "sourceKinds": [
+        "apple-kr-chart"
+      ]
+    },
+    {
+      "id": "1659513445",
+      "title": "OMG",
+      "artist": "뉴진스",
+      "artistId": "1635469693",
+      "releaseDate": "2023-01-02",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/48/96/08/4896085e-b550-cb0a-3e5b-1f203521cb82/196922265464_Cover.jpg/100x100bb.jpg",
+      "genres": [
+        "K-Pop",
+        "음악",
+        "팝"
+      ],
+      "appleUrl": "https://music.apple.com/kr/album/omg/1659513441?i=1659513445",
+      "previewUrl": null,
+      "chartRank": 92,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/kr/album/omg/1659513441?i=1659513445"
       },
       "sourceKinds": [
         "apple-kr-chart"
@@ -3532,7 +3656,7 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/lov3-feat-bryan-chase-okasian/1802528260?i=1802528268",
       "previewUrl": null,
-      "chartRank": 89,
+      "chartRank": 93,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -3544,37 +3668,6 @@
       "searchAliases": [],
       "platformLinks": {
         "apple": "https://music.apple.com/kr/album/lov3-feat-bryan-chase-okasian/1802528260?i=1802528268"
-      },
-      "sourceKinds": [
-        "apple-kr-chart"
-      ]
-    },
-    {
-      "id": "1659513445",
-      "title": "OMG",
-      "artist": "뉴진스",
-      "artistId": "1635469693",
-      "releaseDate": "2023-01-02",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/48/96/08/4896085e-b550-cb0a-3e5b-1f203521cb82/196922265464_Cover.jpg/100x100bb.jpg",
-      "genres": [
-        "K-Pop",
-        "음악",
-        "팝"
-      ],
-      "appleUrl": "https://music.apple.com/kr/album/omg/1659513441?i=1659513445",
-      "previewUrl": null,
-      "chartRank": 90,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": null,
-      "trackCount": null,
-      "discNumber": null,
-      "discCount": null,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/kr/album/omg/1659513441?i=1659513445"
       },
       "sourceKinds": [
         "apple-kr-chart"
@@ -3594,7 +3687,7 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/armageddon/1745285216?i=1745285228",
       "previewUrl": null,
-      "chartRank": 91,
+      "chartRank": 94,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -3606,37 +3699,6 @@
       "searchAliases": [],
       "platformLinks": {
         "apple": "https://music.apple.com/kr/album/armageddon/1745285216?i=1745285228"
-      },
-      "sourceKinds": [
-        "apple-kr-chart"
-      ]
-    },
-    {
-      "id": "1832031345",
-      "title": "FaSHioN",
-      "artist": "코르티스",
-      "artistId": "1831651635",
-      "releaseDate": "2025-09-08",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/07/b1/d0/07b1d01f-eada-50a5-bdf5-f3f86b1de566/198704622366_Cover.jpg/100x100bb.jpg",
-      "genres": [
-        "K-Pop",
-        "음악",
-        "팝"
-      ],
-      "appleUrl": "https://music.apple.com/kr/album/fashion/1832031331?i=1832031345",
-      "previewUrl": null,
-      "chartRank": 92,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": null,
-      "trackCount": null,
-      "discNumber": null,
-      "discCount": null,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/kr/album/fashion/1832031331?i=1832031345"
       },
       "sourceKinds": [
         "apple-kr-chart"
@@ -3656,37 +3718,6 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/bubble-gum/1744448415?i=1744448549",
       "previewUrl": null,
-      "chartRank": 93,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": null,
-      "trackCount": null,
-      "discNumber": null,
-      "discCount": null,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/kr/album/bubble-gum/1744448415?i=1744448549"
-      },
-      "sourceKinds": [
-        "apple-kr-chart"
-      ]
-    },
-    {
-      "id": "1717383449",
-      "title": "생각을 멈추다 보면",
-      "artist": "최유리",
-      "artistId": "1495022606",
-      "releaseDate": "2023-11-21",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/32/97/bc/3297bccf-d292-f9de-04ef-58d346cde6cf/191953315522.jpg/100x100bb.jpg",
-      "genres": [
-        "음악",
-        "팝",
-        "K-Pop"
-      ],
-      "appleUrl": "https://music.apple.com/kr/album/%EC%83%9D%EA%B0%81%EC%9D%84-%EB%A9%88%EC%B6%94%EB%8B%A4-%EB%B3%B4%EB%A9%B4/1717383448?i=1717383449",
-      "previewUrl": null,
       "chartRank": 95,
       "collectionId": null,
       "collectionName": null,
@@ -3698,69 +3729,7 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/kr/album/%EC%83%9D%EA%B0%81%EC%9D%84-%EB%A9%88%EC%B6%94%EB%8B%A4-%EB%B3%B4%EB%A9%B4/1717383448?i=1717383449"
-      },
-      "sourceKinds": [
-        "apple-kr-chart"
-      ]
-    },
-    {
-      "id": "6769328214",
-      "title": "갑자기",
-      "artist": "아이오아이",
-      "artistId": "1110816583",
-      "releaseDate": "2026-05-19",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4e/f0/d9/4ef0d927-e14f-49c7-b273-e92ed3ce354b/888272181623_Cover.jpg/100x100bb.jpg",
-      "genres": [
-        "K-Pop",
-        "음악",
-        "팝"
-      ],
-      "appleUrl": "https://music.apple.com/kr/album/%EA%B0%91%EC%9E%90%EA%B8%B0/6769328211?i=6769328214",
-      "previewUrl": null,
-      "chartRank": 96,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": null,
-      "trackCount": null,
-      "discNumber": null,
-      "discCount": null,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/kr/album/%EA%B0%91%EC%9E%90%EA%B8%B0/6769328211?i=6769328214"
-      },
-      "sourceKinds": [
-        "apple-kr-chart"
-      ]
-    },
-    {
-      "id": "1818322339",
-      "title": "Dirty Work",
-      "artist": "aespa",
-      "artistId": "1540251304",
-      "releaseDate": "2025-06-27",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/34/87/b3/3487b324-3f81-a740-b66e-8fd992e7defa/888735952029.png/100x100bb.jpg",
-      "genres": [
-        "K-Pop",
-        "음악",
-        "팝"
-      ],
-      "appleUrl": "https://music.apple.com/kr/album/dirty-work/1818322337?i=1818322339",
-      "previewUrl": null,
-      "chartRank": 97,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": null,
-      "trackCount": null,
-      "discNumber": null,
-      "discCount": null,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/kr/album/dirty-work/1818322337?i=1818322339"
+        "apple": "https://music.apple.com/kr/album/bubble-gum/1744448415?i=1744448549"
       },
       "sourceKinds": [
         "apple-kr-chart"
@@ -3781,7 +3750,7 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/home-sweet-home/1546059203?i=1546059209",
       "previewUrl": null,
-      "chartRank": 98,
+      "chartRank": 96,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -3793,6 +3762,68 @@
       "searchAliases": [],
       "platformLinks": {
         "apple": "https://music.apple.com/kr/album/home-sweet-home/1546059203?i=1546059209"
+      },
+      "sourceKinds": [
+        "apple-kr-chart"
+      ]
+    },
+    {
+      "id": "1717383449",
+      "title": "생각을 멈추다 보면",
+      "artist": "최유리",
+      "artistId": "1495022606",
+      "releaseDate": "2023-11-21",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/32/97/bc/3297bccf-d292-f9de-04ef-58d346cde6cf/191953315522.jpg/100x100bb.jpg",
+      "genres": [
+        "음악",
+        "팝",
+        "K-Pop"
+      ],
+      "appleUrl": "https://music.apple.com/kr/album/%EC%83%9D%EA%B0%81%EC%9D%84-%EB%A9%88%EC%B6%94%EB%8B%A4-%EB%B3%B4%EB%A9%B4/1717383448?i=1717383449",
+      "previewUrl": null,
+      "chartRank": 97,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/kr/album/%EC%83%9D%EA%B0%81%EC%9D%84-%EB%A9%88%EC%B6%94%EB%8B%A4-%EB%B3%B4%EB%A9%B4/1717383448?i=1717383449"
+      },
+      "sourceKinds": [
+        "apple-kr-chart"
+      ]
+    },
+    {
+      "id": "1818322339",
+      "title": "Dirty Work",
+      "artist": "aespa",
+      "artistId": "1540251304",
+      "releaseDate": "2025-06-27",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/34/87/b3/3487b324-3f81-a740-b66e-8fd992e7defa/888735952029.png/100x100bb.jpg",
+      "genres": [
+        "K-Pop",
+        "음악",
+        "팝"
+      ],
+      "appleUrl": "https://music.apple.com/kr/album/dirty-work/1818322337?i=1818322339",
+      "previewUrl": null,
+      "chartRank": 98,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/kr/album/dirty-work/1818322337?i=1818322339"
       },
       "sourceKinds": [
         "apple-kr-chart"
@@ -3830,18 +3861,18 @@
       ]
     },
     {
-      "id": "1882581639",
-      "title": "캐치 캐치",
-      "artist": "최예나",
-      "artistId": "1605086668",
-      "releaseDate": "2026-03-11",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2d/1f/99/2d1f997c-6d8b-c312-2156-c2a1ae969c03/888272177749_Cover.jpg/100x100bb.jpg",
+      "id": "1734501146",
+      "title": "Lucky Girl Syndrome",
+      "artist": "아일릿",
+      "artistId": "1734551937",
+      "releaseDate": "2024-03-25",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/3e/49/1e/3e491e43-4961-21ab-2abe-37fb1c0feb40/196922879227_Cover.jpg/100x100bb.jpg",
       "genres": [
         "K-Pop",
         "음악",
         "팝"
       ],
-      "appleUrl": "https://music.apple.com/kr/album/%EC%BA%90%EC%B9%98-%EC%BA%90%EC%B9%98/1882581635?i=1882581639",
+      "appleUrl": "https://music.apple.com/kr/album/lucky-girl-syndrome/1734500886?i=1734501146",
       "previewUrl": null,
       "chartRank": 100,
       "collectionId": null,
@@ -3854,7 +3885,7 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/kr/album/%EC%BA%90%EC%B9%98-%EC%BA%90%EC%B9%98/1882581635?i=1882581639"
+        "apple": "https://music.apple.com/kr/album/lucky-girl-syndrome/1734500886?i=1734501146"
       },
       "sourceKinds": [
         "apple-kr-chart"
@@ -3877,7 +3908,7 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/dear-my-crazy-soulmate/6808583617?i=6808583619",
       "previewUrl": null,
-      "chartRank": 12,
+      "chartRank": 14,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -3908,7 +3939,7 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/new-trick/6812241735?i=6812241736",
       "previewUrl": null,
-      "chartRank": 15,
+      "chartRank": 16,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -3939,7 +3970,7 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/moonride/6807315056?i=6807315057",
       "previewUrl": null,
-      "chartRank": 69,
+      "chartRank": 71,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -3971,7 +4002,7 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/guitarist/6807359386?i=6807359390",
       "previewUrl": null,
-      "chartRank": 43,
+      "chartRank": 45,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -4066,7 +4097,7 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/skibidi/6803731727?i=6803731729",
       "previewUrl": null,
-      "chartRank": 56,
+      "chartRank": 53,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -4191,7 +4222,7 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/biiig/6801365249?i=6801365250",
       "previewUrl": null,
-      "chartRank": 79,
+      "chartRank": 78,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -4221,7 +4252,7 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/%EC%97%86%EC%96%B4/6799878516?i=6799878518",
       "previewUrl": null,
-      "chartRank": 36,
+      "chartRank": 40,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -4314,7 +4345,7 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/pretty-girl/6786111944?i=6786111946",
       "previewUrl": null,
-      "chartRank": 16,
+      "chartRank": 15,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -4345,7 +4376,7 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/%EB%A7%8C%EC%B0%AC%EA%B0%80/6783734895?i=6783734896",
       "previewUrl": null,
-      "chartRank": 85,
+      "chartRank": 82,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -4376,7 +4407,7 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/bad/6770401924?i=6770401926",
       "previewUrl": null,
-      "chartRank": 14,
+      "chartRank": 12,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -4439,7 +4470,7 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/lemonade/1893599771?i=1893599773",
       "previewUrl": null,
-      "chartRank": 11,
+      "chartRank": 10,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -4470,7 +4501,7 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/%EA%B0%91%EC%9E%90%EA%B8%B0/6769328211?i=6769328214",
       "previewUrl": null,
-      "chartRank": 96,
+      "chartRank": 89,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -4501,7 +4532,7 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/heavy-serenade/1892954835?i=1892954841",
       "previewUrl": null,
-      "chartRank": 70,
+      "chartRank": 64,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -4532,7 +4563,7 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/acai/1887671065?i=1887671068",
       "previewUrl": null,
-      "chartRank": 83,
+      "chartRank": 85,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -4595,7 +4626,7 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/%EC%9D%B4-%EB%B3%84%EB%A1%9C%EB%B6%80%ED%84%B0/6808583617?i=6808583618",
       "previewUrl": null,
-      "chartRank": 52,
+      "chartRank": 55,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -4626,7 +4657,7 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/lemon-tang/6779521284?i=6779521286",
       "previewUrl": null,
-      "chartRank": 10,
+      "chartRank": 8,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -4658,7 +4689,7 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/less-than-a-lover/6792226269?i=6792226270",
       "previewUrl": null,
-      "chartRank": 26,
+      "chartRank": 25,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -4689,7 +4720,7 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/grls/6795782851?i=6795782863",
       "previewUrl": null,
-      "chartRank": 8,
+      "chartRank": 11,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -4720,7 +4751,7 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/candy-pink-magic-hole-flip-phone/6797773845?i=6797774242",
       "previewUrl": null,
-      "chartRank": 71,
+      "chartRank": 76,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -4751,7 +4782,7 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/runaway/1889474645?i=1889474652",
       "previewUrl": null,
-      "chartRank": 45,
+      "chartRank": 43,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -4925,36 +4956,6 @@
       ]
     },
     {
-      "id": "1733432325",
-      "title": "영원은 그렇듯",
-      "artist": "리도어",
-      "artistId": "1547913995",
-      "releaseDate": "2021-01-09",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/a1/4d/ec/a14dec1c-aacc-3c49-fa83-300f25f2cab0/8809764938435_Cover.jpg/100x100bb.jpg",
-      "genres": [
-        "음악",
-        "팝"
-      ],
-      "appleUrl": "https://music.apple.com/kr/album/%EC%98%81%EC%9B%90%EC%9D%80-%EA%B7%B8%EB%A0%87%EB%93%AF/1733432313?i=1733432325",
-      "previewUrl": null,
-      "chartRank": 17,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": null,
-      "trackCount": null,
-      "discNumber": null,
-      "discCount": null,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/kr/album/%EC%98%81%EC%9B%90%EC%9D%80-%EA%B7%B8%EB%A0%87%EB%93%AF/1733432313?i=1733432325"
-      },
-      "sourceKinds": [
-        "apple-kr-chart"
-      ]
-    },
-    {
       "id": "1764485172",
       "title": "Pinball",
       "artist": "리센느",
@@ -4968,7 +4969,7 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/pinball/1764485168?i=1764485172",
       "previewUrl": null,
-      "chartRank": 18,
+      "chartRank": 17,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -4980,6 +4981,36 @@
       "searchAliases": [],
       "platformLinks": {
         "apple": "https://music.apple.com/kr/album/pinball/1764485168?i=1764485172"
+      },
+      "sourceKinds": [
+        "apple-kr-chart"
+      ]
+    },
+    {
+      "id": "1733432325",
+      "title": "영원은 그렇듯",
+      "artist": "리도어",
+      "artistId": "1547913995",
+      "releaseDate": "2021-01-09",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/a1/4d/ec/a14dec1c-aacc-3c49-fa83-300f25f2cab0/8809764938435_Cover.jpg/100x100bb.jpg",
+      "genres": [
+        "음악",
+        "팝"
+      ],
+      "appleUrl": "https://music.apple.com/kr/album/%EC%98%81%EC%9B%90%EC%9D%80-%EA%B7%B8%EB%A0%87%EB%93%AF/1733432313?i=1733432325",
+      "previewUrl": null,
+      "chartRank": 18,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/kr/album/%EC%98%81%EC%9B%90%EC%9D%80-%EA%B7%B8%EB%A0%87%EB%93%AF/1733432313?i=1733432325"
       },
       "sourceKinds": [
         "apple-kr-chart"
@@ -5064,7 +5095,7 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/%ED%95%9C%EC%8B%9C-%EC%98%A4%EB%B6%84-1-05/1242154383?i=1242155573",
       "previewUrl": null,
-      "chartRank": 25,
+      "chartRank": 26,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -5128,7 +5159,7 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/%EC%82%AC%EB%9E%91%ED%95%98%EA%B2%8C-%EB%90%A0-%EA%B1%B0%EC%95%BC/1703196819?i=1703196825",
       "previewUrl": null,
-      "chartRank": 29,
+      "chartRank": 28,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -5159,7 +5190,7 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/404-new-era/1868617345?i=1868617347",
       "previewUrl": null,
-      "chartRank": 30,
+      "chartRank": 29,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -5171,37 +5202,6 @@
       "searchAliases": [],
       "platformLinks": {
         "apple": "https://music.apple.com/kr/album/404-new-era/1868617345?i=1868617347"
-      },
-      "sourceKinds": [
-        "apple-kr-chart"
-      ]
-    },
-    {
-      "id": "1569920439",
-      "title": "And July (feat. DEAN & dj friz)",
-      "artist": "헤이즈",
-      "artistId": "805276942",
-      "releaseDate": "2016-07-18",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/a6/9e/ba/a69ebae6-e47c-ec13-c670-4f8a1ffa6584/8809484116656_Cover.jpg/100x100bb.jpg",
-      "genres": [
-        "K-Pop",
-        "음악",
-        "팝"
-      ],
-      "appleUrl": "https://music.apple.com/kr/album/and-july-feat-dean-dj-friz/1569920323?i=1569920439",
-      "previewUrl": null,
-      "chartRank": 31,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": null,
-      "trackCount": null,
-      "discNumber": null,
-      "discCount": null,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/kr/album/and-july-feat-dean-dj-friz/1569920323?i=1569920439"
       },
       "sourceKinds": [
         "apple-kr-chart"
@@ -5221,7 +5221,7 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/focus/1841828519?i=1841828520",
       "previewUrl": null,
-      "chartRank": 32,
+      "chartRank": 31,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -5233,6 +5233,37 @@
       "searchAliases": [],
       "platformLinks": {
         "apple": "https://music.apple.com/kr/album/focus/1841828519?i=1841828520"
+      },
+      "sourceKinds": [
+        "apple-kr-chart"
+      ]
+    },
+    {
+      "id": "1569920439",
+      "title": "And July (feat. DEAN & dj friz)",
+      "artist": "헤이즈",
+      "artistId": "805276942",
+      "releaseDate": "2016-07-18",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/a6/9e/ba/a69ebae6-e47c-ec13-c670-4f8a1ffa6584/8809484116656_Cover.jpg/100x100bb.jpg",
+      "genres": [
+        "K-Pop",
+        "음악",
+        "팝"
+      ],
+      "appleUrl": "https://music.apple.com/kr/album/and-july-feat-dean-dj-friz/1569920323?i=1569920439",
+      "previewUrl": null,
+      "chartRank": 32,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/kr/album/and-july-feat-dean-dj-friz/1569920323?i=1569920439"
       },
       "sourceKinds": [
         "apple-kr-chart"
@@ -5316,7 +5347,7 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/how-sweet/1744448415?i=1744448416",
       "previewUrl": null,
-      "chartRank": 37,
+      "chartRank": 36,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -5328,6 +5359,68 @@
       "searchAliases": [],
       "platformLinks": {
         "apple": "https://music.apple.com/kr/album/how-sweet/1744448415?i=1744448416"
+      },
+      "sourceKinds": [
+        "apple-kr-chart"
+      ]
+    },
+    {
+      "id": "1783280225",
+      "title": "toxic till the end",
+      "artist": "로제",
+      "artistId": "1406242696",
+      "releaseDate": "2024-11-27",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4d/cb/54/4dcb5453-7493-cd68-81f8-fc7ae28101ce/8800287299416_cover.jpg/100x100bb.jpg",
+      "genres": [
+        "음악",
+        "록",
+        "컨트리"
+      ],
+      "appleUrl": "https://music.apple.com/kr/album/toxic-till-the-end/1783280221?i=1783280225",
+      "previewUrl": null,
+      "chartRank": 37,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/kr/album/toxic-till-the-end/1783280221?i=1783280225"
+      },
+      "sourceKinds": [
+        "apple-kr-chart"
+      ]
+    },
+    {
+      "id": "1543850904",
+      "title": "거리에서",
+      "artist": "성시경",
+      "artistId": "48218076",
+      "releaseDate": "2006-10-10",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/21/7c/88/217c88ed-80bf-adfa-7cdf-a5c219daf9f7/8809784722939.jpg/100x100bb.jpg",
+      "genres": [
+        "K-Pop",
+        "음악",
+        "팝"
+      ],
+      "appleUrl": "https://music.apple.com/kr/album/%EA%B1%B0%EB%A6%AC%EC%97%90%EC%84%9C/1543850903?i=1543850904",
+      "previewUrl": null,
+      "chartRank": 38,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/kr/album/%EA%B1%B0%EB%A6%AC%EC%97%90%EC%84%9C/1543850903?i=1543850904"
       },
       "sourceKinds": [
         "apple-kr-chart"
@@ -5348,37 +5441,6 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/flying-high-with-u/1577892511?i=1577892512",
       "previewUrl": null,
-      "chartRank": 38,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": null,
-      "trackCount": null,
-      "discNumber": null,
-      "discCount": null,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/kr/album/flying-high-with-u/1577892511?i=1577892512"
-      },
-      "sourceKinds": [
-        "apple-kr-chart"
-      ]
-    },
-    {
-      "id": "1783280225",
-      "title": "toxic till the end",
-      "artist": "로제",
-      "artistId": "1406242696",
-      "releaseDate": "2024-11-27",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4d/cb/54/4dcb5453-7493-cd68-81f8-fc7ae28101ce/8800287299416_cover.jpg/100x100bb.jpg",
-      "genres": [
-        "음악",
-        "록",
-        "컨트리"
-      ],
-      "appleUrl": "https://music.apple.com/kr/album/toxic-till-the-end/1783280221?i=1783280225",
-      "previewUrl": null,
       "chartRank": 39,
       "collectionId": null,
       "collectionName": null,
@@ -5390,7 +5452,7 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/kr/album/toxic-till-the-end/1783280221?i=1783280225"
+        "apple": "https://music.apple.com/kr/album/flying-high-with-u/1577892511?i=1577892512"
       },
       "sourceKinds": [
         "apple-kr-chart"
@@ -5409,7 +5471,7 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/kiss-kiss-kiss-prod-by-hukky-shibaseki-feat-sunwoo/1886030533?i=1886030615",
       "previewUrl": null,
-      "chartRank": 40,
+      "chartRank": 41,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -5440,7 +5502,7 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/whiplash/1772644600?i=1772644601",
       "previewUrl": null,
-      "chartRank": 41,
+      "chartRank": 42,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -5472,7 +5534,7 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/vancouver/1622167330?i=1622167332",
       "previewUrl": null,
-      "chartRank": 42,
+      "chartRank": 44,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -5490,20 +5552,20 @@
       ]
     },
     {
-      "id": "1543850904",
-      "title": "거리에서",
-      "artist": "성시경",
-      "artistId": "48218076",
-      "releaseDate": "2006-10-10",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/21/7c/88/217c88ed-80bf-adfa-7cdf-a5c219daf9f7/8809784722939.jpg/100x100bb.jpg",
+      "id": "1610108181",
+      "title": "Love Love Love (feat. 융진)",
+      "artist": "에픽하이",
+      "artistId": "139334133",
+      "releaseDate": "2006-02-13",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/c3/56/b2/c356b23d-6844-46a8-bbfc-1206dbfcde52/08809114102691_Cover.jpg/100x100bb.jpg",
       "genres": [
         "K-Pop",
         "음악",
         "팝"
       ],
-      "appleUrl": "https://music.apple.com/kr/album/%EA%B1%B0%EB%A6%AC%EC%97%90%EC%84%9C/1543850903?i=1543850904",
+      "appleUrl": "https://music.apple.com/kr/album/love-love-love-feat-%EC%9C%B5%EC%A7%84/1610106934?i=1610108181",
       "previewUrl": null,
-      "chartRank": 44,
+      "chartRank": 47,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -5514,7 +5576,69 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/kr/album/%EA%B1%B0%EB%A6%AC%EC%97%90%EC%84%9C/1543850903?i=1543850904"
+        "apple": "https://music.apple.com/kr/album/love-love-love-feat-%EC%9C%B5%EC%A7%84/1610106934?i=1610108181"
+      },
+      "sourceKinds": [
+        "apple-kr-chart"
+      ]
+    },
+    {
+      "id": "1635469851",
+      "title": "Hype Boy",
+      "artist": "뉴진스",
+      "artistId": "1635469693",
+      "releaseDate": "2022-08-01",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/4e/64/34/4e64344b-3ac6-c503-2c41-257a15401416/192641873096_Cover.jpg/100x100bb.jpg",
+      "genres": [
+        "K-Pop",
+        "음악",
+        "팝"
+      ],
+      "appleUrl": "https://music.apple.com/kr/album/hype-boy/1635469682?i=1635469851",
+      "previewUrl": null,
+      "chartRank": 48,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/kr/album/hype-boy/1635469682?i=1635469851"
+      },
+      "sourceKinds": [
+        "apple-kr-chart"
+      ]
+    },
+    {
+      "id": "1734500896",
+      "title": "Magnetic",
+      "artist": "아일릿",
+      "artistId": "1734551937",
+      "releaseDate": "2024-03-25",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/3e/49/1e/3e491e43-4961-21ab-2abe-37fb1c0feb40/196922879227_Cover.jpg/100x100bb.jpg",
+      "genres": [
+        "K-Pop",
+        "음악",
+        "팝"
+      ],
+      "appleUrl": "https://music.apple.com/kr/album/magnetic/1734500886?i=1734500896",
+      "previewUrl": null,
+      "chartRank": 49,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/kr/album/magnetic/1734500886?i=1734500896"
       },
       "sourceKinds": [
         "apple-kr-chart"
@@ -5533,7 +5657,7 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/%EC%82%AC%EB%9E%91%EC%9C%BC%EB%A1%9C/1770274106?i=1770274550",
       "previewUrl": null,
-      "chartRank": 47,
+      "chartRank": 50,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -5565,7 +5689,7 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/its-you-feat-no-el/1692738272?i=1692738275",
       "previewUrl": null,
-      "chartRank": 48,
+      "chartRank": 51,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -5577,37 +5701,6 @@
       "searchAliases": [],
       "platformLinks": {
         "apple": "https://music.apple.com/kr/album/its-you-feat-no-el/1692738272?i=1692738275"
-      },
-      "sourceKinds": [
-        "apple-kr-chart"
-      ]
-    },
-    {
-      "id": "1635469851",
-      "title": "Hype Boy",
-      "artist": "뉴진스",
-      "artistId": "1635469693",
-      "releaseDate": "2022-08-01",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/4e/64/34/4e64344b-3ac6-c503-2c41-257a15401416/192641873096_Cover.jpg/100x100bb.jpg",
-      "genres": [
-        "K-Pop",
-        "음악",
-        "팝"
-      ],
-      "appleUrl": "https://music.apple.com/kr/album/hype-boy/1635469682?i=1635469851",
-      "previewUrl": null,
-      "chartRank": 49,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": null,
-      "trackCount": null,
-      "discNumber": null,
-      "discCount": null,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/kr/album/hype-boy/1635469682?i=1635469851"
       },
       "sourceKinds": [
         "apple-kr-chart"
@@ -5626,7 +5719,7 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/yours/1806264605?i=1806264606",
       "previewUrl": null,
-      "chartRank": 50,
+      "chartRank": 52,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -5644,81 +5737,18 @@
       ]
     },
     {
-      "id": "1734500896",
-      "title": "Magnetic",
-      "artist": "아일릿",
-      "artistId": "1734551937",
-      "releaseDate": "2024-03-25",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/3e/49/1e/3e491e43-4961-21ab-2abe-37fb1c0feb40/196922879227_Cover.jpg/100x100bb.jpg",
+      "id": "1819694546",
+      "title": "STYLE",
+      "artist": "Hearts2Hearts",
+      "artistId": "1793698498",
+      "releaseDate": "2025-06-18",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/05/f3/0b/05f30b30-22fb-3c21-c497-8fd8829f2004/888735952135.png/100x100bb.jpg",
       "genres": [
         "K-Pop",
         "음악",
         "팝"
       ],
-      "appleUrl": "https://music.apple.com/kr/album/magnetic/1734500886?i=1734500896",
-      "previewUrl": null,
-      "chartRank": 51,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": null,
-      "trackCount": null,
-      "discNumber": null,
-      "discCount": null,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/kr/album/magnetic/1734500886?i=1734500896"
-      },
-      "sourceKinds": [
-        "apple-kr-chart"
-      ]
-    },
-    {
-      "id": "1573192803",
-      "title": "사계",
-      "artist": "양홍원",
-      "artistId": "1265125493",
-      "releaseDate": "2021-06-19",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/1d/91/d0/1d91d04e-e509-2d85-72f7-dcffe5359d13/cover-_0601.jpg/100x100bb.jpg",
-      "genres": [
-        "K-Pop",
-        "음악",
-        "팝",
-        "힙합/랩"
-      ],
-      "appleUrl": "https://music.apple.com/kr/album/%EC%82%AC%EA%B3%84/1573192793?i=1573192803",
-      "previewUrl": null,
-      "chartRank": 53,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": null,
-      "trackCount": null,
-      "discNumber": null,
-      "discCount": null,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/kr/album/%EC%82%AC%EA%B3%84/1573192793?i=1573192803"
-      },
-      "sourceKinds": [
-        "apple-kr-chart"
-      ]
-    },
-    {
-      "id": "1610108181",
-      "title": "Love Love Love (feat. 융진)",
-      "artist": "에픽하이",
-      "artistId": "139334133",
-      "releaseDate": "2006-02-13",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/c3/56/b2/c356b23d-6844-46a8-bbfc-1206dbfcde52/08809114102691_Cover.jpg/100x100bb.jpg",
-      "genres": [
-        "K-Pop",
-        "음악",
-        "팝"
-      ],
-      "appleUrl": "https://music.apple.com/kr/album/love-love-love-feat-%EC%9C%B5%EC%A7%84/1610106934?i=1610108181",
+      "appleUrl": "https://music.apple.com/kr/album/style/1819694545?i=1819694546",
       "previewUrl": null,
       "chartRank": 54,
       "collectionId": null,
@@ -5731,7 +5761,37 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/kr/album/love-love-love-feat-%EC%9C%B5%EC%A7%84/1610106934?i=1610108181"
+        "apple": "https://music.apple.com/kr/album/style/1819694545?i=1819694546"
+      },
+      "sourceKinds": [
+        "apple-kr-chart"
+      ]
+    },
+    {
+      "id": "1608880079",
+      "title": "Trip (feat. Hannah)",
+      "artist": "릴러말즈",
+      "artistId": "1107586891",
+      "releaseDate": "2018-09-10",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/d2/6f/40/d26f4042-607f-3cef-b70c-8426e9d13e6f/8809603548191_Cover.jpg/100x100bb.jpg",
+      "genres": [
+        "음악",
+        "힙합/랩"
+      ],
+      "appleUrl": "https://music.apple.com/kr/album/trip-feat-hannah/1608880065?i=1608880079",
+      "previewUrl": null,
+      "chartRank": 56,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/kr/album/trip-feat-hannah/1608880065?i=1608880079"
       },
       "sourceKinds": [
         "apple-kr-chart"
@@ -5752,37 +5812,6 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/antifreeze/1316404325?i=1316404636",
       "previewUrl": null,
-      "chartRank": 55,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": null,
-      "trackCount": null,
-      "discNumber": null,
-      "discCount": null,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/kr/album/antifreeze/1316404325?i=1316404636"
-      },
-      "sourceKinds": [
-        "apple-kr-chart"
-      ]
-    },
-    {
-      "id": "1635469694",
-      "title": "Attention",
-      "artist": "뉴진스",
-      "artistId": "1635469693",
-      "releaseDate": "2022-08-01",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/4e/64/34/4e64344b-3ac6-c503-2c41-257a15401416/192641873096_Cover.jpg/100x100bb.jpg",
-      "genres": [
-        "K-Pop",
-        "음악",
-        "팝"
-      ],
-      "appleUrl": "https://music.apple.com/kr/album/attention/1635469682?i=1635469694",
-      "previewUrl": null,
       "chartRank": 57,
       "collectionId": null,
       "collectionName": null,
@@ -5794,68 +5823,7 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/kr/album/attention/1635469682?i=1635469694"
-      },
-      "sourceKinds": [
-        "apple-kr-chart"
-      ]
-    },
-    {
-      "id": "1608880079",
-      "title": "Trip (feat. Hannah)",
-      "artist": "릴러말즈",
-      "artistId": "1107586891",
-      "releaseDate": "2018-09-10",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/d2/6f/40/d26f4042-607f-3cef-b70c-8426e9d13e6f/8809603548191_Cover.jpg/100x100bb.jpg",
-      "genres": [
-        "음악",
-        "힙합/랩"
-      ],
-      "appleUrl": "https://music.apple.com/kr/album/trip-feat-hannah/1608880065?i=1608880079",
-      "previewUrl": null,
-      "chartRank": 58,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": null,
-      "trackCount": null,
-      "discNumber": null,
-      "discCount": null,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/kr/album/trip-feat-hannah/1608880065?i=1608880079"
-      },
-      "sourceKinds": [
-        "apple-kr-chart"
-      ]
-    },
-    {
-      "id": "1819694546",
-      "title": "STYLE",
-      "artist": "Hearts2Hearts",
-      "artistId": "1793698498",
-      "releaseDate": "2025-06-18",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/05/f3/0b/05f30b30-22fb-3c21-c497-8fd8829f2004/888735952135.png/100x100bb.jpg",
-      "genres": [
-        "K-Pop",
-        "음악",
-        "팝"
-      ],
-      "appleUrl": "https://music.apple.com/kr/album/style/1819694545?i=1819694546",
-      "previewUrl": null,
-      "chartRank": 59,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": null,
-      "trackCount": null,
-      "discNumber": null,
-      "discCount": null,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/kr/album/style/1819694545?i=1819694546"
+        "apple": "https://music.apple.com/kr/album/antifreeze/1316404325?i=1316404636"
       },
       "sourceKinds": [
         "apple-kr-chart"
@@ -5876,7 +5844,7 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/antifreeze/1747314944?i=1747314948",
       "previewUrl": null,
-      "chartRank": 60,
+      "chartRank": 58,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -5888,6 +5856,69 @@
       "searchAliases": [],
       "platformLinks": {
         "apple": "https://music.apple.com/kr/album/antifreeze/1747314944?i=1747314948"
+      },
+      "sourceKinds": [
+        "apple-kr-chart"
+      ]
+    },
+    {
+      "id": "1635469694",
+      "title": "Attention",
+      "artist": "뉴진스",
+      "artistId": "1635469693",
+      "releaseDate": "2022-08-01",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/4e/64/34/4e64344b-3ac6-c503-2c41-257a15401416/192641873096_Cover.jpg/100x100bb.jpg",
+      "genres": [
+        "K-Pop",
+        "음악",
+        "팝"
+      ],
+      "appleUrl": "https://music.apple.com/kr/album/attention/1635469682?i=1635469694",
+      "previewUrl": null,
+      "chartRank": 59,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/kr/album/attention/1635469682?i=1635469694"
+      },
+      "sourceKinds": [
+        "apple-kr-chart"
+      ]
+    },
+    {
+      "id": "1573192803",
+      "title": "사계",
+      "artist": "양홍원",
+      "artistId": "1265125493",
+      "releaseDate": "2021-06-19",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/1d/91/d0/1d91d04e-e509-2d85-72f7-dcffe5359d13/cover-_0601.jpg/100x100bb.jpg",
+      "genres": [
+        "K-Pop",
+        "음악",
+        "팝",
+        "힙합/랩"
+      ],
+      "appleUrl": "https://music.apple.com/kr/album/%EC%82%AC%EA%B3%84/1573192793?i=1573192803",
+      "previewUrl": null,
+      "chartRank": 60,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/kr/album/%EC%82%AC%EA%B3%84/1573192793?i=1573192803"
       },
       "sourceKinds": [
         "apple-kr-chart"
@@ -5957,6 +5988,37 @@
       ]
     },
     {
+      "id": "1567879852",
+      "title": "행복하지 말아요",
+      "artist": "엠씨 더 맥스",
+      "artistId": "45552401",
+      "releaseDate": "2004-11-19",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/b0/5a/57/b05a57bb-25b9-b92d-8166-de2a18ffaff5/8809795742681.jpg/100x100bb.jpg",
+      "genres": [
+        "K-Pop",
+        "음악",
+        "팝"
+      ],
+      "appleUrl": "https://music.apple.com/kr/album/%ED%96%89%EB%B3%B5%ED%95%98%EC%A7%80-%EB%A7%90%EC%95%84%EC%9A%94/1567879670?i=1567879852",
+      "previewUrl": null,
+      "chartRank": 65,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/kr/album/%ED%96%89%EB%B3%B5%ED%95%98%EC%A7%80-%EB%A7%90%EC%95%84%EC%9A%94/1567879670?i=1567879852"
+      },
+      "sourceKinds": [
+        "apple-kr-chart"
+      ]
+    },
+    {
       "id": "1780254692",
       "title": "Skrr (feat. 지젤)",
       "artist": "김하온",
@@ -5970,7 +6032,7 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/skrr-feat-%EC%A7%80%EC%A0%A4/1780254494?i=1780254692",
       "previewUrl": null,
-      "chartRank": 64,
+      "chartRank": 66,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -5982,38 +6044,6 @@
       "searchAliases": [],
       "platformLinks": {
         "apple": "https://music.apple.com/kr/album/skrr-feat-%EC%A7%80%EC%A0%A4/1780254494?i=1780254692"
-      },
-      "sourceKinds": [
-        "apple-kr-chart"
-      ]
-    },
-    {
-      "id": "1738889871",
-      "title": "좋은 밤 좋은 꿈",
-      "artist": "Nerd Connection",
-      "artistId": "1459227743",
-      "releaseDate": "2020-03-23",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7a/f9/77/7af977be-cf12-73f4-7534-a54359205405/cover_KM0019696_1.jpg/100x100bb.jpg",
-      "genres": [
-        "K-Pop",
-        "음악",
-        "팝",
-        "록"
-      ],
-      "appleUrl": "https://music.apple.com/kr/album/%EC%A2%8B%EC%9D%80-%EB%B0%A4-%EC%A2%8B%EC%9D%80-%EA%BF%88/1738889870?i=1738889871",
-      "previewUrl": null,
-      "chartRank": 65,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": null,
-      "trackCount": null,
-      "discNumber": null,
-      "discCount": null,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/kr/album/%EC%A2%8B%EC%9D%80-%EB%B0%A4-%EC%A2%8B%EC%9D%80-%EA%BF%88/1738889870?i=1738889871"
       },
       "sourceKinds": [
         "apple-kr-chart"
@@ -6033,37 +6063,6 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/%EA%B7%B8%EB%8C%80%EB%A7%8C-%EC%9E%88%EB%8B%A4%EB%A9%B4-%EC%98%81%ED%99%94-%EC%97%AC%EB%A6%84%EB%82%A0-%EC%9A%B0%EB%A6%AC/1702792481?i=1702792482",
       "previewUrl": null,
-      "chartRank": 66,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": null,
-      "trackCount": null,
-      "discNumber": null,
-      "discCount": null,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/kr/album/%EA%B7%B8%EB%8C%80%EB%A7%8C-%EC%9E%88%EB%8B%A4%EB%A9%B4-%EC%98%81%ED%99%94-%EC%97%AC%EB%A6%84%EB%82%A0-%EC%9A%B0%EB%A6%AC/1702792481?i=1702792482"
-      },
-      "sourceKinds": [
-        "apple-kr-chart"
-      ]
-    },
-    {
-      "id": "1567879852",
-      "title": "행복하지 말아요",
-      "artist": "엠씨 더 맥스",
-      "artistId": "45552401",
-      "releaseDate": "2004-11-19",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/b0/5a/57/b05a57bb-25b9-b92d-8166-de2a18ffaff5/8809795742681.jpg/100x100bb.jpg",
-      "genres": [
-        "K-Pop",
-        "음악",
-        "팝"
-      ],
-      "appleUrl": "https://music.apple.com/kr/album/%ED%96%89%EB%B3%B5%ED%95%98%EC%A7%80-%EB%A7%90%EC%95%84%EC%9A%94/1567879670?i=1567879852",
-      "previewUrl": null,
       "chartRank": 67,
       "collectionId": null,
       "collectionName": null,
@@ -6075,7 +6074,7 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/kr/album/%ED%96%89%EB%B3%B5%ED%95%98%EC%A7%80-%EB%A7%90%EC%95%84%EC%9A%94/1567879670?i=1567879852"
+        "apple": "https://music.apple.com/kr/album/%EA%B7%B8%EB%8C%80%EB%A7%8C-%EC%9E%88%EB%8B%A4%EB%A9%B4-%EC%98%81%ED%99%94-%EC%97%AC%EB%A6%84%EB%82%A0-%EC%9A%B0%EB%A6%AC/1702792481?i=1702792482"
       },
       "sourceKinds": [
         "apple-kr-chart"
@@ -6113,17 +6112,82 @@
       ]
     },
     {
-      "id": "1813426209",
-      "title": "너",
-      "artist": "SYSTEM SEOUL & ycs",
-      "artistId": "1812849650",
-      "releaseDate": "2025-05-16",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c6/9e/26/c69e2670-32a7-6133-c9ab-e5034132ff9c/artwork.jpg/100x100bb.jpg",
+      "id": "1738889871",
+      "title": "좋은 밤 좋은 꿈",
+      "artist": "Nerd Connection",
+      "artistId": "1459227743",
+      "releaseDate": "2020-03-23",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7a/f9/77/7af977be-cf12-73f4-7534-a54359205405/cover_KM0019696_1.jpg/100x100bb.jpg",
       "genres": [
-        "힙합/랩",
-        "음악"
+        "K-Pop",
+        "음악",
+        "팝",
+        "록"
       ],
-      "appleUrl": "https://music.apple.com/kr/album/%EB%84%88/1813426203?i=1813426209",
+      "appleUrl": "https://music.apple.com/kr/album/%EC%A2%8B%EC%9D%80-%EB%B0%A4-%EC%A2%8B%EC%9D%80-%EA%BF%88/1738889870?i=1738889871",
+      "previewUrl": null,
+      "chartRank": 69,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/kr/album/%EC%A2%8B%EC%9D%80-%EB%B0%A4-%EC%A2%8B%EC%9D%80-%EA%BF%88/1738889870?i=1738889871"
+      },
+      "sourceKinds": [
+        "apple-kr-chart"
+      ]
+    },
+    {
+      "id": "1683448656",
+      "title": "Drowning",
+      "artist": "WOODZ",
+      "artistId": "1414840245",
+      "releaseDate": "2023-04-26",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/07/91/0d/07910df6-5ab5-0867-3be5-900cf9d11018/cover_KM0016894_1.jpg/100x100bb.jpg",
+      "genres": [
+        "K-Pop",
+        "음악",
+        "팝",
+        "록"
+      ],
+      "appleUrl": "https://music.apple.com/kr/album/drowning/1683448653?i=1683448656",
+      "previewUrl": null,
+      "chartRank": 72,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/kr/album/drowning/1683448653?i=1683448656"
+      },
+      "sourceKinds": [
+        "apple-kr-chart"
+      ]
+    },
+    {
+      "id": "1661608702",
+      "title": "그대 작은 나의 세상이 되어",
+      "artist": "카더가든",
+      "artistId": "1020577647",
+      "releaseDate": "2021-01-28",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/a1/f1/d9/a1f1d9ed-4367-b40e-42ac-27992280a208/Car_the_garden.jpg/100x100bb.jpg",
+      "genres": [
+        "K-Pop",
+        "음악",
+        "팝"
+      ],
+      "appleUrl": "https://music.apple.com/kr/album/%EA%B7%B8%EB%8C%80-%EC%9E%91%EC%9D%80-%EB%82%98%EC%9D%98-%EC%84%B8%EC%83%81%EC%9D%B4-%EB%90%98%EC%96%B4/1661608701?i=1661608702",
       "previewUrl": null,
       "chartRank": 73,
       "collectionId": null,
@@ -6136,7 +6200,7 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/kr/album/%EB%84%88/1813426203?i=1813426209"
+        "apple": "https://music.apple.com/kr/album/%EA%B7%B8%EB%8C%80-%EC%9E%91%EC%9D%80-%EB%82%98%EC%9D%98-%EC%84%B8%EC%83%81%EC%9D%B4-%EB%90%98%EC%96%B4/1661608701?i=1661608702"
       },
       "sourceKinds": [
         "apple-kr-chart"
@@ -6174,18 +6238,19 @@
       ]
     },
     {
-      "id": "1661608702",
-      "title": "그대 작은 나의 세상이 되어",
-      "artist": "카더가든",
-      "artistId": "1020577647",
-      "releaseDate": "2021-01-28",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/a1/f1/d9/a1f1d9ed-4367-b40e-42ac-27992280a208/Car_the_garden.jpg/100x100bb.jpg",
+      "id": "345400888",
+      "title": "사랑은 봄비처럼...이별은 겨울비처럼",
+      "artist": "임현정",
+      "artistId": "1468829603",
+      "releaseDate": "2003-03-25",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music/00/2f/94/mzi.crijpvtm.jpg/100x89bb.jpg",
       "genres": [
         "K-Pop",
         "음악",
-        "팝"
+        "팝",
+        "록"
       ],
-      "appleUrl": "https://music.apple.com/kr/album/%EA%B7%B8%EB%8C%80-%EC%9E%91%EC%9D%80-%EB%82%98%EC%9D%98-%EC%84%B8%EC%83%81%EC%9D%B4-%EB%90%98%EC%96%B4/1661608701?i=1661608702",
+      "appleUrl": "https://music.apple.com/kr/album/%EC%82%AC%EB%9E%91%EC%9D%80-%EB%B4%84%EB%B9%84%EC%B2%98%EB%9F%BC-%EC%9D%B4%EB%B3%84%EC%9D%80-%EA%B2%A8%EC%9A%B8%EB%B9%84%EC%B2%98%EB%9F%BC/345400869?i=345400888",
       "previewUrl": null,
       "chartRank": 75,
       "collectionId": null,
@@ -6198,7 +6263,7 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/kr/album/%EA%B7%B8%EB%8C%80-%EC%9E%91%EC%9D%80-%EB%82%98%EC%9D%98-%EC%84%B8%EC%83%81%EC%9D%B4-%EB%90%98%EC%96%B4/1661608701?i=1661608702"
+        "apple": "https://music.apple.com/kr/album/%EC%82%AC%EB%9E%91%EC%9D%80-%EB%B4%84%EB%B9%84%EC%B2%98%EB%9F%BC-%EC%9D%B4%EB%B3%84%EC%9D%80-%EA%B2%A8%EC%9A%B8%EB%B9%84%EC%B2%98%EB%9F%BC/345400869?i=345400888"
       },
       "sourceKinds": [
         "apple-kr-chart"
@@ -6219,7 +6284,7 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/bye-bye-my-blue/1125890995?i=1125891115",
       "previewUrl": null,
-      "chartRank": 76,
+      "chartRank": 77,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -6231,38 +6296,6 @@
       "searchAliases": [],
       "platformLinks": {
         "apple": "https://music.apple.com/kr/album/bye-bye-my-blue/1125890995?i=1125891115"
-      },
-      "sourceKinds": [
-        "apple-kr-chart"
-      ]
-    },
-    {
-      "id": "1683448656",
-      "title": "Drowning",
-      "artist": "WOODZ",
-      "artistId": "1414840245",
-      "releaseDate": "2023-04-26",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/07/91/0d/07910df6-5ab5-0867-3be5-900cf9d11018/cover_KM0016894_1.jpg/100x100bb.jpg",
-      "genres": [
-        "K-Pop",
-        "음악",
-        "팝",
-        "록"
-      ],
-      "appleUrl": "https://music.apple.com/kr/album/drowning/1683448653?i=1683448656",
-      "previewUrl": null,
-      "chartRank": 78,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": null,
-      "trackCount": null,
-      "discNumber": null,
-      "discCount": null,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/kr/album/drowning/1683448653?i=1683448656"
       },
       "sourceKinds": [
         "apple-kr-chart"
@@ -6283,7 +6316,7 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/%EC%96%B4%EB%96%BB%EA%B2%8C-%EC%9D%B4%EB%B3%84%EA%B9%8C%EC%A7%80-%EC%82%AC%EB%9E%91%ED%95%98%EA%B2%A0%EC%96%B4-%EB%84%90-%EC%82%AC%EB%9E%91%ED%95%98%EB%8A%94-%EA%B1%B0%EC%A7%80/1480802547?i=1480802550",
       "previewUrl": null,
-      "chartRank": 80,
+      "chartRank": 79,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -6301,21 +6334,19 @@
       ]
     },
     {
-      "id": "345400888",
-      "title": "사랑은 봄비처럼...이별은 겨울비처럼",
-      "artist": "임현정",
-      "artistId": "1468829603",
-      "releaseDate": "2003-03-25",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music/00/2f/94/mzi.crijpvtm.jpg/100x89bb.jpg",
+      "id": "1813426209",
+      "title": "너",
+      "artist": "SYSTEM SEOUL & ycs",
+      "artistId": "1812849650",
+      "releaseDate": "2025-05-16",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c6/9e/26/c69e2670-32a7-6133-c9ab-e5034132ff9c/artwork.jpg/100x100bb.jpg",
       "genres": [
-        "K-Pop",
-        "음악",
-        "팝",
-        "록"
+        "힙합/랩",
+        "음악"
       ],
-      "appleUrl": "https://music.apple.com/kr/album/%EC%82%AC%EB%9E%91%EC%9D%80-%EB%B4%84%EB%B9%84%EC%B2%98%EB%9F%BC-%EC%9D%B4%EB%B3%84%EC%9D%80-%EA%B2%A8%EC%9A%B8%EB%B9%84%EC%B2%98%EB%9F%BC/345400869?i=345400888",
+      "appleUrl": "https://music.apple.com/kr/album/%EB%84%88/1813426203?i=1813426209",
       "previewUrl": null,
-      "chartRank": 81,
+      "chartRank": 80,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -6326,7 +6357,7 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/kr/album/%EC%82%AC%EB%9E%91%EC%9D%80-%EB%B4%84%EB%B9%84%EC%B2%98%EB%9F%BC-%EC%9D%B4%EB%B3%84%EC%9D%80-%EA%B2%A8%EC%9A%B8%EB%B9%84%EC%B2%98%EB%9F%BC/345400869?i=345400888"
+        "apple": "https://music.apple.com/kr/album/%EB%84%88/1813426203?i=1813426209"
       },
       "sourceKinds": [
         "apple-kr-chart"
@@ -6346,7 +6377,7 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/%EB%B9%8C%EB%A0%A4%EC%98%A8-%EA%B3%A0%EC%96%91%EC%9D%B4-do-the-dance/1817427556?i=1817427565",
       "previewUrl": null,
-      "chartRank": 84,
+      "chartRank": 81,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -6358,6 +6389,66 @@
       "searchAliases": [],
       "platformLinks": {
         "apple": "https://music.apple.com/kr/album/%EB%B9%8C%EB%A0%A4%EC%98%A8-%EA%B3%A0%EC%96%91%EC%9D%B4-do-the-dance/1817427556?i=1817427565"
+      },
+      "sourceKinds": [
+        "apple-kr-chart"
+      ]
+    },
+    {
+      "id": "1451566361",
+      "title": "Heroine",
+      "artist": "백 넘버",
+      "artistId": "302361237",
+      "releaseDate": "2015-01-21",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5d/d1/f0/5dd1f0aa-4b50-e6b1-73b1-fb740989afba/00602577303906.rgb.jpg/100x100bb.jpg",
+      "genres": [
+        "음악"
+      ],
+      "appleUrl": "https://music.apple.com/kr/album/heroine/1451566360?i=1451566361",
+      "previewUrl": null,
+      "chartRank": 86,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/kr/album/heroine/1451566360?i=1451566361"
+      },
+      "sourceKinds": [
+        "apple-kr-chart"
+      ]
+    },
+    {
+      "id": "1882581639",
+      "title": "캐치 캐치",
+      "artist": "최예나",
+      "artistId": "1605086668",
+      "releaseDate": "2026-03-11",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2d/1f/99/2d1f997c-6d8b-c312-2156-c2a1ae969c03/888272177749_Cover.jpg/100x100bb.jpg",
+      "genres": [
+        "K-Pop",
+        "음악",
+        "팝"
+      ],
+      "appleUrl": "https://music.apple.com/kr/album/%EC%BA%90%EC%B9%98-%EC%BA%90%EC%B9%98/1882581635?i=1882581639",
+      "previewUrl": null,
+      "chartRank": 87,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/kr/album/%EC%BA%90%EC%B9%98-%EC%BA%90%EC%B9%98/1882581635?i=1882581639"
       },
       "sourceKinds": [
         "apple-kr-chart"
@@ -6378,7 +6469,7 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/alone-feat-leehi/1631806808?i=1631806809",
       "previewUrl": null,
-      "chartRank": 86,
+      "chartRank": 88,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -6396,18 +6487,20 @@
       ]
     },
     {
-      "id": "1451566361",
-      "title": "Heroine",
-      "artist": "백 넘버",
-      "artistId": "302361237",
-      "releaseDate": "2015-01-21",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5d/d1/f0/5dd1f0aa-4b50-e6b1-73b1-fb740989afba/00602577303906.rgb.jpg/100x100bb.jpg",
+      "id": "1832031345",
+      "title": "FaSHioN",
+      "artist": "코르티스",
+      "artistId": "1831651635",
+      "releaseDate": "2025-09-08",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/07/b1/d0/07b1d01f-eada-50a5-bdf5-f3f86b1de566/198704622366_Cover.jpg/100x100bb.jpg",
       "genres": [
-        "음악"
+        "K-Pop",
+        "음악",
+        "팝"
       ],
-      "appleUrl": "https://music.apple.com/kr/album/heroine/1451566360?i=1451566361",
+      "appleUrl": "https://music.apple.com/kr/album/fashion/1832031331?i=1832031345",
       "previewUrl": null,
-      "chartRank": 87,
+      "chartRank": 91,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -6418,7 +6511,38 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/kr/album/heroine/1451566360?i=1451566361"
+        "apple": "https://music.apple.com/kr/album/fashion/1832031331?i=1832031345"
+      },
+      "sourceKinds": [
+        "apple-kr-chart"
+      ]
+    },
+    {
+      "id": "1659513445",
+      "title": "OMG",
+      "artist": "뉴진스",
+      "artistId": "1635469693",
+      "releaseDate": "2023-01-02",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/48/96/08/4896085e-b550-cb0a-3e5b-1f203521cb82/196922265464_Cover.jpg/100x100bb.jpg",
+      "genres": [
+        "K-Pop",
+        "음악",
+        "팝"
+      ],
+      "appleUrl": "https://music.apple.com/kr/album/omg/1659513441?i=1659513445",
+      "previewUrl": null,
+      "chartRank": 92,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/kr/album/omg/1659513441?i=1659513445"
       },
       "sourceKinds": [
         "apple-kr-chart"
@@ -6439,7 +6563,7 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/lov3-feat-bryan-chase-okasian/1802528260?i=1802528268",
       "previewUrl": null,
-      "chartRank": 89,
+      "chartRank": 93,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -6451,37 +6575,6 @@
       "searchAliases": [],
       "platformLinks": {
         "apple": "https://music.apple.com/kr/album/lov3-feat-bryan-chase-okasian/1802528260?i=1802528268"
-      },
-      "sourceKinds": [
-        "apple-kr-chart"
-      ]
-    },
-    {
-      "id": "1659513445",
-      "title": "OMG",
-      "artist": "뉴진스",
-      "artistId": "1635469693",
-      "releaseDate": "2023-01-02",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/48/96/08/4896085e-b550-cb0a-3e5b-1f203521cb82/196922265464_Cover.jpg/100x100bb.jpg",
-      "genres": [
-        "K-Pop",
-        "음악",
-        "팝"
-      ],
-      "appleUrl": "https://music.apple.com/kr/album/omg/1659513441?i=1659513445",
-      "previewUrl": null,
-      "chartRank": 90,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": null,
-      "trackCount": null,
-      "discNumber": null,
-      "discCount": null,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/kr/album/omg/1659513441?i=1659513445"
       },
       "sourceKinds": [
         "apple-kr-chart"
@@ -6501,7 +6594,7 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/armageddon/1745285216?i=1745285228",
       "previewUrl": null,
-      "chartRank": 91,
+      "chartRank": 94,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -6513,37 +6606,6 @@
       "searchAliases": [],
       "platformLinks": {
         "apple": "https://music.apple.com/kr/album/armageddon/1745285216?i=1745285228"
-      },
-      "sourceKinds": [
-        "apple-kr-chart"
-      ]
-    },
-    {
-      "id": "1832031345",
-      "title": "FaSHioN",
-      "artist": "코르티스",
-      "artistId": "1831651635",
-      "releaseDate": "2025-09-08",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/07/b1/d0/07b1d01f-eada-50a5-bdf5-f3f86b1de566/198704622366_Cover.jpg/100x100bb.jpg",
-      "genres": [
-        "K-Pop",
-        "음악",
-        "팝"
-      ],
-      "appleUrl": "https://music.apple.com/kr/album/fashion/1832031331?i=1832031345",
-      "previewUrl": null,
-      "chartRank": 92,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": null,
-      "trackCount": null,
-      "discNumber": null,
-      "discCount": null,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/kr/album/fashion/1832031331?i=1832031345"
       },
       "sourceKinds": [
         "apple-kr-chart"
@@ -6563,7 +6625,7 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/bubble-gum/1744448415?i=1744448549",
       "previewUrl": null,
-      "chartRank": 93,
+      "chartRank": 95,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -6575,6 +6637,38 @@
       "searchAliases": [],
       "platformLinks": {
         "apple": "https://music.apple.com/kr/album/bubble-gum/1744448415?i=1744448549"
+      },
+      "sourceKinds": [
+        "apple-kr-chart"
+      ]
+    },
+    {
+      "id": "1546059209",
+      "title": "Home Sweet Home",
+      "artist": "카더가든",
+      "artistId": "1020577647",
+      "releaseDate": "2017-12-12",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/9c/b0/f29cb0b6-ba14-6a2a-4988-c16ea735ff07/8809534468704.jpg/100x100bb.jpg",
+      "genres": [
+        "록",
+        "음악",
+        "팝",
+        "K-Pop"
+      ],
+      "appleUrl": "https://music.apple.com/kr/album/home-sweet-home/1546059203?i=1546059209",
+      "previewUrl": null,
+      "chartRank": 96,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/kr/album/home-sweet-home/1546059203?i=1546059209"
       },
       "sourceKinds": [
         "apple-kr-chart"
@@ -6594,7 +6688,7 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/%EC%83%9D%EA%B0%81%EC%9D%84-%EB%A9%88%EC%B6%94%EB%8B%A4-%EB%B3%B4%EB%A9%B4/1717383448?i=1717383449",
       "previewUrl": null,
-      "chartRank": 95,
+      "chartRank": 97,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -6625,38 +6719,6 @@
       ],
       "appleUrl": "https://music.apple.com/kr/album/dirty-work/1818322337?i=1818322339",
       "previewUrl": null,
-      "chartRank": 97,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": null,
-      "trackCount": null,
-      "discNumber": null,
-      "discCount": null,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/kr/album/dirty-work/1818322337?i=1818322339"
-      },
-      "sourceKinds": [
-        "apple-kr-chart"
-      ]
-    },
-    {
-      "id": "1546059209",
-      "title": "Home Sweet Home",
-      "artist": "카더가든",
-      "artistId": "1020577647",
-      "releaseDate": "2017-12-12",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/9c/b0/f29cb0b6-ba14-6a2a-4988-c16ea735ff07/8809534468704.jpg/100x100bb.jpg",
-      "genres": [
-        "록",
-        "음악",
-        "팝",
-        "K-Pop"
-      ],
-      "appleUrl": "https://music.apple.com/kr/album/home-sweet-home/1546059203?i=1546059209",
-      "previewUrl": null,
       "chartRank": 98,
       "collectionId": null,
       "collectionName": null,
@@ -6668,7 +6730,7 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/kr/album/home-sweet-home/1546059203?i=1546059209"
+        "apple": "https://music.apple.com/kr/album/dirty-work/1818322337?i=1818322339"
       },
       "sourceKinds": [
         "apple-kr-chart"
@@ -6706,18 +6768,18 @@
       ]
     },
     {
-      "id": "1882581639",
-      "title": "캐치 캐치",
-      "artist": "최예나",
-      "artistId": "1605086668",
-      "releaseDate": "2026-03-11",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2d/1f/99/2d1f997c-6d8b-c312-2156-c2a1ae969c03/888272177749_Cover.jpg/100x100bb.jpg",
+      "id": "1734501146",
+      "title": "Lucky Girl Syndrome",
+      "artist": "아일릿",
+      "artistId": "1734551937",
+      "releaseDate": "2024-03-25",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/3e/49/1e/3e491e43-4961-21ab-2abe-37fb1c0feb40/196922879227_Cover.jpg/100x100bb.jpg",
       "genres": [
         "K-Pop",
         "음악",
         "팝"
       ],
-      "appleUrl": "https://music.apple.com/kr/album/%EC%BA%90%EC%B9%98-%EC%BA%90%EC%B9%98/1882581635?i=1882581639",
+      "appleUrl": "https://music.apple.com/kr/album/lucky-girl-syndrome/1734500886?i=1734501146",
       "previewUrl": null,
       "chartRank": 100,
       "collectionId": null,
@@ -6730,7 +6792,7 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/kr/album/%EC%BA%90%EC%B9%98-%EC%BA%90%EC%B9%98/1882581635?i=1882581639"
+        "apple": "https://music.apple.com/kr/album/lucky-girl-syndrome/1734500886?i=1734501146"
       },
       "sourceKinds": [
         "apple-kr-chart"
