@@ -1,8 +1,8 @@
 {
   "schemaVersion": 3,
   "status": "fresh",
-  "updatedAt": "2026-10-01T06:04:51.816Z",
-  "lastCheckedAt": "2026-10-01T06:04:51.816Z",
+  "updatedAt": "2026-10-01T13:27:07.935Z",
+  "lastCheckedAt": "2026-10-01T13:27:07.935Z",
   "latestWindowDays": 180,
   "sources": {
     "popular": {
@@ -38,16 +38,16 @@
       "total": 5
     },
     "releaseIndex": "ok",
-    "previewAvailable": 37,
+    "previewAvailable": 36,
     "canonicalRecording": 52,
     "isrc": 18,
     "exactNonAppleLink": 3,
     "enrichmentFailures": 0
   },
   "counts": {
-    "latest": 93,
+    "latest": 92,
     "popular": 84,
-    "total": 157
+    "total": 156
   },
   "latestSongs": [
     {
@@ -1280,9 +1280,9 @@
         "ロック",
         "ミュージック"
       ],
-      "appleUrl": "https://music.apple.com/jp/album/%E8%A6%8B%E7%9F%A5%E3%82%89%E3%81%AC%E7%B3%B8/6793888333?i=6793888335&uo=4",
+      "appleUrl": "https://music.apple.com/jp/album/%E8%A6%8B%E7%9F%A5%E3%82%89%E3%81%AC%E7%B3%B8/6793888333?i=6793888335",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/68/60/b9/6860b926-1805-bf5f-32b5-4e494957e410/mzaf_17124243015734375483.plus.aac.p.m4a",
-      "chartRank": 32,
+      "chartRank": 33,
       "collectionId": "6793888333",
       "collectionName": "見知らぬ糸 - Single",
       "trackNumber": 1,
@@ -1293,7 +1293,7 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/jp/album/%E8%A6%8B%E7%9F%A5%E3%82%89%E3%81%AC%E7%B3%B8/6793888333?i=6793888335&uo=4"
+        "apple": "https://music.apple.com/jp/album/%E8%A6%8B%E7%9F%A5%E3%82%89%E3%81%AC%E7%B3%B8/6793888333?i=6793888335"
       },
       "sourceKinds": [
         "apple-jp-chart",
@@ -1945,36 +1945,6 @@
       "likedAt": null
     },
     {
-      "id": "1891924257",
-      "title": "ガチ夢中!",
-      "artist": "超特急",
-      "artistId": "847400135",
-      "releaseDate": "2026-05-11",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5d/f7/ec/5df7ec34-6bca-ff99-c906-57136bf93577/26UMGIM40239.rgb.jpg/100x100bb.jpg",
-      "genres": [
-        "J-Pop"
-      ],
-      "appleUrl": "https://music.apple.com/jp/album/%E3%82%AC%E3%83%81%E5%A4%A2%E4%B8%AD/1891923968?i=1891924257&uo=4",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/70/02/df/7002df83-4edb-c1de-d1fb-f784f19dd4c8/mzaf_3520680794239593026.plus.aac.p.m4a",
-      "chartRank": null,
-      "collectionId": "1891923968",
-      "collectionName": "ガチ夢中! - Single",
-      "trackNumber": 1,
-      "trackCount": 3,
-      "discNumber": 1,
-      "discCount": 1,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/jp/album/%E3%82%AC%E3%83%81%E5%A4%A2%E4%B8%AD/1891923968?i=1891924257&uo=4"
-      },
-      "sourceKinds": [
-        "itunes-jp-search"
-      ],
-      "likedAt": null
-    },
-    {
       "id": "mb:f44746c8-6e87-4017-a1e7-a6c36539df84",
       "title": "回帰",
       "artist": "茜音色タウン",
@@ -2618,6 +2588,41 @@
       "likedAt": null
     },
     {
+      "id": "1887793931",
+      "title": "スターダスト",
+      "artist": "Official髭男dism",
+      "artistId": "960568308",
+      "releaseDate": "2026-04-13",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9b/a1/75/9ba175fa-c71e-3bd1-decc-a47254093484/20609.jpg/100x100bb.jpg",
+      "genres": [
+        "J-Pop"
+      ],
+      "appleUrl": "https://music.apple.com/jp/album/%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%80%E3%82%B9%E3%83%88/1887793929?i=1887793931&uo=4",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/7d/b2/cf/7db2cfc6-c3de-1d40-af4b-670ce269de40/mzaf_15341237953562651100.plus.aac.p.m4a",
+      "chartRank": null,
+      "collectionId": "1887793929",
+      "collectionName": "スターダスト - Single",
+      "trackNumber": 1,
+      "trackCount": 1,
+      "discNumber": 1,
+      "discCount": 1,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "Official Hige Dandism",
+        "Higedan",
+        "오피셜히게단디즘",
+        "히게단"
+      ],
+      "platformLinks": {
+        "apple": "https://music.apple.com/jp/album/%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%80%E3%82%B9%E3%83%88/1887793929?i=1887793931&uo=4"
+      },
+      "sourceKinds": [
+        "itunes-jp-search"
+      ],
+      "likedAt": null
+    },
+    {
       "id": "1890060756",
       "title": "飛ぶ時",
       "artist": "Vaundy",
@@ -2724,36 +2729,6 @@
       "platformLinks": {},
       "sourceKinds": [
         "musicbrainz-jp-release-index"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "1886375862",
-      "title": "火種",
-      "artist": "キタニタツヤ",
-      "artistId": "1289607378",
-      "releaseDate": "2026-04-05",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e3/bf/c5/e3bfc50a-d2a7-4f41-eb52-5868bb643772/4547366814552.jpg/100x100bb.jpg",
-      "genres": [
-        "オルタナティブ"
-      ],
-      "appleUrl": "https://music.apple.com/jp/album/%E7%81%AB%E7%A8%AE/1886375861?i=1886375862&uo=4",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4a/35/94/4a359461-7646-4679-84d5-081d63142be0/mzaf_17162912125693911121.plus.aac.p.m4a",
-      "chartRank": null,
-      "collectionId": "1886375861",
-      "collectionName": "火種 - Single",
-      "trackNumber": 1,
-      "trackCount": 1,
-      "discNumber": 1,
-      "discCount": 1,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/jp/album/%E7%81%AB%E7%A8%AE/1886375861?i=1886375862&uo=4"
-      },
-      "sourceKinds": [
-        "itunes-jp-search"
       ],
       "likedAt": null
     }
@@ -7430,36 +7405,6 @@
       "likedAt": null
     },
     {
-      "id": "1891924257",
-      "title": "ガチ夢中!",
-      "artist": "超特急",
-      "artistId": "847400135",
-      "releaseDate": "2026-05-11",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5d/f7/ec/5df7ec34-6bca-ff99-c906-57136bf93577/26UMGIM40239.rgb.jpg/100x100bb.jpg",
-      "genres": [
-        "J-Pop"
-      ],
-      "appleUrl": "https://music.apple.com/jp/album/%E3%82%AC%E3%83%81%E5%A4%A2%E4%B8%AD/1891923968?i=1891924257&uo=4",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/70/02/df/7002df83-4edb-c1de-d1fb-f784f19dd4c8/mzaf_3520680794239593026.plus.aac.p.m4a",
-      "chartRank": null,
-      "collectionId": "1891923968",
-      "collectionName": "ガチ夢中! - Single",
-      "trackNumber": 1,
-      "trackCount": 3,
-      "discNumber": 1,
-      "discCount": 1,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/jp/album/%E3%82%AC%E3%83%81%E5%A4%A2%E4%B8%AD/1891923968?i=1891924257&uo=4"
-      },
-      "sourceKinds": [
-        "itunes-jp-search"
-      ],
-      "likedAt": null
-    },
-    {
       "id": "mb:f44746c8-6e87-4017-a1e7-a6c36539df84",
       "title": "回帰",
       "artist": "茜音色タウン",
@@ -8103,6 +8048,41 @@
       "likedAt": null
     },
     {
+      "id": "1887793931",
+      "title": "スターダスト",
+      "artist": "Official髭男dism",
+      "artistId": "960568308",
+      "releaseDate": "2026-04-13",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9b/a1/75/9ba175fa-c71e-3bd1-decc-a47254093484/20609.jpg/100x100bb.jpg",
+      "genres": [
+        "J-Pop"
+      ],
+      "appleUrl": "https://music.apple.com/jp/album/%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%80%E3%82%B9%E3%83%88/1887793929?i=1887793931&uo=4",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/7d/b2/cf/7db2cfc6-c3de-1d40-af4b-670ce269de40/mzaf_15341237953562651100.plus.aac.p.m4a",
+      "chartRank": null,
+      "collectionId": "1887793929",
+      "collectionName": "スターダスト - Single",
+      "trackNumber": 1,
+      "trackCount": 1,
+      "discNumber": 1,
+      "discCount": 1,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [
+        "Official Hige Dandism",
+        "Higedan",
+        "오피셜히게단디즘",
+        "히게단"
+      ],
+      "platformLinks": {
+        "apple": "https://music.apple.com/jp/album/%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%80%E3%82%B9%E3%83%88/1887793929?i=1887793931&uo=4"
+      },
+      "sourceKinds": [
+        "itunes-jp-search"
+      ],
+      "likedAt": null
+    },
+    {
       "id": "1890060756",
       "title": "飛ぶ時",
       "artist": "Vaundy",
@@ -8209,36 +8189,6 @@
       "platformLinks": {},
       "sourceKinds": [
         "musicbrainz-jp-release-index"
-      ],
-      "likedAt": null
-    },
-    {
-      "id": "1886375862",
-      "title": "火種",
-      "artist": "キタニタツヤ",
-      "artistId": "1289607378",
-      "releaseDate": "2026-04-05",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e3/bf/c5/e3bfc50a-d2a7-4f41-eb52-5868bb643772/4547366814552.jpg/100x100bb.jpg",
-      "genres": [
-        "オルタナティブ"
-      ],
-      "appleUrl": "https://music.apple.com/jp/album/%E7%81%AB%E7%A8%AE/1886375861?i=1886375862&uo=4",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4a/35/94/4a359461-7646-4679-84d5-081d63142be0/mzaf_17162912125693911121.plus.aac.p.m4a",
-      "chartRank": null,
-      "collectionId": "1886375861",
-      "collectionName": "火種 - Single",
-      "trackNumber": 1,
-      "trackCount": 1,
-      "discNumber": 1,
-      "discCount": 1,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/jp/album/%E7%81%AB%E7%A8%AE/1886375861?i=1886375862&uo=4"
-      },
-      "sourceKinds": [
-        "itunes-jp-search"
       ],
       "likedAt": null
     },
