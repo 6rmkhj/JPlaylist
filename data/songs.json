@@ -1,8 +1,8 @@
 {
   "schemaVersion": 3,
-  "status": "fresh",
+  "status": "stale",
   "updatedAt": "2026-10-10T05:59:50.313Z",
-  "lastCheckedAt": "2026-10-10T05:59:50.313Z",
+  "lastCheckedAt": "2026-10-10T12:40:33.362Z",
   "latestWindowDays": 180,
   "sources": {
     "popular": {
@@ -10630,5 +10630,6 @@
       ],
       "likedAt": null
     }
-  ]
+  ],
+  "staleReason": "The operation was aborted due to timeout"
 }
