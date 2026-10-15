@@ -7,8 +7,8 @@
     "chartCode": "US"
   },
   "status": "degraded",
-  "updatedAt": "2026-10-15T17:08:09.023Z",
-  "lastCheckedAt": "2026-10-15T17:08:09.023Z",
+  "updatedAt": "2026-10-15T21:29:52.112Z",
+  "lastCheckedAt": "2026-10-15T21:29:52.112Z",
   "latestWindowDays": 180,
   "sources": {
     "popular": {
@@ -35,21 +35,50 @@
       "total": 5
     },
     "releaseIndex": "catalog-search",
-    "previewAvailable": 67,
+    "previewAvailable": 65,
     "canonicalRecording": 0,
     "isrc": 0,
     "exactNonAppleLink": 0,
     "enrichmentFailures": 1
   },
   "counts": {
-    "latest": 17,
+    "latest": 15,
     "popular": 50,
-    "total": 67
+    "total": 65
   },
   "latestSongs": [
     {
-      "id": "6820600260",
-      "title": "I Hate Nashville (Live)",
+      "id": "6819835358",
+      "title": "Vc Está Ouvindo",
+      "artist": "Maui & Machadez",
+      "artistId": "1666596074",
+      "releaseDate": "2026-10-14",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/40/a2/7f/40a27f1b-fb4a-ab92-f764-eed9917f7f1b/0.jpg/100x100bb.jpg",
+      "genres": [
+        "R&B/Soul"
+      ],
+      "appleUrl": "https://music.apple.com/us/album/vc-est%C3%A1-ouvindo/6819835203?i=6819835358&uo=4",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e6/77/8b/e6778b47-2a7c-cde6-b5e8-fdc9c42a0494/mzaf_2126028452920540659.plus.aac.p.m4a",
+      "chartRank": null,
+      "collectionId": "6819835203",
+      "collectionName": "R&Belo",
+      "trackNumber": 3,
+      "trackCount": 10,
+      "discNumber": 1,
+      "discCount": 1,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/us/album/vc-est%C3%A1-ouvindo/6819835203?i=6819835358&uo=4"
+      },
+      "sourceKinds": [
+        "itunes-us-search:R&B"
+      ]
+    },
+    {
+      "id": "6820600261",
+      "title": "Gettin’ Out of Hand (Live)",
       "artist": "Ashley Monroe",
       "artistId": "55466160",
       "releaseDate": "2026-10-14",
@@ -57,12 +86,12 @@
       "genres": [
         "Country"
       ],
-      "appleUrl": "https://music.apple.com/us/album/i-hate-nashville-live/6820600259?i=6820600260&uo=4",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4e/89/ba/4e89bafe-ea51-aef8-d521-812feecc78fd/mzaf_9567070415084708283.plus.aac.p.m4a",
+      "appleUrl": "https://music.apple.com/us/album/gettin-out-of-hand-live/6820600259?i=6820600261&uo=4",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1d/3f/36/1d3f3619-04ed-84f8-af1c-16bec371ebb0/mzaf_2812879531913541926.plus.aac.p.m4a",
       "chartRank": null,
       "collectionId": "6820600259",
       "collectionName": "Dear Nashville: Live at The Station Inn",
-      "trackNumber": 1,
+      "trackNumber": 2,
       "trackCount": 11,
       "discNumber": 1,
       "discCount": 1,
@@ -70,7 +99,7 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/us/album/i-hate-nashville-live/6820600259?i=6820600260&uo=4"
+        "apple": "https://music.apple.com/us/album/gettin-out-of-hand-live/6820600259?i=6820600261&uo=4"
       },
       "sourceKinds": [
         "itunes-us-search:Singer Songwriter"
@@ -251,90 +280,32 @@
       ]
     },
     {
-      "id": "6820600261",
-      "title": "Gettin’ Out of Hand (Live)",
-      "artist": "Ashley Monroe",
-      "artistId": "55466160",
+      "id": "6819835360",
+      "title": "Feliz",
+      "artist": "Maui & Machadez",
+      "artistId": "1666596074",
       "releaseDate": "2026-10-14",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/93/98/c2/9398c246-38d2-cc49-bd36-9a8fa8d25720/634607928469.jpg/100x100bb.jpg",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/40/a2/7f/40a27f1b-fb4a-ab92-f764-eed9917f7f1b/0.jpg/100x100bb.jpg",
       "genres": [
-        "Country"
+        "R&B/Soul"
       ],
-      "appleUrl": "https://music.apple.com/us/album/gettin-out-of-hand-live/6820600259?i=6820600261&uo=4",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1d/3f/36/1d3f3619-04ed-84f8-af1c-16bec371ebb0/mzaf_2812879531913541926.plus.aac.p.m4a",
+      "appleUrl": "https://music.apple.com/us/album/feliz/6819835203?i=6819835360&uo=4",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/37/98/9e/37989e4a-8ccb-ae65-b01b-2bba6d76fc19/mzaf_16275346198915022204.plus.aac.p.m4a",
       "chartRank": null,
-      "collectionId": "6820600259",
-      "collectionName": "Dear Nashville: Live at The Station Inn",
-      "trackNumber": 2,
-      "trackCount": 11,
+      "collectionId": "6819835203",
+      "collectionName": "R&Belo",
+      "trackNumber": 5,
+      "trackCount": 10,
       "discNumber": 1,
       "discCount": 1,
       "recordingId": null,
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/us/album/gettin-out-of-hand-live/6820600259?i=6820600261&uo=4"
+        "apple": "https://music.apple.com/us/album/feliz/6819835203?i=6819835360&uo=4"
       },
       "sourceKinds": [
-        "itunes-us-search:Singer Songwriter"
-      ]
-    },
-    {
-      "id": "6820600265",
-      "title": "What Are We (Live)",
-      "artist": "Ashley Monroe",
-      "artistId": "55466160",
-      "releaseDate": "2026-10-14",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/93/98/c2/9398c246-38d2-cc49-bd36-9a8fa8d25720/634607928469.jpg/100x100bb.jpg",
-      "genres": [
-        "Country"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/what-are-we-live/6820600259?i=6820600265&uo=4",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/9c/77/f6/9c77f6f9-0f60-2b6e-f4c4-b3bbdd45f1c6/mzaf_7296933714664988696.plus.aac.p.m4a",
-      "chartRank": null,
-      "collectionId": "6820600259",
-      "collectionName": "Dear Nashville: Live at The Station Inn",
-      "trackNumber": 3,
-      "trackCount": 11,
-      "discNumber": 1,
-      "discCount": 1,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/what-are-we-live/6820600259?i=6820600265&uo=4"
-      },
-      "sourceKinds": [
-        "itunes-us-search:Singer Songwriter"
-      ]
-    },
-    {
-      "id": "6820600267",
-      "title": "Steal (Live)",
-      "artist": "Ashley Monroe",
-      "artistId": "55466160",
-      "releaseDate": "2026-10-14",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/93/98/c2/9398c246-38d2-cc49-bd36-9a8fa8d25720/634607928469.jpg/100x100bb.jpg",
-      "genres": [
-        "Country"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/steal-live/6820600259?i=6820600267&uo=4",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/8b/f9/80/8bf980f0-78e1-f480-27b4-80f44bf33ac9/mzaf_4578462573477634950.plus.aac.p.m4a",
-      "chartRank": null,
-      "collectionId": "6820600259",
-      "collectionName": "Dear Nashville: Live at The Station Inn",
-      "trackNumber": 4,
-      "trackCount": 11,
-      "discNumber": 1,
-      "discCount": 1,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/steal-live/6820600259?i=6820600267&uo=4"
-      },
-      "sourceKinds": [
-        "itunes-us-search:Singer Songwriter"
+        "itunes-us-search:R&B"
       ]
     },
     {
@@ -506,35 +477,6 @@
       "searchAliases": [],
       "platformLinks": {
         "apple": "https://music.apple.com/us/album/nothing-but-the-wheel-live/6820600259?i=6820600408&uo=4"
-      },
-      "sourceKinds": [
-        "itunes-us-search:Singer Songwriter"
-      ]
-    },
-    {
-      "id": "6820600409",
-      "title": "Whenever You Come Around (Live)",
-      "artist": "Ashley Monroe",
-      "artistId": "55466160",
-      "releaseDate": "2026-10-14",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/93/98/c2/9398c246-38d2-cc49-bd36-9a8fa8d25720/634607928469.jpg/100x100bb.jpg",
-      "genres": [
-        "Country"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/whenever-you-come-around-live/6820600259?i=6820600409&uo=4",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a1/9f/1f/a19f1f99-55f6-4333-073c-d8c576bbc772/mzaf_2013810805249263127.plus.aac.p.m4a",
-      "chartRank": null,
-      "collectionId": "6820600259",
-      "collectionName": "Dear Nashville: Live at The Station Inn",
-      "trackNumber": 11,
-      "trackCount": 11,
-      "discNumber": 1,
-      "discCount": 1,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/whenever-you-come-around-live/6820600259?i=6820600409&uo=4"
       },
       "sourceKinds": [
         "itunes-us-search:Singer Songwriter"
@@ -777,65 +719,6 @@
       ]
     },
     {
-      "id": "1411628233",
-      "title": "Believer",
-      "artist": "Imagine Dragons",
-      "artistId": "358714030",
-      "releaseDate": "2017-02-01",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/11/7a/b8/117ab805-6811-8929-18b9-0fad7baf0c25/17UMGIM98210.rgb.jpg/100x100bb.jpg",
-      "genres": [
-        "Alternative"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/believer/1411625594?i=1411628233&uo=4",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c0/3f/36/c03f367a-b66b-fd0a-a54c-30f8250c4410/mzaf_12768434238801682952.plus.aac.p.m4a",
-      "chartRank": null,
-      "collectionId": "1411625594",
-      "collectionName": "Evolve",
-      "trackNumber": 4,
-      "trackCount": 12,
-      "discNumber": 1,
-      "discCount": 1,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/believer/1411625594?i=1411628233&uo=4"
-      },
-      "sourceKinds": [
-        "itunes-us-search:Pop",
-        "itunes-us-search:Alternative Pop"
-      ]
-    },
-    {
-      "id": "1703217516",
-      "title": "I Remember Everything (feat. Kacey Musgraves)",
-      "artist": "Zach Bryan",
-      "artistId": "1436413980",
-      "releaseDate": "2023-01-27",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ce/36/7f/ce367f3d-2a4f-46ee-1434-e3fbb52f1fc8/093624849797.jpg/100x100bb.jpg",
-      "genres": [
-        "Country"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/i-remember-everything-feat-kacey-musgraves/1703216858?i=1703217516&uo=4",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/63/45/a6/6345a6ae-7bbf-3d4f-c221-6795462e41e6/mzaf_15573528478892003939.plus.aac.p.m4a",
-      "chartRank": null,
-      "collectionId": "1703216858",
-      "collectionName": "Zach Bryan",
-      "trackNumber": 11,
-      "trackCount": 16,
-      "discNumber": 1,
-      "discCount": 1,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/i-remember-everything-feat-kacey-musgraves/1703216858?i=1703217516&uo=4"
-      },
-      "sourceKinds": [
-        "itunes-us-search:Pop"
-      ]
-    },
-    {
       "id": "1590036021",
       "title": "Easy On Me",
       "artist": "Adele",
@@ -862,6 +745,36 @@
       },
       "sourceKinds": [
         "itunes-us-search:Pop"
+      ]
+    },
+    {
+      "id": "1226034393",
+      "title": "Sign of the Times",
+      "artist": "Harry Styles",
+      "artistId": "471260289",
+      "releaseDate": "2017-04-07",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3d/5e/aa/3d5eaaa3-9a86-c264-5cd5-7fac83f99a59/886446451978.jpg/100x100bb.jpg",
+      "genres": [
+        "Pop"
+      ],
+      "appleUrl": "https://music.apple.com/us/album/sign-of-the-times/1226034336?i=1226034393&uo=4",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/bd/58/37/bd5837c2-3b3b-5f32-c292-fc0af38f6ea6/mzaf_10433939766410649853.plus.aac.p.m4a",
+      "chartRank": null,
+      "collectionId": "1226034336",
+      "collectionName": "Harry Styles",
+      "trackNumber": 2,
+      "trackCount": 10,
+      "discNumber": 1,
+      "discCount": 1,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/us/album/sign-of-the-times/1226034336?i=1226034393&uo=4"
+      },
+      "sourceKinds": [
+        "itunes-us-search:Pop",
+        "itunes-us-search:Alternative Pop"
       ]
     },
     {
@@ -953,6 +866,36 @@
       ]
     },
     {
+      "id": "651880154",
+      "title": "Dreams",
+      "artist": "Fleetwood Mac",
+      "artistId": "158038",
+      "releaseDate": "1977-02-04",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/2a/eb/dc/2aebdc18-c2c0-0fdd-fb85-07538a925700/603497925766.jpg/100x100bb.jpg",
+      "genres": [
+        "Rock"
+      ],
+      "appleUrl": "https://music.apple.com/us/album/dreams/651879763?i=651880154&uo=4",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b7/90/9f/b7909f76-de40-5350-0561-7dc95a2bbf6d/mzaf_8805702250746464027.plus.aac.p.m4a",
+      "chartRank": null,
+      "collectionId": "651879763",
+      "collectionName": "Rumours (Super Deluxe Edition)",
+      "trackNumber": 2,
+      "trackCount": 12,
+      "discNumber": 1,
+      "discCount": 5,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/us/album/dreams/651879763?i=651880154&uo=4"
+      },
+      "sourceKinds": [
+        "itunes-us-search:Pop",
+        "itunes-us-search:Singer Songwriter"
+      ]
+    },
+    {
       "id": "974485805",
       "title": "Ride",
       "artist": "twenty one pilots",
@@ -983,58 +926,29 @@
       ]
     },
     {
-      "id": "1544491988",
-      "title": "Set Fire to the Rain",
-      "artist": "Adele",
-      "artistId": "262836961",
-      "releaseDate": "2011-01-19",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/eb/ca/25/ebca2596-cd1e-b295-91a3-771c868d0a79/191404113868.png/100x100bb.jpg",
+      "id": "1193701328",
+      "title": "Castle on the Hill",
+      "artist": "Ed Sheeran",
+      "artistId": "183313439",
+      "releaseDate": "2017-01-06",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/15/e6/e8/15e6e8a4-4190-6a8b-86c3-ab4a51b88288/190295851286.jpg/100x100bb.jpg",
       "genres": [
         "Pop"
       ],
-      "appleUrl": "https://music.apple.com/us/album/set-fire-to-the-rain/1544491232?i=1544491988&uo=4",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/96/8b/3f/968b3f92-f082-c8c2-47ba-ab7add22dfdc/mzaf_7388168289354543091.plus.aac.p.m4a",
+      "appleUrl": "https://music.apple.com/us/album/castle-on-the-hill/1193701079?i=1193701328&uo=4",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/07/be/08/07be085d-6f06-8b4e-cea1-f40b4dca3815/mzaf_12958775594313934161.plus.aac.p.m4a",
       "chartRank": null,
-      "collectionId": "1544491232",
-      "collectionName": "21",
-      "trackNumber": 5,
-      "trackCount": 12,
+      "collectionId": "1193701079",
+      "collectionName": "÷ (Deluxe)",
+      "trackNumber": 2,
+      "trackCount": 16,
       "discNumber": 1,
       "discCount": 1,
       "recordingId": null,
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/us/album/set-fire-to-the-rain/1544491232?i=1544491988&uo=4"
-      },
-      "sourceKinds": [
-        "itunes-us-search:Pop"
-      ]
-    },
-    {
-      "id": "651880154",
-      "title": "Dreams",
-      "artist": "Fleetwood Mac",
-      "artistId": "158038",
-      "releaseDate": "1977-02-04",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/2a/eb/dc/2aebdc18-c2c0-0fdd-fb85-07538a925700/603497925766.jpg/100x100bb.jpg",
-      "genres": [
-        "Rock"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/dreams/651879763?i=651880154&uo=4",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b7/90/9f/b7909f76-de40-5350-0561-7dc95a2bbf6d/mzaf_8805702250746464027.plus.aac.p.m4a",
-      "chartRank": null,
-      "collectionId": "651879763",
-      "collectionName": "Rumours (Super Deluxe Edition)",
-      "trackNumber": 2,
-      "trackCount": 12,
-      "discNumber": 1,
-      "discCount": 5,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/dreams/651879763?i=651880154&uo=4"
+        "apple": "https://music.apple.com/us/album/castle-on-the-hill/1193701079?i=1193701328&uo=4"
       },
       "sourceKinds": [
         "itunes-us-search:Pop",
@@ -1453,36 +1367,6 @@
       ]
     },
     {
-      "id": "294461792",
-      "title": "No One",
-      "artist": "Alicia Keys",
-      "artistId": "316069",
-      "releaseDate": "2007-10-09",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/c7/88/df/c788dffe-d06f-8923-ad61-a6194daf6616/888880809919.jpg/100x100bb.jpg",
-      "genres": [
-        "Contemporary R&B"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/no-one/294461785?i=294461792&uo=4",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ef/30/f2/ef30f2cf-b3bf-752f-5809-cadaf1a15fe3/mzaf_18259142165614061591.plus.aac.p.m4a",
-      "chartRank": null,
-      "collectionId": "294461785",
-      "collectionName": "As I Am (Expanded Edition)",
-      "trackNumber": 4,
-      "trackCount": 17,
-      "discNumber": 1,
-      "discCount": 1,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/no-one/294461785?i=294461792&uo=4"
-      },
-      "sourceKinds": [
-        "itunes-us-search:Pop",
-        "itunes-us-search:R&B"
-      ]
-    },
-    {
       "id": "486040195",
       "title": "We Are Young (feat. Janelle Monáe)",
       "artist": "Fun.",
@@ -1510,35 +1394,6 @@
       "sourceKinds": [
         "itunes-us-search:Pop",
         "itunes-us-search:Alternative Pop"
-      ]
-    },
-    {
-      "id": "1460315319",
-      "title": "Wrecking Ball",
-      "artist": "Miley Cyrus",
-      "artistId": "137057909",
-      "releaseDate": "2013-08-25",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e3/e0/84/e3e08400-2d03-75f9-6b8b-a3345452aa98/886444197816.jpg/100x100bb.jpg",
-      "genres": [
-        "Pop"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/wrecking-ball/1460315055?i=1460315319&uo=4",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f8/e8/a2/f8e8a23c-b85d-17dd-9625-b39ec26b171f/mzaf_1866607988873686159.plus.aac.p.m4a",
-      "chartRank": null,
-      "collectionId": "1460315055",
-      "collectionName": "Bangerz (Deluxe Version)",
-      "trackNumber": 6,
-      "trackCount": 16,
-      "discNumber": 1,
-      "discCount": 1,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/wrecking-ball/1460315055?i=1460315319&uo=4"
-      },
-      "sourceKinds": [
-        "itunes-us-search:Pop"
       ]
     },
     {
@@ -1805,6 +1660,35 @@
       ]
     },
     {
+      "id": "400946439",
+      "title": "My Love (feat. T.I.)",
+      "artist": "Justin Timberlake",
+      "artistId": "398128",
+      "releaseDate": "2006-09-08",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/4c/44/30/4c4430dd-150b-d393-ec70-4894975f4b16/888880422095.jpg/100x100bb.jpg",
+      "genres": [
+        "Pop"
+      ],
+      "appleUrl": "https://music.apple.com/us/album/my-love-feat-t-i/400946401?i=400946439&uo=4",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a7/f2/ec/a7f2ec11-47eb-1665-9cc3-d78c3fbcafdb/mzaf_16217457358228502699.plus.aac.p.m4a",
+      "chartRank": null,
+      "collectionId": "400946401",
+      "collectionName": "FutureSex/LoveSounds (Deluxe Edition)",
+      "trackNumber": 4,
+      "trackCount": 15,
+      "discNumber": 1,
+      "discCount": 1,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/us/album/my-love-feat-t-i/400946401?i=400946439&uo=4"
+      },
+      "sourceKinds": [
+        "itunes-us-search:Pop"
+      ]
+    },
+    {
       "id": "1440914010",
       "title": "Our Song",
       "artist": "Taylor Swift",
@@ -2007,12 +1891,100 @@
         "itunes-us-search:Pop",
         "itunes-us-search:Alternative Pop"
       ]
+    },
+    {
+      "id": "1440841730",
+      "title": "Hotline Bling",
+      "artist": "Drake",
+      "artistId": "271256",
+      "releaseDate": "2015-07-31",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/0d/8b/f20d8bff-a927-ae98-6784-20a1f51cb23e/16UMGIM27642.rgb.jpg/100x100bb.jpg",
+      "genres": [
+        "Hip-Hop/Rap"
+      ],
+      "appleUrl": "https://music.apple.com/us/album/hotline-bling/1440841363?i=1440841730&uo=4",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5b/3f/1d/5b3f1dd5-4efd-b021-49b0-9d14cb08250b/mzaf_12591303768428106622.plus.aac.p.m4a",
+      "chartRank": null,
+      "collectionId": "1440841363",
+      "collectionName": "Views",
+      "trackNumber": 20,
+      "trackCount": 20,
+      "discNumber": 1,
+      "discCount": 1,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/us/album/hotline-bling/1440841363?i=1440841730&uo=4"
+      },
+      "sourceKinds": [
+        "itunes-us-search:Pop"
+      ]
+    },
+    {
+      "id": "252606592",
+      "title": "Cry Me a River",
+      "artist": "Justin Timberlake",
+      "artistId": "398128",
+      "releaseDate": "2002-11-05",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/f9/76/d2/f976d242-4e68-1919-6576-ef4c869c077a/dj.umvqrvup.jpg/100x100bb.jpg",
+      "genres": [
+        "Pop"
+      ],
+      "appleUrl": "https://music.apple.com/us/album/cry-me-a-river/252606580?i=252606592&uo=4",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f9/2f/13/f92f132d-8336-b7af-cbd6-aa62a78d0fbc/mzaf_13014445371283907307.plus.aac.p.m4a",
+      "chartRank": null,
+      "collectionId": "252606580",
+      "collectionName": "Justified",
+      "trackNumber": 5,
+      "trackCount": 13,
+      "discNumber": 1,
+      "discCount": 1,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/us/album/cry-me-a-river/252606580?i=252606592&uo=4"
+      },
+      "sourceKinds": [
+        "itunes-us-search:Pop",
+        "itunes-us-search:R&B"
+      ]
     }
   ],
   "songs": [
     {
-      "id": "6820600260",
-      "title": "I Hate Nashville (Live)",
+      "id": "6819835358",
+      "title": "Vc Está Ouvindo",
+      "artist": "Maui & Machadez",
+      "artistId": "1666596074",
+      "releaseDate": "2026-10-14",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/40/a2/7f/40a27f1b-fb4a-ab92-f764-eed9917f7f1b/0.jpg/100x100bb.jpg",
+      "genres": [
+        "R&B/Soul"
+      ],
+      "appleUrl": "https://music.apple.com/us/album/vc-est%C3%A1-ouvindo/6819835203?i=6819835358&uo=4",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e6/77/8b/e6778b47-2a7c-cde6-b5e8-fdc9c42a0494/mzaf_2126028452920540659.plus.aac.p.m4a",
+      "chartRank": null,
+      "collectionId": "6819835203",
+      "collectionName": "R&Belo",
+      "trackNumber": 3,
+      "trackCount": 10,
+      "discNumber": 1,
+      "discCount": 1,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/us/album/vc-est%C3%A1-ouvindo/6819835203?i=6819835358&uo=4"
+      },
+      "sourceKinds": [
+        "itunes-us-search:R&B"
+      ]
+    },
+    {
+      "id": "6820600261",
+      "title": "Gettin’ Out of Hand (Live)",
       "artist": "Ashley Monroe",
       "artistId": "55466160",
       "releaseDate": "2026-10-14",
@@ -2020,12 +1992,12 @@
       "genres": [
         "Country"
       ],
-      "appleUrl": "https://music.apple.com/us/album/i-hate-nashville-live/6820600259?i=6820600260&uo=4",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4e/89/ba/4e89bafe-ea51-aef8-d521-812feecc78fd/mzaf_9567070415084708283.plus.aac.p.m4a",
+      "appleUrl": "https://music.apple.com/us/album/gettin-out-of-hand-live/6820600259?i=6820600261&uo=4",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1d/3f/36/1d3f3619-04ed-84f8-af1c-16bec371ebb0/mzaf_2812879531913541926.plus.aac.p.m4a",
       "chartRank": null,
       "collectionId": "6820600259",
       "collectionName": "Dear Nashville: Live at The Station Inn",
-      "trackNumber": 1,
+      "trackNumber": 2,
       "trackCount": 11,
       "discNumber": 1,
       "discCount": 1,
@@ -2033,7 +2005,7 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/us/album/i-hate-nashville-live/6820600259?i=6820600260&uo=4"
+        "apple": "https://music.apple.com/us/album/gettin-out-of-hand-live/6820600259?i=6820600261&uo=4"
       },
       "sourceKinds": [
         "itunes-us-search:Singer Songwriter"
@@ -2214,90 +2186,32 @@
       ]
     },
     {
-      "id": "6820600261",
-      "title": "Gettin’ Out of Hand (Live)",
-      "artist": "Ashley Monroe",
-      "artistId": "55466160",
+      "id": "6819835360",
+      "title": "Feliz",
+      "artist": "Maui & Machadez",
+      "artistId": "1666596074",
       "releaseDate": "2026-10-14",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/93/98/c2/9398c246-38d2-cc49-bd36-9a8fa8d25720/634607928469.jpg/100x100bb.jpg",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/40/a2/7f/40a27f1b-fb4a-ab92-f764-eed9917f7f1b/0.jpg/100x100bb.jpg",
       "genres": [
-        "Country"
+        "R&B/Soul"
       ],
-      "appleUrl": "https://music.apple.com/us/album/gettin-out-of-hand-live/6820600259?i=6820600261&uo=4",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1d/3f/36/1d3f3619-04ed-84f8-af1c-16bec371ebb0/mzaf_2812879531913541926.plus.aac.p.m4a",
+      "appleUrl": "https://music.apple.com/us/album/feliz/6819835203?i=6819835360&uo=4",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/37/98/9e/37989e4a-8ccb-ae65-b01b-2bba6d76fc19/mzaf_16275346198915022204.plus.aac.p.m4a",
       "chartRank": null,
-      "collectionId": "6820600259",
-      "collectionName": "Dear Nashville: Live at The Station Inn",
-      "trackNumber": 2,
-      "trackCount": 11,
+      "collectionId": "6819835203",
+      "collectionName": "R&Belo",
+      "trackNumber": 5,
+      "trackCount": 10,
       "discNumber": 1,
       "discCount": 1,
       "recordingId": null,
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/us/album/gettin-out-of-hand-live/6820600259?i=6820600261&uo=4"
+        "apple": "https://music.apple.com/us/album/feliz/6819835203?i=6819835360&uo=4"
       },
       "sourceKinds": [
-        "itunes-us-search:Singer Songwriter"
-      ]
-    },
-    {
-      "id": "6820600265",
-      "title": "What Are We (Live)",
-      "artist": "Ashley Monroe",
-      "artistId": "55466160",
-      "releaseDate": "2026-10-14",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/93/98/c2/9398c246-38d2-cc49-bd36-9a8fa8d25720/634607928469.jpg/100x100bb.jpg",
-      "genres": [
-        "Country"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/what-are-we-live/6820600259?i=6820600265&uo=4",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/9c/77/f6/9c77f6f9-0f60-2b6e-f4c4-b3bbdd45f1c6/mzaf_7296933714664988696.plus.aac.p.m4a",
-      "chartRank": null,
-      "collectionId": "6820600259",
-      "collectionName": "Dear Nashville: Live at The Station Inn",
-      "trackNumber": 3,
-      "trackCount": 11,
-      "discNumber": 1,
-      "discCount": 1,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/what-are-we-live/6820600259?i=6820600265&uo=4"
-      },
-      "sourceKinds": [
-        "itunes-us-search:Singer Songwriter"
-      ]
-    },
-    {
-      "id": "6820600267",
-      "title": "Steal (Live)",
-      "artist": "Ashley Monroe",
-      "artistId": "55466160",
-      "releaseDate": "2026-10-14",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/93/98/c2/9398c246-38d2-cc49-bd36-9a8fa8d25720/634607928469.jpg/100x100bb.jpg",
-      "genres": [
-        "Country"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/steal-live/6820600259?i=6820600267&uo=4",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/8b/f9/80/8bf980f0-78e1-f480-27b4-80f44bf33ac9/mzaf_4578462573477634950.plus.aac.p.m4a",
-      "chartRank": null,
-      "collectionId": "6820600259",
-      "collectionName": "Dear Nashville: Live at The Station Inn",
-      "trackNumber": 4,
-      "trackCount": 11,
-      "discNumber": 1,
-      "discCount": 1,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/steal-live/6820600259?i=6820600267&uo=4"
-      },
-      "sourceKinds": [
-        "itunes-us-search:Singer Songwriter"
+        "itunes-us-search:R&B"
       ]
     },
     {
@@ -2469,35 +2383,6 @@
       "searchAliases": [],
       "platformLinks": {
         "apple": "https://music.apple.com/us/album/nothing-but-the-wheel-live/6820600259?i=6820600408&uo=4"
-      },
-      "sourceKinds": [
-        "itunes-us-search:Singer Songwriter"
-      ]
-    },
-    {
-      "id": "6820600409",
-      "title": "Whenever You Come Around (Live)",
-      "artist": "Ashley Monroe",
-      "artistId": "55466160",
-      "releaseDate": "2026-10-14",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/93/98/c2/9398c246-38d2-cc49-bd36-9a8fa8d25720/634607928469.jpg/100x100bb.jpg",
-      "genres": [
-        "Country"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/whenever-you-come-around-live/6820600259?i=6820600409&uo=4",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a1/9f/1f/a19f1f99-55f6-4333-073c-d8c576bbc772/mzaf_2013810805249263127.plus.aac.p.m4a",
-      "chartRank": null,
-      "collectionId": "6820600259",
-      "collectionName": "Dear Nashville: Live at The Station Inn",
-      "trackNumber": 11,
-      "trackCount": 11,
-      "discNumber": 1,
-      "discCount": 1,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/whenever-you-come-around-live/6820600259?i=6820600409&uo=4"
       },
       "sourceKinds": [
         "itunes-us-search:Singer Songwriter"
@@ -2738,65 +2623,6 @@
       ]
     },
     {
-      "id": "1411628233",
-      "title": "Believer",
-      "artist": "Imagine Dragons",
-      "artistId": "358714030",
-      "releaseDate": "2017-02-01",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/11/7a/b8/117ab805-6811-8929-18b9-0fad7baf0c25/17UMGIM98210.rgb.jpg/100x100bb.jpg",
-      "genres": [
-        "Alternative"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/believer/1411625594?i=1411628233&uo=4",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c0/3f/36/c03f367a-b66b-fd0a-a54c-30f8250c4410/mzaf_12768434238801682952.plus.aac.p.m4a",
-      "chartRank": null,
-      "collectionId": "1411625594",
-      "collectionName": "Evolve",
-      "trackNumber": 4,
-      "trackCount": 12,
-      "discNumber": 1,
-      "discCount": 1,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/believer/1411625594?i=1411628233&uo=4"
-      },
-      "sourceKinds": [
-        "itunes-us-search:Pop",
-        "itunes-us-search:Alternative Pop"
-      ]
-    },
-    {
-      "id": "1703217516",
-      "title": "I Remember Everything (feat. Kacey Musgraves)",
-      "artist": "Zach Bryan",
-      "artistId": "1436413980",
-      "releaseDate": "2023-01-27",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ce/36/7f/ce367f3d-2a4f-46ee-1434-e3fbb52f1fc8/093624849797.jpg/100x100bb.jpg",
-      "genres": [
-        "Country"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/i-remember-everything-feat-kacey-musgraves/1703216858?i=1703217516&uo=4",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/63/45/a6/6345a6ae-7bbf-3d4f-c221-6795462e41e6/mzaf_15573528478892003939.plus.aac.p.m4a",
-      "chartRank": null,
-      "collectionId": "1703216858",
-      "collectionName": "Zach Bryan",
-      "trackNumber": 11,
-      "trackCount": 16,
-      "discNumber": 1,
-      "discCount": 1,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/i-remember-everything-feat-kacey-musgraves/1703216858?i=1703217516&uo=4"
-      },
-      "sourceKinds": [
-        "itunes-us-search:Pop"
-      ]
-    },
-    {
       "id": "1590036021",
       "title": "Easy On Me",
       "artist": "Adele",
@@ -2823,6 +2649,36 @@
       },
       "sourceKinds": [
         "itunes-us-search:Pop"
+      ]
+    },
+    {
+      "id": "1226034393",
+      "title": "Sign of the Times",
+      "artist": "Harry Styles",
+      "artistId": "471260289",
+      "releaseDate": "2017-04-07",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3d/5e/aa/3d5eaaa3-9a86-c264-5cd5-7fac83f99a59/886446451978.jpg/100x100bb.jpg",
+      "genres": [
+        "Pop"
+      ],
+      "appleUrl": "https://music.apple.com/us/album/sign-of-the-times/1226034336?i=1226034393&uo=4",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/bd/58/37/bd5837c2-3b3b-5f32-c292-fc0af38f6ea6/mzaf_10433939766410649853.plus.aac.p.m4a",
+      "chartRank": null,
+      "collectionId": "1226034336",
+      "collectionName": "Harry Styles",
+      "trackNumber": 2,
+      "trackCount": 10,
+      "discNumber": 1,
+      "discCount": 1,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/us/album/sign-of-the-times/1226034336?i=1226034393&uo=4"
+      },
+      "sourceKinds": [
+        "itunes-us-search:Pop",
+        "itunes-us-search:Alternative Pop"
       ]
     },
     {
@@ -2914,6 +2770,36 @@
       ]
     },
     {
+      "id": "651880154",
+      "title": "Dreams",
+      "artist": "Fleetwood Mac",
+      "artistId": "158038",
+      "releaseDate": "1977-02-04",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/2a/eb/dc/2aebdc18-c2c0-0fdd-fb85-07538a925700/603497925766.jpg/100x100bb.jpg",
+      "genres": [
+        "Rock"
+      ],
+      "appleUrl": "https://music.apple.com/us/album/dreams/651879763?i=651880154&uo=4",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b7/90/9f/b7909f76-de40-5350-0561-7dc95a2bbf6d/mzaf_8805702250746464027.plus.aac.p.m4a",
+      "chartRank": null,
+      "collectionId": "651879763",
+      "collectionName": "Rumours (Super Deluxe Edition)",
+      "trackNumber": 2,
+      "trackCount": 12,
+      "discNumber": 1,
+      "discCount": 5,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/us/album/dreams/651879763?i=651880154&uo=4"
+      },
+      "sourceKinds": [
+        "itunes-us-search:Pop",
+        "itunes-us-search:Singer Songwriter"
+      ]
+    },
+    {
       "id": "974485805",
       "title": "Ride",
       "artist": "twenty one pilots",
@@ -2944,58 +2830,29 @@
       ]
     },
     {
-      "id": "1544491988",
-      "title": "Set Fire to the Rain",
-      "artist": "Adele",
-      "artistId": "262836961",
-      "releaseDate": "2011-01-19",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/eb/ca/25/ebca2596-cd1e-b295-91a3-771c868d0a79/191404113868.png/100x100bb.jpg",
+      "id": "1193701328",
+      "title": "Castle on the Hill",
+      "artist": "Ed Sheeran",
+      "artistId": "183313439",
+      "releaseDate": "2017-01-06",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/15/e6/e8/15e6e8a4-4190-6a8b-86c3-ab4a51b88288/190295851286.jpg/100x100bb.jpg",
       "genres": [
         "Pop"
       ],
-      "appleUrl": "https://music.apple.com/us/album/set-fire-to-the-rain/1544491232?i=1544491988&uo=4",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/96/8b/3f/968b3f92-f082-c8c2-47ba-ab7add22dfdc/mzaf_7388168289354543091.plus.aac.p.m4a",
+      "appleUrl": "https://music.apple.com/us/album/castle-on-the-hill/1193701079?i=1193701328&uo=4",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/07/be/08/07be085d-6f06-8b4e-cea1-f40b4dca3815/mzaf_12958775594313934161.plus.aac.p.m4a",
       "chartRank": null,
-      "collectionId": "1544491232",
-      "collectionName": "21",
-      "trackNumber": 5,
-      "trackCount": 12,
+      "collectionId": "1193701079",
+      "collectionName": "÷ (Deluxe)",
+      "trackNumber": 2,
+      "trackCount": 16,
       "discNumber": 1,
       "discCount": 1,
       "recordingId": null,
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/us/album/set-fire-to-the-rain/1544491232?i=1544491988&uo=4"
-      },
-      "sourceKinds": [
-        "itunes-us-search:Pop"
-      ]
-    },
-    {
-      "id": "651880154",
-      "title": "Dreams",
-      "artist": "Fleetwood Mac",
-      "artistId": "158038",
-      "releaseDate": "1977-02-04",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/2a/eb/dc/2aebdc18-c2c0-0fdd-fb85-07538a925700/603497925766.jpg/100x100bb.jpg",
-      "genres": [
-        "Rock"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/dreams/651879763?i=651880154&uo=4",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b7/90/9f/b7909f76-de40-5350-0561-7dc95a2bbf6d/mzaf_8805702250746464027.plus.aac.p.m4a",
-      "chartRank": null,
-      "collectionId": "651879763",
-      "collectionName": "Rumours (Super Deluxe Edition)",
-      "trackNumber": 2,
-      "trackCount": 12,
-      "discNumber": 1,
-      "discCount": 5,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/dreams/651879763?i=651880154&uo=4"
+        "apple": "https://music.apple.com/us/album/castle-on-the-hill/1193701079?i=1193701328&uo=4"
       },
       "sourceKinds": [
         "itunes-us-search:Pop",
@@ -3414,36 +3271,6 @@
       ]
     },
     {
-      "id": "294461792",
-      "title": "No One",
-      "artist": "Alicia Keys",
-      "artistId": "316069",
-      "releaseDate": "2007-10-09",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/c7/88/df/c788dffe-d06f-8923-ad61-a6194daf6616/888880809919.jpg/100x100bb.jpg",
-      "genres": [
-        "Contemporary R&B"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/no-one/294461785?i=294461792&uo=4",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ef/30/f2/ef30f2cf-b3bf-752f-5809-cadaf1a15fe3/mzaf_18259142165614061591.plus.aac.p.m4a",
-      "chartRank": null,
-      "collectionId": "294461785",
-      "collectionName": "As I Am (Expanded Edition)",
-      "trackNumber": 4,
-      "trackCount": 17,
-      "discNumber": 1,
-      "discCount": 1,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/no-one/294461785?i=294461792&uo=4"
-      },
-      "sourceKinds": [
-        "itunes-us-search:Pop",
-        "itunes-us-search:R&B"
-      ]
-    },
-    {
       "id": "486040195",
       "title": "We Are Young (feat. Janelle Monáe)",
       "artist": "Fun.",
@@ -3471,35 +3298,6 @@
       "sourceKinds": [
         "itunes-us-search:Pop",
         "itunes-us-search:Alternative Pop"
-      ]
-    },
-    {
-      "id": "1460315319",
-      "title": "Wrecking Ball",
-      "artist": "Miley Cyrus",
-      "artistId": "137057909",
-      "releaseDate": "2013-08-25",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e3/e0/84/e3e08400-2d03-75f9-6b8b-a3345452aa98/886444197816.jpg/100x100bb.jpg",
-      "genres": [
-        "Pop"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/wrecking-ball/1460315055?i=1460315319&uo=4",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f8/e8/a2/f8e8a23c-b85d-17dd-9625-b39ec26b171f/mzaf_1866607988873686159.plus.aac.p.m4a",
-      "chartRank": null,
-      "collectionId": "1460315055",
-      "collectionName": "Bangerz (Deluxe Version)",
-      "trackNumber": 6,
-      "trackCount": 16,
-      "discNumber": 1,
-      "discCount": 1,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/wrecking-ball/1460315055?i=1460315319&uo=4"
-      },
-      "sourceKinds": [
-        "itunes-us-search:Pop"
       ]
     },
     {
@@ -3766,6 +3564,35 @@
       ]
     },
     {
+      "id": "400946439",
+      "title": "My Love (feat. T.I.)",
+      "artist": "Justin Timberlake",
+      "artistId": "398128",
+      "releaseDate": "2006-09-08",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/4c/44/30/4c4430dd-150b-d393-ec70-4894975f4b16/888880422095.jpg/100x100bb.jpg",
+      "genres": [
+        "Pop"
+      ],
+      "appleUrl": "https://music.apple.com/us/album/my-love-feat-t-i/400946401?i=400946439&uo=4",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a7/f2/ec/a7f2ec11-47eb-1665-9cc3-d78c3fbcafdb/mzaf_16217457358228502699.plus.aac.p.m4a",
+      "chartRank": null,
+      "collectionId": "400946401",
+      "collectionName": "FutureSex/LoveSounds (Deluxe Edition)",
+      "trackNumber": 4,
+      "trackCount": 15,
+      "discNumber": 1,
+      "discCount": 1,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/us/album/my-love-feat-t-i/400946401?i=400946439&uo=4"
+      },
+      "sourceKinds": [
+        "itunes-us-search:Pop"
+      ]
+    },
+    {
       "id": "1440914010",
       "title": "Our Song",
       "artist": "Taylor Swift",
@@ -3967,6 +3794,65 @@
       "sourceKinds": [
         "itunes-us-search:Pop",
         "itunes-us-search:Alternative Pop"
+      ]
+    },
+    {
+      "id": "1440841730",
+      "title": "Hotline Bling",
+      "artist": "Drake",
+      "artistId": "271256",
+      "releaseDate": "2015-07-31",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/0d/8b/f20d8bff-a927-ae98-6784-20a1f51cb23e/16UMGIM27642.rgb.jpg/100x100bb.jpg",
+      "genres": [
+        "Hip-Hop/Rap"
+      ],
+      "appleUrl": "https://music.apple.com/us/album/hotline-bling/1440841363?i=1440841730&uo=4",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5b/3f/1d/5b3f1dd5-4efd-b021-49b0-9d14cb08250b/mzaf_12591303768428106622.plus.aac.p.m4a",
+      "chartRank": null,
+      "collectionId": "1440841363",
+      "collectionName": "Views",
+      "trackNumber": 20,
+      "trackCount": 20,
+      "discNumber": 1,
+      "discCount": 1,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/us/album/hotline-bling/1440841363?i=1440841730&uo=4"
+      },
+      "sourceKinds": [
+        "itunes-us-search:Pop"
+      ]
+    },
+    {
+      "id": "252606592",
+      "title": "Cry Me a River",
+      "artist": "Justin Timberlake",
+      "artistId": "398128",
+      "releaseDate": "2002-11-05",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/f9/76/d2/f976d242-4e68-1919-6576-ef4c869c077a/dj.umvqrvup.jpg/100x100bb.jpg",
+      "genres": [
+        "Pop"
+      ],
+      "appleUrl": "https://music.apple.com/us/album/cry-me-a-river/252606580?i=252606592&uo=4",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f9/2f/13/f92f132d-8336-b7af-cbd6-aa62a78d0fbc/mzaf_13014445371283907307.plus.aac.p.m4a",
+      "chartRank": null,
+      "collectionId": "252606580",
+      "collectionName": "Justified",
+      "trackNumber": 5,
+      "trackCount": 13,
+      "discNumber": 1,
+      "discCount": 1,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/us/album/cry-me-a-river/252606580?i=252606592&uo=4"
+      },
+      "sourceKinds": [
+        "itunes-us-search:Pop",
+        "itunes-us-search:R&B"
       ]
     }
   ],
