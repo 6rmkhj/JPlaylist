@@ -7,8 +7,8 @@
     "chartCode": "US"
   },
   "status": "degraded",
-  "updatedAt": "2026-10-18T11:17:00.781Z",
-  "lastCheckedAt": "2026-10-18T11:17:00.781Z",
+  "updatedAt": "2026-10-18T15:56:54.628Z",
+  "lastCheckedAt": "2026-10-18T15:56:54.628Z",
   "latestWindowDays": 180,
   "sources": {
     "popular": {
@@ -599,29 +599,29 @@
       ]
     },
     {
-      "id": "6793767981",
-      "title": "Somebody That I Used To Know (feat. Gotye & Kimbra) [ARTBAT x David Guetta Mix]",
-      "artist": "ARTBAT & David Guetta",
-      "artistId": "1026939906",
-      "releaseDate": "2026-07-31",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9d/65/17/9d65178b-e50e-3508-133f-97b48ce0fa54/26UMGIM92192.rgb.jpg/100x100bb.jpg",
+      "id": "6783569946",
+      "title": "Anaheim Star",
+      "artist": "Rebecca Black",
+      "artistId": "426285675",
+      "releaseDate": "2026-09-04",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/68/13/ca/6813caa2-27e4-9e05-5b5a-e159bfd9a53f/1963624738249_cover.png/100x100bb.jpg",
       "genres": [
-        "Dance"
+        "Pop"
       ],
-      "appleUrl": "https://music.apple.com/us/album/somebody-that-i-used-to-know-feat-gotye-kimbra-artbat/6793767980?i=6793767981&uo=4",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f7/4a/01/f74a01bb-907c-2f3c-6573-7b7ea121ea06/mzaf_657379224508844592.plus.aac.p.m4a",
+      "appleUrl": "https://music.apple.com/us/album/anaheim-star/6783569945?i=6783569946&uo=4",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/7b/78/29/7b782905-7bcf-c4fb-3a17-a14c0136b8e8/mzaf_13166802979123392078.plus.aac.p.m4a",
       "chartRank": null,
-      "collectionId": "6793767980",
-      "collectionName": "Somebody That I Used To Know (ARTBAT x David Guetta Mix) [feat. Gotye & Kimbra] - Single",
+      "collectionId": "6783569945",
+      "collectionName": "Age of the Exhibitionist",
       "trackNumber": 1,
-      "trackCount": 2,
+      "trackCount": 11,
       "discNumber": 1,
       "discCount": 1,
       "recordingId": null,
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/us/album/somebody-that-i-used-to-know-feat-gotye-kimbra-artbat/6793767980?i=6793767981&uo=4"
+        "apple": "https://music.apple.com/us/album/anaheim-star/6783569945?i=6783569946&uo=4"
       },
       "sourceKinds": [
         "itunes-us-search:Dance Pop"
@@ -657,21 +657,21 @@
       ]
     },
     {
-      "id": "6778877460",
-      "title": "Shine",
-      "artist": "HUGEL, French Montana, David Guetta & Aidan Martin",
+      "id": "6778877440",
+      "title": "Movin' To The Sun",
+      "artist": "HUGEL, Imael Angel & Ultra Naté",
       "artistId": "978839124",
-      "releaseDate": "2026-06-25",
+      "releaseDate": "2026-06-26",
       "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/86/10/b4/8610b422-9eaf-dccc-bb90-68751386deeb/1134279.jpg/100x100bb.jpg",
       "genres": [
         "Electronic"
       ],
-      "appleUrl": "https://music.apple.com/us/album/shine/6778877191?i=6778877460&uo=4",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/9c/00/23/9c00239a-1317-cc30-4000-ee71e2c42056/mzaf_4114524066849887824.plus.aac.p.m4a",
+      "appleUrl": "https://music.apple.com/us/album/movin-to-the-sun/6778877191?i=6778877440&uo=4",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c9/aa/63/c9aa63e1-7f15-8b04-7255-7d4466c10028/mzaf_14263624320297744244.plus.aac.p.m4a",
       "chartRank": null,
       "collectionId": "6778877191",
       "collectionName": "Twenty One",
-      "trackNumber": 7,
+      "trackNumber": 4,
       "trackCount": 21,
       "discNumber": 1,
       "discCount": 1,
@@ -679,36 +679,7 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/us/album/shine/6778877191?i=6778877460&uo=4"
-      },
-      "sourceKinds": [
-        "itunes-us-search:Dance Pop"
-      ]
-    },
-    {
-      "id": "6777171445",
-      "title": "Everything's Fine (PM)",
-      "artist": "Alok & Jennifer Lopez",
-      "artistId": "324709167",
-      "releaseDate": "2026-06-19",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/60/67/10/606710e5-c89f-3e88-0fa6-2246fc1c65fb/196874504642.jpg/100x100bb.jpg",
-      "genres": [
-        "Dance"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/everythings-fine-pm/6777171444?i=6777171445&uo=4",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a8/0f/0a/a80f0a10-50cf-bf22-c851-a61f7c58ab30/mzaf_2666135829683916044.plus.aac.p.m4a",
-      "chartRank": null,
-      "collectionId": "6777171444",
-      "collectionName": "Everything's Fine - Single",
-      "trackNumber": 1,
-      "trackCount": 2,
-      "discNumber": 1,
-      "discCount": 1,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/everythings-fine-pm/6777171444?i=6777171445&uo=4"
+        "apple": "https://music.apple.com/us/album/movin-to-the-sun/6778877191?i=6778877440&uo=4"
       },
       "sourceKinds": [
         "itunes-us-search:Dance Pop"
@@ -744,20 +715,20 @@
       ]
     },
     {
-      "id": "6764277864",
-      "title": "Repeat It",
-      "artist": "Martin Garrix & Ed Sheeran",
-      "artistId": "430932944",
-      "releaseDate": "2026-05-15",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f3/31/50/f3315090-1d43-f6c1-5dbc-fc349b6fec81/8721093717003.png/100x100bb.jpg",
+      "id": "6769065232",
+      "title": "COLORADO",
+      "artist": "Loud Luxury & ZOHARA",
+      "artistId": "829284879",
+      "releaseDate": "2026-05-22",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ef/b4/92/efb4920a-d5d7-7e27-191d-5be6ae23a4f6/26UMGIM62272.rgb.jpg/100x100bb.jpg",
       "genres": [
-        "Pop"
+        "Dance"
       ],
-      "appleUrl": "https://music.apple.com/us/album/repeat-it/1895713789?i=6764277864&uo=4",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/31/1d/41/311d4123-f19d-0616-ca38-294062ef3ccb/mzaf_9016678141073394280.plus.aac.p.m4a",
+      "appleUrl": "https://music.apple.com/us/album/colorado/6769064981?i=6769065232&uo=4",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/7f/9b/55/7f9b5539-abb6-1177-45e6-d065d4b76f2e/mzaf_11764616414275001136.plus.aac.p.m4a",
       "chartRank": null,
-      "collectionId": "1895713789",
-      "collectionName": "Repeat It - Single",
+      "collectionId": "6769064981",
+      "collectionName": "COLORADO - Single",
       "trackNumber": 1,
       "trackCount": 1,
       "discNumber": 1,
@@ -766,7 +737,36 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/us/album/repeat-it/1895713789?i=6764277864&uo=4"
+        "apple": "https://music.apple.com/us/album/colorado/6769064981?i=6769065232&uo=4"
+      },
+      "sourceKinds": [
+        "itunes-us-search:Dance Pop"
+      ]
+    },
+    {
+      "id": "6769649578",
+      "title": "Shabang",
+      "artist": "Drake",
+      "artistId": "271256",
+      "releaseDate": "2026-05-15",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7f/39/61/7f396123-be56-bc11-eaab-976441808e58/26UMGIM63622.rgb.jpg/100x100bb.jpg",
+      "genres": [
+        "Hip-Hop"
+      ],
+      "appleUrl": "https://music.apple.com/us/album/shabang/6769649287?i=6769649578&uo=4",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f5/5e/57/f55e579b-4598-e298-f585-03dfd3b9951c/mzaf_17667839459904209421.plus.aac.p.m4a",
+      "chartRank": null,
+      "collectionId": "6769649287",
+      "collectionName": "ICEMAN",
+      "trackNumber": 6,
+      "trackCount": 18,
+      "discNumber": 1,
+      "discCount": 1,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/us/album/shabang/6769649287?i=6769649578&uo=4"
       },
       "sourceKinds": [
         "itunes-us-search:Dance Pop"
@@ -3644,29 +3644,29 @@
       ]
     },
     {
-      "id": "6793767981",
-      "title": "Somebody That I Used To Know (feat. Gotye & Kimbra) [ARTBAT x David Guetta Mix]",
-      "artist": "ARTBAT & David Guetta",
-      "artistId": "1026939906",
-      "releaseDate": "2026-07-31",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9d/65/17/9d65178b-e50e-3508-133f-97b48ce0fa54/26UMGIM92192.rgb.jpg/100x100bb.jpg",
+      "id": "6783569946",
+      "title": "Anaheim Star",
+      "artist": "Rebecca Black",
+      "artistId": "426285675",
+      "releaseDate": "2026-09-04",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/68/13/ca/6813caa2-27e4-9e05-5b5a-e159bfd9a53f/1963624738249_cover.png/100x100bb.jpg",
       "genres": [
-        "Dance"
+        "Pop"
       ],
-      "appleUrl": "https://music.apple.com/us/album/somebody-that-i-used-to-know-feat-gotye-kimbra-artbat/6793767980?i=6793767981&uo=4",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f7/4a/01/f74a01bb-907c-2f3c-6573-7b7ea121ea06/mzaf_657379224508844592.plus.aac.p.m4a",
+      "appleUrl": "https://music.apple.com/us/album/anaheim-star/6783569945?i=6783569946&uo=4",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/7b/78/29/7b782905-7bcf-c4fb-3a17-a14c0136b8e8/mzaf_13166802979123392078.plus.aac.p.m4a",
       "chartRank": null,
-      "collectionId": "6793767980",
-      "collectionName": "Somebody That I Used To Know (ARTBAT x David Guetta Mix) [feat. Gotye & Kimbra] - Single",
+      "collectionId": "6783569945",
+      "collectionName": "Age of the Exhibitionist",
       "trackNumber": 1,
-      "trackCount": 2,
+      "trackCount": 11,
       "discNumber": 1,
       "discCount": 1,
       "recordingId": null,
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/us/album/somebody-that-i-used-to-know-feat-gotye-kimbra-artbat/6793767980?i=6793767981&uo=4"
+        "apple": "https://music.apple.com/us/album/anaheim-star/6783569945?i=6783569946&uo=4"
       },
       "sourceKinds": [
         "itunes-us-search:Dance Pop"
@@ -3702,21 +3702,21 @@
       ]
     },
     {
-      "id": "6778877460",
-      "title": "Shine",
-      "artist": "HUGEL, French Montana, David Guetta & Aidan Martin",
+      "id": "6778877440",
+      "title": "Movin' To The Sun",
+      "artist": "HUGEL, Imael Angel & Ultra Naté",
       "artistId": "978839124",
-      "releaseDate": "2026-06-25",
+      "releaseDate": "2026-06-26",
       "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/86/10/b4/8610b422-9eaf-dccc-bb90-68751386deeb/1134279.jpg/100x100bb.jpg",
       "genres": [
         "Electronic"
       ],
-      "appleUrl": "https://music.apple.com/us/album/shine/6778877191?i=6778877460&uo=4",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/9c/00/23/9c00239a-1317-cc30-4000-ee71e2c42056/mzaf_4114524066849887824.plus.aac.p.m4a",
+      "appleUrl": "https://music.apple.com/us/album/movin-to-the-sun/6778877191?i=6778877440&uo=4",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c9/aa/63/c9aa63e1-7f15-8b04-7255-7d4466c10028/mzaf_14263624320297744244.plus.aac.p.m4a",
       "chartRank": null,
       "collectionId": "6778877191",
       "collectionName": "Twenty One",
-      "trackNumber": 7,
+      "trackNumber": 4,
       "trackCount": 21,
       "discNumber": 1,
       "discCount": 1,
@@ -3724,36 +3724,7 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/us/album/shine/6778877191?i=6778877460&uo=4"
-      },
-      "sourceKinds": [
-        "itunes-us-search:Dance Pop"
-      ]
-    },
-    {
-      "id": "6777171445",
-      "title": "Everything's Fine (PM)",
-      "artist": "Alok & Jennifer Lopez",
-      "artistId": "324709167",
-      "releaseDate": "2026-06-19",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/60/67/10/606710e5-c89f-3e88-0fa6-2246fc1c65fb/196874504642.jpg/100x100bb.jpg",
-      "genres": [
-        "Dance"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/everythings-fine-pm/6777171444?i=6777171445&uo=4",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a8/0f/0a/a80f0a10-50cf-bf22-c851-a61f7c58ab30/mzaf_2666135829683916044.plus.aac.p.m4a",
-      "chartRank": null,
-      "collectionId": "6777171444",
-      "collectionName": "Everything's Fine - Single",
-      "trackNumber": 1,
-      "trackCount": 2,
-      "discNumber": 1,
-      "discCount": 1,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/everythings-fine-pm/6777171444?i=6777171445&uo=4"
+        "apple": "https://music.apple.com/us/album/movin-to-the-sun/6778877191?i=6778877440&uo=4"
       },
       "sourceKinds": [
         "itunes-us-search:Dance Pop"
@@ -3789,20 +3760,20 @@
       ]
     },
     {
-      "id": "6764277864",
-      "title": "Repeat It",
-      "artist": "Martin Garrix & Ed Sheeran",
-      "artistId": "430932944",
-      "releaseDate": "2026-05-15",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f3/31/50/f3315090-1d43-f6c1-5dbc-fc349b6fec81/8721093717003.png/100x100bb.jpg",
+      "id": "6769065232",
+      "title": "COLORADO",
+      "artist": "Loud Luxury & ZOHARA",
+      "artistId": "829284879",
+      "releaseDate": "2026-05-22",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ef/b4/92/efb4920a-d5d7-7e27-191d-5be6ae23a4f6/26UMGIM62272.rgb.jpg/100x100bb.jpg",
       "genres": [
-        "Pop"
+        "Dance"
       ],
-      "appleUrl": "https://music.apple.com/us/album/repeat-it/1895713789?i=6764277864&uo=4",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/31/1d/41/311d4123-f19d-0616-ca38-294062ef3ccb/mzaf_9016678141073394280.plus.aac.p.m4a",
+      "appleUrl": "https://music.apple.com/us/album/colorado/6769064981?i=6769065232&uo=4",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/7f/9b/55/7f9b5539-abb6-1177-45e6-d065d4b76f2e/mzaf_11764616414275001136.plus.aac.p.m4a",
       "chartRank": null,
-      "collectionId": "1895713789",
-      "collectionName": "Repeat It - Single",
+      "collectionId": "6769064981",
+      "collectionName": "COLORADO - Single",
       "trackNumber": 1,
       "trackCount": 1,
       "discNumber": 1,
@@ -3811,7 +3782,36 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/us/album/repeat-it/1895713789?i=6764277864&uo=4"
+        "apple": "https://music.apple.com/us/album/colorado/6769064981?i=6769065232&uo=4"
+      },
+      "sourceKinds": [
+        "itunes-us-search:Dance Pop"
+      ]
+    },
+    {
+      "id": "6769649578",
+      "title": "Shabang",
+      "artist": "Drake",
+      "artistId": "271256",
+      "releaseDate": "2026-05-15",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7f/39/61/7f396123-be56-bc11-eaab-976441808e58/26UMGIM63622.rgb.jpg/100x100bb.jpg",
+      "genres": [
+        "Hip-Hop"
+      ],
+      "appleUrl": "https://music.apple.com/us/album/shabang/6769649287?i=6769649578&uo=4",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f5/5e/57/f55e579b-4598-e298-f585-03dfd3b9951c/mzaf_17667839459904209421.plus.aac.p.m4a",
+      "chartRank": null,
+      "collectionId": "6769649287",
+      "collectionName": "ICEMAN",
+      "trackNumber": 6,
+      "trackCount": 18,
+      "discNumber": 1,
+      "discCount": 1,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/us/album/shabang/6769649287?i=6769649578&uo=4"
       },
       "sourceKinds": [
         "itunes-us-search:Dance Pop"
