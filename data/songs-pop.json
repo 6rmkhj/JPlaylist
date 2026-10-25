@@ -7,8 +7,8 @@
     "chartCode": "US"
   },
   "status": "fresh",
-  "updatedAt": "2026-10-25T16:31:17.326Z",
-  "lastCheckedAt": "2026-10-25T16:31:17.326Z",
+  "updatedAt": "2026-10-25T20:56:50.393Z",
+  "lastCheckedAt": "2026-10-25T20:56:50.393Z",
   "latestWindowDays": 180,
   "sources": {
     "popular": {
@@ -42,7 +42,7 @@
     "enrichmentFailures": 0
   },
   "counts": {
-    "latest": 67,
+    "latest": 69,
     "popular": 100,
     "total": 145
   },
@@ -321,7 +321,7 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/lodi-when/6822944288?i=6822944289",
       "previewUrl": null,
-      "chartRank": 41,
+      "chartRank": 36,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -559,7 +559,7 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/patient-zero/6814997249?i=6814997425",
       "previewUrl": null,
-      "chartRank": 55,
+      "chartRank": 48,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -589,7 +589,7 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/last-thing-you-need/6812476961?i=6812477290",
       "previewUrl": null,
-      "chartRank": 16,
+      "chartRank": 14,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -648,7 +648,7 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/so-good-feat-kendrick-lamar/6810715695?i=6810716062",
       "previewUrl": null,
-      "chartRank": 42,
+      "chartRank": 43,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -708,7 +708,7 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/dope-girl/6807069399?i=6807069451",
       "previewUrl": null,
-      "chartRank": 62,
+      "chartRank": 66,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -720,6 +720,36 @@
       "searchAliases": [],
       "platformLinks": {
         "apple": "https://music.apple.com/us/album/dope-girl/6807069399?i=6807069451"
+      },
+      "sourceKinds": [
+        "apple-us-chart"
+      ]
+    },
+    {
+      "id": "6805240960",
+      "title": "Stop The Wedding!",
+      "artist": "Ashe",
+      "artistId": "1234718215",
+      "releaseDate": "2026-08-07",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1b/86/c9/1b86c988-03b8-ca21-10a5-0963d09f5bcf/075679561893.jpg/100x100bb.jpg",
+      "genres": [
+        "Pop",
+        "Music"
+      ],
+      "appleUrl": "https://music.apple.com/us/album/stop-the-wedding/6805240956?i=6805240960",
+      "previewUrl": null,
+      "chartRank": 95,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/us/album/stop-the-wedding/6805240956?i=6805240960"
       },
       "sourceKinds": [
         "apple-us-chart"
@@ -738,7 +768,7 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/bby-wow/6796864741?i=6796864754",
       "previewUrl": null,
-      "chartRank": 2,
+      "chartRank": 3,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -797,7 +827,7 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/dead-fresh/6790569132?i=6790569133",
       "previewUrl": null,
-      "chartRank": 26,
+      "chartRank": 28,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -856,7 +886,7 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/great-expectation/6769552402?i=6769552411",
       "previewUrl": null,
-      "chartRank": 69,
+      "chartRank": 68,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -886,7 +916,7 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/wtf-goin/6779378647?i=6779378648",
       "previewUrl": null,
-      "chartRank": 50,
+      "chartRank": 56,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -916,7 +946,7 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/stupid-song/6779097512?i=6779097534",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ab/d6/78/abd678a1-bf4e-7ee9-d0b2-ba8afee10914/mzaf_3280183609788906841.plus.aac.p.m4a",
-      "chartRank": 22,
+      "chartRank": 21,
       "collectionId": "1889992111",
       "collectionName": "you seem pretty sad for a girl so in love",
       "trackNumber": 2,
@@ -931,6 +961,36 @@
       },
       "sourceKinds": [
         "itunes-us-search:Pop",
+        "apple-us-chart"
+      ]
+    },
+    {
+      "id": "6798042825",
+      "title": "Jaded",
+      "artist": "Koe Wetzel & Ella Langley",
+      "artistId": "1139953953",
+      "releaseDate": "2026-06-12",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c1/09/7e/c1097e38-0d2e-d389-2be7-0762979bb43a/ticket.easjqfbg.jpg/100x100bb.jpg",
+      "genres": [
+        "Country",
+        "Music"
+      ],
+      "appleUrl": "https://music.apple.com/us/album/jaded/6798042820?i=6798042825",
+      "previewUrl": null,
+      "chartRank": 99,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/us/album/jaded/6798042820?i=6798042825"
+      },
+      "sourceKinds": [
         "apple-us-chart"
       ]
     },
@@ -1005,7 +1065,7 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/im-spent/6769551464?i=6769551476",
       "previewUrl": null,
-      "chartRank": 34,
+      "chartRank": 37,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -1327,7 +1387,7 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/aint-in-la/6792883860?i=6792884101",
       "previewUrl": null,
-      "chartRank": 95,
+      "chartRank": 96,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -1386,7 +1446,7 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/the-cure/1889992111?i=1889992123",
       "previewUrl": null,
-      "chartRank": 27,
+      "chartRank": 26,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -2046,36 +2106,6 @@
       ]
     },
     {
-      "id": "6796864754",
-      "title": "BbY WOW",
-      "artist": "KAROL G, Judeline & rusowsky",
-      "artistId": "290814601",
-      "releaseDate": "2026-08-05",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/66/b2/2b66b26c-ab23-faa1-c4ee-06fa2cce8f76/26UM1IM00558.rgb.jpg/100x100bb.jpg",
-      "genres": [
-        "Music",
-        "Latin"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/bby-wow/6796864741?i=6796864754",
-      "previewUrl": null,
-      "chartRank": 2,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": null,
-      "trackCount": null,
-      "discNumber": null,
-      "discCount": null,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/bby-wow/6796864741?i=6796864754"
-      },
-      "sourceKinds": [
-        "apple-us-chart"
-      ]
-    },
-    {
       "id": "1844932150",
       "title": "Choosin' Texas",
       "artist": "Ella Langley",
@@ -2088,7 +2118,7 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/choosin-texas/1844932149?i=1844932150",
       "previewUrl": null,
-      "chartRank": 3,
+      "chartRank": 2,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -2100,6 +2130,36 @@
       "searchAliases": [],
       "platformLinks": {
         "apple": "https://music.apple.com/us/album/choosin-texas/1844932149?i=1844932150"
+      },
+      "sourceKinds": [
+        "apple-us-chart"
+      ]
+    },
+    {
+      "id": "6796864754",
+      "title": "BbY WOW",
+      "artist": "KAROL G, Judeline & rusowsky",
+      "artistId": "290814601",
+      "releaseDate": "2026-08-05",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/66/b2/2b66b26c-ab23-faa1-c4ee-06fa2cce8f76/26UM1IM00558.rgb.jpg/100x100bb.jpg",
+      "genres": [
+        "Music",
+        "Latin"
+      ],
+      "appleUrl": "https://music.apple.com/us/album/bby-wow/6796864741?i=6796864754",
+      "previewUrl": null,
+      "chartRank": 3,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/us/album/bby-wow/6796864741?i=6796864754"
       },
       "sourceKinds": [
         "apple-us-chart"
@@ -2406,6 +2466,36 @@
       ]
     },
     {
+      "id": "6812477290",
+      "title": "Last Thing You Need",
+      "artist": "Morgan Wallen",
+      "artistId": "829142092",
+      "releaseDate": "2026-09-17",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5d/d3/1c/5dd31c9c-1e1c-0bbc-104f-4a42e2bb4c59/075679556424.jpg/100x100bb.jpg",
+      "genres": [
+        "Country",
+        "Music"
+      ],
+      "appleUrl": "https://music.apple.com/us/album/last-thing-you-need/6812476961?i=6812477290",
+      "previewUrl": null,
+      "chartRank": 14,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/us/album/last-thing-you-need/6812476961?i=6812477290"
+      },
+      "sourceKinds": [
+        "apple-us-chart"
+      ]
+    },
+    {
       "id": "1621803969",
       "title": "LIKE ME (feat. 42 Dugg & Lil Baby)",
       "artist": "Future",
@@ -2418,7 +2508,7 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/like-me-feat-42-dugg-lil-baby/1621803882?i=1621803969",
       "previewUrl": null,
-      "chartRank": 14,
+      "chartRank": 15,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -2448,36 +2538,6 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/best-i-ever-had/1453336206?i=1453336216",
       "previewUrl": null,
-      "chartRank": 15,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": null,
-      "trackCount": null,
-      "discNumber": null,
-      "discCount": null,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/best-i-ever-had/1453336206?i=1453336216"
-      },
-      "sourceKinds": [
-        "apple-us-chart"
-      ]
-    },
-    {
-      "id": "6812477290",
-      "title": "Last Thing You Need",
-      "artist": "Morgan Wallen",
-      "artistId": "829142092",
-      "releaseDate": "2026-09-17",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5d/d3/1c/5dd31c9c-1e1c-0bbc-104f-4a42e2bb4c59/075679556424.jpg/100x100bb.jpg",
-      "genres": [
-        "Country",
-        "Music"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/last-thing-you-need/6812476961?i=6812477290",
-      "previewUrl": null,
       "chartRank": 16,
       "collectionId": null,
       "collectionName": null,
@@ -2489,7 +2549,7 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/us/album/last-thing-you-need/6812476961?i=6812477290"
+        "apple": "https://music.apple.com/us/album/best-i-ever-had/1453336206?i=1453336216"
       },
       "sourceKinds": [
         "apple-us-chart"
@@ -2616,36 +2676,6 @@
       ]
     },
     {
-      "id": "1621119426",
-      "title": "I'M DAT N***A",
-      "artist": "Future",
-      "artistId": "128050210",
-      "releaseDate": "2022-04-29",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/65/f2/06/65f2067b-a8ea-239c-c219-8e0f0282dcea/196589073693.jpg/100x100bb.jpg",
-      "genres": [
-        "Hip-Hop/Rap",
-        "Music"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/im-dat-n-a/1621119097?i=1621119426",
-      "previewUrl": null,
-      "chartRank": 21,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": null,
-      "trackCount": null,
-      "discNumber": null,
-      "discCount": null,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/im-dat-n-a/1621119097?i=1621119426"
-      },
-      "sourceKinds": [
-        "apple-us-chart"
-      ]
-    },
-    {
       "id": "6779097534",
       "title": "stupid song",
       "artist": "Olivia Rodrigo",
@@ -2658,7 +2688,7 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/stupid-song/6779097512?i=6779097534",
       "previewUrl": null,
-      "chartRank": 22,
+      "chartRank": 21,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -2670,36 +2700,6 @@
       "searchAliases": [],
       "platformLinks": {
         "apple": "https://music.apple.com/us/album/stupid-song/6779097512?i=6779097534"
-      },
-      "sourceKinds": [
-        "apple-us-chart"
-      ]
-    },
-    {
-      "id": "1802103970",
-      "title": "I'm The Problem",
-      "artist": "Morgan Wallen",
-      "artistId": "829142092",
-      "releaseDate": "2025-01-31",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1e/ef/26/1eef2600-29f4-5423-3052-26874afd2947/25UMGIM46050.rgb.jpg/100x100bb.jpg",
-      "genres": [
-        "Country",
-        "Music"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/im-the-problem/1802103958?i=1802103970",
-      "previewUrl": null,
-      "chartRank": 23,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": null,
-      "trackCount": null,
-      "discNumber": null,
-      "discCount": null,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/im-the-problem/1802103958?i=1802103970"
       },
       "sourceKinds": [
         "apple-us-chart"
@@ -2718,7 +2718,7 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/i-cant-love-you-anymore/1895158676?i=6763091996",
       "previewUrl": null,
-      "chartRank": 24,
+      "chartRank": 22,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -2730,6 +2730,126 @@
       "searchAliases": [],
       "platformLinks": {
         "apple": "https://music.apple.com/us/album/i-cant-love-you-anymore/1895158676?i=6763091996"
+      },
+      "sourceKinds": [
+        "apple-us-chart"
+      ]
+    },
+    {
+      "id": "1621119426",
+      "title": "I'M DAT N***A",
+      "artist": "Future",
+      "artistId": "128050210",
+      "releaseDate": "2022-04-29",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/65/f2/06/65f2067b-a8ea-239c-c219-8e0f0282dcea/196589073693.jpg/100x100bb.jpg",
+      "genres": [
+        "Hip-Hop/Rap",
+        "Music"
+      ],
+      "appleUrl": "https://music.apple.com/us/album/im-dat-n-a/1621119097?i=1621119426",
+      "previewUrl": null,
+      "chartRank": 23,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/us/album/im-dat-n-a/1621119097?i=1621119426"
+      },
+      "sourceKinds": [
+        "apple-us-chart"
+      ]
+    },
+    {
+      "id": "1802103970",
+      "title": "I'm The Problem",
+      "artist": "Morgan Wallen",
+      "artistId": "829142092",
+      "releaseDate": "2025-01-31",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1e/ef/26/1eef2600-29f4-5423-3052-26874afd2947/25UMGIM46050.rgb.jpg/100x100bb.jpg",
+      "genres": [
+        "Country",
+        "Music"
+      ],
+      "appleUrl": "https://music.apple.com/us/album/im-the-problem/1802103958?i=1802103970",
+      "previewUrl": null,
+      "chartRank": 24,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/us/album/im-the-problem/1802103958?i=1802103970"
+      },
+      "sourceKinds": [
+        "apple-us-chart"
+      ]
+    },
+    {
+      "id": "1869436845",
+      "title": "Be Her",
+      "artist": "Ella Langley",
+      "artistId": "1384373733",
+      "releaseDate": "2026-02-13",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a1/ba/64/a1ba6484-f462-1b88-ddff-d4c014d5f265/196874018361.jpg/100x100bb.jpg",
+      "genres": [
+        "Country",
+        "Music"
+      ],
+      "appleUrl": "https://music.apple.com/us/album/be-her/1869436835?i=1869436845",
+      "previewUrl": null,
+      "chartRank": 25,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/us/album/be-her/1869436835?i=1869436845"
+      },
+      "sourceKinds": [
+        "apple-us-chart"
+      ]
+    },
+    {
+      "id": "1889992123",
+      "title": "the cure",
+      "artist": "Olivia Rodrigo",
+      "artistId": "979458609",
+      "releaseDate": "2026-05-22",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/100x100bb.jpg",
+      "genres": [
+        "Pop",
+        "Music"
+      ],
+      "appleUrl": "https://music.apple.com/us/album/the-cure/1889992111?i=1889992123",
+      "previewUrl": null,
+      "chartRank": 26,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/us/album/the-cure/1889992111?i=1889992123"
       },
       "sourceKinds": [
         "apple-us-chart"
@@ -2748,7 +2868,7 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/kacey-talk/1530122403?i=1530123009",
       "previewUrl": null,
-      "chartRank": 25,
+      "chartRank": 27,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -2778,7 +2898,7 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/dead-fresh/6790569132?i=6790569133",
       "previewUrl": null,
-      "chartRank": 26,
+      "chartRank": 28,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -2790,36 +2910,6 @@
       "searchAliases": [],
       "platformLinks": {
         "apple": "https://music.apple.com/us/album/dead-fresh/6790569132?i=6790569133"
-      },
-      "sourceKinds": [
-        "apple-us-chart"
-      ]
-    },
-    {
-      "id": "1889992123",
-      "title": "the cure",
-      "artist": "Olivia Rodrigo",
-      "artistId": "979458609",
-      "releaseDate": "2026-05-22",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/100x100bb.jpg",
-      "genres": [
-        "Pop",
-        "Music"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/the-cure/1889992111?i=1889992123",
-      "previewUrl": null,
-      "chartRank": 27,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": null,
-      "trackCount": null,
-      "discNumber": null,
-      "discCount": null,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/the-cure/1889992111?i=1889992123"
       },
       "sourceKinds": [
         "apple-us-chart"
@@ -2838,36 +2928,6 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/stick-talk/1017053934?i=1017055092",
       "previewUrl": null,
-      "chartRank": 28,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": null,
-      "trackCount": null,
-      "discNumber": null,
-      "discCount": null,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/stick-talk/1017053934?i=1017055092"
-      },
-      "sourceKinds": [
-        "apple-us-chart"
-      ]
-    },
-    {
-      "id": "1869436845",
-      "title": "Be Her",
-      "artist": "Ella Langley",
-      "artistId": "1384373733",
-      "releaseDate": "2026-02-13",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a1/ba/64/a1ba6484-f462-1b88-ddff-d4c014d5f265/196874018361.jpg/100x100bb.jpg",
-      "genres": [
-        "Country",
-        "Music"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/be-her/1869436835?i=1869436845",
-      "previewUrl": null,
       "chartRank": 29,
       "collectionId": null,
       "collectionName": null,
@@ -2879,37 +2939,7 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/us/album/be-her/1869436835?i=1869436845"
-      },
-      "sourceKinds": [
-        "apple-us-chart"
-      ]
-    },
-    {
-      "id": "1534816484",
-      "title": "Sum 2 Prove",
-      "artist": "Lil Baby",
-      "artistId": "1276656483",
-      "releaseDate": "2020-01-10",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/70/97/3a/70973a36-b897-e20e-4698-c05d4f5ee24f/20UMGIM30253.rgb.jpg/100x100bb.jpg",
-      "genres": [
-        "Hip-Hop/Rap",
-        "Music"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/sum-2-prove/1534816297?i=1534816484",
-      "previewUrl": null,
-      "chartRank": 30,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": null,
-      "trackCount": null,
-      "discNumber": null,
-      "discCount": null,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/sum-2-prove/1534816297?i=1534816484"
+        "apple": "https://music.apple.com/us/album/stick-talk/1017053934?i=1017055092"
       },
       "sourceKinds": [
         "apple-us-chart"
@@ -2928,7 +2958,7 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/marvins-room/1440642493?i=1440642743",
       "previewUrl": null,
-      "chartRank": 31,
+      "chartRank": 30,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -2946,109 +2976,19 @@
       ]
     },
     {
-      "id": "1556670532",
-      "title": "Wants and Needs (feat. Lil Baby)",
-      "artist": "Drake",
-      "artistId": "271256",
-      "releaseDate": "2021-03-05",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/63/2a/34/632a3488-d104-3ff1-dc02-4ed86f58ed05/21UMGIM18577.rgb.jpg/100x100bb.jpg",
-      "genres": [
-        "Hip-Hop/Rap",
-        "Music"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/wants-and-needs-feat-lil-baby/1556669854?i=1556670532",
-      "previewUrl": null,
-      "chartRank": 32,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": null,
-      "trackCount": null,
-      "discNumber": null,
-      "discCount": null,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/wants-and-needs-feat-lil-baby/1556669854?i=1556670532"
-      },
-      "sourceKinds": [
-        "apple-us-chart"
-      ]
-    },
-    {
-      "id": "1813021660",
-      "title": "Broken Window Serenade",
-      "artist": "Whiskey Myers",
-      "artistId": "282264074",
-      "releaseDate": "2011-04-26",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d0/cf/22/d0cf226c-607d-d97c-61d4-26eabde51f1d/886443002371_Cover.jpg/100x100bb.jpg",
-      "genres": [
-        "Country",
-        "Music"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/broken-window-serenade/1813021356?i=1813021660",
-      "previewUrl": null,
-      "chartRank": 33,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": null,
-      "trackCount": null,
-      "discNumber": null,
-      "discCount": null,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/broken-window-serenade/1813021356?i=1813021660"
-      },
-      "sourceKinds": [
-        "apple-us-chart"
-      ]
-    },
-    {
-      "id": "6769551476",
-      "title": "I’m Spent",
-      "artist": "Drake & Loe Shimmy",
-      "artistId": "271256",
-      "releaseDate": "2026-05-15",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c4/3b/89/c43b8964-a24e-b396-bd65-e5b45cabe039/26UMGIM63616.rgb.jpg/100x100bb.jpg",
-      "genres": [
-        "R&B/Soul",
-        "Music"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/im-spent/6769551464?i=6769551476",
-      "previewUrl": null,
-      "chartRank": 34,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": null,
-      "trackCount": null,
-      "discNumber": null,
-      "discCount": null,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/im-spent/6769551464?i=6769551476"
-      },
-      "sourceKinds": [
-        "apple-us-chart"
-      ]
-    },
-    {
-      "id": "1618153473",
-      "title": "Right On",
+      "id": "1534816484",
+      "title": "Sum 2 Prove",
       "artist": "Lil Baby",
       "artistId": "1276656483",
-      "releaseDate": "2022-04-08",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/56/6d/ce/566dceeb-e2ea-24ff-f601-1c18497b87f8/22UMGIM37903.rgb.jpg/100x100bb.jpg",
+      "releaseDate": "2020-01-10",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/70/97/3a/70973a36-b897-e20e-4698-c05d4f5ee24f/20UMGIM30253.rgb.jpg/100x100bb.jpg",
       "genres": [
         "Hip-Hop/Rap",
         "Music"
       ],
-      "appleUrl": "https://music.apple.com/us/album/right-on/1618153462?i=1618153473",
+      "appleUrl": "https://music.apple.com/us/album/sum-2-prove/1534816297?i=1534816484",
       "previewUrl": null,
-      "chartRank": 35,
+      "chartRank": 31,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -3059,7 +2999,7 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/us/album/right-on/1618153462?i=1618153473"
+        "apple": "https://music.apple.com/us/album/sum-2-prove/1534816297?i=1534816484"
       },
       "sourceKinds": [
         "apple-us-chart"
@@ -3078,7 +3018,7 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/last-night/1818408501?i=1818408858",
       "previewUrl": null,
-      "chartRank": 36,
+      "chartRank": 32,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -3108,7 +3048,7 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/dont-we/1802103958?i=1802104400",
       "previewUrl": null,
-      "chartRank": 37,
+      "chartRank": 33,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -3126,17 +3066,137 @@
       ]
     },
     {
-      "id": "1438765134",
-      "title": "Girls Need Love",
-      "artist": "Summer Walker",
-      "artistId": "990402287",
-      "releaseDate": "2018-07-26",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/7c/1e/1a/7c1e1a21-013c-f31d-dc2c-c8118439641d/18UMGIM66021.rgb.jpg/100x100bb.jpg",
+      "id": "1556670532",
+      "title": "Wants and Needs (feat. Lil Baby)",
+      "artist": "Drake",
+      "artistId": "271256",
+      "releaseDate": "2021-03-05",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/63/2a/34/632a3488-d104-3ff1-dc02-4ed86f58ed05/21UMGIM18577.rgb.jpg/100x100bb.jpg",
+      "genres": [
+        "Hip-Hop/Rap",
+        "Music"
+      ],
+      "appleUrl": "https://music.apple.com/us/album/wants-and-needs-feat-lil-baby/1556669854?i=1556670532",
+      "previewUrl": null,
+      "chartRank": 34,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/us/album/wants-and-needs-feat-lil-baby/1556669854?i=1556670532"
+      },
+      "sourceKinds": [
+        "apple-us-chart"
+      ]
+    },
+    {
+      "id": "1813021660",
+      "title": "Broken Window Serenade",
+      "artist": "Whiskey Myers",
+      "artistId": "282264074",
+      "releaseDate": "2011-04-26",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d0/cf/22/d0cf226c-607d-d97c-61d4-26eabde51f1d/886443002371_Cover.jpg/100x100bb.jpg",
+      "genres": [
+        "Country",
+        "Music"
+      ],
+      "appleUrl": "https://music.apple.com/us/album/broken-window-serenade/1813021356?i=1813021660",
+      "previewUrl": null,
+      "chartRank": 35,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/us/album/broken-window-serenade/1813021356?i=1813021660"
+      },
+      "sourceKinds": [
+        "apple-us-chart"
+      ]
+    },
+    {
+      "id": "6822944289",
+      "title": "Lodi When",
+      "artist": "Zach Bryan",
+      "artistId": "1436413980",
+      "releaseDate": "2026-10-16",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ea/98/f2/ea98f2b8-5131-29ae-2064-997234ef13bc/093624812647.jpg/100x100bb.jpg",
+      "genres": [
+        "Country",
+        "Music"
+      ],
+      "appleUrl": "https://music.apple.com/us/album/lodi-when/6822944288?i=6822944289",
+      "previewUrl": null,
+      "chartRank": 36,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/us/album/lodi-when/6822944288?i=6822944289"
+      },
+      "sourceKinds": [
+        "apple-us-chart"
+      ]
+    },
+    {
+      "id": "6769551476",
+      "title": "I’m Spent",
+      "artist": "Drake & Loe Shimmy",
+      "artistId": "271256",
+      "releaseDate": "2026-05-15",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c4/3b/89/c43b8964-a24e-b396-bd65-e5b45cabe039/26UMGIM63616.rgb.jpg/100x100bb.jpg",
       "genres": [
         "R&B/Soul",
         "Music"
       ],
-      "appleUrl": "https://music.apple.com/us/album/girls-need-love/1438765128?i=1438765134",
+      "appleUrl": "https://music.apple.com/us/album/im-spent/6769551464?i=6769551476",
+      "previewUrl": null,
+      "chartRank": 37,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/us/album/im-spent/6769551464?i=6769551476"
+      },
+      "sourceKinds": [
+        "apple-us-chart"
+      ]
+    },
+    {
+      "id": "1618153473",
+      "title": "Right On",
+      "artist": "Lil Baby",
+      "artistId": "1276656483",
+      "releaseDate": "2022-04-08",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/56/6d/ce/566dceeb-e2ea-24ff-f601-1c18497b87f8/22UMGIM37903.rgb.jpg/100x100bb.jpg",
+      "genres": [
+        "Hip-Hop/Rap",
+        "Music"
+      ],
+      "appleUrl": "https://music.apple.com/us/album/right-on/1618153462?i=1618153473",
       "previewUrl": null,
       "chartRank": 38,
       "collectionId": null,
@@ -3149,7 +3209,7 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/us/album/girls-need-love/1438765128?i=1438765134"
+        "apple": "https://music.apple.com/us/album/right-on/1618153462?i=1618153473"
       },
       "sourceKinds": [
         "apple-us-chart"
@@ -3186,17 +3246,17 @@
       ]
     },
     {
-      "id": "1713814120",
-      "title": "Now Who",
-      "artist": "YoungBoy Never Broke Again",
-      "artistId": "1168822104",
-      "releaseDate": "2023-10-26",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/60/9c/fb/609cfb91-2510-434f-54fd-e0bc3402c3f9/23UM1IM33447.rgb.jpg/100x100bb.jpg",
+      "id": "1438765134",
+      "title": "Girls Need Love",
+      "artist": "Summer Walker",
+      "artistId": "990402287",
+      "releaseDate": "2018-07-26",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/7c/1e/1a/7c1e1a21-013c-f31d-dc2c-c8118439641d/18UMGIM66021.rgb.jpg/100x100bb.jpg",
       "genres": [
-        "Hip-Hop/Rap",
+        "R&B/Soul",
         "Music"
       ],
-      "appleUrl": "https://music.apple.com/us/album/now-who/1713814104?i=1713814120",
+      "appleUrl": "https://music.apple.com/us/album/girls-need-love/1438765128?i=1438765134",
       "previewUrl": null,
       "chartRank": 40,
       "collectionId": null,
@@ -3209,127 +3269,7 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/us/album/now-who/1713814104?i=1713814120"
-      },
-      "sourceKinds": [
-        "apple-us-chart"
-      ]
-    },
-    {
-      "id": "6822944289",
-      "title": "Lodi When",
-      "artist": "Zach Bryan",
-      "artistId": "1436413980",
-      "releaseDate": "2026-10-16",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ea/98/f2/ea98f2b8-5131-29ae-2064-997234ef13bc/093624812647.jpg/100x100bb.jpg",
-      "genres": [
-        "Country",
-        "Music"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/lodi-when/6822944288?i=6822944289",
-      "previewUrl": null,
-      "chartRank": 41,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": null,
-      "trackCount": null,
-      "discNumber": null,
-      "discCount": null,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/lodi-when/6822944288?i=6822944289"
-      },
-      "sourceKinds": [
-        "apple-us-chart"
-      ]
-    },
-    {
-      "id": "6810716062",
-      "title": "So Good (feat. Kendrick Lamar)",
-      "artist": "Jhené Aiko",
-      "artistId": "198431322",
-      "releaseDate": "2026-09-11",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5f/51/9f/5f519f49-44c1-6aeb-f289-5b14c677abb1/26UM1IM17017.rgb.jpg/100x100bb.jpg",
-      "genres": [
-        "R&B/Soul",
-        "Music"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/so-good-feat-kendrick-lamar/6810715695?i=6810716062",
-      "previewUrl": null,
-      "chartRank": 42,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": null,
-      "trackCount": null,
-      "discNumber": null,
-      "discCount": null,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/so-good-feat-kendrick-lamar/6810715695?i=6810716062"
-      },
-      "sourceKinds": [
-        "apple-us-chart"
-      ]
-    },
-    {
-      "id": "1529668718",
-      "title": "Power Trip (feat. Miguel)",
-      "artist": "J. Cole",
-      "artistId": "73705833",
-      "releaseDate": "2013-02-14",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/7e/aa/3b/7eaa3b96-320f-ca41-885c-abe5d3ca8450/20UMGIM75715.rgb.jpg/100x100bb.jpg",
-      "genres": [
-        "Hip-Hop/Rap",
-        "Music"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/power-trip-feat-miguel/1529668443?i=1529668718",
-      "previewUrl": null,
-      "chartRank": 43,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": null,
-      "trackCount": null,
-      "discNumber": null,
-      "discCount": null,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/power-trip-feat-miguel/1529668443?i=1529668718"
-      },
-      "sourceKinds": [
-        "apple-us-chart"
-      ]
-    },
-    {
-      "id": "1584281787",
-      "title": "Knife Talk (feat. 21 Savage & Project Pat)",
-      "artist": "Drake",
-      "artistId": "271256",
-      "releaseDate": "2021-09-03",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/11/36/38/1136384a-eebc-697a-c005-d890e41c0854/21UM1IM07518.rgb.jpg/100x100bb.jpg",
-      "genres": [
-        "Hip-Hop/Rap",
-        "Music"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/knife-talk-feat-21-savage-project-pat/1584281467?i=1584281787",
-      "previewUrl": null,
-      "chartRank": 44,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": null,
-      "trackCount": null,
-      "discNumber": null,
-      "discCount": null,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/knife-talk-feat-21-savage-project-pat/1584281467?i=1584281787"
+        "apple": "https://music.apple.com/us/album/girls-need-love/1438765128?i=1438765134"
       },
       "sourceKinds": [
         "apple-us-chart"
@@ -3348,7 +3288,7 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/man-i-need/1817609404?i=1817609509",
       "previewUrl": null,
-      "chartRank": 45,
+      "chartRank": 41,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -3378,7 +3318,7 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/what-i-want/1802103958?i=1802103975",
       "previewUrl": null,
-      "chartRank": 46,
+      "chartRank": 42,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -3390,6 +3330,96 @@
       "searchAliases": [],
       "platformLinks": {
         "apple": "https://music.apple.com/us/album/what-i-want/1802103958?i=1802103975"
+      },
+      "sourceKinds": [
+        "apple-us-chart"
+      ]
+    },
+    {
+      "id": "6810716062",
+      "title": "So Good (feat. Kendrick Lamar)",
+      "artist": "Jhené Aiko",
+      "artistId": "198431322",
+      "releaseDate": "2026-09-11",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5f/51/9f/5f519f49-44c1-6aeb-f289-5b14c677abb1/26UM1IM17017.rgb.jpg/100x100bb.jpg",
+      "genres": [
+        "R&B/Soul",
+        "Music"
+      ],
+      "appleUrl": "https://music.apple.com/us/album/so-good-feat-kendrick-lamar/6810715695?i=6810716062",
+      "previewUrl": null,
+      "chartRank": 43,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/us/album/so-good-feat-kendrick-lamar/6810715695?i=6810716062"
+      },
+      "sourceKinds": [
+        "apple-us-chart"
+      ]
+    },
+    {
+      "id": "1713814120",
+      "title": "Now Who",
+      "artist": "YoungBoy Never Broke Again",
+      "artistId": "1168822104",
+      "releaseDate": "2023-10-26",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/60/9c/fb/609cfb91-2510-434f-54fd-e0bc3402c3f9/23UM1IM33447.rgb.jpg/100x100bb.jpg",
+      "genres": [
+        "Hip-Hop/Rap",
+        "Music"
+      ],
+      "appleUrl": "https://music.apple.com/us/album/now-who/1713814104?i=1713814120",
+      "previewUrl": null,
+      "chartRank": 44,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/us/album/now-who/1713814104?i=1713814120"
+      },
+      "sourceKinds": [
+        "apple-us-chart"
+      ]
+    },
+    {
+      "id": "1584281787",
+      "title": "Knife Talk (feat. 21 Savage & Project Pat)",
+      "artist": "Drake",
+      "artistId": "271256",
+      "releaseDate": "2021-09-03",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/11/36/38/1136384a-eebc-697a-c005-d890e41c0854/21UM1IM07518.rgb.jpg/100x100bb.jpg",
+      "genres": [
+        "Hip-Hop/Rap",
+        "Music"
+      ],
+      "appleUrl": "https://music.apple.com/us/album/knife-talk-feat-21-savage-project-pat/1584281467?i=1584281787",
+      "previewUrl": null,
+      "chartRank": 45,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/us/album/knife-talk-feat-21-savage-project-pat/1584281467?i=1584281787"
       },
       "sourceKinds": [
         "apple-us-chart"
@@ -3408,7 +3438,7 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/just-in-case/1802103958?i=1802103977",
       "previewUrl": null,
-      "chartRank": 47,
+      "chartRank": 46,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -3426,169 +3456,19 @@
       ]
     },
     {
-      "id": "1031354882",
-      "title": "Don't",
-      "artist": "Bryson Tiller",
-      "artistId": "642591128",
-      "releaseDate": "2015-05-20",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/26/4a/f9/264af9b7-813d-4b08-2822-de8b26c0e188/886445447811.jpg/100x100bb.jpg",
-      "genres": [
-        "R&B/Soul",
-        "Music"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/dont/1031354875?i=1031354882",
-      "previewUrl": null,
-      "chartRank": 48,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": null,
-      "trackCount": null,
-      "discNumber": null,
-      "discCount": null,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/dont/1031354875?i=1031354882"
-      },
-      "sourceKinds": [
-        "apple-us-chart"
-      ]
-    },
-    {
-      "id": "1796270267",
-      "title": "30 For 30 (with Kendrick Lamar)",
-      "artist": "SZA",
-      "artistId": "605800394",
-      "releaseDate": "2025-02-08",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/50/fa/17/50fa1760-8a36-5cef-93bf-aab5b5257b18/196871766913.jpg/100x100bb.jpg",
-      "genres": [
-        "R&B/Soul",
-        "Music"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/30-for-30-with-kendrick-lamar/1796270264?i=1796270267",
-      "previewUrl": null,
-      "chartRank": 49,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": null,
-      "trackCount": null,
-      "discNumber": null,
-      "discCount": null,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/30-for-30-with-kendrick-lamar/1796270264?i=1796270267"
-      },
-      "sourceKinds": [
-        "apple-us-chart"
-      ]
-    },
-    {
-      "id": "6779378648",
-      "title": "WTF GOIN",
-      "artist": "Belly Gang Kushington & 21 Savage",
-      "artistId": "1662748050",
-      "releaseDate": "2026-06-19",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/14/d5/7b/14d57b74-7680-e414-2424-f03f1173da3a/820233646390.jpg/100x100bb.jpg",
-      "genres": [
-        "Music",
-        "Hip-Hop/Rap"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/wtf-goin/6779378647?i=6779378648",
-      "previewUrl": null,
-      "chartRank": 50,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": null,
-      "trackCount": null,
-      "discNumber": null,
-      "discCount": null,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/wtf-goin/6779378647?i=6779378648"
-      },
-      "sourceKinds": [
-        "apple-us-chart"
-      ]
-    },
-    {
-      "id": "1239976610",
-      "title": "Broken Clocks",
-      "artist": "SZA",
-      "artistId": "605800394",
-      "releaseDate": "2017-06-02",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/20/28/8f/20288f6f-fbf2-fb0f-6732-e7d334e1ff50/886446548432.jpg/100x100bb.jpg",
-      "genres": [
-        "R&B/Soul",
-        "Music"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/broken-clocks/1239976329?i=1239976610",
-      "previewUrl": null,
-      "chartRank": 51,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": null,
-      "trackCount": null,
-      "discNumber": null,
-      "discCount": null,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/broken-clocks/1239976329?i=1239976610"
-      },
-      "sourceKinds": [
-        "apple-us-chart"
-      ]
-    },
-    {
-      "id": "1818425528",
-      "title": "Thinkin’ Bout Me",
-      "artist": "Morgan Wallen",
-      "artistId": "829142092",
-      "releaseDate": "2023-03-03",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/82/eb/b3/82ebb3c6-2bd4-31fd-0eb9-57667f3590e1/00602455239419_Cover.jpg/100x100bb.jpg",
-      "genres": [
-        "Country",
-        "Music"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/thinkin-bout-me/1818423949?i=1818425528",
-      "previewUrl": null,
-      "chartRank": 52,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": null,
-      "trackCount": null,
-      "discNumber": null,
-      "discCount": null,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/thinkin-bout-me/1818423949?i=1818425528"
-      },
-      "sourceKinds": [
-        "apple-us-chart"
-      ]
-    },
-    {
-      "id": "1534816500",
-      "title": "Low Down",
-      "artist": "Lil Baby",
-      "artistId": "1276656483",
-      "releaseDate": "2020-05-01",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/70/97/3a/70973a36-b897-e20e-4698-c05d4f5ee24f/20UMGIM30253.rgb.jpg/100x100bb.jpg",
+      "id": "1529668718",
+      "title": "Power Trip (feat. Miguel)",
+      "artist": "J. Cole",
+      "artistId": "73705833",
+      "releaseDate": "2013-02-14",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/7e/aa/3b/7eaa3b96-320f-ca41-885c-abe5d3ca8450/20UMGIM75715.rgb.jpg/100x100bb.jpg",
       "genres": [
         "Hip-Hop/Rap",
         "Music"
       ],
-      "appleUrl": "https://music.apple.com/us/album/low-down/1534816297?i=1534816500",
+      "appleUrl": "https://music.apple.com/us/album/power-trip-feat-miguel/1529668443?i=1529668718",
       "previewUrl": null,
-      "chartRank": 53,
+      "chartRank": 47,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -3599,37 +3479,7 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/us/album/low-down/1534816297?i=1534816500"
-      },
-      "sourceKinds": [
-        "apple-us-chart"
-      ]
-    },
-    {
-      "id": "1617171238",
-      "title": "Vette Motors",
-      "artist": "YoungBoy Never Broke Again",
-      "artistId": "1168822104",
-      "releaseDate": "2021-08-05",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/4d/54/ec/4d54eccd-8e71-4217-cb81-445adc77136b/075679750006.jpg/100x100bb.jpg",
-      "genres": [
-        "Hip-Hop/Rap",
-        "Music"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/vette-motors/1617170958?i=1617171238",
-      "previewUrl": null,
-      "chartRank": 54,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": null,
-      "trackCount": null,
-      "discNumber": null,
-      "discCount": null,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/vette-motors/1617170958?i=1617171238"
+        "apple": "https://music.apple.com/us/album/power-trip-feat-miguel/1529668443?i=1529668718"
       },
       "sourceKinds": [
         "apple-us-chart"
@@ -3648,7 +3498,7 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/patient-zero/6814997249?i=6814997425",
       "previewUrl": null,
-      "chartRank": 55,
+      "chartRank": 48,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -3660,6 +3510,66 @@
       "searchAliases": [],
       "platformLinks": {
         "apple": "https://music.apple.com/us/album/patient-zero/6814997249?i=6814997425"
+      },
+      "sourceKinds": [
+        "apple-us-chart"
+      ]
+    },
+    {
+      "id": "1818425528",
+      "title": "Thinkin’ Bout Me",
+      "artist": "Morgan Wallen",
+      "artistId": "829142092",
+      "releaseDate": "2023-03-03",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/82/eb/b3/82ebb3c6-2bd4-31fd-0eb9-57667f3590e1/00602455239419_Cover.jpg/100x100bb.jpg",
+      "genres": [
+        "Country",
+        "Music"
+      ],
+      "appleUrl": "https://music.apple.com/us/album/thinkin-bout-me/1818423949?i=1818425528",
+      "previewUrl": null,
+      "chartRank": 49,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/us/album/thinkin-bout-me/1818423949?i=1818425528"
+      },
+      "sourceKinds": [
+        "apple-us-chart"
+      ]
+    },
+    {
+      "id": "1796270267",
+      "title": "30 For 30 (with Kendrick Lamar)",
+      "artist": "SZA",
+      "artistId": "605800394",
+      "releaseDate": "2025-02-08",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/50/fa/17/50fa1760-8a36-5cef-93bf-aab5b5257b18/196871766913.jpg/100x100bb.jpg",
+      "genres": [
+        "R&B/Soul",
+        "Music"
+      ],
+      "appleUrl": "https://music.apple.com/us/album/30-for-30-with-kendrick-lamar/1796270264?i=1796270267",
+      "previewUrl": null,
+      "chartRank": 50,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/us/album/30-for-30-with-kendrick-lamar/1796270264?i=1796270267"
       },
       "sourceKinds": [
         "apple-us-chart"
@@ -3678,7 +3588,7 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/wasted-on-you/1818469543?i=1818469738",
       "previewUrl": null,
-      "chartRank": 56,
+      "chartRank": 51,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -3708,7 +3618,7 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/cowgirls-feat-ernest/1818423949?i=1818426110",
       "previewUrl": null,
-      "chartRank": 57,
+      "chartRank": 52,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -3726,17 +3636,167 @@
       ]
     },
     {
-      "id": "1468618077",
-      "title": "Money In The Grave (feat. Rick Ross)",
-      "artist": "Drake",
-      "artistId": "271256",
-      "releaseDate": "2019-06-15",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/5b/31/bf/5b31bf6d-0a7f-ad73-426f-72948846bef2/19UMGIM54644.rgb.jpg/100x100bb.jpg",
+      "id": "1031354882",
+      "title": "Don't",
+      "artist": "Bryson Tiller",
+      "artistId": "642591128",
+      "releaseDate": "2015-05-20",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/26/4a/f9/264af9b7-813d-4b08-2822-de8b26c0e188/886445447811.jpg/100x100bb.jpg",
+      "genres": [
+        "R&B/Soul",
+        "Music"
+      ],
+      "appleUrl": "https://music.apple.com/us/album/dont/1031354875?i=1031354882",
+      "previewUrl": null,
+      "chartRank": 53,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/us/album/dont/1031354875?i=1031354882"
+      },
+      "sourceKinds": [
+        "apple-us-chart"
+      ]
+    },
+    {
+      "id": "1239976610",
+      "title": "Broken Clocks",
+      "artist": "SZA",
+      "artistId": "605800394",
+      "releaseDate": "2017-06-02",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/20/28/8f/20288f6f-fbf2-fb0f-6732-e7d334e1ff50/886446548432.jpg/100x100bb.jpg",
+      "genres": [
+        "R&B/Soul",
+        "Music"
+      ],
+      "appleUrl": "https://music.apple.com/us/album/broken-clocks/1239976329?i=1239976610",
+      "previewUrl": null,
+      "chartRank": 54,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/us/album/broken-clocks/1239976329?i=1239976610"
+      },
+      "sourceKinds": [
+        "apple-us-chart"
+      ]
+    },
+    {
+      "id": "1534816500",
+      "title": "Low Down",
+      "artist": "Lil Baby",
+      "artistId": "1276656483",
+      "releaseDate": "2020-05-01",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/70/97/3a/70973a36-b897-e20e-4698-c05d4f5ee24f/20UMGIM30253.rgb.jpg/100x100bb.jpg",
       "genres": [
         "Hip-Hop/Rap",
         "Music"
       ],
-      "appleUrl": "https://music.apple.com/us/album/money-in-the-grave-feat-rick-ross/1468617896?i=1468618077",
+      "appleUrl": "https://music.apple.com/us/album/low-down/1534816297?i=1534816500",
+      "previewUrl": null,
+      "chartRank": 55,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/us/album/low-down/1534816297?i=1534816500"
+      },
+      "sourceKinds": [
+        "apple-us-chart"
+      ]
+    },
+    {
+      "id": "6779378648",
+      "title": "WTF GOIN",
+      "artist": "Belly Gang Kushington & 21 Savage",
+      "artistId": "1662748050",
+      "releaseDate": "2026-06-19",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/14/d5/7b/14d57b74-7680-e414-2424-f03f1173da3a/820233646390.jpg/100x100bb.jpg",
+      "genres": [
+        "Music",
+        "Hip-Hop/Rap"
+      ],
+      "appleUrl": "https://music.apple.com/us/album/wtf-goin/6779378647?i=6779378648",
+      "previewUrl": null,
+      "chartRank": 56,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/us/album/wtf-goin/6779378647?i=6779378648"
+      },
+      "sourceKinds": [
+        "apple-us-chart"
+      ]
+    },
+    {
+      "id": "1617171238",
+      "title": "Vette Motors",
+      "artist": "YoungBoy Never Broke Again",
+      "artistId": "1168822104",
+      "releaseDate": "2021-08-05",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/4d/54/ec/4d54eccd-8e71-4217-cb81-445adc77136b/075679750006.jpg/100x100bb.jpg",
+      "genres": [
+        "Hip-Hop/Rap",
+        "Music"
+      ],
+      "appleUrl": "https://music.apple.com/us/album/vette-motors/1617170958?i=1617171238",
+      "previewUrl": null,
+      "chartRank": 57,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/us/album/vette-motors/1617170958?i=1617171238"
+      },
+      "sourceKinds": [
+        "apple-us-chart"
+      ]
+    },
+    {
+      "id": "1744439049",
+      "title": "I Had Some Help (feat. Morgan Wallen)",
+      "artist": "Post Malone",
+      "artistId": "966309175",
+      "releaseDate": "2024-05-10",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e1/b7/09/e1b7098f-d6e1-2b18-fd6f-8390110908eb/24UMGIM50612.rgb.jpg/100x100bb.jpg",
+      "genres": [
+        "Country",
+        "Music"
+      ],
+      "appleUrl": "https://music.apple.com/us/album/i-had-some-help-feat-morgan-wallen/1744439045?i=1744439049",
       "previewUrl": null,
       "chartRank": 58,
       "collectionId": null,
@@ -3749,67 +3809,7 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/us/album/money-in-the-grave-feat-rick-ross/1468617896?i=1468618077"
-      },
-      "sourceKinds": [
-        "apple-us-chart"
-      ]
-    },
-    {
-      "id": "1737150439",
-      "title": "Like That",
-      "artist": "Future, Metro Boomin & Kendrick Lamar",
-      "artistId": "128050210",
-      "releaseDate": "2024-03-22",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4e/9f/7b/4e9f7b71-28ad-a8dc-9b34-da532feb82f6/196871937382.jpg/100x100bb.jpg",
-      "genres": [
-        "Hip-Hop/Rap",
-        "Music"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/like-that/1737149923?i=1737150439",
-      "previewUrl": null,
-      "chartRank": 59,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": null,
-      "trackCount": null,
-      "discNumber": null,
-      "discCount": null,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/like-that/1737149923?i=1737150439"
-      },
-      "sourceKinds": [
-        "apple-us-chart"
-      ]
-    },
-    {
-      "id": "1418213269",
-      "title": "God's Plan",
-      "artist": "Drake",
-      "artistId": "271256",
-      "releaseDate": "2018-01-19",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/1f/37/43/1f374304-2e04-2be3-53ea-41dd6f0b6fb8/00602567892410.rgb.jpg/100x100bb.jpg",
-      "genres": [
-        "Hip-Hop/Rap",
-        "Music"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/gods-plan/1418213110?i=1418213269",
-      "previewUrl": null,
-      "chartRank": 60,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": null,
-      "trackCount": null,
-      "discNumber": null,
-      "discCount": null,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/gods-plan/1418213110?i=1418213269"
+        "apple": "https://music.apple.com/us/album/i-had-some-help-feat-morgan-wallen/1744439045?i=1744439049"
       },
       "sourceKinds": [
         "apple-us-chart"
@@ -3828,7 +3828,7 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/not-like-us/1781353928?i=1781353929",
       "previewUrl": null,
-      "chartRank": 61,
+      "chartRank": 59,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -3846,17 +3846,77 @@
       ]
     },
     {
-      "id": "6807069451",
-      "title": "Dope Girl",
-      "artist": "Rod Wave",
-      "artistId": "1140623439",
-      "releaseDate": "2026-08-27",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/44/13/75/441375a6-a91b-05ec-7b61-b7d17a892469/196874739525.jpg/100x100bb.jpg",
+      "id": "1468618077",
+      "title": "Money In The Grave (feat. Rick Ross)",
+      "artist": "Drake",
+      "artistId": "271256",
+      "releaseDate": "2019-06-15",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/5b/31/bf/5b31bf6d-0a7f-ad73-426f-72948846bef2/19UMGIM54644.rgb.jpg/100x100bb.jpg",
       "genres": [
-        "Music",
-        "Hip-Hop/Rap"
+        "Hip-Hop/Rap",
+        "Music"
       ],
-      "appleUrl": "https://music.apple.com/us/album/dope-girl/6807069399?i=6807069451",
+      "appleUrl": "https://music.apple.com/us/album/money-in-the-grave-feat-rick-ross/1468617896?i=1468618077",
+      "previewUrl": null,
+      "chartRank": 60,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/us/album/money-in-the-grave-feat-rick-ross/1468617896?i=1468618077"
+      },
+      "sourceKinds": [
+        "apple-us-chart"
+      ]
+    },
+    {
+      "id": "1418213269",
+      "title": "God's Plan",
+      "artist": "Drake",
+      "artistId": "271256",
+      "releaseDate": "2018-01-19",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/1f/37/43/1f374304-2e04-2be3-53ea-41dd6f0b6fb8/00602567892410.rgb.jpg/100x100bb.jpg",
+      "genres": [
+        "Hip-Hop/Rap",
+        "Music"
+      ],
+      "appleUrl": "https://music.apple.com/us/album/gods-plan/1418213110?i=1418213269",
+      "previewUrl": null,
+      "chartRank": 61,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/us/album/gods-plan/1418213110?i=1418213269"
+      },
+      "sourceKinds": [
+        "apple-us-chart"
+      ]
+    },
+    {
+      "id": "1737150439",
+      "title": "Like That",
+      "artist": "Future, Metro Boomin & Kendrick Lamar",
+      "artistId": "128050210",
+      "releaseDate": "2024-03-22",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4e/9f/7b/4e9f7b71-28ad-a8dc-9b34-da532feb82f6/196871937382.jpg/100x100bb.jpg",
+      "genres": [
+        "Hip-Hop/Rap",
+        "Music"
+      ],
+      "appleUrl": "https://music.apple.com/us/album/like-that/1737149923?i=1737150439",
       "previewUrl": null,
       "chartRank": 62,
       "collectionId": null,
@@ -3869,7 +3929,7 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/us/album/dope-girl/6807069399?i=6807069451"
+        "apple": "https://music.apple.com/us/album/like-that/1737149923?i=1737150439"
       },
       "sourceKinds": [
         "apple-us-chart"
@@ -3906,17 +3966,18 @@
       ]
     },
     {
-      "id": "1570323056",
-      "title": "Yonaguni",
-      "artist": "Bad Bunny",
-      "artistId": "1126808565",
-      "releaseDate": "2021-06-04",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/b6/12/da/b612daba-6c68-c2ab-7492-fb2e079074d5/196006829308.jpg/100x100bb.jpg",
+      "id": "1884403093",
+      "title": "Boston",
+      "artist": "STELLA LEFTY",
+      "artistId": "1641742186",
+      "releaseDate": "2026-03-27",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7c/de/5e/7cde5e7a-612d-9714-d34c-1eb234c85ebb/810129961546.jpg/100x100bb.jpg",
       "genres": [
+        "Country",
         "Music",
-        "Latin"
+        "Pop"
       ],
-      "appleUrl": "https://music.apple.com/us/album/yonaguni/1570323047?i=1570323056",
+      "appleUrl": "https://music.apple.com/us/album/boston/1884403092?i=1884403093",
       "previewUrl": null,
       "chartRank": 64,
       "collectionId": null,
@@ -3929,37 +3990,7 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/us/album/yonaguni/1570323047?i=1570323056"
-      },
-      "sourceKinds": [
-        "apple-us-chart"
-      ]
-    },
-    {
-      "id": "1744439049",
-      "title": "I Had Some Help (feat. Morgan Wallen)",
-      "artist": "Post Malone",
-      "artistId": "966309175",
-      "releaseDate": "2024-05-10",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e1/b7/09/e1b7098f-d6e1-2b18-fd6f-8390110908eb/24UMGIM50612.rgb.jpg/100x100bb.jpg",
-      "genres": [
-        "Country",
-        "Music"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/i-had-some-help-feat-morgan-wallen/1744439045?i=1744439049",
-      "previewUrl": null,
-      "chartRank": 65,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": null,
-      "trackCount": null,
-      "discNumber": null,
-      "discCount": null,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/i-had-some-help-feat-morgan-wallen/1744439045?i=1744439049"
+        "apple": "https://music.apple.com/us/album/boston/1884403092?i=1884403093"
       },
       "sourceKinds": [
         "apple-us-chart"
@@ -3978,7 +4009,7 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/mr-brightside/1442970218?i=1442970583",
       "previewUrl": null,
-      "chartRank": 66,
+      "chartRank": 65,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -3996,17 +4027,47 @@
       ]
     },
     {
-      "id": "1137966332",
-      "title": "Cinderella (feat. Ty Dolla $ign)",
-      "artist": "Mac Miller",
-      "artistId": "419944559",
-      "releaseDate": "2016-09-16",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/33/cc/4d/33cc4d85-e92a-b171-1b72-4dc882ce2359/093624918844.jpg/100x100bb.jpg",
+      "id": "6807069451",
+      "title": "Dope Girl",
+      "artist": "Rod Wave",
+      "artistId": "1140623439",
+      "releaseDate": "2026-08-27",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/44/13/75/441375a6-a91b-05ec-7b61-b7d17a892469/196874739525.jpg/100x100bb.jpg",
       "genres": [
         "Music",
         "Hip-Hop/Rap"
       ],
-      "appleUrl": "https://music.apple.com/us/album/cinderella-feat-ty-dolla-%24ign/1137965822?i=1137966332",
+      "appleUrl": "https://music.apple.com/us/album/dope-girl/6807069399?i=6807069451",
+      "previewUrl": null,
+      "chartRank": 66,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/us/album/dope-girl/6807069399?i=6807069451"
+      },
+      "sourceKinds": [
+        "apple-us-chart"
+      ]
+    },
+    {
+      "id": "1570323056",
+      "title": "Yonaguni",
+      "artist": "Bad Bunny",
+      "artistId": "1126808565",
+      "releaseDate": "2021-06-04",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/b6/12/da/b612daba-6c68-c2ab-7492-fb2e079074d5/196006829308.jpg/100x100bb.jpg",
+      "genres": [
+        "Music",
+        "Latin"
+      ],
+      "appleUrl": "https://music.apple.com/us/album/yonaguni/1570323047?i=1570323056",
       "previewUrl": null,
       "chartRank": 67,
       "collectionId": null,
@@ -4019,37 +4080,7 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/us/album/cinderella-feat-ty-dolla-%24ign/1137965822?i=1137966332"
-      },
-      "sourceKinds": [
-        "apple-us-chart"
-      ]
-    },
-    {
-      "id": "1481606158",
-      "title": "Body",
-      "artist": "Summer Walker",
-      "artistId": "990402287",
-      "releaseDate": "2019-10-04",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9d/d3/62/9dd362c9-0b8c-a7df-6054-1b4bb76af946/19UMGIM85343.rgb.jpg/100x100bb.jpg",
-      "genres": [
-        "R&B/Soul",
-        "Music"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/body/1481606156?i=1481606158",
-      "previewUrl": null,
-      "chartRank": 68,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": null,
-      "trackCount": null,
-      "discNumber": null,
-      "discCount": null,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/body/1481606156?i=1481606158"
+        "apple": "https://music.apple.com/us/album/yonaguni/1570323047?i=1570323056"
       },
       "sourceKinds": [
         "apple-us-chart"
@@ -4068,7 +4099,7 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/great-expectation/6769552402?i=6769552411",
       "previewUrl": null,
-      "chartRank": 69,
+      "chartRank": 68,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -4080,6 +4111,66 @@
       "searchAliases": [],
       "platformLinks": {
         "apple": "https://music.apple.com/us/album/great-expectation/6769552402?i=6769552411"
+      },
+      "sourceKinds": [
+        "apple-us-chart"
+      ]
+    },
+    {
+      "id": "1481606158",
+      "title": "Body",
+      "artist": "Summer Walker",
+      "artistId": "990402287",
+      "releaseDate": "2019-10-04",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9d/d3/62/9dd362c9-0b8c-a7df-6054-1b4bb76af946/19UMGIM85343.rgb.jpg/100x100bb.jpg",
+      "genres": [
+        "R&B/Soul",
+        "Music"
+      ],
+      "appleUrl": "https://music.apple.com/us/album/body/1481606156?i=1481606158",
+      "previewUrl": null,
+      "chartRank": 69,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/us/album/body/1481606156?i=1481606158"
+      },
+      "sourceKinds": [
+        "apple-us-chart"
+      ]
+    },
+    {
+      "id": "1440827492",
+      "title": "Tennessee Whiskey",
+      "artist": "Chris Stapleton",
+      "artistId": "1752134",
+      "releaseDate": "2015-04-23",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e2/4b/60/e24b6016-8278-bb18-cf5d-d44bf68371da/00602547223838.rgb.jpg/100x100bb.jpg",
+      "genres": [
+        "Country",
+        "Music"
+      ],
+      "appleUrl": "https://music.apple.com/us/album/tennessee-whiskey/1440827477?i=1440827492",
+      "previewUrl": null,
+      "chartRank": 70,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/us/album/tennessee-whiskey/1440827477?i=1440827492"
       },
       "sourceKinds": [
         "apple-us-chart"
@@ -4100,7 +4191,7 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/this-is-halloween/1440662430?i=1440662595",
       "previewUrl": null,
-      "chartRank": 70,
+      "chartRank": 71,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -4112,6 +4203,66 @@
       "searchAliases": [],
       "platformLinks": {
         "apple": "https://music.apple.com/us/album/this-is-halloween/1440662430?i=1440662595"
+      },
+      "sourceKinds": [
+        "apple-us-chart"
+      ]
+    },
+    {
+      "id": "1137966332",
+      "title": "Cinderella (feat. Ty Dolla $ign)",
+      "artist": "Mac Miller",
+      "artistId": "419944559",
+      "releaseDate": "2016-09-16",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/33/cc/4d/33cc4d85-e92a-b171-1b72-4dc882ce2359/093624918844.jpg/100x100bb.jpg",
+      "genres": [
+        "Music",
+        "Hip-Hop/Rap"
+      ],
+      "appleUrl": "https://music.apple.com/us/album/cinderella-feat-ty-dolla-%24ign/1137965822?i=1137966332",
+      "previewUrl": null,
+      "chartRank": 72,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/us/album/cinderella-feat-ty-dolla-%24ign/1137965822?i=1137966332"
+      },
+      "sourceKinds": [
+        "apple-us-chart"
+      ]
+    },
+    {
+      "id": "1682863572",
+      "title": "Something in the Orange",
+      "artist": "Zach Bryan",
+      "artistId": "1436413980",
+      "releaseDate": "2022-04-22",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/4a/74/19/4a74193e-d4e8-a425-3d15-13bc0c0581ee/5059460195875.jpg/100x100bb.jpg",
+      "genres": [
+        "Country",
+        "Music"
+      ],
+      "appleUrl": "https://music.apple.com/us/album/something-in-the-orange/1682863184?i=1682863572",
+      "previewUrl": null,
+      "chartRank": 73,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/us/album/something-in-the-orange/1682863184?i=1682863572"
       },
       "sourceKinds": [
         "apple-us-chart"
@@ -4130,7 +4281,7 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/passionfruit/1440890708?i=1440891494",
       "previewUrl": null,
-      "chartRank": 71,
+      "chartRank": 74,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -4142,37 +4293,6 @@
       "searchAliases": [],
       "platformLinks": {
         "apple": "https://music.apple.com/us/album/passionfruit/1440890708?i=1440891494"
-      },
-      "sourceKinds": [
-        "apple-us-chart"
-      ]
-    },
-    {
-      "id": "1884403093",
-      "title": "Boston",
-      "artist": "STELLA LEFTY",
-      "artistId": "1641742186",
-      "releaseDate": "2026-03-27",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7c/de/5e/7cde5e7a-612d-9714-d34c-1eb234c85ebb/810129961546.jpg/100x100bb.jpg",
-      "genres": [
-        "Country",
-        "Music",
-        "Pop"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/boston/1884403092?i=1884403093",
-      "previewUrl": null,
-      "chartRank": 72,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": null,
-      "trackCount": null,
-      "discNumber": null,
-      "discCount": null,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/boston/1884403092?i=1884403093"
       },
       "sourceKinds": [
         "apple-us-chart"
@@ -4191,7 +4311,7 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/wild-thoughts-feat-rihanna-bryson-tiller/1244230120?i=1244230126",
       "previewUrl": null,
-      "chartRank": 73,
+      "chartRank": 75,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -4221,7 +4341,7 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/bitch-dont-kill-my-vibe/1471263898?i=1471263903",
       "previewUrl": null,
-      "chartRank": 74,
+      "chartRank": 76,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -4239,19 +4359,19 @@
       ]
     },
     {
-      "id": "1440827492",
-      "title": "Tennessee Whiskey",
-      "artist": "Chris Stapleton",
-      "artistId": "1752134",
-      "releaseDate": "2015-04-23",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e2/4b/60/e24b6016-8278-bb18-cf5d-d44bf68371da/00602547223838.rgb.jpg/100x100bb.jpg",
+      "id": "1770160814",
+      "title": "weren't for the wind",
+      "artist": "Ella Langley",
+      "artistId": "1384373733",
+      "releaseDate": "2024-10-04",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ef/f1/65/eff16551-2b83-202a-f923-a655a57c61b8/196872452563.jpg/100x100bb.jpg",
       "genres": [
         "Country",
         "Music"
       ],
-      "appleUrl": "https://music.apple.com/us/album/tennessee-whiskey/1440827477?i=1440827492",
+      "appleUrl": "https://music.apple.com/us/album/werent-for-the-wind/1770160322?i=1770160814",
       "previewUrl": null,
-      "chartRank": 75,
+      "chartRank": 77,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -4262,7 +4382,7 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/us/album/tennessee-whiskey/1440827477?i=1440827492"
+        "apple": "https://music.apple.com/us/album/werent-for-the-wind/1770160322?i=1770160814"
       },
       "sourceKinds": [
         "apple-us-chart"
@@ -4281,7 +4401,7 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/poetic-justice-feat-drake/1440860389?i=1440860402",
       "previewUrl": null,
-      "chartRank": 76,
+      "chartRank": 78,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -4311,7 +4431,7 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/e85/1873328276?i=1873328279",
       "previewUrl": null,
-      "chartRank": 77,
+      "chartRank": 79,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -4323,6 +4443,36 @@
       "searchAliases": [],
       "platformLinks": {
         "apple": "https://music.apple.com/us/album/e85/1873328276?i=1873328279"
+      },
+      "sourceKinds": [
+        "apple-us-chart"
+      ]
+    },
+    {
+      "id": "1818407111",
+      "title": "You Proof",
+      "artist": "Morgan Wallen",
+      "artistId": "829142092",
+      "releaseDate": "2022-05-13",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b7/66/c4/b766c457-2500-e2d6-895e-59b45e95d009/00602445957033_Cover.jpg/100x100bb.jpg",
+      "genres": [
+        "Country",
+        "Music"
+      ],
+      "appleUrl": "https://music.apple.com/us/album/you-proof/1818406806?i=1818407111",
+      "previewUrl": null,
+      "chartRank": 80,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/us/album/you-proof/1818406806?i=1818407111"
       },
       "sourceKinds": [
         "apple-us-chart"
@@ -4341,7 +4491,7 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/no-flockin/1056383797?i=1056384020",
       "previewUrl": null,
-      "chartRank": 78,
+      "chartRank": 81,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -4353,66 +4503,6 @@
       "searchAliases": [],
       "platformLinks": {
         "apple": "https://music.apple.com/us/album/no-flockin/1056383797?i=1056384020"
-      },
-      "sourceKinds": [
-        "apple-us-chart"
-      ]
-    },
-    {
-      "id": "1447442333",
-      "title": "Valuable Pain",
-      "artist": "YoungBoy Never Broke Again",
-      "artistId": "1168822104",
-      "releaseDate": "2018-12-10",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/2d/46/61/2d4661b4-8927-fdd0-449a-4e86844ee85d/075679855169.jpg/100x100bb.jpg",
-      "genres": [
-        "Hip-Hop/Rap",
-        "Music"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/valuable-pain/1447442327?i=1447442333",
-      "previewUrl": null,
-      "chartRank": 79,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": null,
-      "trackCount": null,
-      "discNumber": null,
-      "discCount": null,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/valuable-pain/1447442327?i=1447442333"
-      },
-      "sourceKinds": [
-        "apple-us-chart"
-      ]
-    },
-    {
-      "id": "1266332375",
-      "title": "Untouchable",
-      "artist": "YoungBoy Never Broke Again",
-      "artistId": "1168822104",
-      "releaseDate": "2016-10-28",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/31/50/31/315031ae-da9d-2ff4-f707-2d06f13254e9/075679890382.jpg/100x100bb.jpg",
-      "genres": [
-        "Hip-Hop/Rap",
-        "Music"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/untouchable/1266332358?i=1266332375",
-      "previewUrl": null,
-      "chartRank": 80,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": null,
-      "trackCount": null,
-      "discNumber": null,
-      "discCount": null,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/untouchable/1266332358?i=1266332375"
       },
       "sourceKinds": [
         "apple-us-chart"
@@ -4431,7 +4521,7 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/712pm/1621803882?i=1621803883",
       "previewUrl": null,
-      "chartRank": 81,
+      "chartRank": 82,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -4449,19 +4539,19 @@
       ]
     },
     {
-      "id": "1682863572",
-      "title": "Something in the Orange",
-      "artist": "Zach Bryan",
-      "artistId": "1436413980",
-      "releaseDate": "2022-04-22",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/4a/74/19/4a74193e-d4e8-a425-3d15-13bc0c0581ee/5059460195875.jpg/100x100bb.jpg",
+      "id": "1266332375",
+      "title": "Untouchable",
+      "artist": "YoungBoy Never Broke Again",
+      "artistId": "1168822104",
+      "releaseDate": "2016-10-28",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/31/50/31/315031ae-da9d-2ff4-f707-2d06f13254e9/075679890382.jpg/100x100bb.jpg",
       "genres": [
-        "Country",
+        "Hip-Hop/Rap",
         "Music"
       ],
-      "appleUrl": "https://music.apple.com/us/album/something-in-the-orange/1682863184?i=1682863572",
+      "appleUrl": "https://music.apple.com/us/album/untouchable/1266332358?i=1266332375",
       "previewUrl": null,
-      "chartRank": 82,
+      "chartRank": 83,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -4472,7 +4562,37 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/us/album/something-in-the-orange/1682863184?i=1682863572"
+        "apple": "https://music.apple.com/us/album/untouchable/1266332358?i=1266332375"
+      },
+      "sourceKinds": [
+        "apple-us-chart"
+      ]
+    },
+    {
+      "id": "1447442333",
+      "title": "Valuable Pain",
+      "artist": "YoungBoy Never Broke Again",
+      "artistId": "1168822104",
+      "releaseDate": "2018-12-10",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/2d/46/61/2d4661b4-8927-fdd0-449a-4e86844ee85d/075679855169.jpg/100x100bb.jpg",
+      "genres": [
+        "Hip-Hop/Rap",
+        "Music"
+      ],
+      "appleUrl": "https://music.apple.com/us/album/valuable-pain/1447442327?i=1447442333",
+      "previewUrl": null,
+      "chartRank": 84,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/us/album/valuable-pain/1447442327?i=1447442333"
       },
       "sourceKinds": [
         "apple-us-chart"
@@ -4491,66 +4611,6 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/controlla/1440841363?i=1440841382",
       "previewUrl": null,
-      "chartRank": 83,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": null,
-      "trackCount": null,
-      "discNumber": null,
-      "discCount": null,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/controlla/1440841363?i=1440841382"
-      },
-      "sourceKinds": [
-        "apple-us-chart"
-      ]
-    },
-    {
-      "id": "1770160814",
-      "title": "weren't for the wind",
-      "artist": "Ella Langley",
-      "artistId": "1384373733",
-      "releaseDate": "2024-10-04",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ef/f1/65/eff16551-2b83-202a-f923-a655a57c61b8/196872452563.jpg/100x100bb.jpg",
-      "genres": [
-        "Country",
-        "Music"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/werent-for-the-wind/1770160322?i=1770160814",
-      "previewUrl": null,
-      "chartRank": 84,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": null,
-      "trackCount": null,
-      "discNumber": null,
-      "discCount": null,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/werent-for-the-wind/1770160322?i=1770160814"
-      },
-      "sourceKinds": [
-        "apple-us-chart"
-      ]
-    },
-    {
-      "id": "1440859905",
-      "title": "Love Me (feat. Drake & Future)",
-      "artist": "Lil Wayne",
-      "artistId": "5869117",
-      "releaseDate": "2013-01-18",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/6c/6c/04/6c6c042c-a050-4653-d4bc-9e7256cecff9/13UMGIM25908.rgb.jpg/100x100bb.jpg",
-      "genres": [
-        "Hip-Hop/Rap",
-        "Music"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/love-me-feat-drake-future/1440859562?i=1440859905",
-      "previewUrl": null,
       "chartRank": 85,
       "collectionId": null,
       "collectionName": null,
@@ -4562,7 +4622,7 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/us/album/love-me-feat-drake-future/1440859562?i=1440859905"
+        "apple": "https://music.apple.com/us/album/controlla/1440841363?i=1440841382"
       },
       "sourceKinds": [
         "apple-us-chart"
@@ -4599,36 +4659,6 @@
       ]
     },
     {
-      "id": "1484413134",
-      "title": "Ghostbusters",
-      "artist": "Ray Parker Jr.",
-      "artistId": "3867130",
-      "releaseDate": "1984-06-08",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/c5/96/63/c596638c-a823-1a5e-dba0-6f1df67ab671/886447946862.jpg/100x100bb.jpg",
-      "genres": [
-        "Soundtrack",
-        "Music"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/ghostbusters/1484413132?i=1484413134",
-      "previewUrl": null,
-      "chartRank": 87,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": null,
-      "trackCount": null,
-      "discNumber": null,
-      "discCount": null,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/ghostbusters/1484413132?i=1484413134"
-      },
-      "sourceKinds": [
-        "apple-us-chart"
-      ]
-    },
-    {
       "id": "1150135924",
       "title": "goosebumps",
       "artist": "Travis Scott",
@@ -4641,7 +4671,7 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/goosebumps/1150135681?i=1150135924",
       "previewUrl": null,
-      "chartRank": 88,
+      "chartRank": 87,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -4659,17 +4689,47 @@
       ]
     },
     {
-      "id": "1818407111",
-      "title": "You Proof",
-      "artist": "Morgan Wallen",
-      "artistId": "829142092",
-      "releaseDate": "2022-05-13",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b7/66/c4/b766c457-2500-e2d6-895e-59b45e95d009/00602445957033_Cover.jpg/100x100bb.jpg",
+      "id": "1440859905",
+      "title": "Love Me (feat. Drake & Future)",
+      "artist": "Lil Wayne",
+      "artistId": "5869117",
+      "releaseDate": "2013-01-18",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/6c/6c/04/6c6c042c-a050-4653-d4bc-9e7256cecff9/13UMGIM25908.rgb.jpg/100x100bb.jpg",
       "genres": [
-        "Country",
+        "Hip-Hop/Rap",
         "Music"
       ],
-      "appleUrl": "https://music.apple.com/us/album/you-proof/1818406806?i=1818407111",
+      "appleUrl": "https://music.apple.com/us/album/love-me-feat-drake-future/1440859562?i=1440859905",
+      "previewUrl": null,
+      "chartRank": 88,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/us/album/love-me-feat-drake-future/1440859562?i=1440859905"
+      },
+      "sourceKinds": [
+        "apple-us-chart"
+      ]
+    },
+    {
+      "id": "1484413134",
+      "title": "Ghostbusters",
+      "artist": "Ray Parker Jr.",
+      "artistId": "3867130",
+      "releaseDate": "1984-06-08",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/c5/96/63/c596638c-a823-1a5e-dba0-6f1df67ab671/886447946862.jpg/100x100bb.jpg",
+      "genres": [
+        "Soundtrack",
+        "Music"
+      ],
+      "appleUrl": "https://music.apple.com/us/album/ghostbusters/1484413132?i=1484413134",
       "previewUrl": null,
       "chartRank": 89,
       "collectionId": null,
@@ -4682,67 +4742,7 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/us/album/you-proof/1818406806?i=1818407111"
-      },
-      "sourceKinds": [
-        "apple-us-chart"
-      ]
-    },
-    {
-      "id": "1811903401",
-      "title": "Marlboro Rojo",
-      "artist": "Fuerza Regida",
-      "artistId": "1275690475",
-      "releaseDate": "2025-05-02",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/84/8a/7b/848a7b8e-c817-97ae-1f43-1b11d9a23530/196873013855.jpg/100x100bb.jpg",
-      "genres": [
-        "Music",
-        "Latin"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/marlboro-rojo/1811903274?i=1811903401",
-      "previewUrl": null,
-      "chartRank": 90,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": null,
-      "trackCount": null,
-      "discNumber": null,
-      "discCount": null,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/marlboro-rojo/1811903274?i=1811903401"
-      },
-      "sourceKinds": [
-        "apple-us-chart"
-      ]
-    },
-    {
-      "id": "1095065281",
-      "title": "Digits",
-      "artist": "Young Thug",
-      "artistId": "81886939",
-      "releaseDate": "2016-03-25",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f5/b6/cb/f5b6cb03-8f8a-0529-16a6-b8cf3ace5555/dj.vftjpvpa.jpg/100x100bb.jpg",
-      "genres": [
-        "Music",
-        "Hip-Hop/Rap"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/digits/1095065232?i=1095065281",
-      "previewUrl": null,
-      "chartRank": 91,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": null,
-      "trackCount": null,
-      "discNumber": null,
-      "discCount": null,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/digits/1095065232?i=1095065281"
+        "apple": "https://music.apple.com/us/album/ghostbusters/1484413132?i=1484413134"
       },
       "sourceKinds": [
         "apple-us-chart"
@@ -4761,7 +4761,7 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/money-trees-feat-jay-rock/1471277623?i=1471277629",
       "previewUrl": null,
-      "chartRank": 92,
+      "chartRank": 90,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -4791,7 +4791,7 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/sweater-weather/548656698?i=548656753",
       "previewUrl": null,
-      "chartRank": 93,
+      "chartRank": 91,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -4809,17 +4809,77 @@
       ]
     },
     {
-      "id": "82125202",
-      "title": "Monster Mash",
-      "artist": "Bobby \"Boris\" Pickett",
-      "artistId": "1570669469",
-      "releaseDate": "1962-10-09",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Features124/v4/bb/8a/6f/bb8a6ff2-a5b6-395c-8a54-5d7954bd9e4b/dj.lnkhwpna.tif/100x100bb.jpg",
+      "id": "1095065281",
+      "title": "Digits",
+      "artist": "Young Thug",
+      "artistId": "81886939",
+      "releaseDate": "2016-03-25",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f5/b6/cb/f5b6cb03-8f8a-0529-16a6-b8cf3ace5555/dj.vftjpvpa.jpg/100x100bb.jpg",
       "genres": [
         "Music",
-        "Holiday"
+        "Hip-Hop/Rap"
       ],
-      "appleUrl": "https://music.apple.com/us/album/monster-mash/82125264?i=82125202",
+      "appleUrl": "https://music.apple.com/us/album/digits/1095065232?i=1095065281",
+      "previewUrl": null,
+      "chartRank": 92,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/us/album/digits/1095065232?i=1095065281"
+      },
+      "sourceKinds": [
+        "apple-us-chart"
+      ]
+    },
+    {
+      "id": "1811903401",
+      "title": "Marlboro Rojo",
+      "artist": "Fuerza Regida",
+      "artistId": "1275690475",
+      "releaseDate": "2025-05-02",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/84/8a/7b/848a7b8e-c817-97ae-1f43-1b11d9a23530/196873013855.jpg/100x100bb.jpg",
+      "genres": [
+        "Music",
+        "Latin"
+      ],
+      "appleUrl": "https://music.apple.com/us/album/marlboro-rojo/1811903274?i=1811903401",
+      "previewUrl": null,
+      "chartRank": 93,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/us/album/marlboro-rojo/1811903274?i=1811903401"
+      },
+      "sourceKinds": [
+        "apple-us-chart"
+      ]
+    },
+    {
+      "id": "1819829902",
+      "title": "28",
+      "artist": "Zach Bryan",
+      "artistId": "1436413980",
+      "releaseDate": "2024-07-04",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f6/2e/c1/f62ec15a-3294-0743-e80c-c5e890171a14/093624828730.jpg/100x100bb.jpg",
+      "genres": [
+        "Country",
+        "Music"
+      ],
+      "appleUrl": "https://music.apple.com/us/album/28/1819829616?i=1819829902",
       "previewUrl": null,
       "chartRank": 94,
       "collectionId": null,
@@ -4832,7 +4892,37 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/us/album/monster-mash/82125264?i=82125202"
+        "apple": "https://music.apple.com/us/album/28/1819829616?i=1819829902"
+      },
+      "sourceKinds": [
+        "apple-us-chart"
+      ]
+    },
+    {
+      "id": "6805240960",
+      "title": "Stop The Wedding!",
+      "artist": "Ashe",
+      "artistId": "1234718215",
+      "releaseDate": "2026-08-07",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1b/86/c9/1b86c988-03b8-ca21-10a5-0963d09f5bcf/075679561893.jpg/100x100bb.jpg",
+      "genres": [
+        "Pop",
+        "Music"
+      ],
+      "appleUrl": "https://music.apple.com/us/album/stop-the-wedding/6805240956?i=6805240960",
+      "previewUrl": null,
+      "chartRank": 95,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/us/album/stop-the-wedding/6805240956?i=6805240960"
       },
       "sourceKinds": [
         "apple-us-chart"
@@ -4851,7 +4941,7 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/aint-in-la/6792883860?i=6792884101",
       "previewUrl": null,
-      "chartRank": 95,
+      "chartRank": 96,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -4881,7 +4971,7 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/the-hills/1440826239?i=1440826383",
       "previewUrl": null,
-      "chartRank": 96,
+      "chartRank": 97,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -4899,47 +4989,18 @@
       ]
     },
     {
-      "id": "1440737349",
-      "title": "Lollipop (feat. Static Major)",
-      "artist": "Lil Wayne",
-      "artistId": "5869117",
-      "releaseDate": "2008-03-13",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/6c/f8/21/6cf8210e-4c82-2b9a-8213-0d3ce0df5bdb/08UMGIM10308.rgb.jpg/100x99bb.jpg",
+      "id": "1704426094",
+      "title": "Fast Car (Mixed)",
+      "artist": "Luke Combs",
+      "artistId": "815635315",
+      "releaseDate": "2023-09-01",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/b4/d1/5c/b4d15c85-5ed5-ad88-e585-316cecb50e4d/287bff75-c15c-4120-a2d0-6539aeb4e526.png/100x100bb.jpg",
       "genres": [
-        "Hip-Hop/Rap",
-        "Music"
+        "Dance",
+        "Music",
+        "Pop"
       ],
-      "appleUrl": "https://music.apple.com/us/album/lollipop-feat-static-major/1440737099?i=1440737349",
-      "previewUrl": null,
-      "chartRank": 97,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": null,
-      "trackCount": null,
-      "discNumber": null,
-      "discCount": null,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/lollipop-feat-static-major/1440737099?i=1440737349"
-      },
-      "sourceKinds": [
-        "apple-us-chart"
-      ]
-    },
-    {
-      "id": "1239976603",
-      "title": "Love Galore (feat. Travis Scott)",
-      "artist": "SZA",
-      "artistId": "605800394",
-      "releaseDate": "2017-04-28",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/20/28/8f/20288f6f-fbf2-fb0f-6732-e7d334e1ff50/886446548432.jpg/100x100bb.jpg",
-      "genres": [
-        "R&B/Soul",
-        "Music"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/love-galore-feat-travis-scott/1239976329?i=1239976603",
+      "appleUrl": "https://music.apple.com/us/album/fast-car-mixed/1704425738?i=1704426094",
       "previewUrl": null,
       "chartRank": 98,
       "collectionId": null,
@@ -4952,24 +5013,24 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/us/album/love-galore-feat-travis-scott/1239976329?i=1239976603"
+        "apple": "https://music.apple.com/us/album/fast-car-mixed/1704425738?i=1704426094"
       },
       "sourceKinds": [
         "apple-us-chart"
       ]
     },
     {
-      "id": "1819829902",
-      "title": "28",
-      "artist": "Zach Bryan",
-      "artistId": "1436413980",
-      "releaseDate": "2024-07-04",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f6/2e/c1/f62ec15a-3294-0743-e80c-c5e890171a14/093624828730.jpg/100x100bb.jpg",
+      "id": "6798042825",
+      "title": "Jaded",
+      "artist": "Koe Wetzel & Ella Langley",
+      "artistId": "1139953953",
+      "releaseDate": "2026-06-12",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c1/09/7e/c1097e38-0d2e-d389-2be7-0762979bb43a/ticket.easjqfbg.jpg/100x100bb.jpg",
       "genres": [
         "Country",
         "Music"
       ],
-      "appleUrl": "https://music.apple.com/us/album/28/1819829616?i=1819829902",
+      "appleUrl": "https://music.apple.com/us/album/jaded/6798042820?i=6798042825",
       "previewUrl": null,
       "chartRank": 99,
       "collectionId": null,
@@ -4982,24 +5043,24 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/us/album/28/1819829616?i=1819829902"
+        "apple": "https://music.apple.com/us/album/jaded/6798042820?i=6798042825"
       },
       "sourceKinds": [
         "apple-us-chart"
       ]
     },
     {
-      "id": "1648587322",
-      "title": "Never Hating",
-      "artist": "Lil Baby & Young Thug",
-      "artistId": "1276656483",
-      "releaseDate": "2022-10-14",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/9f/c0/99/9fc09958-180d-e66a-bbf7-9462289435f6/22UM1IM13098.rgb.jpg/100x100bb.jpg",
+      "id": "82125202",
+      "title": "Monster Mash",
+      "artist": "Bobby \"Boris\" Pickett",
+      "artistId": "1570669469",
+      "releaseDate": "1962-10-09",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Features124/v4/bb/8a/6f/bb8a6ff2-a5b6-395c-8a54-5d7954bd9e4b/dj.lnkhwpna.tif/100x100bb.jpg",
       "genres": [
-        "Hip-Hop/Rap",
-        "Music"
+        "Music",
+        "Holiday"
       ],
-      "appleUrl": "https://music.apple.com/us/album/never-hating/1648587138?i=1648587322",
+      "appleUrl": "https://music.apple.com/us/album/monster-mash/82125264?i=82125202",
       "previewUrl": null,
       "chartRank": 100,
       "collectionId": null,
@@ -5012,7 +5073,7 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/us/album/never-hating/1648587138?i=1648587322"
+        "apple": "https://music.apple.com/us/album/monster-mash/82125264?i=82125202"
       },
       "sourceKinds": [
         "apple-us-chart"
@@ -5294,7 +5355,7 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/lodi-when/6822944288?i=6822944289",
       "previewUrl": null,
-      "chartRank": 41,
+      "chartRank": 36,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -5532,7 +5593,7 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/patient-zero/6814997249?i=6814997425",
       "previewUrl": null,
-      "chartRank": 55,
+      "chartRank": 48,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -5562,7 +5623,7 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/last-thing-you-need/6812476961?i=6812477290",
       "previewUrl": null,
-      "chartRank": 16,
+      "chartRank": 14,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -5621,7 +5682,7 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/so-good-feat-kendrick-lamar/6810715695?i=6810716062",
       "previewUrl": null,
-      "chartRank": 42,
+      "chartRank": 43,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -5681,7 +5742,7 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/dope-girl/6807069399?i=6807069451",
       "previewUrl": null,
-      "chartRank": 62,
+      "chartRank": 66,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -5693,6 +5754,36 @@
       "searchAliases": [],
       "platformLinks": {
         "apple": "https://music.apple.com/us/album/dope-girl/6807069399?i=6807069451"
+      },
+      "sourceKinds": [
+        "apple-us-chart"
+      ]
+    },
+    {
+      "id": "6805240960",
+      "title": "Stop The Wedding!",
+      "artist": "Ashe",
+      "artistId": "1234718215",
+      "releaseDate": "2026-08-07",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1b/86/c9/1b86c988-03b8-ca21-10a5-0963d09f5bcf/075679561893.jpg/100x100bb.jpg",
+      "genres": [
+        "Pop",
+        "Music"
+      ],
+      "appleUrl": "https://music.apple.com/us/album/stop-the-wedding/6805240956?i=6805240960",
+      "previewUrl": null,
+      "chartRank": 95,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/us/album/stop-the-wedding/6805240956?i=6805240960"
       },
       "sourceKinds": [
         "apple-us-chart"
@@ -5711,7 +5802,7 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/bby-wow/6796864741?i=6796864754",
       "previewUrl": null,
-      "chartRank": 2,
+      "chartRank": 3,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -5770,7 +5861,7 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/dead-fresh/6790569132?i=6790569133",
       "previewUrl": null,
-      "chartRank": 26,
+      "chartRank": 28,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -5829,7 +5920,7 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/great-expectation/6769552402?i=6769552411",
       "previewUrl": null,
-      "chartRank": 69,
+      "chartRank": 68,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -5859,7 +5950,7 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/wtf-goin/6779378647?i=6779378648",
       "previewUrl": null,
-      "chartRank": 50,
+      "chartRank": 56,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -5889,7 +5980,7 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/stupid-song/6779097512?i=6779097534",
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ab/d6/78/abd678a1-bf4e-7ee9-d0b2-ba8afee10914/mzaf_3280183609788906841.plus.aac.p.m4a",
-      "chartRank": 22,
+      "chartRank": 21,
       "collectionId": "1889992111",
       "collectionName": "you seem pretty sad for a girl so in love",
       "trackNumber": 2,
@@ -5904,6 +5995,36 @@
       },
       "sourceKinds": [
         "itunes-us-search:Pop",
+        "apple-us-chart"
+      ]
+    },
+    {
+      "id": "6798042825",
+      "title": "Jaded",
+      "artist": "Koe Wetzel & Ella Langley",
+      "artistId": "1139953953",
+      "releaseDate": "2026-06-12",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c1/09/7e/c1097e38-0d2e-d389-2be7-0762979bb43a/ticket.easjqfbg.jpg/100x100bb.jpg",
+      "genres": [
+        "Country",
+        "Music"
+      ],
+      "appleUrl": "https://music.apple.com/us/album/jaded/6798042820?i=6798042825",
+      "previewUrl": null,
+      "chartRank": 99,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/us/album/jaded/6798042820?i=6798042825"
+      },
+      "sourceKinds": [
         "apple-us-chart"
       ]
     },
@@ -5978,7 +6099,7 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/im-spent/6769551464?i=6769551476",
       "previewUrl": null,
-      "chartRank": 34,
+      "chartRank": 37,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -6300,7 +6421,7 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/aint-in-la/6792883860?i=6792884101",
       "previewUrl": null,
-      "chartRank": 95,
+      "chartRank": 96,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -6359,7 +6480,7 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/the-cure/1889992111?i=1889992123",
       "previewUrl": null,
-      "chartRank": 27,
+      "chartRank": 26,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -6999,7 +7120,7 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/choosin-texas/1844932149?i=1844932150",
       "previewUrl": null,
-      "chartRank": 3,
+      "chartRank": 2,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -7149,7 +7270,7 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/like-me-feat-42-dugg-lil-baby/1621803882?i=1621803969",
       "previewUrl": null,
-      "chartRank": 14,
+      "chartRank": 15,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -7179,7 +7300,7 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/best-i-ever-had/1453336206?i=1453336216",
       "previewUrl": null,
-      "chartRank": 15,
+      "chartRank": 16,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -7287,6 +7408,36 @@
       ]
     },
     {
+      "id": "6763091996",
+      "title": "I Can't Love You Anymore",
+      "artist": "Ella Langley & Morgan Wallen",
+      "artistId": "1384373733",
+      "releaseDate": "2026-04-24",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d9/7a/6e/d97a6e25-ef5c-0c26-64e9-266c18641a57/196874324103.jpg/100x100bb.jpg",
+      "genres": [
+        "Country",
+        "Music"
+      ],
+      "appleUrl": "https://music.apple.com/us/album/i-cant-love-you-anymore/1895158676?i=6763091996",
+      "previewUrl": null,
+      "chartRank": 22,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/us/album/i-cant-love-you-anymore/1895158676?i=6763091996"
+      },
+      "sourceKinds": [
+        "apple-us-chart"
+      ]
+    },
+    {
       "id": "1621119426",
       "title": "I'M DAT N***A",
       "artist": "Future",
@@ -7299,7 +7450,7 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/im-dat-n-a/1621119097?i=1621119426",
       "previewUrl": null,
-      "chartRank": 21,
+      "chartRank": 23,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -7329,7 +7480,7 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/im-the-problem/1802103958?i=1802103970",
       "previewUrl": null,
-      "chartRank": 23,
+      "chartRank": 24,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -7347,19 +7498,19 @@
       ]
     },
     {
-      "id": "6763091996",
-      "title": "I Can't Love You Anymore",
-      "artist": "Ella Langley & Morgan Wallen",
+      "id": "1869436845",
+      "title": "Be Her",
+      "artist": "Ella Langley",
       "artistId": "1384373733",
-      "releaseDate": "2026-04-24",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d9/7a/6e/d97a6e25-ef5c-0c26-64e9-266c18641a57/196874324103.jpg/100x100bb.jpg",
+      "releaseDate": "2026-02-13",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a1/ba/64/a1ba6484-f462-1b88-ddff-d4c014d5f265/196874018361.jpg/100x100bb.jpg",
       "genres": [
         "Country",
         "Music"
       ],
-      "appleUrl": "https://music.apple.com/us/album/i-cant-love-you-anymore/1895158676?i=6763091996",
+      "appleUrl": "https://music.apple.com/us/album/be-her/1869436835?i=1869436845",
       "previewUrl": null,
-      "chartRank": 24,
+      "chartRank": 25,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -7370,7 +7521,7 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/us/album/i-cant-love-you-anymore/1895158676?i=6763091996"
+        "apple": "https://music.apple.com/us/album/be-her/1869436835?i=1869436845"
       },
       "sourceKinds": [
         "apple-us-chart"
@@ -7389,7 +7540,7 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/kacey-talk/1530122403?i=1530123009",
       "previewUrl": null,
-      "chartRank": 25,
+      "chartRank": 27,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -7419,36 +7570,6 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/stick-talk/1017053934?i=1017055092",
       "previewUrl": null,
-      "chartRank": 28,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": null,
-      "trackCount": null,
-      "discNumber": null,
-      "discCount": null,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/stick-talk/1017053934?i=1017055092"
-      },
-      "sourceKinds": [
-        "apple-us-chart"
-      ]
-    },
-    {
-      "id": "1869436845",
-      "title": "Be Her",
-      "artist": "Ella Langley",
-      "artistId": "1384373733",
-      "releaseDate": "2026-02-13",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a1/ba/64/a1ba6484-f462-1b88-ddff-d4c014d5f265/196874018361.jpg/100x100bb.jpg",
-      "genres": [
-        "Country",
-        "Music"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/be-her/1869436835?i=1869436845",
-      "previewUrl": null,
       "chartRank": 29,
       "collectionId": null,
       "collectionName": null,
@@ -7460,37 +7581,7 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/us/album/be-her/1869436835?i=1869436845"
-      },
-      "sourceKinds": [
-        "apple-us-chart"
-      ]
-    },
-    {
-      "id": "1534816484",
-      "title": "Sum 2 Prove",
-      "artist": "Lil Baby",
-      "artistId": "1276656483",
-      "releaseDate": "2020-01-10",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/70/97/3a/70973a36-b897-e20e-4698-c05d4f5ee24f/20UMGIM30253.rgb.jpg/100x100bb.jpg",
-      "genres": [
-        "Hip-Hop/Rap",
-        "Music"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/sum-2-prove/1534816297?i=1534816484",
-      "previewUrl": null,
-      "chartRank": 30,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": null,
-      "trackCount": null,
-      "discNumber": null,
-      "discCount": null,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/sum-2-prove/1534816297?i=1534816484"
+        "apple": "https://music.apple.com/us/album/stick-talk/1017053934?i=1017055092"
       },
       "sourceKinds": [
         "apple-us-chart"
@@ -7509,7 +7600,7 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/marvins-room/1440642493?i=1440642743",
       "previewUrl": null,
-      "chartRank": 31,
+      "chartRank": 30,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -7527,79 +7618,19 @@
       ]
     },
     {
-      "id": "1556670532",
-      "title": "Wants and Needs (feat. Lil Baby)",
-      "artist": "Drake",
-      "artistId": "271256",
-      "releaseDate": "2021-03-05",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/63/2a/34/632a3488-d104-3ff1-dc02-4ed86f58ed05/21UMGIM18577.rgb.jpg/100x100bb.jpg",
-      "genres": [
-        "Hip-Hop/Rap",
-        "Music"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/wants-and-needs-feat-lil-baby/1556669854?i=1556670532",
-      "previewUrl": null,
-      "chartRank": 32,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": null,
-      "trackCount": null,
-      "discNumber": null,
-      "discCount": null,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/wants-and-needs-feat-lil-baby/1556669854?i=1556670532"
-      },
-      "sourceKinds": [
-        "apple-us-chart"
-      ]
-    },
-    {
-      "id": "1813021660",
-      "title": "Broken Window Serenade",
-      "artist": "Whiskey Myers",
-      "artistId": "282264074",
-      "releaseDate": "2011-04-26",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d0/cf/22/d0cf226c-607d-d97c-61d4-26eabde51f1d/886443002371_Cover.jpg/100x100bb.jpg",
-      "genres": [
-        "Country",
-        "Music"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/broken-window-serenade/1813021356?i=1813021660",
-      "previewUrl": null,
-      "chartRank": 33,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": null,
-      "trackCount": null,
-      "discNumber": null,
-      "discCount": null,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/broken-window-serenade/1813021356?i=1813021660"
-      },
-      "sourceKinds": [
-        "apple-us-chart"
-      ]
-    },
-    {
-      "id": "1618153473",
-      "title": "Right On",
+      "id": "1534816484",
+      "title": "Sum 2 Prove",
       "artist": "Lil Baby",
       "artistId": "1276656483",
-      "releaseDate": "2022-04-08",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/56/6d/ce/566dceeb-e2ea-24ff-f601-1c18497b87f8/22UMGIM37903.rgb.jpg/100x100bb.jpg",
+      "releaseDate": "2020-01-10",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/70/97/3a/70973a36-b897-e20e-4698-c05d4f5ee24f/20UMGIM30253.rgb.jpg/100x100bb.jpg",
       "genres": [
         "Hip-Hop/Rap",
         "Music"
       ],
-      "appleUrl": "https://music.apple.com/us/album/right-on/1618153462?i=1618153473",
+      "appleUrl": "https://music.apple.com/us/album/sum-2-prove/1534816297?i=1534816484",
       "previewUrl": null,
-      "chartRank": 35,
+      "chartRank": 31,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -7610,7 +7641,7 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/us/album/right-on/1618153462?i=1618153473"
+        "apple": "https://music.apple.com/us/album/sum-2-prove/1534816297?i=1534816484"
       },
       "sourceKinds": [
         "apple-us-chart"
@@ -7629,7 +7660,7 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/last-night/1818408501?i=1818408858",
       "previewUrl": null,
-      "chartRank": 36,
+      "chartRank": 32,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -7659,7 +7690,7 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/dont-we/1802103958?i=1802104400",
       "previewUrl": null,
-      "chartRank": 37,
+      "chartRank": 33,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -7677,17 +7708,77 @@
       ]
     },
     {
-      "id": "1438765134",
-      "title": "Girls Need Love",
-      "artist": "Summer Walker",
-      "artistId": "990402287",
-      "releaseDate": "2018-07-26",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/7c/1e/1a/7c1e1a21-013c-f31d-dc2c-c8118439641d/18UMGIM66021.rgb.jpg/100x100bb.jpg",
+      "id": "1556670532",
+      "title": "Wants and Needs (feat. Lil Baby)",
+      "artist": "Drake",
+      "artistId": "271256",
+      "releaseDate": "2021-03-05",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/63/2a/34/632a3488-d104-3ff1-dc02-4ed86f58ed05/21UMGIM18577.rgb.jpg/100x100bb.jpg",
       "genres": [
-        "R&B/Soul",
+        "Hip-Hop/Rap",
         "Music"
       ],
-      "appleUrl": "https://music.apple.com/us/album/girls-need-love/1438765128?i=1438765134",
+      "appleUrl": "https://music.apple.com/us/album/wants-and-needs-feat-lil-baby/1556669854?i=1556670532",
+      "previewUrl": null,
+      "chartRank": 34,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/us/album/wants-and-needs-feat-lil-baby/1556669854?i=1556670532"
+      },
+      "sourceKinds": [
+        "apple-us-chart"
+      ]
+    },
+    {
+      "id": "1813021660",
+      "title": "Broken Window Serenade",
+      "artist": "Whiskey Myers",
+      "artistId": "282264074",
+      "releaseDate": "2011-04-26",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d0/cf/22/d0cf226c-607d-d97c-61d4-26eabde51f1d/886443002371_Cover.jpg/100x100bb.jpg",
+      "genres": [
+        "Country",
+        "Music"
+      ],
+      "appleUrl": "https://music.apple.com/us/album/broken-window-serenade/1813021356?i=1813021660",
+      "previewUrl": null,
+      "chartRank": 35,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/us/album/broken-window-serenade/1813021356?i=1813021660"
+      },
+      "sourceKinds": [
+        "apple-us-chart"
+      ]
+    },
+    {
+      "id": "1618153473",
+      "title": "Right On",
+      "artist": "Lil Baby",
+      "artistId": "1276656483",
+      "releaseDate": "2022-04-08",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/56/6d/ce/566dceeb-e2ea-24ff-f601-1c18497b87f8/22UMGIM37903.rgb.jpg/100x100bb.jpg",
+      "genres": [
+        "Hip-Hop/Rap",
+        "Music"
+      ],
+      "appleUrl": "https://music.apple.com/us/album/right-on/1618153462?i=1618153473",
       "previewUrl": null,
       "chartRank": 38,
       "collectionId": null,
@@ -7700,7 +7791,7 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/us/album/girls-need-love/1438765128?i=1438765134"
+        "apple": "https://music.apple.com/us/album/right-on/1618153462?i=1618153473"
       },
       "sourceKinds": [
         "apple-us-chart"
@@ -7737,17 +7828,17 @@
       ]
     },
     {
-      "id": "1713814120",
-      "title": "Now Who",
-      "artist": "YoungBoy Never Broke Again",
-      "artistId": "1168822104",
-      "releaseDate": "2023-10-26",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/60/9c/fb/609cfb91-2510-434f-54fd-e0bc3402c3f9/23UM1IM33447.rgb.jpg/100x100bb.jpg",
+      "id": "1438765134",
+      "title": "Girls Need Love",
+      "artist": "Summer Walker",
+      "artistId": "990402287",
+      "releaseDate": "2018-07-26",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/7c/1e/1a/7c1e1a21-013c-f31d-dc2c-c8118439641d/18UMGIM66021.rgb.jpg/100x100bb.jpg",
       "genres": [
-        "Hip-Hop/Rap",
+        "R&B/Soul",
         "Music"
       ],
-      "appleUrl": "https://music.apple.com/us/album/now-who/1713814104?i=1713814120",
+      "appleUrl": "https://music.apple.com/us/album/girls-need-love/1438765128?i=1438765134",
       "previewUrl": null,
       "chartRank": 40,
       "collectionId": null,
@@ -7760,67 +7851,7 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/us/album/now-who/1713814104?i=1713814120"
-      },
-      "sourceKinds": [
-        "apple-us-chart"
-      ]
-    },
-    {
-      "id": "1529668718",
-      "title": "Power Trip (feat. Miguel)",
-      "artist": "J. Cole",
-      "artistId": "73705833",
-      "releaseDate": "2013-02-14",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/7e/aa/3b/7eaa3b96-320f-ca41-885c-abe5d3ca8450/20UMGIM75715.rgb.jpg/100x100bb.jpg",
-      "genres": [
-        "Hip-Hop/Rap",
-        "Music"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/power-trip-feat-miguel/1529668443?i=1529668718",
-      "previewUrl": null,
-      "chartRank": 43,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": null,
-      "trackCount": null,
-      "discNumber": null,
-      "discCount": null,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/power-trip-feat-miguel/1529668443?i=1529668718"
-      },
-      "sourceKinds": [
-        "apple-us-chart"
-      ]
-    },
-    {
-      "id": "1584281787",
-      "title": "Knife Talk (feat. 21 Savage & Project Pat)",
-      "artist": "Drake",
-      "artistId": "271256",
-      "releaseDate": "2021-09-03",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/11/36/38/1136384a-eebc-697a-c005-d890e41c0854/21UM1IM07518.rgb.jpg/100x100bb.jpg",
-      "genres": [
-        "Hip-Hop/Rap",
-        "Music"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/knife-talk-feat-21-savage-project-pat/1584281467?i=1584281787",
-      "previewUrl": null,
-      "chartRank": 44,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": null,
-      "trackCount": null,
-      "discNumber": null,
-      "discCount": null,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/knife-talk-feat-21-savage-project-pat/1584281467?i=1584281787"
+        "apple": "https://music.apple.com/us/album/girls-need-love/1438765128?i=1438765134"
       },
       "sourceKinds": [
         "apple-us-chart"
@@ -7839,7 +7870,7 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/man-i-need/1817609404?i=1817609509",
       "previewUrl": null,
-      "chartRank": 45,
+      "chartRank": 41,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -7869,7 +7900,7 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/what-i-want/1802103958?i=1802103975",
       "previewUrl": null,
-      "chartRank": 46,
+      "chartRank": 42,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -7881,6 +7912,66 @@
       "searchAliases": [],
       "platformLinks": {
         "apple": "https://music.apple.com/us/album/what-i-want/1802103958?i=1802103975"
+      },
+      "sourceKinds": [
+        "apple-us-chart"
+      ]
+    },
+    {
+      "id": "1713814120",
+      "title": "Now Who",
+      "artist": "YoungBoy Never Broke Again",
+      "artistId": "1168822104",
+      "releaseDate": "2023-10-26",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/60/9c/fb/609cfb91-2510-434f-54fd-e0bc3402c3f9/23UM1IM33447.rgb.jpg/100x100bb.jpg",
+      "genres": [
+        "Hip-Hop/Rap",
+        "Music"
+      ],
+      "appleUrl": "https://music.apple.com/us/album/now-who/1713814104?i=1713814120",
+      "previewUrl": null,
+      "chartRank": 44,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/us/album/now-who/1713814104?i=1713814120"
+      },
+      "sourceKinds": [
+        "apple-us-chart"
+      ]
+    },
+    {
+      "id": "1584281787",
+      "title": "Knife Talk (feat. 21 Savage & Project Pat)",
+      "artist": "Drake",
+      "artistId": "271256",
+      "releaseDate": "2021-09-03",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/11/36/38/1136384a-eebc-697a-c005-d890e41c0854/21UM1IM07518.rgb.jpg/100x100bb.jpg",
+      "genres": [
+        "Hip-Hop/Rap",
+        "Music"
+      ],
+      "appleUrl": "https://music.apple.com/us/album/knife-talk-feat-21-savage-project-pat/1584281467?i=1584281787",
+      "previewUrl": null,
+      "chartRank": 45,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/us/album/knife-talk-feat-21-savage-project-pat/1584281467?i=1584281787"
       },
       "sourceKinds": [
         "apple-us-chart"
@@ -7899,7 +7990,7 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/just-in-case/1802103958?i=1802103977",
       "previewUrl": null,
-      "chartRank": 47,
+      "chartRank": 46,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -7917,19 +8008,19 @@
       ]
     },
     {
-      "id": "1031354882",
-      "title": "Don't",
-      "artist": "Bryson Tiller",
-      "artistId": "642591128",
-      "releaseDate": "2015-05-20",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/26/4a/f9/264af9b7-813d-4b08-2822-de8b26c0e188/886445447811.jpg/100x100bb.jpg",
+      "id": "1529668718",
+      "title": "Power Trip (feat. Miguel)",
+      "artist": "J. Cole",
+      "artistId": "73705833",
+      "releaseDate": "2013-02-14",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/7e/aa/3b/7eaa3b96-320f-ca41-885c-abe5d3ca8450/20UMGIM75715.rgb.jpg/100x100bb.jpg",
       "genres": [
-        "R&B/Soul",
+        "Hip-Hop/Rap",
         "Music"
       ],
-      "appleUrl": "https://music.apple.com/us/album/dont/1031354875?i=1031354882",
+      "appleUrl": "https://music.apple.com/us/album/power-trip-feat-miguel/1529668443?i=1529668718",
       "previewUrl": null,
-      "chartRank": 48,
+      "chartRank": 47,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -7940,67 +8031,7 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/us/album/dont/1031354875?i=1031354882"
-      },
-      "sourceKinds": [
-        "apple-us-chart"
-      ]
-    },
-    {
-      "id": "1796270267",
-      "title": "30 For 30 (with Kendrick Lamar)",
-      "artist": "SZA",
-      "artistId": "605800394",
-      "releaseDate": "2025-02-08",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/50/fa/17/50fa1760-8a36-5cef-93bf-aab5b5257b18/196871766913.jpg/100x100bb.jpg",
-      "genres": [
-        "R&B/Soul",
-        "Music"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/30-for-30-with-kendrick-lamar/1796270264?i=1796270267",
-      "previewUrl": null,
-      "chartRank": 49,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": null,
-      "trackCount": null,
-      "discNumber": null,
-      "discCount": null,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/30-for-30-with-kendrick-lamar/1796270264?i=1796270267"
-      },
-      "sourceKinds": [
-        "apple-us-chart"
-      ]
-    },
-    {
-      "id": "1239976610",
-      "title": "Broken Clocks",
-      "artist": "SZA",
-      "artistId": "605800394",
-      "releaseDate": "2017-06-02",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/20/28/8f/20288f6f-fbf2-fb0f-6732-e7d334e1ff50/886446548432.jpg/100x100bb.jpg",
-      "genres": [
-        "R&B/Soul",
-        "Music"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/broken-clocks/1239976329?i=1239976610",
-      "previewUrl": null,
-      "chartRank": 51,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": null,
-      "trackCount": null,
-      "discNumber": null,
-      "discCount": null,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/broken-clocks/1239976329?i=1239976610"
+        "apple": "https://music.apple.com/us/album/power-trip-feat-miguel/1529668443?i=1529668718"
       },
       "sourceKinds": [
         "apple-us-chart"
@@ -8019,7 +8050,7 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/thinkin-bout-me/1818423949?i=1818425528",
       "previewUrl": null,
-      "chartRank": 52,
+      "chartRank": 49,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -8037,19 +8068,19 @@
       ]
     },
     {
-      "id": "1534816500",
-      "title": "Low Down",
-      "artist": "Lil Baby",
-      "artistId": "1276656483",
-      "releaseDate": "2020-05-01",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/70/97/3a/70973a36-b897-e20e-4698-c05d4f5ee24f/20UMGIM30253.rgb.jpg/100x100bb.jpg",
+      "id": "1796270267",
+      "title": "30 For 30 (with Kendrick Lamar)",
+      "artist": "SZA",
+      "artistId": "605800394",
+      "releaseDate": "2025-02-08",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/50/fa/17/50fa1760-8a36-5cef-93bf-aab5b5257b18/196871766913.jpg/100x100bb.jpg",
       "genres": [
-        "Hip-Hop/Rap",
+        "R&B/Soul",
         "Music"
       ],
-      "appleUrl": "https://music.apple.com/us/album/low-down/1534816297?i=1534816500",
+      "appleUrl": "https://music.apple.com/us/album/30-for-30-with-kendrick-lamar/1796270264?i=1796270267",
       "previewUrl": null,
-      "chartRank": 53,
+      "chartRank": 50,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -8060,37 +8091,7 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/us/album/low-down/1534816297?i=1534816500"
-      },
-      "sourceKinds": [
-        "apple-us-chart"
-      ]
-    },
-    {
-      "id": "1617171238",
-      "title": "Vette Motors",
-      "artist": "YoungBoy Never Broke Again",
-      "artistId": "1168822104",
-      "releaseDate": "2021-08-05",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/4d/54/ec/4d54eccd-8e71-4217-cb81-445adc77136b/075679750006.jpg/100x100bb.jpg",
-      "genres": [
-        "Hip-Hop/Rap",
-        "Music"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/vette-motors/1617170958?i=1617171238",
-      "previewUrl": null,
-      "chartRank": 54,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": null,
-      "trackCount": null,
-      "discNumber": null,
-      "discCount": null,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/vette-motors/1617170958?i=1617171238"
+        "apple": "https://music.apple.com/us/album/30-for-30-with-kendrick-lamar/1796270264?i=1796270267"
       },
       "sourceKinds": [
         "apple-us-chart"
@@ -8109,7 +8110,7 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/wasted-on-you/1818469543?i=1818469738",
       "previewUrl": null,
-      "chartRank": 56,
+      "chartRank": 51,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -8139,7 +8140,7 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/cowgirls-feat-ernest/1818423949?i=1818426110",
       "previewUrl": null,
-      "chartRank": 57,
+      "chartRank": 52,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -8157,17 +8158,137 @@
       ]
     },
     {
-      "id": "1468618077",
-      "title": "Money In The Grave (feat. Rick Ross)",
-      "artist": "Drake",
-      "artistId": "271256",
-      "releaseDate": "2019-06-15",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/5b/31/bf/5b31bf6d-0a7f-ad73-426f-72948846bef2/19UMGIM54644.rgb.jpg/100x100bb.jpg",
+      "id": "1031354882",
+      "title": "Don't",
+      "artist": "Bryson Tiller",
+      "artistId": "642591128",
+      "releaseDate": "2015-05-20",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/26/4a/f9/264af9b7-813d-4b08-2822-de8b26c0e188/886445447811.jpg/100x100bb.jpg",
+      "genres": [
+        "R&B/Soul",
+        "Music"
+      ],
+      "appleUrl": "https://music.apple.com/us/album/dont/1031354875?i=1031354882",
+      "previewUrl": null,
+      "chartRank": 53,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/us/album/dont/1031354875?i=1031354882"
+      },
+      "sourceKinds": [
+        "apple-us-chart"
+      ]
+    },
+    {
+      "id": "1239976610",
+      "title": "Broken Clocks",
+      "artist": "SZA",
+      "artistId": "605800394",
+      "releaseDate": "2017-06-02",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/20/28/8f/20288f6f-fbf2-fb0f-6732-e7d334e1ff50/886446548432.jpg/100x100bb.jpg",
+      "genres": [
+        "R&B/Soul",
+        "Music"
+      ],
+      "appleUrl": "https://music.apple.com/us/album/broken-clocks/1239976329?i=1239976610",
+      "previewUrl": null,
+      "chartRank": 54,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/us/album/broken-clocks/1239976329?i=1239976610"
+      },
+      "sourceKinds": [
+        "apple-us-chart"
+      ]
+    },
+    {
+      "id": "1534816500",
+      "title": "Low Down",
+      "artist": "Lil Baby",
+      "artistId": "1276656483",
+      "releaseDate": "2020-05-01",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/70/97/3a/70973a36-b897-e20e-4698-c05d4f5ee24f/20UMGIM30253.rgb.jpg/100x100bb.jpg",
       "genres": [
         "Hip-Hop/Rap",
         "Music"
       ],
-      "appleUrl": "https://music.apple.com/us/album/money-in-the-grave-feat-rick-ross/1468617896?i=1468618077",
+      "appleUrl": "https://music.apple.com/us/album/low-down/1534816297?i=1534816500",
+      "previewUrl": null,
+      "chartRank": 55,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/us/album/low-down/1534816297?i=1534816500"
+      },
+      "sourceKinds": [
+        "apple-us-chart"
+      ]
+    },
+    {
+      "id": "1617171238",
+      "title": "Vette Motors",
+      "artist": "YoungBoy Never Broke Again",
+      "artistId": "1168822104",
+      "releaseDate": "2021-08-05",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/4d/54/ec/4d54eccd-8e71-4217-cb81-445adc77136b/075679750006.jpg/100x100bb.jpg",
+      "genres": [
+        "Hip-Hop/Rap",
+        "Music"
+      ],
+      "appleUrl": "https://music.apple.com/us/album/vette-motors/1617170958?i=1617171238",
+      "previewUrl": null,
+      "chartRank": 57,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/us/album/vette-motors/1617170958?i=1617171238"
+      },
+      "sourceKinds": [
+        "apple-us-chart"
+      ]
+    },
+    {
+      "id": "1744439049",
+      "title": "I Had Some Help (feat. Morgan Wallen)",
+      "artist": "Post Malone",
+      "artistId": "966309175",
+      "releaseDate": "2024-05-10",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e1/b7/09/e1b7098f-d6e1-2b18-fd6f-8390110908eb/24UMGIM50612.rgb.jpg/100x100bb.jpg",
+      "genres": [
+        "Country",
+        "Music"
+      ],
+      "appleUrl": "https://music.apple.com/us/album/i-had-some-help-feat-morgan-wallen/1744439045?i=1744439049",
       "previewUrl": null,
       "chartRank": 58,
       "collectionId": null,
@@ -8180,67 +8301,7 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/us/album/money-in-the-grave-feat-rick-ross/1468617896?i=1468618077"
-      },
-      "sourceKinds": [
-        "apple-us-chart"
-      ]
-    },
-    {
-      "id": "1737150439",
-      "title": "Like That",
-      "artist": "Future, Metro Boomin & Kendrick Lamar",
-      "artistId": "128050210",
-      "releaseDate": "2024-03-22",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4e/9f/7b/4e9f7b71-28ad-a8dc-9b34-da532feb82f6/196871937382.jpg/100x100bb.jpg",
-      "genres": [
-        "Hip-Hop/Rap",
-        "Music"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/like-that/1737149923?i=1737150439",
-      "previewUrl": null,
-      "chartRank": 59,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": null,
-      "trackCount": null,
-      "discNumber": null,
-      "discCount": null,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/like-that/1737149923?i=1737150439"
-      },
-      "sourceKinds": [
-        "apple-us-chart"
-      ]
-    },
-    {
-      "id": "1418213269",
-      "title": "God's Plan",
-      "artist": "Drake",
-      "artistId": "271256",
-      "releaseDate": "2018-01-19",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/1f/37/43/1f374304-2e04-2be3-53ea-41dd6f0b6fb8/00602567892410.rgb.jpg/100x100bb.jpg",
-      "genres": [
-        "Hip-Hop/Rap",
-        "Music"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/gods-plan/1418213110?i=1418213269",
-      "previewUrl": null,
-      "chartRank": 60,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": null,
-      "trackCount": null,
-      "discNumber": null,
-      "discCount": null,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/gods-plan/1418213110?i=1418213269"
+        "apple": "https://music.apple.com/us/album/i-had-some-help-feat-morgan-wallen/1744439045?i=1744439049"
       },
       "sourceKinds": [
         "apple-us-chart"
@@ -8259,7 +8320,7 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/not-like-us/1781353928?i=1781353929",
       "previewUrl": null,
-      "chartRank": 61,
+      "chartRank": 59,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -8271,6 +8332,96 @@
       "searchAliases": [],
       "platformLinks": {
         "apple": "https://music.apple.com/us/album/not-like-us/1781353928?i=1781353929"
+      },
+      "sourceKinds": [
+        "apple-us-chart"
+      ]
+    },
+    {
+      "id": "1468618077",
+      "title": "Money In The Grave (feat. Rick Ross)",
+      "artist": "Drake",
+      "artistId": "271256",
+      "releaseDate": "2019-06-15",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/5b/31/bf/5b31bf6d-0a7f-ad73-426f-72948846bef2/19UMGIM54644.rgb.jpg/100x100bb.jpg",
+      "genres": [
+        "Hip-Hop/Rap",
+        "Music"
+      ],
+      "appleUrl": "https://music.apple.com/us/album/money-in-the-grave-feat-rick-ross/1468617896?i=1468618077",
+      "previewUrl": null,
+      "chartRank": 60,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/us/album/money-in-the-grave-feat-rick-ross/1468617896?i=1468618077"
+      },
+      "sourceKinds": [
+        "apple-us-chart"
+      ]
+    },
+    {
+      "id": "1418213269",
+      "title": "God's Plan",
+      "artist": "Drake",
+      "artistId": "271256",
+      "releaseDate": "2018-01-19",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/1f/37/43/1f374304-2e04-2be3-53ea-41dd6f0b6fb8/00602567892410.rgb.jpg/100x100bb.jpg",
+      "genres": [
+        "Hip-Hop/Rap",
+        "Music"
+      ],
+      "appleUrl": "https://music.apple.com/us/album/gods-plan/1418213110?i=1418213269",
+      "previewUrl": null,
+      "chartRank": 61,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/us/album/gods-plan/1418213110?i=1418213269"
+      },
+      "sourceKinds": [
+        "apple-us-chart"
+      ]
+    },
+    {
+      "id": "1737150439",
+      "title": "Like That",
+      "artist": "Future, Metro Boomin & Kendrick Lamar",
+      "artistId": "128050210",
+      "releaseDate": "2024-03-22",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4e/9f/7b/4e9f7b71-28ad-a8dc-9b34-da532feb82f6/196871937382.jpg/100x100bb.jpg",
+      "genres": [
+        "Hip-Hop/Rap",
+        "Music"
+      ],
+      "appleUrl": "https://music.apple.com/us/album/like-that/1737149923?i=1737150439",
+      "previewUrl": null,
+      "chartRank": 62,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/us/album/like-that/1737149923?i=1737150439"
       },
       "sourceKinds": [
         "apple-us-chart"
@@ -8307,17 +8458,18 @@
       ]
     },
     {
-      "id": "1570323056",
-      "title": "Yonaguni",
-      "artist": "Bad Bunny",
-      "artistId": "1126808565",
-      "releaseDate": "2021-06-04",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/b6/12/da/b612daba-6c68-c2ab-7492-fb2e079074d5/196006829308.jpg/100x100bb.jpg",
+      "id": "1884403093",
+      "title": "Boston",
+      "artist": "STELLA LEFTY",
+      "artistId": "1641742186",
+      "releaseDate": "2026-03-27",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7c/de/5e/7cde5e7a-612d-9714-d34c-1eb234c85ebb/810129961546.jpg/100x100bb.jpg",
       "genres": [
+        "Country",
         "Music",
-        "Latin"
+        "Pop"
       ],
-      "appleUrl": "https://music.apple.com/us/album/yonaguni/1570323047?i=1570323056",
+      "appleUrl": "https://music.apple.com/us/album/boston/1884403092?i=1884403093",
       "previewUrl": null,
       "chartRank": 64,
       "collectionId": null,
@@ -8330,37 +8482,7 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/us/album/yonaguni/1570323047?i=1570323056"
-      },
-      "sourceKinds": [
-        "apple-us-chart"
-      ]
-    },
-    {
-      "id": "1744439049",
-      "title": "I Had Some Help (feat. Morgan Wallen)",
-      "artist": "Post Malone",
-      "artistId": "966309175",
-      "releaseDate": "2024-05-10",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e1/b7/09/e1b7098f-d6e1-2b18-fd6f-8390110908eb/24UMGIM50612.rgb.jpg/100x100bb.jpg",
-      "genres": [
-        "Country",
-        "Music"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/i-had-some-help-feat-morgan-wallen/1744439045?i=1744439049",
-      "previewUrl": null,
-      "chartRank": 65,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": null,
-      "trackCount": null,
-      "discNumber": null,
-      "discCount": null,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/i-had-some-help-feat-morgan-wallen/1744439045?i=1744439049"
+        "apple": "https://music.apple.com/us/album/boston/1884403092?i=1884403093"
       },
       "sourceKinds": [
         "apple-us-chart"
@@ -8379,7 +8501,7 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/mr-brightside/1442970218?i=1442970583",
       "previewUrl": null,
-      "chartRank": 66,
+      "chartRank": 65,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -8397,17 +8519,17 @@
       ]
     },
     {
-      "id": "1137966332",
-      "title": "Cinderella (feat. Ty Dolla $ign)",
-      "artist": "Mac Miller",
-      "artistId": "419944559",
-      "releaseDate": "2016-09-16",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/33/cc/4d/33cc4d85-e92a-b171-1b72-4dc882ce2359/093624918844.jpg/100x100bb.jpg",
+      "id": "1570323056",
+      "title": "Yonaguni",
+      "artist": "Bad Bunny",
+      "artistId": "1126808565",
+      "releaseDate": "2021-06-04",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/b6/12/da/b612daba-6c68-c2ab-7492-fb2e079074d5/196006829308.jpg/100x100bb.jpg",
       "genres": [
         "Music",
-        "Hip-Hop/Rap"
+        "Latin"
       ],
-      "appleUrl": "https://music.apple.com/us/album/cinderella-feat-ty-dolla-%24ign/1137965822?i=1137966332",
+      "appleUrl": "https://music.apple.com/us/album/yonaguni/1570323047?i=1570323056",
       "previewUrl": null,
       "chartRank": 67,
       "collectionId": null,
@@ -8420,7 +8542,7 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/us/album/cinderella-feat-ty-dolla-%24ign/1137965822?i=1137966332"
+        "apple": "https://music.apple.com/us/album/yonaguni/1570323047?i=1570323056"
       },
       "sourceKinds": [
         "apple-us-chart"
@@ -8439,7 +8561,7 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/body/1481606156?i=1481606158",
       "previewUrl": null,
-      "chartRank": 68,
+      "chartRank": 69,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -8451,6 +8573,36 @@
       "searchAliases": [],
       "platformLinks": {
         "apple": "https://music.apple.com/us/album/body/1481606156?i=1481606158"
+      },
+      "sourceKinds": [
+        "apple-us-chart"
+      ]
+    },
+    {
+      "id": "1440827492",
+      "title": "Tennessee Whiskey",
+      "artist": "Chris Stapleton",
+      "artistId": "1752134",
+      "releaseDate": "2015-04-23",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e2/4b/60/e24b6016-8278-bb18-cf5d-d44bf68371da/00602547223838.rgb.jpg/100x100bb.jpg",
+      "genres": [
+        "Country",
+        "Music"
+      ],
+      "appleUrl": "https://music.apple.com/us/album/tennessee-whiskey/1440827477?i=1440827492",
+      "previewUrl": null,
+      "chartRank": 70,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/us/album/tennessee-whiskey/1440827477?i=1440827492"
       },
       "sourceKinds": [
         "apple-us-chart"
@@ -8471,7 +8623,7 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/this-is-halloween/1440662430?i=1440662595",
       "previewUrl": null,
-      "chartRank": 70,
+      "chartRank": 71,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -8483,6 +8635,66 @@
       "searchAliases": [],
       "platformLinks": {
         "apple": "https://music.apple.com/us/album/this-is-halloween/1440662430?i=1440662595"
+      },
+      "sourceKinds": [
+        "apple-us-chart"
+      ]
+    },
+    {
+      "id": "1137966332",
+      "title": "Cinderella (feat. Ty Dolla $ign)",
+      "artist": "Mac Miller",
+      "artistId": "419944559",
+      "releaseDate": "2016-09-16",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/33/cc/4d/33cc4d85-e92a-b171-1b72-4dc882ce2359/093624918844.jpg/100x100bb.jpg",
+      "genres": [
+        "Music",
+        "Hip-Hop/Rap"
+      ],
+      "appleUrl": "https://music.apple.com/us/album/cinderella-feat-ty-dolla-%24ign/1137965822?i=1137966332",
+      "previewUrl": null,
+      "chartRank": 72,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/us/album/cinderella-feat-ty-dolla-%24ign/1137965822?i=1137966332"
+      },
+      "sourceKinds": [
+        "apple-us-chart"
+      ]
+    },
+    {
+      "id": "1682863572",
+      "title": "Something in the Orange",
+      "artist": "Zach Bryan",
+      "artistId": "1436413980",
+      "releaseDate": "2022-04-22",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/4a/74/19/4a74193e-d4e8-a425-3d15-13bc0c0581ee/5059460195875.jpg/100x100bb.jpg",
+      "genres": [
+        "Country",
+        "Music"
+      ],
+      "appleUrl": "https://music.apple.com/us/album/something-in-the-orange/1682863184?i=1682863572",
+      "previewUrl": null,
+      "chartRank": 73,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/us/album/something-in-the-orange/1682863184?i=1682863572"
       },
       "sourceKinds": [
         "apple-us-chart"
@@ -8501,7 +8713,7 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/passionfruit/1440890708?i=1440891494",
       "previewUrl": null,
-      "chartRank": 71,
+      "chartRank": 74,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -8513,37 +8725,6 @@
       "searchAliases": [],
       "platformLinks": {
         "apple": "https://music.apple.com/us/album/passionfruit/1440890708?i=1440891494"
-      },
-      "sourceKinds": [
-        "apple-us-chart"
-      ]
-    },
-    {
-      "id": "1884403093",
-      "title": "Boston",
-      "artist": "STELLA LEFTY",
-      "artistId": "1641742186",
-      "releaseDate": "2026-03-27",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7c/de/5e/7cde5e7a-612d-9714-d34c-1eb234c85ebb/810129961546.jpg/100x100bb.jpg",
-      "genres": [
-        "Country",
-        "Music",
-        "Pop"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/boston/1884403092?i=1884403093",
-      "previewUrl": null,
-      "chartRank": 72,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": null,
-      "trackCount": null,
-      "discNumber": null,
-      "discCount": null,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/boston/1884403092?i=1884403093"
       },
       "sourceKinds": [
         "apple-us-chart"
@@ -8562,7 +8743,7 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/wild-thoughts-feat-rihanna-bryson-tiller/1244230120?i=1244230126",
       "previewUrl": null,
-      "chartRank": 73,
+      "chartRank": 75,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -8592,7 +8773,7 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/bitch-dont-kill-my-vibe/1471263898?i=1471263903",
       "previewUrl": null,
-      "chartRank": 74,
+      "chartRank": 76,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -8610,19 +8791,19 @@
       ]
     },
     {
-      "id": "1440827492",
-      "title": "Tennessee Whiskey",
-      "artist": "Chris Stapleton",
-      "artistId": "1752134",
-      "releaseDate": "2015-04-23",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e2/4b/60/e24b6016-8278-bb18-cf5d-d44bf68371da/00602547223838.rgb.jpg/100x100bb.jpg",
+      "id": "1770160814",
+      "title": "weren't for the wind",
+      "artist": "Ella Langley",
+      "artistId": "1384373733",
+      "releaseDate": "2024-10-04",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ef/f1/65/eff16551-2b83-202a-f923-a655a57c61b8/196872452563.jpg/100x100bb.jpg",
       "genres": [
         "Country",
         "Music"
       ],
-      "appleUrl": "https://music.apple.com/us/album/tennessee-whiskey/1440827477?i=1440827492",
+      "appleUrl": "https://music.apple.com/us/album/werent-for-the-wind/1770160322?i=1770160814",
       "previewUrl": null,
-      "chartRank": 75,
+      "chartRank": 77,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -8633,7 +8814,7 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/us/album/tennessee-whiskey/1440827477?i=1440827492"
+        "apple": "https://music.apple.com/us/album/werent-for-the-wind/1770160322?i=1770160814"
       },
       "sourceKinds": [
         "apple-us-chart"
@@ -8652,7 +8833,7 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/poetic-justice-feat-drake/1440860389?i=1440860402",
       "previewUrl": null,
-      "chartRank": 76,
+      "chartRank": 78,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -8682,7 +8863,7 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/e85/1873328276?i=1873328279",
       "previewUrl": null,
-      "chartRank": 77,
+      "chartRank": 79,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -8694,6 +8875,36 @@
       "searchAliases": [],
       "platformLinks": {
         "apple": "https://music.apple.com/us/album/e85/1873328276?i=1873328279"
+      },
+      "sourceKinds": [
+        "apple-us-chart"
+      ]
+    },
+    {
+      "id": "1818407111",
+      "title": "You Proof",
+      "artist": "Morgan Wallen",
+      "artistId": "829142092",
+      "releaseDate": "2022-05-13",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b7/66/c4/b766c457-2500-e2d6-895e-59b45e95d009/00602445957033_Cover.jpg/100x100bb.jpg",
+      "genres": [
+        "Country",
+        "Music"
+      ],
+      "appleUrl": "https://music.apple.com/us/album/you-proof/1818406806?i=1818407111",
+      "previewUrl": null,
+      "chartRank": 80,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/us/album/you-proof/1818406806?i=1818407111"
       },
       "sourceKinds": [
         "apple-us-chart"
@@ -8712,7 +8923,7 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/no-flockin/1056383797?i=1056384020",
       "previewUrl": null,
-      "chartRank": 78,
+      "chartRank": 81,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -8724,66 +8935,6 @@
       "searchAliases": [],
       "platformLinks": {
         "apple": "https://music.apple.com/us/album/no-flockin/1056383797?i=1056384020"
-      },
-      "sourceKinds": [
-        "apple-us-chart"
-      ]
-    },
-    {
-      "id": "1447442333",
-      "title": "Valuable Pain",
-      "artist": "YoungBoy Never Broke Again",
-      "artistId": "1168822104",
-      "releaseDate": "2018-12-10",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/2d/46/61/2d4661b4-8927-fdd0-449a-4e86844ee85d/075679855169.jpg/100x100bb.jpg",
-      "genres": [
-        "Hip-Hop/Rap",
-        "Music"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/valuable-pain/1447442327?i=1447442333",
-      "previewUrl": null,
-      "chartRank": 79,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": null,
-      "trackCount": null,
-      "discNumber": null,
-      "discCount": null,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/valuable-pain/1447442327?i=1447442333"
-      },
-      "sourceKinds": [
-        "apple-us-chart"
-      ]
-    },
-    {
-      "id": "1266332375",
-      "title": "Untouchable",
-      "artist": "YoungBoy Never Broke Again",
-      "artistId": "1168822104",
-      "releaseDate": "2016-10-28",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/31/50/31/315031ae-da9d-2ff4-f707-2d06f13254e9/075679890382.jpg/100x100bb.jpg",
-      "genres": [
-        "Hip-Hop/Rap",
-        "Music"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/untouchable/1266332358?i=1266332375",
-      "previewUrl": null,
-      "chartRank": 80,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": null,
-      "trackCount": null,
-      "discNumber": null,
-      "discCount": null,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/untouchable/1266332358?i=1266332375"
       },
       "sourceKinds": [
         "apple-us-chart"
@@ -8802,7 +8953,7 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/712pm/1621803882?i=1621803883",
       "previewUrl": null,
-      "chartRank": 81,
+      "chartRank": 82,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -8820,19 +8971,19 @@
       ]
     },
     {
-      "id": "1682863572",
-      "title": "Something in the Orange",
-      "artist": "Zach Bryan",
-      "artistId": "1436413980",
-      "releaseDate": "2022-04-22",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/4a/74/19/4a74193e-d4e8-a425-3d15-13bc0c0581ee/5059460195875.jpg/100x100bb.jpg",
+      "id": "1266332375",
+      "title": "Untouchable",
+      "artist": "YoungBoy Never Broke Again",
+      "artistId": "1168822104",
+      "releaseDate": "2016-10-28",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/31/50/31/315031ae-da9d-2ff4-f707-2d06f13254e9/075679890382.jpg/100x100bb.jpg",
       "genres": [
-        "Country",
+        "Hip-Hop/Rap",
         "Music"
       ],
-      "appleUrl": "https://music.apple.com/us/album/something-in-the-orange/1682863184?i=1682863572",
+      "appleUrl": "https://music.apple.com/us/album/untouchable/1266332358?i=1266332375",
       "previewUrl": null,
-      "chartRank": 82,
+      "chartRank": 83,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -8843,7 +8994,37 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/us/album/something-in-the-orange/1682863184?i=1682863572"
+        "apple": "https://music.apple.com/us/album/untouchable/1266332358?i=1266332375"
+      },
+      "sourceKinds": [
+        "apple-us-chart"
+      ]
+    },
+    {
+      "id": "1447442333",
+      "title": "Valuable Pain",
+      "artist": "YoungBoy Never Broke Again",
+      "artistId": "1168822104",
+      "releaseDate": "2018-12-10",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/2d/46/61/2d4661b4-8927-fdd0-449a-4e86844ee85d/075679855169.jpg/100x100bb.jpg",
+      "genres": [
+        "Hip-Hop/Rap",
+        "Music"
+      ],
+      "appleUrl": "https://music.apple.com/us/album/valuable-pain/1447442327?i=1447442333",
+      "previewUrl": null,
+      "chartRank": 84,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/us/album/valuable-pain/1447442327?i=1447442333"
       },
       "sourceKinds": [
         "apple-us-chart"
@@ -8862,7 +9043,7 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/controlla/1440841363?i=1440841382",
       "previewUrl": null,
-      "chartRank": 83,
+      "chartRank": 85,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -8880,19 +9061,19 @@
       ]
     },
     {
-      "id": "1770160814",
-      "title": "weren't for the wind",
-      "artist": "Ella Langley",
-      "artistId": "1384373733",
-      "releaseDate": "2024-10-04",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ef/f1/65/eff16551-2b83-202a-f923-a655a57c61b8/196872452563.jpg/100x100bb.jpg",
+      "id": "1150135924",
+      "title": "goosebumps",
+      "artist": "Travis Scott",
+      "artistId": "549236696",
+      "releaseDate": "2016-09-02",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/50/f7/a3/50f7a39d-3bd5-28e9-0264-532f08b5b810/886446074726.jpg/100x100bb.jpg",
       "genres": [
-        "Country",
+        "Hip-Hop/Rap",
         "Music"
       ],
-      "appleUrl": "https://music.apple.com/us/album/werent-for-the-wind/1770160322?i=1770160814",
+      "appleUrl": "https://music.apple.com/us/album/goosebumps/1150135681?i=1150135924",
       "previewUrl": null,
-      "chartRank": 84,
+      "chartRank": 87,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -8903,7 +9084,7 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/us/album/werent-for-the-wind/1770160322?i=1770160814"
+        "apple": "https://music.apple.com/us/album/goosebumps/1150135681?i=1150135924"
       },
       "sourceKinds": [
         "apple-us-chart"
@@ -8922,7 +9103,7 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/love-me-feat-drake-future/1440859562?i=1440859905",
       "previewUrl": null,
-      "chartRank": 85,
+      "chartRank": 88,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -8952,66 +9133,6 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/ghostbusters/1484413132?i=1484413134",
       "previewUrl": null,
-      "chartRank": 87,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": null,
-      "trackCount": null,
-      "discNumber": null,
-      "discCount": null,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/ghostbusters/1484413132?i=1484413134"
-      },
-      "sourceKinds": [
-        "apple-us-chart"
-      ]
-    },
-    {
-      "id": "1150135924",
-      "title": "goosebumps",
-      "artist": "Travis Scott",
-      "artistId": "549236696",
-      "releaseDate": "2016-09-02",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/50/f7/a3/50f7a39d-3bd5-28e9-0264-532f08b5b810/886446074726.jpg/100x100bb.jpg",
-      "genres": [
-        "Hip-Hop/Rap",
-        "Music"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/goosebumps/1150135681?i=1150135924",
-      "previewUrl": null,
-      "chartRank": 88,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": null,
-      "trackCount": null,
-      "discNumber": null,
-      "discCount": null,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/goosebumps/1150135681?i=1150135924"
-      },
-      "sourceKinds": [
-        "apple-us-chart"
-      ]
-    },
-    {
-      "id": "1818407111",
-      "title": "You Proof",
-      "artist": "Morgan Wallen",
-      "artistId": "829142092",
-      "releaseDate": "2022-05-13",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b7/66/c4/b766c457-2500-e2d6-895e-59b45e95d009/00602445957033_Cover.jpg/100x100bb.jpg",
-      "genres": [
-        "Country",
-        "Music"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/you-proof/1818406806?i=1818407111",
-      "previewUrl": null,
       "chartRank": 89,
       "collectionId": null,
       "collectionName": null,
@@ -9023,67 +9144,7 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/us/album/you-proof/1818406806?i=1818407111"
-      },
-      "sourceKinds": [
-        "apple-us-chart"
-      ]
-    },
-    {
-      "id": "1811903401",
-      "title": "Marlboro Rojo",
-      "artist": "Fuerza Regida",
-      "artistId": "1275690475",
-      "releaseDate": "2025-05-02",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/84/8a/7b/848a7b8e-c817-97ae-1f43-1b11d9a23530/196873013855.jpg/100x100bb.jpg",
-      "genres": [
-        "Music",
-        "Latin"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/marlboro-rojo/1811903274?i=1811903401",
-      "previewUrl": null,
-      "chartRank": 90,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": null,
-      "trackCount": null,
-      "discNumber": null,
-      "discCount": null,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/marlboro-rojo/1811903274?i=1811903401"
-      },
-      "sourceKinds": [
-        "apple-us-chart"
-      ]
-    },
-    {
-      "id": "1095065281",
-      "title": "Digits",
-      "artist": "Young Thug",
-      "artistId": "81886939",
-      "releaseDate": "2016-03-25",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f5/b6/cb/f5b6cb03-8f8a-0529-16a6-b8cf3ace5555/dj.vftjpvpa.jpg/100x100bb.jpg",
-      "genres": [
-        "Music",
-        "Hip-Hop/Rap"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/digits/1095065232?i=1095065281",
-      "previewUrl": null,
-      "chartRank": 91,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": null,
-      "trackCount": null,
-      "discNumber": null,
-      "discCount": null,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/digits/1095065232?i=1095065281"
+        "apple": "https://music.apple.com/us/album/ghostbusters/1484413132?i=1484413134"
       },
       "sourceKinds": [
         "apple-us-chart"
@@ -9102,7 +9163,7 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/money-trees-feat-jay-rock/1471277623?i=1471277629",
       "previewUrl": null,
-      "chartRank": 92,
+      "chartRank": 90,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -9132,7 +9193,7 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/sweater-weather/548656698?i=548656753",
       "previewUrl": null,
-      "chartRank": 93,
+      "chartRank": 91,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -9150,19 +9211,19 @@
       ]
     },
     {
-      "id": "82125202",
-      "title": "Monster Mash",
-      "artist": "Bobby \"Boris\" Pickett",
-      "artistId": "1570669469",
-      "releaseDate": "1962-10-09",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Features124/v4/bb/8a/6f/bb8a6ff2-a5b6-395c-8a54-5d7954bd9e4b/dj.lnkhwpna.tif/100x100bb.jpg",
+      "id": "1095065281",
+      "title": "Digits",
+      "artist": "Young Thug",
+      "artistId": "81886939",
+      "releaseDate": "2016-03-25",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f5/b6/cb/f5b6cb03-8f8a-0529-16a6-b8cf3ace5555/dj.vftjpvpa.jpg/100x100bb.jpg",
       "genres": [
         "Music",
-        "Holiday"
+        "Hip-Hop/Rap"
       ],
-      "appleUrl": "https://music.apple.com/us/album/monster-mash/82125264?i=82125202",
+      "appleUrl": "https://music.apple.com/us/album/digits/1095065232?i=1095065281",
       "previewUrl": null,
-      "chartRank": 94,
+      "chartRank": 92,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -9173,26 +9234,26 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/us/album/monster-mash/82125264?i=82125202"
+        "apple": "https://music.apple.com/us/album/digits/1095065232?i=1095065281"
       },
       "sourceKinds": [
         "apple-us-chart"
       ]
     },
     {
-      "id": "1440826383",
-      "title": "The Hills",
-      "artist": "The Weeknd",
-      "artistId": "479756766",
-      "releaseDate": "2015-05-27",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/40/cd/1a/40cd1a65-7948-eb96-74c6-1c4b3497456c/15UMGIM36513.rgb.jpg/100x100bb.jpg",
+      "id": "1811903401",
+      "title": "Marlboro Rojo",
+      "artist": "Fuerza Regida",
+      "artistId": "1275690475",
+      "releaseDate": "2025-05-02",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/84/8a/7b/848a7b8e-c817-97ae-1f43-1b11d9a23530/196873013855.jpg/100x100bb.jpg",
       "genres": [
-        "R&B/Soul",
-        "Music"
+        "Music",
+        "Latin"
       ],
-      "appleUrl": "https://music.apple.com/us/album/the-hills/1440826239?i=1440826383",
+      "appleUrl": "https://music.apple.com/us/album/marlboro-rojo/1811903274?i=1811903401",
       "previewUrl": null,
-      "chartRank": 96,
+      "chartRank": 93,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -9203,67 +9264,7 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/us/album/the-hills/1440826239?i=1440826383"
-      },
-      "sourceKinds": [
-        "apple-us-chart"
-      ]
-    },
-    {
-      "id": "1440737349",
-      "title": "Lollipop (feat. Static Major)",
-      "artist": "Lil Wayne",
-      "artistId": "5869117",
-      "releaseDate": "2008-03-13",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/6c/f8/21/6cf8210e-4c82-2b9a-8213-0d3ce0df5bdb/08UMGIM10308.rgb.jpg/100x99bb.jpg",
-      "genres": [
-        "Hip-Hop/Rap",
-        "Music"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/lollipop-feat-static-major/1440737099?i=1440737349",
-      "previewUrl": null,
-      "chartRank": 97,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": null,
-      "trackCount": null,
-      "discNumber": null,
-      "discCount": null,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/lollipop-feat-static-major/1440737099?i=1440737349"
-      },
-      "sourceKinds": [
-        "apple-us-chart"
-      ]
-    },
-    {
-      "id": "1239976603",
-      "title": "Love Galore (feat. Travis Scott)",
-      "artist": "SZA",
-      "artistId": "605800394",
-      "releaseDate": "2017-04-28",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/20/28/8f/20288f6f-fbf2-fb0f-6732-e7d334e1ff50/886446548432.jpg/100x100bb.jpg",
-      "genres": [
-        "R&B/Soul",
-        "Music"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/love-galore-feat-travis-scott/1239976329?i=1239976603",
-      "previewUrl": null,
-      "chartRank": 98,
-      "collectionId": null,
-      "collectionName": null,
-      "trackNumber": null,
-      "trackCount": null,
-      "discNumber": null,
-      "discCount": null,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/love-galore-feat-travis-scott/1239976329?i=1239976603"
+        "apple": "https://music.apple.com/us/album/marlboro-rojo/1811903274?i=1811903401"
       },
       "sourceKinds": [
         "apple-us-chart"
@@ -9282,7 +9283,7 @@
       ],
       "appleUrl": "https://music.apple.com/us/album/28/1819829616?i=1819829902",
       "previewUrl": null,
-      "chartRank": 99,
+      "chartRank": 94,
       "collectionId": null,
       "collectionName": null,
       "trackNumber": null,
@@ -9300,17 +9301,78 @@
       ]
     },
     {
-      "id": "1648587322",
-      "title": "Never Hating",
-      "artist": "Lil Baby & Young Thug",
-      "artistId": "1276656483",
-      "releaseDate": "2022-10-14",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/9f/c0/99/9fc09958-180d-e66a-bbf7-9462289435f6/22UM1IM13098.rgb.jpg/100x100bb.jpg",
+      "id": "1440826383",
+      "title": "The Hills",
+      "artist": "The Weeknd",
+      "artistId": "479756766",
+      "releaseDate": "2015-05-27",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/40/cd/1a/40cd1a65-7948-eb96-74c6-1c4b3497456c/15UMGIM36513.rgb.jpg/100x100bb.jpg",
       "genres": [
-        "Hip-Hop/Rap",
+        "R&B/Soul",
         "Music"
       ],
-      "appleUrl": "https://music.apple.com/us/album/never-hating/1648587138?i=1648587322",
+      "appleUrl": "https://music.apple.com/us/album/the-hills/1440826239?i=1440826383",
+      "previewUrl": null,
+      "chartRank": 97,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/us/album/the-hills/1440826239?i=1440826383"
+      },
+      "sourceKinds": [
+        "apple-us-chart"
+      ]
+    },
+    {
+      "id": "1704426094",
+      "title": "Fast Car (Mixed)",
+      "artist": "Luke Combs",
+      "artistId": "815635315",
+      "releaseDate": "2023-09-01",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/b4/d1/5c/b4d15c85-5ed5-ad88-e585-316cecb50e4d/287bff75-c15c-4120-a2d0-6539aeb4e526.png/100x100bb.jpg",
+      "genres": [
+        "Dance",
+        "Music",
+        "Pop"
+      ],
+      "appleUrl": "https://music.apple.com/us/album/fast-car-mixed/1704425738?i=1704426094",
+      "previewUrl": null,
+      "chartRank": 98,
+      "collectionId": null,
+      "collectionName": null,
+      "trackNumber": null,
+      "trackCount": null,
+      "discNumber": null,
+      "discCount": null,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/us/album/fast-car-mixed/1704425738?i=1704426094"
+      },
+      "sourceKinds": [
+        "apple-us-chart"
+      ]
+    },
+    {
+      "id": "82125202",
+      "title": "Monster Mash",
+      "artist": "Bobby \"Boris\" Pickett",
+      "artistId": "1570669469",
+      "releaseDate": "1962-10-09",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Features124/v4/bb/8a/6f/bb8a6ff2-a5b6-395c-8a54-5d7954bd9e4b/dj.lnkhwpna.tif/100x100bb.jpg",
+      "genres": [
+        "Music",
+        "Holiday"
+      ],
+      "appleUrl": "https://music.apple.com/us/album/monster-mash/82125264?i=82125202",
       "previewUrl": null,
       "chartRank": 100,
       "collectionId": null,
@@ -9323,7 +9385,7 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/us/album/never-hating/1648587138?i=1648587322"
+        "apple": "https://music.apple.com/us/album/monster-mash/82125264?i=82125202"
       },
       "sourceKinds": [
         "apple-us-chart"
