@@ -6,9 +6,9 @@
     "storefront": "kr",
     "chartCode": "KR"
   },
-  "status": "fresh",
+  "status": "stale",
   "updatedAt": "2026-10-26T04:55:49.896Z",
-  "lastCheckedAt": "2026-10-26T04:55:49.896Z",
+  "lastCheckedAt": "2026-10-26T13:15:16.367Z",
   "latestWindowDays": 180,
   "sources": {
     "popular": {
@@ -6448,5 +6448,5 @@
       ]
     }
   ],
-  "staleReason": null
+  "staleReason": "K-POP did not return enough usable songs"
 }
