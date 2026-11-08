@@ -7,8 +7,8 @@
     "chartCode": "US"
   },
   "status": "degraded",
-  "updatedAt": "2026-11-07T21:57:21.133Z",
-  "lastCheckedAt": "2026-11-07T21:57:21.133Z",
+  "updatedAt": "2026-11-08T06:14:18.658Z",
+  "lastCheckedAt": "2026-11-08T06:14:18.658Z",
   "latestWindowDays": 180,
   "sources": {
     "popular": {
@@ -35,16 +35,16 @@
       "total": 5
     },
     "releaseIndex": "catalog-search",
-    "previewAvailable": 108,
+    "previewAvailable": 98,
     "canonicalRecording": 0,
     "isrc": 0,
     "exactNonAppleLink": 0,
     "enrichmentFailures": 1
   },
   "counts": {
-    "latest": 58,
+    "latest": 48,
     "popular": 50,
-    "total": 108
+    "total": 98
   },
   "latestSongs": [
     {
@@ -251,35 +251,6 @@
       ]
     },
     {
-      "id": "6828130031",
-      "title": "Love Me Through (Instrumental)",
-      "artist": "Coco Jones",
-      "artistId": "401400095",
-      "releaseDate": "2026-11-06",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/0b/05/a8/0b05a822-247c-fdc1-e8d7-da39505f0522/26UM1IM40088.rgb.jpg/100x100bb.jpg",
-      "genres": [
-        "R&B/Soul"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/love-me-through-instrumental/6828129786?i=6828130031&uo=4",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/53/fe/f9/53fef953-7f1f-e40b-62d0-db0a4ecf172a/mzaf_2036018550983355173.plus.aac.p.m4a",
-      "chartRank": null,
-      "collectionId": "6828129786",
-      "collectionName": "Love Me Through (The Collection) - EP",
-      "trackNumber": 3,
-      "trackCount": 4,
-      "discNumber": 1,
-      "discCount": 1,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/love-me-through-instrumental/6828129786?i=6828130031&uo=4"
-      },
-      "sourceKinds": [
-        "itunes-us-search:R&B"
-      ]
-    },
-    {
       "id": "6831095401",
       "title": "Dance Pop (feat. Santana Lefevre)",
       "artist": "Michaël",
@@ -338,35 +309,6 @@
       ]
     },
     {
-      "id": "6820169685",
-      "title": "Angel Eyes",
-      "artist": "Cleo Tighe",
-      "artistId": "903750846",
-      "releaseDate": "2026-11-06",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e2/5b/63/e25b631d-41cc-5d6e-6d20-23e757d71147/823375522126_Cover.jpg/100x100bb.jpg",
-      "genres": [
-        "Singer/Songwriter"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/angel-eyes/6820169684?i=6820169685&uo=4",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fd/c2/98/fdc298d6-2ba5-3e75-e5e1-b0e574de11de/mzaf_15934184566010425101.plus.aac.p.m4a",
-      "chartRank": null,
-      "collectionId": "6820169684",
-      "collectionName": "The Dealer of Pleasures - EP",
-      "trackNumber": 1,
-      "trackCount": 6,
-      "discNumber": 1,
-      "discCount": 1,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/angel-eyes/6820169684?i=6820169685&uo=4"
-      },
-      "sourceKinds": [
-        "itunes-us-search:Singer Songwriter"
-      ]
-    },
-    {
       "id": "6789444399",
       "title": "Willow",
       "artist": "Passenger",
@@ -390,6 +332,35 @@
       "searchAliases": [],
       "platformLinks": {
         "apple": "https://music.apple.com/us/album/willow/6789444108?i=6789444399&uo=4"
+      },
+      "sourceKinds": [
+        "itunes-us-search:Singer Songwriter"
+      ]
+    },
+    {
+      "id": "6820169685",
+      "title": "Angel Eyes",
+      "artist": "Cleo Tighe",
+      "artistId": "903750846",
+      "releaseDate": "2026-11-06",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e2/5b/63/e25b631d-41cc-5d6e-6d20-23e757d71147/823375522126_Cover.jpg/100x100bb.jpg",
+      "genres": [
+        "Singer/Songwriter"
+      ],
+      "appleUrl": "https://music.apple.com/us/album/angel-eyes/6820169684?i=6820169685&uo=4",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fd/c2/98/fdc298d6-2ba5-3e75-e5e1-b0e574de11de/mzaf_15934184566010425101.plus.aac.p.m4a",
+      "chartRank": null,
+      "collectionId": "6820169684",
+      "collectionName": "The Dealer of Pleasures - EP",
+      "trackNumber": 1,
+      "trackCount": 6,
+      "discNumber": 1,
+      "discCount": 1,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/us/album/angel-eyes/6820169684?i=6820169685&uo=4"
       },
       "sourceKinds": [
         "itunes-us-search:Singer Songwriter"
@@ -454,124 +425,37 @@
       ]
     },
     {
-      "id": "6824383612",
-      "title": "Get Ready",
-      "artist": "John Legend & Peanuts",
-      "artistId": "16586443",
-      "releaseDate": "2026-11-03",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f4/95/55/f49555df-93ba-85a1-b106-8a42938e9600/196874802229.jpg/100x100bb.jpg",
-      "genres": [
-        "Holiday"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/get-ready/6824383611?i=6824383612&uo=4",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/92/2e/5f/922e5f82-67d5-a890-c284-9454e661f48c/mzaf_14183971476809437600.plus.aac.p.m4a",
-      "chartRank": null,
-      "collectionId": "6824383611",
-      "collectionName": "Snoopy Presents: 12 Days of Snoopy (Original Apple TV Soundtrack)",
-      "trackNumber": 1,
-      "trackCount": 14,
-      "discNumber": 1,
-      "discCount": 1,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/get-ready/6824383611?i=6824383612&uo=4"
-      },
-      "sourceKinds": [
-        "itunes-us-search:R&B"
-      ]
-    },
-    {
-      "id": "6818312489",
-      "title": "Baby",
-      "artist": "The Chainsmokers",
-      "artistId": "580391756",
-      "releaseDate": "2026-10-16",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/44/c8/4b/44c84b53-c6b2-b0d1-ce95-0fde1be8083d/075679552488.jpg/100x100bb.jpg",
-      "genres": [
-        "Dance"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/baby/6818312327?i=6818312489&uo=4",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3a/72/31/3a7231cb-f412-7cec-9340-ba9f58d76ae0/mzaf_16904112792123289800.plus.aac.p.m4a",
-      "chartRank": null,
-      "collectionId": "6818312327",
-      "collectionName": "Baby - Single",
-      "trackNumber": 1,
-      "trackCount": 1,
-      "discNumber": 1,
-      "discCount": 1,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/baby/6818312327?i=6818312489&uo=4"
-      },
-      "sourceKinds": [
-        "itunes-us-search:Dance Pop"
-      ]
-    },
-    {
-      "id": "6820299042",
-      "title": "Party",
-      "artist": "Troye Sivan",
-      "artistId": "396295677",
-      "releaseDate": "2026-09-17",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/dd/f8/64/ddf86493-0797-459b-e6f1-a680096e026e/26UM1IM00508.rgb.jpg/100x100bb.jpg",
+      "id": "6773856314",
+      "title": "Ravers",
+      "artist": "Ellie Goulding",
+      "artistId": "338264227",
+      "releaseDate": "2026-09-04",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d0/15/ab/d015abbf-aaf8-2eb6-20a2-2b3977553e95/26UMGIM63212.rgb.jpg/100x100bb.jpg",
       "genres": [
         "Pop"
       ],
-      "appleUrl": "https://music.apple.com/us/album/party/6820298773?i=6820299042&uo=4",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ec/22/9c/ec229c1c-5d9c-65e0-b50e-224789e0e9eb/mzaf_11271506471427986934.plus.aac.p.m4a",
+      "appleUrl": "https://music.apple.com/us/album/ravers/6773855466?i=6773856314&uo=4",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4d/44/dd/4d44ddd2-1322-8078-df85-587ce0efd1c6/mzaf_3642685259992334791.plus.aac.p.m4a",
       "chartRank": null,
-      "collectionId": "6820298773",
-      "collectionName": "She’s the Best",
-      "trackNumber": 2,
-      "trackCount": 12,
+      "collectionId": "6773855466",
+      "collectionName": "I Know Too Much",
+      "trackNumber": 10,
+      "trackCount": 9,
       "discNumber": 1,
       "discCount": 1,
       "recordingId": null,
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/us/album/party/6820298773?i=6820299042&uo=4"
+        "apple": "https://music.apple.com/us/album/ravers/6773855466?i=6773856314&uo=4"
       },
       "sourceKinds": [
         "itunes-us-search:Dance Pop"
       ]
     },
     {
-      "id": "6777149426",
-      "title": "Let Me Forget You",
-      "artist": "Warriner & LORYN",
-      "artistId": "411167221",
-      "releaseDate": "2026-07-24",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a1/ed/4a/a1ed4a86-cb29-a875-8222-07d9826af04b/820233603270.jpg/100x100bb.jpg",
-      "genres": [
-        "Dance"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/let-me-forget-you/6777149423?i=6777149426&uo=4",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/de/9a/7b/de9a7bb3-d52a-5002-00ea-db20cba4340b/mzaf_10642677917946963172.plus.aac.p.m4a",
-      "chartRank": null,
-      "collectionId": "6777149423",
-      "collectionName": "Let Me Forget You - Single",
-      "trackNumber": 1,
-      "trackCount": 1,
-      "discNumber": 1,
-      "discCount": 1,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/let-me-forget-you/6777149423?i=6777149426&uo=4"
-      },
-      "sourceKinds": [
-        "itunes-us-search:Dance Pop"
-      ]
-    },
-    {
-      "id": "6827639635",
-      "title": "iBREAK",
+      "id": "6827639627",
+      "title": "MADAME JOYCE’S INTERLUDE",
       "artist": "Jessie Reyez",
       "artistId": "1043591612",
       "releaseDate": "2026-06-12",
@@ -579,12 +463,12 @@
       "genres": [
         "R&B/Soul"
       ],
-      "appleUrl": "https://music.apple.com/us/album/ibreak/6827639470?i=6827639635&uo=4",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f4/e5/82/f4e582af-1427-a9bd-262d-42528fd6e975/mzaf_16809394514924568887.plus.aac.p.m4a",
+      "appleUrl": "https://music.apple.com/us/album/madame-joyces-interlude/6827639470?i=6827639627&uo=4",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/24/23/b6/2423b655-9bdf-eb86-1184-e42e04d64485/mzaf_6932987226868339556.plus.aac.p.m4a",
       "chartRank": null,
       "collectionId": "6827639470",
       "collectionName": "A LITTLE VENGEANCE (is more human than no vengeance at all)",
-      "trackNumber": 9,
+      "trackNumber": 5,
       "trackCount": 17,
       "discNumber": 2,
       "discCount": 2,
@@ -592,7 +476,7 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/us/album/ibreak/6827639470?i=6827639635&uo=4"
+        "apple": "https://music.apple.com/us/album/madame-joyces-interlude/6827639470?i=6827639627&uo=4"
       },
       "sourceKinds": [
         "itunes-us-search:R&B"
@@ -622,6 +506,35 @@
       "searchAliases": [],
       "platformLinks": {
         "apple": "https://music.apple.com/us/album/movin-to-the-sun/6769069923?i=6769070199&uo=4"
+      },
+      "sourceKinds": [
+        "itunes-us-search:Dance Pop"
+      ]
+    },
+    {
+      "id": "6771198463",
+      "title": "Way Too Self Aware (Remix)",
+      "artist": "Ian Asher",
+      "artistId": "1532049830",
+      "releaseDate": "2026-05-22",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/94/95/17/94951724-6573-81aa-7fbd-b47586b883c4/3425384.jpg/100x100bb.jpg",
+      "genres": [
+        "Electronic"
+      ],
+      "appleUrl": "https://music.apple.com/us/album/way-too-self-aware-remix/6771198461?i=6771198463&uo=4",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a5/d8/66/a5d86611-73e6-c1bf-8baf-98e649d8164a/mzaf_14189328396652930228.plus.aac.p.m4a",
+      "chartRank": null,
+      "collectionId": "6771198461",
+      "collectionName": "Way Too Self Aware - Single",
+      "trackNumber": 1,
+      "trackCount": 1,
+      "discNumber": 1,
+      "discCount": 1,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/us/album/way-too-self-aware-remix/6771198461?i=6771198463&uo=4"
       },
       "sourceKinds": [
         "itunes-us-search:Dance Pop"
@@ -686,19 +599,19 @@
       ]
     },
     {
-      "id": "6828125071",
+      "id": "6828124258",
       "title": "808",
       "artist": "B2K",
       "artistId": "645632",
       "releaseDate": "2026-11-06",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6b/f2/82/6bf28268-1281-44c8-d453-e30df411376a/712132259194_cover.jpg/100x100bb.jpg",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5d/8e/7b/5d8e7ba7-0ef0-457c-a2d9-1bad672adf6a/712132259156_cover.jpg/100x100bb.jpg",
       "genres": [
         "R&B/Soul"
       ],
-      "appleUrl": "https://music.apple.com/us/album/808/6828124855?i=6828125071&uo=4",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c7/eb/1c/c7eb1c4d-fedb-2e60-03e8-e040d18d1e63/mzaf_10425055331929619620.plus.aac.p.m4a",
+      "appleUrl": "https://music.apple.com/us/album/808/6828124253?i=6828124258&uo=4",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f5/99/15/f5991573-12ec-5df3-bbdf-192f1b43eb9b/mzaf_10876352493456487333.plus.aac.p.m4a",
       "chartRank": null,
-      "collectionId": "6828124855",
+      "collectionId": "6828124253",
       "collectionName": "ECLIPSE",
       "trackNumber": 6,
       "trackCount": 12,
@@ -708,36 +621,7 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/us/album/808/6828124855?i=6828125071&uo=4"
-      },
-      "sourceKinds": [
-        "itunes-us-search:R&B"
-      ]
-    },
-    {
-      "id": "6828129470",
-      "title": "Love Me Through (Piano Version)",
-      "artist": "Coco Jones",
-      "artistId": "401400095",
-      "releaseDate": "2026-11-06",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/40/ae/26/40ae26a5-eecf-0ece-a9ee-a34777086395/26UM1IM40088.rgb.jpg/100x100bb.jpg",
-      "genres": [
-        "R&B/Soul"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/love-me-through-piano-version/6828129168?i=6828129470&uo=4",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6a/41/86/6a418678-980d-5762-b556-f6a779eb2f16/mzaf_14430018179213263989.plus.aac.p.m4a",
-      "chartRank": null,
-      "collectionId": "6828129168",
-      "collectionName": "Love Me Through (The Collection) - EP",
-      "trackNumber": 2,
-      "trackCount": 4,
-      "discNumber": 1,
-      "discCount": 1,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/love-me-through-piano-version/6828129168?i=6828129470&uo=4"
+        "apple": "https://music.apple.com/us/album/808/6828124253?i=6828124258&uo=4"
       },
       "sourceKinds": [
         "itunes-us-search:R&B"
@@ -773,35 +657,6 @@
       ]
     },
     {
-      "id": "6820169880",
-      "title": "Horses",
-      "artist": "Cleo Tighe",
-      "artistId": "903750846",
-      "releaseDate": "2026-11-06",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e2/5b/63/e25b631d-41cc-5d6e-6d20-23e757d71147/823375522126_Cover.jpg/100x100bb.jpg",
-      "genres": [
-        "Singer/Songwriter"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/horses/6820169684?i=6820169880&uo=4",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/77/7b/74/777b7420-e107-c1e7-c9f7-de94d43c4d05/mzaf_2536822730037598893.plus.aac.p.m4a",
-      "chartRank": null,
-      "collectionId": "6820169684",
-      "collectionName": "The Dealer of Pleasures - EP",
-      "trackNumber": 6,
-      "trackCount": 6,
-      "discNumber": 1,
-      "discCount": 1,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/horses/6820169684?i=6820169880&uo=4"
-      },
-      "sourceKinds": [
-        "itunes-us-search:Singer Songwriter"
-      ]
-    },
-    {
       "id": "6789444110",
       "title": "Boomerang (Extended)",
       "artist": "Passenger",
@@ -831,195 +686,21 @@
       ]
     },
     {
-      "id": "6827639627",
-      "title": "MADAME JOYCE’S INTERLUDE",
-      "artist": "Jessie Reyez",
-      "artistId": "1043591612",
-      "releaseDate": "2026-06-12",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2f/f6/aa/2ff6aac3-bcb3-6a53-1e54-eab78ad3687a/26UM1IM34364.rgb.jpg/100x100bb.jpg",
-      "genres": [
-        "R&B/Soul"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/madame-joyces-interlude/6827639470?i=6827639627&uo=4",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/24/23/b6/2423b655-9bdf-eb86-1184-e42e04d64485/mzaf_6932987226868339556.plus.aac.p.m4a",
-      "chartRank": null,
-      "collectionId": "6827639470",
-      "collectionName": "A LITTLE VENGEANCE (is more human than no vengeance at all)",
-      "trackNumber": 5,
-      "trackCount": 17,
-      "discNumber": 2,
-      "discCount": 2,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/madame-joyces-interlude/6827639470?i=6827639627&uo=4"
-      },
-      "sourceKinds": [
-        "itunes-us-search:R&B"
-      ]
-    },
-    {
-      "id": "6830081613",
-      "title": "Kabako Gang",
-      "artist": "Lil Zed",
-      "artistId": "1492631745",
-      "releaseDate": "2026-11-06",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/78/60/a7/7860a73a-5385-3fa4-fdd3-063ae3741555/artwork.jpg/100x100bb.jpg",
-      "genres": [
-        "Hip-Hop/Rap"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/kabako-gang/6830081610?i=6830081613&uo=4",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/72/a6/7e/72a67ec3-c38b-783e-0ce3-b488805c9d85/mzaf_15265193350649815716.plus.aac.p.m4a",
-      "chartRank": null,
-      "collectionId": "6830081610",
-      "collectionName": "Godsend 3, Vol. 2 - EP",
-      "trackNumber": 3,
-      "trackCount": 5,
-      "discNumber": 1,
-      "discCount": 1,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/kabako-gang/6830081610?i=6830081613&uo=4"
-      },
-      "sourceKinds": [
-        "itunes-us-search:R&B"
-      ]
-    },
-    {
-      "id": "6827510982",
-      "title": "Campfire",
-      "artist": "YECHAN",
-      "artistId": "1580520530",
-      "releaseDate": "2026-11-06",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f8/c2/96/f8c29644-70eb-7169-ffe9-420f01eede63/8800418803109_cover.jpg/100x100bb.jpg",
-      "genres": [
-        "R&B/Soul"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/campfire/6827510849?i=6827510982&uo=4",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0f/f6/8b/0ff68bed-e01f-b059-e400-3eb94e3f5457/mzaf_1420610429069469917.plus.aac.p.m4a",
-      "chartRank": null,
-      "collectionId": "6827510849",
-      "collectionName": "Little Country Bookshop - EP",
-      "trackNumber": 5,
-      "trackCount": 5,
-      "discNumber": 1,
-      "discCount": 1,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/campfire/6827510849?i=6827510982&uo=4"
-      },
-      "sourceKinds": [
-        "itunes-us-search:R&B"
-      ]
-    },
-    {
-      "id": "6828125074",
-      "title": "COSIGN",
-      "artist": "B2K",
-      "artistId": "645632",
-      "releaseDate": "2026-11-06",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6b/f2/82/6bf28268-1281-44c8-d453-e30df411376a/712132259194_cover.jpg/100x100bb.jpg",
-      "genres": [
-        "R&B/Soul"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/cosign/6828124855?i=6828125074&uo=4",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/7d/9d/d4/7d9dd46a-2dcc-3db1-b5ea-6ee9ae6721bc/mzaf_5471657873493088478.plus.aac.p.m4a",
-      "chartRank": null,
-      "collectionId": "6828124855",
-      "collectionName": "ECLIPSE",
-      "trackNumber": 10,
-      "trackCount": 12,
-      "discNumber": 1,
-      "discCount": 1,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/cosign/6828124855?i=6828125074&uo=4"
-      },
-      "sourceKinds": [
-        "itunes-us-search:R&B"
-      ]
-    },
-    {
-      "id": "6828129476",
-      "title": "Love Me Through (Acapella)",
-      "artist": "Coco Jones",
-      "artistId": "401400095",
-      "releaseDate": "2026-11-06",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/40/ae/26/40ae26a5-eecf-0ece-a9ee-a34777086395/26UM1IM40088.rgb.jpg/100x100bb.jpg",
-      "genres": [
-        "R&B/Soul"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/love-me-through-acapella/6828129168?i=6828129476&uo=4",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/35/25/09/35250907-109c-854e-af03-5d0cfae94124/mzaf_14932179775356110079.plus.aac.p.m4a",
-      "chartRank": null,
-      "collectionId": "6828129168",
-      "collectionName": "Love Me Through (The Collection) - EP",
-      "trackNumber": 4,
-      "trackCount": 4,
-      "discNumber": 1,
-      "discCount": 1,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/love-me-through-acapella/6828129168?i=6828129476&uo=4"
-      },
-      "sourceKinds": [
-        "itunes-us-search:R&B"
-      ]
-    },
-    {
-      "id": "6826415094",
-      "title": "Echo (Instrumental)",
-      "artist": "Sleeping At Last",
-      "artistId": "326646632",
-      "releaseDate": "2026-11-06",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9b/b0/ca/9bb0ca32-0ed1-ab8c-bbf8-5b29eddb15eb/859749388845_cover.jpg/100x100bb.jpg",
-      "genres": [
-        "Singer/Songwriter"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/echo-instrumental/6826414925?i=6826415094&uo=4",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b8/95/a2/b895a212-8e75-4f80-6721-745b124229d7/mzaf_658580633929763064.plus.aac.p.m4a",
-      "chartRank": null,
-      "collectionId": "6826414925",
-      "collectionName": "Atlas: Sustain",
-      "trackNumber": 6,
-      "trackCount": 7,
-      "discNumber": 1,
-      "discCount": 1,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/echo-instrumental/6826414925?i=6826415094&uo=4"
-      },
-      "sourceKinds": [
-        "itunes-us-search:Singer Songwriter"
-      ]
-    },
-    {
-      "id": "6820169879",
-      "title": "Midnight Blue",
+      "id": "6820169880",
+      "title": "Horses",
       "artist": "Cleo Tighe",
       "artistId": "903750846",
-      "releaseDate": "2026-10-23",
+      "releaseDate": "2026-11-06",
       "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e2/5b/63/e25b631d-41cc-5d6e-6d20-23e757d71147/823375522126_Cover.jpg/100x100bb.jpg",
       "genres": [
         "Singer/Songwriter"
       ],
-      "appleUrl": "https://music.apple.com/us/album/midnight-blue/6820169684?i=6820169879&uo=4",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/bc/20/14/bc2014f1-614d-e1cc-0c23-b792461f9bdb/mzaf_16762028577076326182.plus.aac.p.m4a",
+      "appleUrl": "https://music.apple.com/us/album/horses/6820169684?i=6820169880&uo=4",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/77/7b/74/777b7420-e107-c1e7-c9f7-de94d43c4d05/mzaf_2536822730037598893.plus.aac.p.m4a",
       "chartRank": null,
       "collectionId": "6820169684",
       "collectionName": "The Dealer of Pleasures - EP",
-      "trackNumber": 5,
+      "trackNumber": 6,
       "trackCount": 6,
       "discNumber": 1,
       "discCount": 1,
@@ -1027,36 +708,7 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/us/album/midnight-blue/6820169684?i=6820169879&uo=4"
-      },
-      "sourceKinds": [
-        "itunes-us-search:Singer Songwriter"
-      ]
-    },
-    {
-      "id": "6789444386",
-      "title": "It Was Gonna Be You (Extended)",
-      "artist": "Passenger",
-      "artistId": "396255033",
-      "releaseDate": "2026-11-06",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1b/d0/04/1bd00499-92ae-244c-6e73-02d669db062e/067003029230.png/100x100bb.jpg",
-      "genres": [
-        "Singer/Songwriter"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/it-was-gonna-be-you-extended/6789444108?i=6789444386&uo=4",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f2/7d/1c/f27d1c23-82a4-3c97-1828-3d9f776b551b/mzaf_5382114557470132963.plus.aac.p.m4a",
-      "chartRank": null,
-      "collectionId": "6789444108",
-      "collectionName": "Wild Love",
-      "trackNumber": 2,
-      "trackCount": 14,
-      "discNumber": 1,
-      "discCount": 1,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/it-was-gonna-be-you-extended/6789444108?i=6789444386&uo=4"
+        "apple": "https://music.apple.com/us/album/horses/6820169684?i=6820169880&uo=4"
       },
       "sourceKinds": [
         "itunes-us-search:Singer Songwriter"
@@ -1092,6 +744,180 @@
       ]
     },
     {
+      "id": "6830081613",
+      "title": "Kabako Gang",
+      "artist": "Lil Zed",
+      "artistId": "1492631745",
+      "releaseDate": "2026-11-06",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/78/60/a7/7860a73a-5385-3fa4-fdd3-063ae3741555/artwork.jpg/100x100bb.jpg",
+      "genres": [
+        "Hip-Hop/Rap"
+      ],
+      "appleUrl": "https://music.apple.com/us/album/kabako-gang/6830081610?i=6830081613&uo=4",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/72/a6/7e/72a67ec3-c38b-783e-0ce3-b488805c9d85/mzaf_15265193350649815716.plus.aac.p.m4a",
+      "chartRank": null,
+      "collectionId": "6830081610",
+      "collectionName": "Godsend 3, Vol. 2 - EP",
+      "trackNumber": 3,
+      "trackCount": 5,
+      "discNumber": 1,
+      "discCount": 1,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/us/album/kabako-gang/6830081610?i=6830081613&uo=4"
+      },
+      "sourceKinds": [
+        "itunes-us-search:R&B"
+      ]
+    },
+    {
+      "id": "6827510978",
+      "title": "Diary of a Crush",
+      "artist": "YECHAN",
+      "artistId": "1580520530",
+      "releaseDate": "2026-11-06",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f8/c2/96/f8c29644-70eb-7169-ffe9-420f01eede63/8800418803109_cover.jpg/100x100bb.jpg",
+      "genres": [
+        "R&B/Soul"
+      ],
+      "appleUrl": "https://music.apple.com/us/album/diary-of-a-crush/6827510849?i=6827510978&uo=4",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c1/ca/66/c1ca66f2-2c9b-8d58-219a-5e540b4f3127/mzaf_11247074645671946826.plus.aac.p.m4a",
+      "chartRank": null,
+      "collectionId": "6827510849",
+      "collectionName": "Little Country Bookshop - EP",
+      "trackNumber": 4,
+      "trackCount": 5,
+      "discNumber": 1,
+      "discCount": 1,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/us/album/diary-of-a-crush/6827510849?i=6827510978&uo=4"
+      },
+      "sourceKinds": [
+        "itunes-us-search:R&B"
+      ]
+    },
+    {
+      "id": "6826415094",
+      "title": "Echo (Instrumental)",
+      "artist": "Sleeping At Last",
+      "artistId": "326646632",
+      "releaseDate": "2026-11-06",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9b/b0/ca/9bb0ca32-0ed1-ab8c-bbf8-5b29eddb15eb/859749388845_cover.jpg/100x100bb.jpg",
+      "genres": [
+        "Singer/Songwriter"
+      ],
+      "appleUrl": "https://music.apple.com/us/album/echo-instrumental/6826414925?i=6826415094&uo=4",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b8/95/a2/b895a212-8e75-4f80-6721-745b124229d7/mzaf_658580633929763064.plus.aac.p.m4a",
+      "chartRank": null,
+      "collectionId": "6826414925",
+      "collectionName": "Atlas: Sustain",
+      "trackNumber": 6,
+      "trackCount": 7,
+      "discNumber": 1,
+      "discCount": 1,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/us/album/echo-instrumental/6826414925?i=6826415094&uo=4"
+      },
+      "sourceKinds": [
+        "itunes-us-search:Singer Songwriter"
+      ]
+    },
+    {
+      "id": "6789444386",
+      "title": "It Was Gonna Be You (Extended)",
+      "artist": "Passenger",
+      "artistId": "396255033",
+      "releaseDate": "2026-11-06",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1b/d0/04/1bd00499-92ae-244c-6e73-02d669db062e/067003029230.png/100x100bb.jpg",
+      "genres": [
+        "Singer/Songwriter"
+      ],
+      "appleUrl": "https://music.apple.com/us/album/it-was-gonna-be-you-extended/6789444108?i=6789444386&uo=4",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f2/7d/1c/f27d1c23-82a4-3c97-1828-3d9f776b551b/mzaf_5382114557470132963.plus.aac.p.m4a",
+      "chartRank": null,
+      "collectionId": "6789444108",
+      "collectionName": "Wild Love",
+      "trackNumber": 2,
+      "trackCount": 14,
+      "discNumber": 1,
+      "discCount": 1,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/us/album/it-was-gonna-be-you-extended/6789444108?i=6789444386&uo=4"
+      },
+      "sourceKinds": [
+        "itunes-us-search:Singer Songwriter"
+      ]
+    },
+    {
+      "id": "6820169879",
+      "title": "Midnight Blue",
+      "artist": "Cleo Tighe",
+      "artistId": "903750846",
+      "releaseDate": "2026-10-23",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e2/5b/63/e25b631d-41cc-5d6e-6d20-23e757d71147/823375522126_Cover.jpg/100x100bb.jpg",
+      "genres": [
+        "Singer/Songwriter"
+      ],
+      "appleUrl": "https://music.apple.com/us/album/midnight-blue/6820169684?i=6820169879&uo=4",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/bc/20/14/bc2014f1-614d-e1cc-0c23-b792461f9bdb/mzaf_16762028577076326182.plus.aac.p.m4a",
+      "chartRank": null,
+      "collectionId": "6820169684",
+      "collectionName": "The Dealer of Pleasures - EP",
+      "trackNumber": 5,
+      "trackCount": 6,
+      "discNumber": 1,
+      "discCount": 1,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/us/album/midnight-blue/6820169684?i=6820169879&uo=4"
+      },
+      "sourceKinds": [
+        "itunes-us-search:Singer Songwriter"
+      ]
+    },
+    {
+      "id": "6827639635",
+      "title": "iBREAK",
+      "artist": "Jessie Reyez",
+      "artistId": "1043591612",
+      "releaseDate": "2026-06-12",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2f/f6/aa/2ff6aac3-bcb3-6a53-1e54-eab78ad3687a/26UM1IM34364.rgb.jpg/100x100bb.jpg",
+      "genres": [
+        "R&B/Soul"
+      ],
+      "appleUrl": "https://music.apple.com/us/album/ibreak/6827639470?i=6827639635&uo=4",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f4/e5/82/f4e582af-1427-a9bd-262d-42528fd6e975/mzaf_16809394514924568887.plus.aac.p.m4a",
+      "chartRank": null,
+      "collectionId": "6827639470",
+      "collectionName": "A LITTLE VENGEANCE (is more human than no vengeance at all)",
+      "trackNumber": 9,
+      "trackCount": 17,
+      "discNumber": 2,
+      "discCount": 2,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/us/album/ibreak/6827639470?i=6827639635&uo=4"
+      },
+      "sourceKinds": [
+        "itunes-us-search:R&B"
+      ]
+    },
+    {
       "id": "6830081614",
       "title": "Never",
       "artist": "Lil Zed",
@@ -1121,8 +947,8 @@
       ]
     },
     {
-      "id": "6827510967",
-      "title": "Ddung Ddang Ddung Ddang!",
+      "id": "6827510982",
+      "title": "Campfire",
       "artist": "YECHAN",
       "artistId": "1580520530",
       "releaseDate": "2026-11-06",
@@ -1130,12 +956,12 @@
       "genres": [
         "R&B/Soul"
       ],
-      "appleUrl": "https://music.apple.com/us/album/ddung-ddang-ddung-ddang/6827510849?i=6827510967&uo=4",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/39/5a/30/395a30b2-b21c-b9ac-7db5-f4c94f106a9c/mzaf_6611346204784532548.plus.aac.p.m4a",
+      "appleUrl": "https://music.apple.com/us/album/campfire/6827510849?i=6827510982&uo=4",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0f/f6/8b/0ff68bed-e01f-b059-e400-3eb94e3f5457/mzaf_1420610429069469917.plus.aac.p.m4a",
       "chartRank": null,
       "collectionId": "6827510849",
       "collectionName": "Little Country Bookshop - EP",
-      "trackNumber": 2,
+      "trackNumber": 5,
       "trackCount": 5,
       "discNumber": 1,
       "discCount": 1,
@@ -1143,65 +969,7 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/us/album/ddung-ddang-ddung-ddang/6827510849?i=6827510967&uo=4"
-      },
-      "sourceKinds": [
-        "itunes-us-search:R&B"
-      ]
-    },
-    {
-      "id": "6828125075",
-      "title": "I'M OUTSIDE",
-      "artist": "B2K",
-      "artistId": "645632",
-      "releaseDate": "2026-11-06",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6b/f2/82/6bf28268-1281-44c8-d453-e30df411376a/712132259194_cover.jpg/100x100bb.jpg",
-      "genres": [
-        "R&B/Soul"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/im-outside/6828124855?i=6828125075&uo=4",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e1/25/25/e12525dc-8eca-379e-805b-b78335b8c8c5/mzaf_16597933428347902801.plus.aac.p.m4a",
-      "chartRank": null,
-      "collectionId": "6828124855",
-      "collectionName": "ECLIPSE",
-      "trackNumber": 4,
-      "trackCount": 12,
-      "discNumber": 1,
-      "discCount": 1,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/im-outside/6828124855?i=6828125075&uo=4"
-      },
-      "sourceKinds": [
-        "itunes-us-search:R&B"
-      ]
-    },
-    {
-      "id": "6828129464",
-      "title": "Love Me Through",
-      "artist": "Coco Jones",
-      "artistId": "401400095",
-      "releaseDate": "2026-08-21",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/40/ae/26/40ae26a5-eecf-0ece-a9ee-a34777086395/26UM1IM40088.rgb.jpg/100x100bb.jpg",
-      "genres": [
-        "R&B/Soul"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/love-me-through/6828129168?i=6828129464&uo=4",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d9/a9/d9/d9a9d978-06de-2706-0510-9b908d1e240b/mzaf_93252029200528998.plus.aac.p.m4a",
-      "chartRank": null,
-      "collectionId": "6828129168",
-      "collectionName": "Love Me Through (The Collection) - EP",
-      "trackNumber": 1,
-      "trackCount": 4,
-      "discNumber": 1,
-      "discCount": 1,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/love-me-through/6828129168?i=6828129464&uo=4"
+        "apple": "https://music.apple.com/us/album/campfire/6827510849?i=6827510982&uo=4"
       },
       "sourceKinds": [
         "itunes-us-search:R&B"
@@ -1237,35 +1005,6 @@
       ]
     },
     {
-      "id": "6820169874",
-      "title": "Heaven Is A Place",
-      "artist": "Cleo Tighe",
-      "artistId": "903750846",
-      "releaseDate": "2026-09-18",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e2/5b/63/e25b631d-41cc-5d6e-6d20-23e757d71147/823375522126_Cover.jpg/100x100bb.jpg",
-      "genres": [
-        "Singer/Songwriter"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/heaven-is-a-place/6820169684?i=6820169874&uo=4",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c1/b3/da/c1b3da99-1027-c3b7-d2dc-e79852c05b89/mzaf_4587034110192452025.plus.aac.p.m4a",
-      "chartRank": null,
-      "collectionId": "6820169684",
-      "collectionName": "The Dealer of Pleasures - EP",
-      "trackNumber": 3,
-      "trackCount": 6,
-      "discNumber": 1,
-      "discCount": 1,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/heaven-is-a-place/6820169684?i=6820169874&uo=4"
-      },
-      "sourceKinds": [
-        "itunes-us-search:Singer Songwriter"
-      ]
-    },
-    {
       "id": "6789444390",
       "title": "Caution to the Wind",
       "artist": "Passenger",
@@ -1289,6 +1028,35 @@
       "searchAliases": [],
       "platformLinks": {
         "apple": "https://music.apple.com/us/album/caution-to-the-wind/6789444108?i=6789444390&uo=4"
+      },
+      "sourceKinds": [
+        "itunes-us-search:Singer Songwriter"
+      ]
+    },
+    {
+      "id": "6820169874",
+      "title": "Heaven Is A Place",
+      "artist": "Cleo Tighe",
+      "artistId": "903750846",
+      "releaseDate": "2026-09-18",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e2/5b/63/e25b631d-41cc-5d6e-6d20-23e757d71147/823375522126_Cover.jpg/100x100bb.jpg",
+      "genres": [
+        "Singer/Songwriter"
+      ],
+      "appleUrl": "https://music.apple.com/us/album/heaven-is-a-place/6820169684?i=6820169874&uo=4",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c1/b3/da/c1b3da99-1027-c3b7-d2dc-e79852c05b89/mzaf_4587034110192452025.plus.aac.p.m4a",
+      "chartRank": null,
+      "collectionId": "6820169684",
+      "collectionName": "The Dealer of Pleasures - EP",
+      "trackNumber": 3,
+      "trackCount": 6,
+      "discNumber": 1,
+      "discCount": 1,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/us/album/heaven-is-a-place/6820169684?i=6820169874&uo=4"
       },
       "sourceKinds": [
         "itunes-us-search:Singer Songwriter"
@@ -1324,35 +1092,6 @@
       ]
     },
     {
-      "id": "6828125079",
-      "title": "VIBRATE",
-      "artist": "B2K",
-      "artistId": "645632",
-      "releaseDate": "2026-11-06",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6b/f2/82/6bf28268-1281-44c8-d453-e30df411376a/712132259194_cover.jpg/100x100bb.jpg",
-      "genres": [
-        "R&B/Soul"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/vibrate/6828124855?i=6828125079&uo=4",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a5/16/41/a5164189-5654-adea-a613-1eac2c4d54e7/mzaf_190975088043997382.plus.aac.p.m4a",
-      "chartRank": null,
-      "collectionId": "6828124855",
-      "collectionName": "ECLIPSE",
-      "trackNumber": 12,
-      "trackCount": 12,
-      "discNumber": 1,
-      "discCount": 1,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/vibrate/6828124855?i=6828125079&uo=4"
-      },
-      "sourceKinds": [
-        "itunes-us-search:R&B"
-      ]
-    },
-    {
       "id": "6826415087",
       "title": "Parallel Universe (Philia)",
       "artist": "Sleeping At Last",
@@ -1376,35 +1115,6 @@
       "searchAliases": [],
       "platformLinks": {
         "apple": "https://music.apple.com/us/album/parallel-universe-philia/6826414925?i=6826415087&uo=4"
-      },
-      "sourceKinds": [
-        "itunes-us-search:Singer Songwriter"
-      ]
-    },
-    {
-      "id": "6820169870",
-      "title": "Wallpaper",
-      "artist": "Cleo Tighe",
-      "artistId": "903750846",
-      "releaseDate": "2026-08-21",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e2/5b/63/e25b631d-41cc-5d6e-6d20-23e757d71147/823375522126_Cover.jpg/100x100bb.jpg",
-      "genres": [
-        "Singer/Songwriter"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/wallpaper/6820169684?i=6820169870&uo=4",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f9/dd/90/f9dd909b-998e-483f-13e4-5f94768f1b63/mzaf_10710706182735692446.plus.aac.p.m4a",
-      "chartRank": null,
-      "collectionId": "6820169684",
-      "collectionName": "The Dealer of Pleasures - EP",
-      "trackNumber": 2,
-      "trackCount": 6,
-      "discNumber": 1,
-      "discCount": 1,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/wallpaper/6820169684?i=6820169870&uo=4"
       },
       "sourceKinds": [
         "itunes-us-search:Singer Songwriter"
@@ -1440,32 +1150,32 @@
       ]
     },
     {
-      "id": "6828124857",
-      "title": "Lil Freak",
-      "artist": "B2K",
-      "artistId": "645632",
-      "releaseDate": "2026-10-14",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6b/f2/82/6bf28268-1281-44c8-d453-e30df411376a/712132259194_cover.jpg/100x100bb.jpg",
+      "id": "6820169870",
+      "title": "Wallpaper",
+      "artist": "Cleo Tighe",
+      "artistId": "903750846",
+      "releaseDate": "2026-08-21",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e2/5b/63/e25b631d-41cc-5d6e-6d20-23e757d71147/823375522126_Cover.jpg/100x100bb.jpg",
       "genres": [
-        "R&B/Soul"
+        "Singer/Songwriter"
       ],
-      "appleUrl": "https://music.apple.com/us/album/lil-freak/6828124855?i=6828124857&uo=4",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/68/bf/ba/68bfbaed-d22a-b332-fecd-fb972e8bd904/mzaf_16742271975364854735.plus.aac.p.m4a",
+      "appleUrl": "https://music.apple.com/us/album/wallpaper/6820169684?i=6820169870&uo=4",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f9/dd/90/f9dd909b-998e-483f-13e4-5f94768f1b63/mzaf_10710706182735692446.plus.aac.p.m4a",
       "chartRank": null,
-      "collectionId": "6828124855",
-      "collectionName": "ECLIPSE",
-      "trackNumber": 3,
-      "trackCount": 12,
+      "collectionId": "6820169684",
+      "collectionName": "The Dealer of Pleasures - EP",
+      "trackNumber": 2,
+      "trackCount": 6,
       "discNumber": 1,
       "discCount": 1,
       "recordingId": null,
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/us/album/lil-freak/6828124855?i=6828124857&uo=4"
+        "apple": "https://music.apple.com/us/album/wallpaper/6820169684?i=6820169870&uo=4"
       },
       "sourceKinds": [
-        "itunes-us-search:R&B"
+        "itunes-us-search:Singer Songwriter"
       ]
     },
     {
@@ -1498,35 +1208,6 @@
       ]
     },
     {
-      "id": "6820169877",
-      "title": "Run To Me",
-      "artist": "Cleo Tighe",
-      "artistId": "903750846",
-      "releaseDate": "2026-07-24",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e2/5b/63/e25b631d-41cc-5d6e-6d20-23e757d71147/823375522126_Cover.jpg/100x100bb.jpg",
-      "genres": [
-        "Singer/Songwriter"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/run-to-me/6820169684?i=6820169877&uo=4",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/18/b0/70/18b07089-bf28-d4d2-3510-d16cfd399417/mzaf_8825058314278718527.plus.aac.p.m4a",
-      "chartRank": null,
-      "collectionId": "6820169684",
-      "collectionName": "The Dealer of Pleasures - EP",
-      "trackNumber": 4,
-      "trackCount": 6,
-      "discNumber": 1,
-      "discCount": 1,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/run-to-me/6820169684?i=6820169877&uo=4"
-      },
-      "sourceKinds": [
-        "itunes-us-search:Singer Songwriter"
-      ]
-    },
-    {
       "id": "6789444397",
       "title": "Wild Love (Extended)",
       "artist": "Passenger",
@@ -1550,6 +1231,35 @@
       "searchAliases": [],
       "platformLinks": {
         "apple": "https://music.apple.com/us/album/wild-love-extended/6789444108?i=6789444397&uo=4"
+      },
+      "sourceKinds": [
+        "itunes-us-search:Singer Songwriter"
+      ]
+    },
+    {
+      "id": "6820169877",
+      "title": "Run To Me",
+      "artist": "Cleo Tighe",
+      "artistId": "903750846",
+      "releaseDate": "2026-07-24",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e2/5b/63/e25b631d-41cc-5d6e-6d20-23e757d71147/823375522126_Cover.jpg/100x100bb.jpg",
+      "genres": [
+        "Singer/Songwriter"
+      ],
+      "appleUrl": "https://music.apple.com/us/album/run-to-me/6820169684?i=6820169877&uo=4",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/18/b0/70/18b07089-bf28-d4d2-3510-d16cfd399417/mzaf_8825058314278718527.plus.aac.p.m4a",
+      "chartRank": null,
+      "collectionId": "6820169684",
+      "collectionName": "The Dealer of Pleasures - EP",
+      "trackNumber": 4,
+      "trackCount": 6,
+      "discNumber": 1,
+      "discCount": 1,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/us/album/run-to-me/6820169684?i=6820169877&uo=4"
       },
       "sourceKinds": [
         "itunes-us-search:Singer Songwriter"
@@ -1847,7 +1557,8 @@
         "apple": "https://music.apple.com/us/album/one-dance-feat-wizkid-kyla/1440842556?i=1440843496&uo=4"
       },
       "sourceKinds": [
-        "itunes-us-search:Pop"
+        "itunes-us-search:Pop",
+        "itunes-us-search:R&B"
       ]
     },
     {
@@ -3170,7 +2881,8 @@
         "apple": "https://music.apple.com/us/album/bury-a-friend/1450695723?i=1450695881&uo=4"
       },
       "sourceKinds": [
-        "itunes-us-search:Pop"
+        "itunes-us-search:Pop",
+        "itunes-us-search:Alternative Pop"
       ]
     },
     {
@@ -3408,35 +3120,6 @@
       ]
     },
     {
-      "id": "6828130031",
-      "title": "Love Me Through (Instrumental)",
-      "artist": "Coco Jones",
-      "artistId": "401400095",
-      "releaseDate": "2026-11-06",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/0b/05/a8/0b05a822-247c-fdc1-e8d7-da39505f0522/26UM1IM40088.rgb.jpg/100x100bb.jpg",
-      "genres": [
-        "R&B/Soul"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/love-me-through-instrumental/6828129786?i=6828130031&uo=4",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/53/fe/f9/53fef953-7f1f-e40b-62d0-db0a4ecf172a/mzaf_2036018550983355173.plus.aac.p.m4a",
-      "chartRank": null,
-      "collectionId": "6828129786",
-      "collectionName": "Love Me Through (The Collection) - EP",
-      "trackNumber": 3,
-      "trackCount": 4,
-      "discNumber": 1,
-      "discCount": 1,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/love-me-through-instrumental/6828129786?i=6828130031&uo=4"
-      },
-      "sourceKinds": [
-        "itunes-us-search:R&B"
-      ]
-    },
-    {
       "id": "6831095401",
       "title": "Dance Pop (feat. Santana Lefevre)",
       "artist": "Michaël",
@@ -3495,35 +3178,6 @@
       ]
     },
     {
-      "id": "6820169685",
-      "title": "Angel Eyes",
-      "artist": "Cleo Tighe",
-      "artistId": "903750846",
-      "releaseDate": "2026-11-06",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e2/5b/63/e25b631d-41cc-5d6e-6d20-23e757d71147/823375522126_Cover.jpg/100x100bb.jpg",
-      "genres": [
-        "Singer/Songwriter"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/angel-eyes/6820169684?i=6820169685&uo=4",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fd/c2/98/fdc298d6-2ba5-3e75-e5e1-b0e574de11de/mzaf_15934184566010425101.plus.aac.p.m4a",
-      "chartRank": null,
-      "collectionId": "6820169684",
-      "collectionName": "The Dealer of Pleasures - EP",
-      "trackNumber": 1,
-      "trackCount": 6,
-      "discNumber": 1,
-      "discCount": 1,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/angel-eyes/6820169684?i=6820169685&uo=4"
-      },
-      "sourceKinds": [
-        "itunes-us-search:Singer Songwriter"
-      ]
-    },
-    {
       "id": "6789444399",
       "title": "Willow",
       "artist": "Passenger",
@@ -3547,6 +3201,35 @@
       "searchAliases": [],
       "platformLinks": {
         "apple": "https://music.apple.com/us/album/willow/6789444108?i=6789444399&uo=4"
+      },
+      "sourceKinds": [
+        "itunes-us-search:Singer Songwriter"
+      ]
+    },
+    {
+      "id": "6820169685",
+      "title": "Angel Eyes",
+      "artist": "Cleo Tighe",
+      "artistId": "903750846",
+      "releaseDate": "2026-11-06",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e2/5b/63/e25b631d-41cc-5d6e-6d20-23e757d71147/823375522126_Cover.jpg/100x100bb.jpg",
+      "genres": [
+        "Singer/Songwriter"
+      ],
+      "appleUrl": "https://music.apple.com/us/album/angel-eyes/6820169684?i=6820169685&uo=4",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fd/c2/98/fdc298d6-2ba5-3e75-e5e1-b0e574de11de/mzaf_15934184566010425101.plus.aac.p.m4a",
+      "chartRank": null,
+      "collectionId": "6820169684",
+      "collectionName": "The Dealer of Pleasures - EP",
+      "trackNumber": 1,
+      "trackCount": 6,
+      "discNumber": 1,
+      "discCount": 1,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/us/album/angel-eyes/6820169684?i=6820169685&uo=4"
       },
       "sourceKinds": [
         "itunes-us-search:Singer Songwriter"
@@ -3611,124 +3294,37 @@
       ]
     },
     {
-      "id": "6824383612",
-      "title": "Get Ready",
-      "artist": "John Legend & Peanuts",
-      "artistId": "16586443",
-      "releaseDate": "2026-11-03",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f4/95/55/f49555df-93ba-85a1-b106-8a42938e9600/196874802229.jpg/100x100bb.jpg",
-      "genres": [
-        "Holiday"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/get-ready/6824383611?i=6824383612&uo=4",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/92/2e/5f/922e5f82-67d5-a890-c284-9454e661f48c/mzaf_14183971476809437600.plus.aac.p.m4a",
-      "chartRank": null,
-      "collectionId": "6824383611",
-      "collectionName": "Snoopy Presents: 12 Days of Snoopy (Original Apple TV Soundtrack)",
-      "trackNumber": 1,
-      "trackCount": 14,
-      "discNumber": 1,
-      "discCount": 1,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/get-ready/6824383611?i=6824383612&uo=4"
-      },
-      "sourceKinds": [
-        "itunes-us-search:R&B"
-      ]
-    },
-    {
-      "id": "6818312489",
-      "title": "Baby",
-      "artist": "The Chainsmokers",
-      "artistId": "580391756",
-      "releaseDate": "2026-10-16",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/44/c8/4b/44c84b53-c6b2-b0d1-ce95-0fde1be8083d/075679552488.jpg/100x100bb.jpg",
-      "genres": [
-        "Dance"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/baby/6818312327?i=6818312489&uo=4",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3a/72/31/3a7231cb-f412-7cec-9340-ba9f58d76ae0/mzaf_16904112792123289800.plus.aac.p.m4a",
-      "chartRank": null,
-      "collectionId": "6818312327",
-      "collectionName": "Baby - Single",
-      "trackNumber": 1,
-      "trackCount": 1,
-      "discNumber": 1,
-      "discCount": 1,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/baby/6818312327?i=6818312489&uo=4"
-      },
-      "sourceKinds": [
-        "itunes-us-search:Dance Pop"
-      ]
-    },
-    {
-      "id": "6820299042",
-      "title": "Party",
-      "artist": "Troye Sivan",
-      "artistId": "396295677",
-      "releaseDate": "2026-09-17",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/dd/f8/64/ddf86493-0797-459b-e6f1-a680096e026e/26UM1IM00508.rgb.jpg/100x100bb.jpg",
+      "id": "6773856314",
+      "title": "Ravers",
+      "artist": "Ellie Goulding",
+      "artistId": "338264227",
+      "releaseDate": "2026-09-04",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d0/15/ab/d015abbf-aaf8-2eb6-20a2-2b3977553e95/26UMGIM63212.rgb.jpg/100x100bb.jpg",
       "genres": [
         "Pop"
       ],
-      "appleUrl": "https://music.apple.com/us/album/party/6820298773?i=6820299042&uo=4",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ec/22/9c/ec229c1c-5d9c-65e0-b50e-224789e0e9eb/mzaf_11271506471427986934.plus.aac.p.m4a",
+      "appleUrl": "https://music.apple.com/us/album/ravers/6773855466?i=6773856314&uo=4",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4d/44/dd/4d44ddd2-1322-8078-df85-587ce0efd1c6/mzaf_3642685259992334791.plus.aac.p.m4a",
       "chartRank": null,
-      "collectionId": "6820298773",
-      "collectionName": "She’s the Best",
-      "trackNumber": 2,
-      "trackCount": 12,
+      "collectionId": "6773855466",
+      "collectionName": "I Know Too Much",
+      "trackNumber": 10,
+      "trackCount": 9,
       "discNumber": 1,
       "discCount": 1,
       "recordingId": null,
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/us/album/party/6820298773?i=6820299042&uo=4"
+        "apple": "https://music.apple.com/us/album/ravers/6773855466?i=6773856314&uo=4"
       },
       "sourceKinds": [
         "itunes-us-search:Dance Pop"
       ]
     },
     {
-      "id": "6777149426",
-      "title": "Let Me Forget You",
-      "artist": "Warriner & LORYN",
-      "artistId": "411167221",
-      "releaseDate": "2026-07-24",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a1/ed/4a/a1ed4a86-cb29-a875-8222-07d9826af04b/820233603270.jpg/100x100bb.jpg",
-      "genres": [
-        "Dance"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/let-me-forget-you/6777149423?i=6777149426&uo=4",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/de/9a/7b/de9a7bb3-d52a-5002-00ea-db20cba4340b/mzaf_10642677917946963172.plus.aac.p.m4a",
-      "chartRank": null,
-      "collectionId": "6777149423",
-      "collectionName": "Let Me Forget You - Single",
-      "trackNumber": 1,
-      "trackCount": 1,
-      "discNumber": 1,
-      "discCount": 1,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/let-me-forget-you/6777149423?i=6777149426&uo=4"
-      },
-      "sourceKinds": [
-        "itunes-us-search:Dance Pop"
-      ]
-    },
-    {
-      "id": "6827639635",
-      "title": "iBREAK",
+      "id": "6827639627",
+      "title": "MADAME JOYCE’S INTERLUDE",
       "artist": "Jessie Reyez",
       "artistId": "1043591612",
       "releaseDate": "2026-06-12",
@@ -3736,12 +3332,12 @@
       "genres": [
         "R&B/Soul"
       ],
-      "appleUrl": "https://music.apple.com/us/album/ibreak/6827639470?i=6827639635&uo=4",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f4/e5/82/f4e582af-1427-a9bd-262d-42528fd6e975/mzaf_16809394514924568887.plus.aac.p.m4a",
+      "appleUrl": "https://music.apple.com/us/album/madame-joyces-interlude/6827639470?i=6827639627&uo=4",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/24/23/b6/2423b655-9bdf-eb86-1184-e42e04d64485/mzaf_6932987226868339556.plus.aac.p.m4a",
       "chartRank": null,
       "collectionId": "6827639470",
       "collectionName": "A LITTLE VENGEANCE (is more human than no vengeance at all)",
-      "trackNumber": 9,
+      "trackNumber": 5,
       "trackCount": 17,
       "discNumber": 2,
       "discCount": 2,
@@ -3749,7 +3345,7 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/us/album/ibreak/6827639470?i=6827639635&uo=4"
+        "apple": "https://music.apple.com/us/album/madame-joyces-interlude/6827639470?i=6827639627&uo=4"
       },
       "sourceKinds": [
         "itunes-us-search:R&B"
@@ -3779,6 +3375,35 @@
       "searchAliases": [],
       "platformLinks": {
         "apple": "https://music.apple.com/us/album/movin-to-the-sun/6769069923?i=6769070199&uo=4"
+      },
+      "sourceKinds": [
+        "itunes-us-search:Dance Pop"
+      ]
+    },
+    {
+      "id": "6771198463",
+      "title": "Way Too Self Aware (Remix)",
+      "artist": "Ian Asher",
+      "artistId": "1532049830",
+      "releaseDate": "2026-05-22",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/94/95/17/94951724-6573-81aa-7fbd-b47586b883c4/3425384.jpg/100x100bb.jpg",
+      "genres": [
+        "Electronic"
+      ],
+      "appleUrl": "https://music.apple.com/us/album/way-too-self-aware-remix/6771198461?i=6771198463&uo=4",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a5/d8/66/a5d86611-73e6-c1bf-8baf-98e649d8164a/mzaf_14189328396652930228.plus.aac.p.m4a",
+      "chartRank": null,
+      "collectionId": "6771198461",
+      "collectionName": "Way Too Self Aware - Single",
+      "trackNumber": 1,
+      "trackCount": 1,
+      "discNumber": 1,
+      "discCount": 1,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/us/album/way-too-self-aware-remix/6771198461?i=6771198463&uo=4"
       },
       "sourceKinds": [
         "itunes-us-search:Dance Pop"
@@ -3843,19 +3468,19 @@
       ]
     },
     {
-      "id": "6828125071",
+      "id": "6828124258",
       "title": "808",
       "artist": "B2K",
       "artistId": "645632",
       "releaseDate": "2026-11-06",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6b/f2/82/6bf28268-1281-44c8-d453-e30df411376a/712132259194_cover.jpg/100x100bb.jpg",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5d/8e/7b/5d8e7ba7-0ef0-457c-a2d9-1bad672adf6a/712132259156_cover.jpg/100x100bb.jpg",
       "genres": [
         "R&B/Soul"
       ],
-      "appleUrl": "https://music.apple.com/us/album/808/6828124855?i=6828125071&uo=4",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c7/eb/1c/c7eb1c4d-fedb-2e60-03e8-e040d18d1e63/mzaf_10425055331929619620.plus.aac.p.m4a",
+      "appleUrl": "https://music.apple.com/us/album/808/6828124253?i=6828124258&uo=4",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f5/99/15/f5991573-12ec-5df3-bbdf-192f1b43eb9b/mzaf_10876352493456487333.plus.aac.p.m4a",
       "chartRank": null,
-      "collectionId": "6828124855",
+      "collectionId": "6828124253",
       "collectionName": "ECLIPSE",
       "trackNumber": 6,
       "trackCount": 12,
@@ -3865,36 +3490,7 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/us/album/808/6828124855?i=6828125071&uo=4"
-      },
-      "sourceKinds": [
-        "itunes-us-search:R&B"
-      ]
-    },
-    {
-      "id": "6828129470",
-      "title": "Love Me Through (Piano Version)",
-      "artist": "Coco Jones",
-      "artistId": "401400095",
-      "releaseDate": "2026-11-06",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/40/ae/26/40ae26a5-eecf-0ece-a9ee-a34777086395/26UM1IM40088.rgb.jpg/100x100bb.jpg",
-      "genres": [
-        "R&B/Soul"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/love-me-through-piano-version/6828129168?i=6828129470&uo=4",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6a/41/86/6a418678-980d-5762-b556-f6a779eb2f16/mzaf_14430018179213263989.plus.aac.p.m4a",
-      "chartRank": null,
-      "collectionId": "6828129168",
-      "collectionName": "Love Me Through (The Collection) - EP",
-      "trackNumber": 2,
-      "trackCount": 4,
-      "discNumber": 1,
-      "discCount": 1,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/love-me-through-piano-version/6828129168?i=6828129470&uo=4"
+        "apple": "https://music.apple.com/us/album/808/6828124253?i=6828124258&uo=4"
       },
       "sourceKinds": [
         "itunes-us-search:R&B"
@@ -3930,35 +3526,6 @@
       ]
     },
     {
-      "id": "6820169880",
-      "title": "Horses",
-      "artist": "Cleo Tighe",
-      "artistId": "903750846",
-      "releaseDate": "2026-11-06",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e2/5b/63/e25b631d-41cc-5d6e-6d20-23e757d71147/823375522126_Cover.jpg/100x100bb.jpg",
-      "genres": [
-        "Singer/Songwriter"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/horses/6820169684?i=6820169880&uo=4",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/77/7b/74/777b7420-e107-c1e7-c9f7-de94d43c4d05/mzaf_2536822730037598893.plus.aac.p.m4a",
-      "chartRank": null,
-      "collectionId": "6820169684",
-      "collectionName": "The Dealer of Pleasures - EP",
-      "trackNumber": 6,
-      "trackCount": 6,
-      "discNumber": 1,
-      "discCount": 1,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/horses/6820169684?i=6820169880&uo=4"
-      },
-      "sourceKinds": [
-        "itunes-us-search:Singer Songwriter"
-      ]
-    },
-    {
       "id": "6789444110",
       "title": "Boomerang (Extended)",
       "artist": "Passenger",
@@ -3988,195 +3555,21 @@
       ]
     },
     {
-      "id": "6827639627",
-      "title": "MADAME JOYCE’S INTERLUDE",
-      "artist": "Jessie Reyez",
-      "artistId": "1043591612",
-      "releaseDate": "2026-06-12",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2f/f6/aa/2ff6aac3-bcb3-6a53-1e54-eab78ad3687a/26UM1IM34364.rgb.jpg/100x100bb.jpg",
-      "genres": [
-        "R&B/Soul"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/madame-joyces-interlude/6827639470?i=6827639627&uo=4",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/24/23/b6/2423b655-9bdf-eb86-1184-e42e04d64485/mzaf_6932987226868339556.plus.aac.p.m4a",
-      "chartRank": null,
-      "collectionId": "6827639470",
-      "collectionName": "A LITTLE VENGEANCE (is more human than no vengeance at all)",
-      "trackNumber": 5,
-      "trackCount": 17,
-      "discNumber": 2,
-      "discCount": 2,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/madame-joyces-interlude/6827639470?i=6827639627&uo=4"
-      },
-      "sourceKinds": [
-        "itunes-us-search:R&B"
-      ]
-    },
-    {
-      "id": "6830081613",
-      "title": "Kabako Gang",
-      "artist": "Lil Zed",
-      "artistId": "1492631745",
-      "releaseDate": "2026-11-06",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/78/60/a7/7860a73a-5385-3fa4-fdd3-063ae3741555/artwork.jpg/100x100bb.jpg",
-      "genres": [
-        "Hip-Hop/Rap"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/kabako-gang/6830081610?i=6830081613&uo=4",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/72/a6/7e/72a67ec3-c38b-783e-0ce3-b488805c9d85/mzaf_15265193350649815716.plus.aac.p.m4a",
-      "chartRank": null,
-      "collectionId": "6830081610",
-      "collectionName": "Godsend 3, Vol. 2 - EP",
-      "trackNumber": 3,
-      "trackCount": 5,
-      "discNumber": 1,
-      "discCount": 1,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/kabako-gang/6830081610?i=6830081613&uo=4"
-      },
-      "sourceKinds": [
-        "itunes-us-search:R&B"
-      ]
-    },
-    {
-      "id": "6827510982",
-      "title": "Campfire",
-      "artist": "YECHAN",
-      "artistId": "1580520530",
-      "releaseDate": "2026-11-06",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f8/c2/96/f8c29644-70eb-7169-ffe9-420f01eede63/8800418803109_cover.jpg/100x100bb.jpg",
-      "genres": [
-        "R&B/Soul"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/campfire/6827510849?i=6827510982&uo=4",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0f/f6/8b/0ff68bed-e01f-b059-e400-3eb94e3f5457/mzaf_1420610429069469917.plus.aac.p.m4a",
-      "chartRank": null,
-      "collectionId": "6827510849",
-      "collectionName": "Little Country Bookshop - EP",
-      "trackNumber": 5,
-      "trackCount": 5,
-      "discNumber": 1,
-      "discCount": 1,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/campfire/6827510849?i=6827510982&uo=4"
-      },
-      "sourceKinds": [
-        "itunes-us-search:R&B"
-      ]
-    },
-    {
-      "id": "6828125074",
-      "title": "COSIGN",
-      "artist": "B2K",
-      "artistId": "645632",
-      "releaseDate": "2026-11-06",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6b/f2/82/6bf28268-1281-44c8-d453-e30df411376a/712132259194_cover.jpg/100x100bb.jpg",
-      "genres": [
-        "R&B/Soul"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/cosign/6828124855?i=6828125074&uo=4",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/7d/9d/d4/7d9dd46a-2dcc-3db1-b5ea-6ee9ae6721bc/mzaf_5471657873493088478.plus.aac.p.m4a",
-      "chartRank": null,
-      "collectionId": "6828124855",
-      "collectionName": "ECLIPSE",
-      "trackNumber": 10,
-      "trackCount": 12,
-      "discNumber": 1,
-      "discCount": 1,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/cosign/6828124855?i=6828125074&uo=4"
-      },
-      "sourceKinds": [
-        "itunes-us-search:R&B"
-      ]
-    },
-    {
-      "id": "6828129476",
-      "title": "Love Me Through (Acapella)",
-      "artist": "Coco Jones",
-      "artistId": "401400095",
-      "releaseDate": "2026-11-06",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/40/ae/26/40ae26a5-eecf-0ece-a9ee-a34777086395/26UM1IM40088.rgb.jpg/100x100bb.jpg",
-      "genres": [
-        "R&B/Soul"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/love-me-through-acapella/6828129168?i=6828129476&uo=4",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/35/25/09/35250907-109c-854e-af03-5d0cfae94124/mzaf_14932179775356110079.plus.aac.p.m4a",
-      "chartRank": null,
-      "collectionId": "6828129168",
-      "collectionName": "Love Me Through (The Collection) - EP",
-      "trackNumber": 4,
-      "trackCount": 4,
-      "discNumber": 1,
-      "discCount": 1,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/love-me-through-acapella/6828129168?i=6828129476&uo=4"
-      },
-      "sourceKinds": [
-        "itunes-us-search:R&B"
-      ]
-    },
-    {
-      "id": "6826415094",
-      "title": "Echo (Instrumental)",
-      "artist": "Sleeping At Last",
-      "artistId": "326646632",
-      "releaseDate": "2026-11-06",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9b/b0/ca/9bb0ca32-0ed1-ab8c-bbf8-5b29eddb15eb/859749388845_cover.jpg/100x100bb.jpg",
-      "genres": [
-        "Singer/Songwriter"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/echo-instrumental/6826414925?i=6826415094&uo=4",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b8/95/a2/b895a212-8e75-4f80-6721-745b124229d7/mzaf_658580633929763064.plus.aac.p.m4a",
-      "chartRank": null,
-      "collectionId": "6826414925",
-      "collectionName": "Atlas: Sustain",
-      "trackNumber": 6,
-      "trackCount": 7,
-      "discNumber": 1,
-      "discCount": 1,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/echo-instrumental/6826414925?i=6826415094&uo=4"
-      },
-      "sourceKinds": [
-        "itunes-us-search:Singer Songwriter"
-      ]
-    },
-    {
-      "id": "6820169879",
-      "title": "Midnight Blue",
+      "id": "6820169880",
+      "title": "Horses",
       "artist": "Cleo Tighe",
       "artistId": "903750846",
-      "releaseDate": "2026-10-23",
+      "releaseDate": "2026-11-06",
       "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e2/5b/63/e25b631d-41cc-5d6e-6d20-23e757d71147/823375522126_Cover.jpg/100x100bb.jpg",
       "genres": [
         "Singer/Songwriter"
       ],
-      "appleUrl": "https://music.apple.com/us/album/midnight-blue/6820169684?i=6820169879&uo=4",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/bc/20/14/bc2014f1-614d-e1cc-0c23-b792461f9bdb/mzaf_16762028577076326182.plus.aac.p.m4a",
+      "appleUrl": "https://music.apple.com/us/album/horses/6820169684?i=6820169880&uo=4",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/77/7b/74/777b7420-e107-c1e7-c9f7-de94d43c4d05/mzaf_2536822730037598893.plus.aac.p.m4a",
       "chartRank": null,
       "collectionId": "6820169684",
       "collectionName": "The Dealer of Pleasures - EP",
-      "trackNumber": 5,
+      "trackNumber": 6,
       "trackCount": 6,
       "discNumber": 1,
       "discCount": 1,
@@ -4184,36 +3577,7 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/us/album/midnight-blue/6820169684?i=6820169879&uo=4"
-      },
-      "sourceKinds": [
-        "itunes-us-search:Singer Songwriter"
-      ]
-    },
-    {
-      "id": "6789444386",
-      "title": "It Was Gonna Be You (Extended)",
-      "artist": "Passenger",
-      "artistId": "396255033",
-      "releaseDate": "2026-11-06",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1b/d0/04/1bd00499-92ae-244c-6e73-02d669db062e/067003029230.png/100x100bb.jpg",
-      "genres": [
-        "Singer/Songwriter"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/it-was-gonna-be-you-extended/6789444108?i=6789444386&uo=4",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f2/7d/1c/f27d1c23-82a4-3c97-1828-3d9f776b551b/mzaf_5382114557470132963.plus.aac.p.m4a",
-      "chartRank": null,
-      "collectionId": "6789444108",
-      "collectionName": "Wild Love",
-      "trackNumber": 2,
-      "trackCount": 14,
-      "discNumber": 1,
-      "discCount": 1,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/it-was-gonna-be-you-extended/6789444108?i=6789444386&uo=4"
+        "apple": "https://music.apple.com/us/album/horses/6820169684?i=6820169880&uo=4"
       },
       "sourceKinds": [
         "itunes-us-search:Singer Songwriter"
@@ -4249,6 +3613,180 @@
       ]
     },
     {
+      "id": "6830081613",
+      "title": "Kabako Gang",
+      "artist": "Lil Zed",
+      "artistId": "1492631745",
+      "releaseDate": "2026-11-06",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/78/60/a7/7860a73a-5385-3fa4-fdd3-063ae3741555/artwork.jpg/100x100bb.jpg",
+      "genres": [
+        "Hip-Hop/Rap"
+      ],
+      "appleUrl": "https://music.apple.com/us/album/kabako-gang/6830081610?i=6830081613&uo=4",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/72/a6/7e/72a67ec3-c38b-783e-0ce3-b488805c9d85/mzaf_15265193350649815716.plus.aac.p.m4a",
+      "chartRank": null,
+      "collectionId": "6830081610",
+      "collectionName": "Godsend 3, Vol. 2 - EP",
+      "trackNumber": 3,
+      "trackCount": 5,
+      "discNumber": 1,
+      "discCount": 1,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/us/album/kabako-gang/6830081610?i=6830081613&uo=4"
+      },
+      "sourceKinds": [
+        "itunes-us-search:R&B"
+      ]
+    },
+    {
+      "id": "6827510978",
+      "title": "Diary of a Crush",
+      "artist": "YECHAN",
+      "artistId": "1580520530",
+      "releaseDate": "2026-11-06",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f8/c2/96/f8c29644-70eb-7169-ffe9-420f01eede63/8800418803109_cover.jpg/100x100bb.jpg",
+      "genres": [
+        "R&B/Soul"
+      ],
+      "appleUrl": "https://music.apple.com/us/album/diary-of-a-crush/6827510849?i=6827510978&uo=4",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c1/ca/66/c1ca66f2-2c9b-8d58-219a-5e540b4f3127/mzaf_11247074645671946826.plus.aac.p.m4a",
+      "chartRank": null,
+      "collectionId": "6827510849",
+      "collectionName": "Little Country Bookshop - EP",
+      "trackNumber": 4,
+      "trackCount": 5,
+      "discNumber": 1,
+      "discCount": 1,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/us/album/diary-of-a-crush/6827510849?i=6827510978&uo=4"
+      },
+      "sourceKinds": [
+        "itunes-us-search:R&B"
+      ]
+    },
+    {
+      "id": "6826415094",
+      "title": "Echo (Instrumental)",
+      "artist": "Sleeping At Last",
+      "artistId": "326646632",
+      "releaseDate": "2026-11-06",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9b/b0/ca/9bb0ca32-0ed1-ab8c-bbf8-5b29eddb15eb/859749388845_cover.jpg/100x100bb.jpg",
+      "genres": [
+        "Singer/Songwriter"
+      ],
+      "appleUrl": "https://music.apple.com/us/album/echo-instrumental/6826414925?i=6826415094&uo=4",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b8/95/a2/b895a212-8e75-4f80-6721-745b124229d7/mzaf_658580633929763064.plus.aac.p.m4a",
+      "chartRank": null,
+      "collectionId": "6826414925",
+      "collectionName": "Atlas: Sustain",
+      "trackNumber": 6,
+      "trackCount": 7,
+      "discNumber": 1,
+      "discCount": 1,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/us/album/echo-instrumental/6826414925?i=6826415094&uo=4"
+      },
+      "sourceKinds": [
+        "itunes-us-search:Singer Songwriter"
+      ]
+    },
+    {
+      "id": "6789444386",
+      "title": "It Was Gonna Be You (Extended)",
+      "artist": "Passenger",
+      "artistId": "396255033",
+      "releaseDate": "2026-11-06",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1b/d0/04/1bd00499-92ae-244c-6e73-02d669db062e/067003029230.png/100x100bb.jpg",
+      "genres": [
+        "Singer/Songwriter"
+      ],
+      "appleUrl": "https://music.apple.com/us/album/it-was-gonna-be-you-extended/6789444108?i=6789444386&uo=4",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f2/7d/1c/f27d1c23-82a4-3c97-1828-3d9f776b551b/mzaf_5382114557470132963.plus.aac.p.m4a",
+      "chartRank": null,
+      "collectionId": "6789444108",
+      "collectionName": "Wild Love",
+      "trackNumber": 2,
+      "trackCount": 14,
+      "discNumber": 1,
+      "discCount": 1,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/us/album/it-was-gonna-be-you-extended/6789444108?i=6789444386&uo=4"
+      },
+      "sourceKinds": [
+        "itunes-us-search:Singer Songwriter"
+      ]
+    },
+    {
+      "id": "6820169879",
+      "title": "Midnight Blue",
+      "artist": "Cleo Tighe",
+      "artistId": "903750846",
+      "releaseDate": "2026-10-23",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e2/5b/63/e25b631d-41cc-5d6e-6d20-23e757d71147/823375522126_Cover.jpg/100x100bb.jpg",
+      "genres": [
+        "Singer/Songwriter"
+      ],
+      "appleUrl": "https://music.apple.com/us/album/midnight-blue/6820169684?i=6820169879&uo=4",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/bc/20/14/bc2014f1-614d-e1cc-0c23-b792461f9bdb/mzaf_16762028577076326182.plus.aac.p.m4a",
+      "chartRank": null,
+      "collectionId": "6820169684",
+      "collectionName": "The Dealer of Pleasures - EP",
+      "trackNumber": 5,
+      "trackCount": 6,
+      "discNumber": 1,
+      "discCount": 1,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/us/album/midnight-blue/6820169684?i=6820169879&uo=4"
+      },
+      "sourceKinds": [
+        "itunes-us-search:Singer Songwriter"
+      ]
+    },
+    {
+      "id": "6827639635",
+      "title": "iBREAK",
+      "artist": "Jessie Reyez",
+      "artistId": "1043591612",
+      "releaseDate": "2026-06-12",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2f/f6/aa/2ff6aac3-bcb3-6a53-1e54-eab78ad3687a/26UM1IM34364.rgb.jpg/100x100bb.jpg",
+      "genres": [
+        "R&B/Soul"
+      ],
+      "appleUrl": "https://music.apple.com/us/album/ibreak/6827639470?i=6827639635&uo=4",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f4/e5/82/f4e582af-1427-a9bd-262d-42528fd6e975/mzaf_16809394514924568887.plus.aac.p.m4a",
+      "chartRank": null,
+      "collectionId": "6827639470",
+      "collectionName": "A LITTLE VENGEANCE (is more human than no vengeance at all)",
+      "trackNumber": 9,
+      "trackCount": 17,
+      "discNumber": 2,
+      "discCount": 2,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/us/album/ibreak/6827639470?i=6827639635&uo=4"
+      },
+      "sourceKinds": [
+        "itunes-us-search:R&B"
+      ]
+    },
+    {
       "id": "6830081614",
       "title": "Never",
       "artist": "Lil Zed",
@@ -4278,8 +3816,8 @@
       ]
     },
     {
-      "id": "6827510967",
-      "title": "Ddung Ddang Ddung Ddang!",
+      "id": "6827510982",
+      "title": "Campfire",
       "artist": "YECHAN",
       "artistId": "1580520530",
       "releaseDate": "2026-11-06",
@@ -4287,12 +3825,12 @@
       "genres": [
         "R&B/Soul"
       ],
-      "appleUrl": "https://music.apple.com/us/album/ddung-ddang-ddung-ddang/6827510849?i=6827510967&uo=4",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/39/5a/30/395a30b2-b21c-b9ac-7db5-f4c94f106a9c/mzaf_6611346204784532548.plus.aac.p.m4a",
+      "appleUrl": "https://music.apple.com/us/album/campfire/6827510849?i=6827510982&uo=4",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0f/f6/8b/0ff68bed-e01f-b059-e400-3eb94e3f5457/mzaf_1420610429069469917.plus.aac.p.m4a",
       "chartRank": null,
       "collectionId": "6827510849",
       "collectionName": "Little Country Bookshop - EP",
-      "trackNumber": 2,
+      "trackNumber": 5,
       "trackCount": 5,
       "discNumber": 1,
       "discCount": 1,
@@ -4300,65 +3838,7 @@
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/us/album/ddung-ddang-ddung-ddang/6827510849?i=6827510967&uo=4"
-      },
-      "sourceKinds": [
-        "itunes-us-search:R&B"
-      ]
-    },
-    {
-      "id": "6828125075",
-      "title": "I'M OUTSIDE",
-      "artist": "B2K",
-      "artistId": "645632",
-      "releaseDate": "2026-11-06",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6b/f2/82/6bf28268-1281-44c8-d453-e30df411376a/712132259194_cover.jpg/100x100bb.jpg",
-      "genres": [
-        "R&B/Soul"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/im-outside/6828124855?i=6828125075&uo=4",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e1/25/25/e12525dc-8eca-379e-805b-b78335b8c8c5/mzaf_16597933428347902801.plus.aac.p.m4a",
-      "chartRank": null,
-      "collectionId": "6828124855",
-      "collectionName": "ECLIPSE",
-      "trackNumber": 4,
-      "trackCount": 12,
-      "discNumber": 1,
-      "discCount": 1,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/im-outside/6828124855?i=6828125075&uo=4"
-      },
-      "sourceKinds": [
-        "itunes-us-search:R&B"
-      ]
-    },
-    {
-      "id": "6828129464",
-      "title": "Love Me Through",
-      "artist": "Coco Jones",
-      "artistId": "401400095",
-      "releaseDate": "2026-08-21",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/40/ae/26/40ae26a5-eecf-0ece-a9ee-a34777086395/26UM1IM40088.rgb.jpg/100x100bb.jpg",
-      "genres": [
-        "R&B/Soul"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/love-me-through/6828129168?i=6828129464&uo=4",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d9/a9/d9/d9a9d978-06de-2706-0510-9b908d1e240b/mzaf_93252029200528998.plus.aac.p.m4a",
-      "chartRank": null,
-      "collectionId": "6828129168",
-      "collectionName": "Love Me Through (The Collection) - EP",
-      "trackNumber": 1,
-      "trackCount": 4,
-      "discNumber": 1,
-      "discCount": 1,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/love-me-through/6828129168?i=6828129464&uo=4"
+        "apple": "https://music.apple.com/us/album/campfire/6827510849?i=6827510982&uo=4"
       },
       "sourceKinds": [
         "itunes-us-search:R&B"
@@ -4394,35 +3874,6 @@
       ]
     },
     {
-      "id": "6820169874",
-      "title": "Heaven Is A Place",
-      "artist": "Cleo Tighe",
-      "artistId": "903750846",
-      "releaseDate": "2026-09-18",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e2/5b/63/e25b631d-41cc-5d6e-6d20-23e757d71147/823375522126_Cover.jpg/100x100bb.jpg",
-      "genres": [
-        "Singer/Songwriter"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/heaven-is-a-place/6820169684?i=6820169874&uo=4",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c1/b3/da/c1b3da99-1027-c3b7-d2dc-e79852c05b89/mzaf_4587034110192452025.plus.aac.p.m4a",
-      "chartRank": null,
-      "collectionId": "6820169684",
-      "collectionName": "The Dealer of Pleasures - EP",
-      "trackNumber": 3,
-      "trackCount": 6,
-      "discNumber": 1,
-      "discCount": 1,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/heaven-is-a-place/6820169684?i=6820169874&uo=4"
-      },
-      "sourceKinds": [
-        "itunes-us-search:Singer Songwriter"
-      ]
-    },
-    {
       "id": "6789444390",
       "title": "Caution to the Wind",
       "artist": "Passenger",
@@ -4446,6 +3897,35 @@
       "searchAliases": [],
       "platformLinks": {
         "apple": "https://music.apple.com/us/album/caution-to-the-wind/6789444108?i=6789444390&uo=4"
+      },
+      "sourceKinds": [
+        "itunes-us-search:Singer Songwriter"
+      ]
+    },
+    {
+      "id": "6820169874",
+      "title": "Heaven Is A Place",
+      "artist": "Cleo Tighe",
+      "artistId": "903750846",
+      "releaseDate": "2026-09-18",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e2/5b/63/e25b631d-41cc-5d6e-6d20-23e757d71147/823375522126_Cover.jpg/100x100bb.jpg",
+      "genres": [
+        "Singer/Songwriter"
+      ],
+      "appleUrl": "https://music.apple.com/us/album/heaven-is-a-place/6820169684?i=6820169874&uo=4",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c1/b3/da/c1b3da99-1027-c3b7-d2dc-e79852c05b89/mzaf_4587034110192452025.plus.aac.p.m4a",
+      "chartRank": null,
+      "collectionId": "6820169684",
+      "collectionName": "The Dealer of Pleasures - EP",
+      "trackNumber": 3,
+      "trackCount": 6,
+      "discNumber": 1,
+      "discCount": 1,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/us/album/heaven-is-a-place/6820169684?i=6820169874&uo=4"
       },
       "sourceKinds": [
         "itunes-us-search:Singer Songwriter"
@@ -4481,35 +3961,6 @@
       ]
     },
     {
-      "id": "6828125079",
-      "title": "VIBRATE",
-      "artist": "B2K",
-      "artistId": "645632",
-      "releaseDate": "2026-11-06",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6b/f2/82/6bf28268-1281-44c8-d453-e30df411376a/712132259194_cover.jpg/100x100bb.jpg",
-      "genres": [
-        "R&B/Soul"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/vibrate/6828124855?i=6828125079&uo=4",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a5/16/41/a5164189-5654-adea-a613-1eac2c4d54e7/mzaf_190975088043997382.plus.aac.p.m4a",
-      "chartRank": null,
-      "collectionId": "6828124855",
-      "collectionName": "ECLIPSE",
-      "trackNumber": 12,
-      "trackCount": 12,
-      "discNumber": 1,
-      "discCount": 1,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/vibrate/6828124855?i=6828125079&uo=4"
-      },
-      "sourceKinds": [
-        "itunes-us-search:R&B"
-      ]
-    },
-    {
       "id": "6826415087",
       "title": "Parallel Universe (Philia)",
       "artist": "Sleeping At Last",
@@ -4533,35 +3984,6 @@
       "searchAliases": [],
       "platformLinks": {
         "apple": "https://music.apple.com/us/album/parallel-universe-philia/6826414925?i=6826415087&uo=4"
-      },
-      "sourceKinds": [
-        "itunes-us-search:Singer Songwriter"
-      ]
-    },
-    {
-      "id": "6820169870",
-      "title": "Wallpaper",
-      "artist": "Cleo Tighe",
-      "artistId": "903750846",
-      "releaseDate": "2026-08-21",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e2/5b/63/e25b631d-41cc-5d6e-6d20-23e757d71147/823375522126_Cover.jpg/100x100bb.jpg",
-      "genres": [
-        "Singer/Songwriter"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/wallpaper/6820169684?i=6820169870&uo=4",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f9/dd/90/f9dd909b-998e-483f-13e4-5f94768f1b63/mzaf_10710706182735692446.plus.aac.p.m4a",
-      "chartRank": null,
-      "collectionId": "6820169684",
-      "collectionName": "The Dealer of Pleasures - EP",
-      "trackNumber": 2,
-      "trackCount": 6,
-      "discNumber": 1,
-      "discCount": 1,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/wallpaper/6820169684?i=6820169870&uo=4"
       },
       "sourceKinds": [
         "itunes-us-search:Singer Songwriter"
@@ -4597,32 +4019,32 @@
       ]
     },
     {
-      "id": "6828124857",
-      "title": "Lil Freak",
-      "artist": "B2K",
-      "artistId": "645632",
-      "releaseDate": "2026-10-14",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6b/f2/82/6bf28268-1281-44c8-d453-e30df411376a/712132259194_cover.jpg/100x100bb.jpg",
+      "id": "6820169870",
+      "title": "Wallpaper",
+      "artist": "Cleo Tighe",
+      "artistId": "903750846",
+      "releaseDate": "2026-08-21",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e2/5b/63/e25b631d-41cc-5d6e-6d20-23e757d71147/823375522126_Cover.jpg/100x100bb.jpg",
       "genres": [
-        "R&B/Soul"
+        "Singer/Songwriter"
       ],
-      "appleUrl": "https://music.apple.com/us/album/lil-freak/6828124855?i=6828124857&uo=4",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/68/bf/ba/68bfbaed-d22a-b332-fecd-fb972e8bd904/mzaf_16742271975364854735.plus.aac.p.m4a",
+      "appleUrl": "https://music.apple.com/us/album/wallpaper/6820169684?i=6820169870&uo=4",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f9/dd/90/f9dd909b-998e-483f-13e4-5f94768f1b63/mzaf_10710706182735692446.plus.aac.p.m4a",
       "chartRank": null,
-      "collectionId": "6828124855",
-      "collectionName": "ECLIPSE",
-      "trackNumber": 3,
-      "trackCount": 12,
+      "collectionId": "6820169684",
+      "collectionName": "The Dealer of Pleasures - EP",
+      "trackNumber": 2,
+      "trackCount": 6,
       "discNumber": 1,
       "discCount": 1,
       "recordingId": null,
       "isrc": null,
       "searchAliases": [],
       "platformLinks": {
-        "apple": "https://music.apple.com/us/album/lil-freak/6828124855?i=6828124857&uo=4"
+        "apple": "https://music.apple.com/us/album/wallpaper/6820169684?i=6820169870&uo=4"
       },
       "sourceKinds": [
-        "itunes-us-search:R&B"
+        "itunes-us-search:Singer Songwriter"
       ]
     },
     {
@@ -4655,35 +4077,6 @@
       ]
     },
     {
-      "id": "6820169877",
-      "title": "Run To Me",
-      "artist": "Cleo Tighe",
-      "artistId": "903750846",
-      "releaseDate": "2026-07-24",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e2/5b/63/e25b631d-41cc-5d6e-6d20-23e757d71147/823375522126_Cover.jpg/100x100bb.jpg",
-      "genres": [
-        "Singer/Songwriter"
-      ],
-      "appleUrl": "https://music.apple.com/us/album/run-to-me/6820169684?i=6820169877&uo=4",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/18/b0/70/18b07089-bf28-d4d2-3510-d16cfd399417/mzaf_8825058314278718527.plus.aac.p.m4a",
-      "chartRank": null,
-      "collectionId": "6820169684",
-      "collectionName": "The Dealer of Pleasures - EP",
-      "trackNumber": 4,
-      "trackCount": 6,
-      "discNumber": 1,
-      "discCount": 1,
-      "recordingId": null,
-      "isrc": null,
-      "searchAliases": [],
-      "platformLinks": {
-        "apple": "https://music.apple.com/us/album/run-to-me/6820169684?i=6820169877&uo=4"
-      },
-      "sourceKinds": [
-        "itunes-us-search:Singer Songwriter"
-      ]
-    },
-    {
       "id": "6789444397",
       "title": "Wild Love (Extended)",
       "artist": "Passenger",
@@ -4707,6 +4100,35 @@
       "searchAliases": [],
       "platformLinks": {
         "apple": "https://music.apple.com/us/album/wild-love-extended/6789444108?i=6789444397&uo=4"
+      },
+      "sourceKinds": [
+        "itunes-us-search:Singer Songwriter"
+      ]
+    },
+    {
+      "id": "6820169877",
+      "title": "Run To Me",
+      "artist": "Cleo Tighe",
+      "artistId": "903750846",
+      "releaseDate": "2026-07-24",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e2/5b/63/e25b631d-41cc-5d6e-6d20-23e757d71147/823375522126_Cover.jpg/100x100bb.jpg",
+      "genres": [
+        "Singer/Songwriter"
+      ],
+      "appleUrl": "https://music.apple.com/us/album/run-to-me/6820169684?i=6820169877&uo=4",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/18/b0/70/18b07089-bf28-d4d2-3510-d16cfd399417/mzaf_8825058314278718527.plus.aac.p.m4a",
+      "chartRank": null,
+      "collectionId": "6820169684",
+      "collectionName": "The Dealer of Pleasures - EP",
+      "trackNumber": 4,
+      "trackCount": 6,
+      "discNumber": 1,
+      "discCount": 1,
+      "recordingId": null,
+      "isrc": null,
+      "searchAliases": [],
+      "platformLinks": {
+        "apple": "https://music.apple.com/us/album/run-to-me/6820169684?i=6820169877&uo=4"
       },
       "sourceKinds": [
         "itunes-us-search:Singer Songwriter"
@@ -5002,7 +4424,8 @@
         "apple": "https://music.apple.com/us/album/one-dance-feat-wizkid-kyla/1440842556?i=1440843496&uo=4"
       },
       "sourceKinds": [
-        "itunes-us-search:Pop"
+        "itunes-us-search:Pop",
+        "itunes-us-search:R&B"
       ]
     },
     {
@@ -6325,7 +5748,8 @@
         "apple": "https://music.apple.com/us/album/bury-a-friend/1450695723?i=1450695881&uo=4"
       },
       "sourceKinds": [
-        "itunes-us-search:Pop"
+        "itunes-us-search:Pop",
+        "itunes-us-search:Alternative Pop"
       ]
     },
     {
